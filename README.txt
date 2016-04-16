@@ -33,21 +33,20 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-Before splitting all segments were scrambled. From this scrambled
-version, 10% were randomly selected as test set, 10% as development set, and the rest as training set. The files are named
+10% of the trees were randomly selected as test set, 10% as development set, and the rest as training set. The files are named
 
- - sv-lines-ud-test.conllu 
- - sv-lines-ud-dev.conllu
- - sv-lines-ud-train.conllu
+ - sv.lines.ud.test.conllu 
+ - sv.lines.ud.dev.conllu
+ - sv.lines.ud.train.conllu
 
 
 BASIC STATISTICS
 
-Tree count:  
-Word count:  
-Token count: 
-Dep. relations: 
-POS tags: 15
+Tree count:  4564
+Word count:  79812
+Token count: 79812
+Dep. relations: 38 of which 4 are language-specific
+POS tags: 17
 Category=value feature pairs: 0
 
 
