@@ -33,11 +33,11 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-10% of the trees were randomly selected as test set, 10% as development set, and the rest as training set. The files are named
+10% of the trees were randomly selected as test set, 10% as development set, and the rest as training set. The randomization applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
- - sv.lines.ud.test.conllu 
- - sv.lines.ud.dev.conllu
- - sv.lines.ud.train.conllu
+ - sv-lines-ud-test.conllu 
+ - sv-lines-ud-dev.conllu
+ - sv-lines-ud-train.conllu
 
 
 BASIC STATISTICS
