@@ -35,7 +35,7 @@ DATA SPLITS
 
 10% of the trees were randomly selected as test set, 10% as development set, and the rest as training set. The randomization applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
- - sv-lines-ud-test.conllu 
+ - sv-lines-ud-test.conllu
  - sv-lines-ud-dev.conllu
  - sv-lines-ud-train.conllu
 
@@ -77,7 +77,7 @@ There is no feature annotation in this version.
 
 SYNTAX
 
-The syntactic annotation in the Swedish UD treebank follows the general 
+The syntactic annotation in the Swedish UD treebank follows the general
 guidelines but adds four language-specific relations, as in the first
 Swedish UD treebank, Talbanken (Nivre
 
@@ -86,7 +86,7 @@ Swedish UD treebank, Talbanken (Nivre
 - nmod:agent for agents of passive verbs
 - nmod:poss for possessive/genitive modifiers
 
-The syntactic annotation has been automatically converted from the original 
+The syntactic annotation has been automatically converted from the original
 LinES annotation scheme as described in Ahrenberg (2015).
 
 There may be occasional deviations from the general guidelines.
@@ -116,3 +116,4 @@ Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: fiction nonfiction spoken
 Contributors: Ahrenberg, Lars
+Contact:
