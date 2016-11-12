@@ -108,6 +108,11 @@ parallel text processing. Linköping Studies in Science and Technology,
 Dissertation No. 607.
 
 
+Changelog
+
+  * No changes since UD release 1.3.
+
+
 --- Machine readable metadata ---
 
 Documentation status: partial
