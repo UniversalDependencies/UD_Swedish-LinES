@@ -2,8 +2,10 @@ Swedish_LinES
 
 This treebank is the Swedish half of the LinES Parallel Treebank 1.0
 with the original dependency annotation first automatically converted
-into Universal Dependencies and then partially reviewed. LinES
-contains segments from seven different sources, three of which are
+into Universal Dependencies, partially reviewed and, in January-February 2017
+converted to UD version 1.2 and again reviewed for errors.
+
+LinES contains segments from seven different sources, three of which are
 part of the Linköping Translation Corpus Corpus (Merkel, 1999). The
 treebank was first developed in the project 'Micro- and macro-level
 analysis of translations' funded by the Swedish Research Council
@@ -33,11 +35,11 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-10% of the trees were randomly selected as test set, 10% as development set, and the rest as training set. The randomization applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
+For version 1.2  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. Note that the test set will not be uploaded until after the CoNLL 2017 Shared Task
+Multilingual Parsing from Raw Text to Universal Dependencie is over. The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
- - sv-lines-ud-test.conllu
- - sv-lines-ud-dev.conllu
- - sv-lines-ud-train.conllu
+ - sv_lines-ud-dev.conllu
+ - sv_lines-ud-train.conllu
 
 
 BASIC STATISTICS
@@ -110,7 +112,7 @@ Dissertation No. 607.
 
 Changelog
 
-  * No changes since UD release 1.3.
+  *  Versions conforming to UD version 1.2 added January 29, 2017.
 
 
 --- Machine readable metadata ---
