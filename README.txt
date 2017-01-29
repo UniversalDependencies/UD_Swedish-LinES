@@ -35,7 +35,7 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-For version 1.2  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. Note that the test set will not be uploaded until after the CoNLL 2017 Shared Task
+For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. Note that the test set will not be uploaded until after the CoNLL 2017 Shared Task
 Multilingual Parsing from Raw Text to Universal Dependencie is over. The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
  - sv_lines-ud-dev.conllu
@@ -112,7 +112,7 @@ Dissertation No. 607.
 
 Changelog
 
-  *  Versions conforming to UD version 1.2 added January 29, 2017.
+  *  Versions conforming to UD version 2.0 added January 29, 2017.
 
 
 --- Machine readable metadata ---
