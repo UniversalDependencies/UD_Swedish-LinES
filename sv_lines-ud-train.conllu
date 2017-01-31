@@ -2742,7 +2742,7 @@
 4	?	_	PUNCT	QuestionMark	_	1	punct	_	_
 
 # sent_id = 156
-# text = ReportML är ett " språk " som har utvecklats av Microsoft speciellt för Access och som kan användas för att beskriva Access-databasobjekt i XML.
+# text = ReportML är ett "språk" som har utvecklats av Microsoft speciellt för Access och som kan användas för att beskriva Access-databasobjekt i XML.
 1	ReportML	_	PROPN	SG-NOM	_	5	nsubj	_	_
 2	är	_	AUX	PRES-ACT	_	5	cop	_	_
 3	ett	_	DET	SG-IND	_	5	det	_	_
@@ -3005,7 +3005,7 @@
 20	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 173
-# text = Du måste ersätta specialteckensekvenser (kallas " entiteter " i XML) så här:
+# text = Du måste ersätta specialteckensekvenser (kallas "entiteter" i XML) så här:
 1	Du	_	PRON	PERS-P2SG-NOM	_	3	nsubj	_	_
 2	måste	_	AUX	AUX	_	3	aux	_	_
 3	ersätta	_	VERB	INF-ACT	_	0	root	_	_
@@ -7318,7 +7318,7 @@
 46	.	_	PUNCT	Period	_	35	punct	_	_
 
 # sent_id = 392
-# text = Till och med själva uttrycket ' sitt avtalade möte ' lät främmande.
+# text = Till och med själva uttrycket 'sitt avtalade möte' lät främmande.
 1	Till	_	ADP	_	_	5	advmod	_	_
 2	och	_	CCONJ	_	_	3	cc	_	_
 3	med	_	ADP	_	_	1	conj	_	_
@@ -14054,7 +14054,7 @@
 7	.	_	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 718
-# text = Pojken slöt sig snabbt innanför ett skal av blyghet och kunde bara prestera ett knappt hörbart ">" Hej ">".
+# text = Pojken slöt sig snabbt innanför ett skal av blyghet och kunde bara prestera ett knappt hörbart "Hej".
 1	Pojken	_	NOUN	SG-DEF-NOM	_	2	nsubj	_	_
 2	slöt	_	VERB	PAST-ACT	_	0	root	_	_
 3	sig	_	PRON	RFL-ACC	_	2	obj	_	_
@@ -14071,9 +14071,9 @@
 14	ett	_	DET	SG-IND	_	18	det	_	_
 15	knappt	_	ADV	_	_	16	advmod	_	_
 16	hörbart	_	ADJ	POS-SG-IND	_	18	amod	_	_
-17	">"	_	PUNCT	Quote	_	18	punct	_	_
+17	"	_	PUNCT	Quote	_	18	punct	_	_
 18	Hej	_	INTJ	_	_	13	obj	_	_
-19	">"	_	PUNCT	Quote	_	18	punct	_	_
+19	"	_	PUNCT	Quote	_	18	punct	_	_
 20	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 719
@@ -16208,7 +16208,7 @@
 29	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 840
-# text = Gud uppdrog åt Moses att tala till Israels barn och säga dem att de " skola göra sig tofsar i hörnen på sina kläder ".
+# text = Gud uppdrog åt Moses att tala till Israels barn och säga dem att de "skola göra sig tofsar i hörnen på sina kläder".
 1	Gud	_	PROPN	SG-NOM	_	2	nsubj	_	_
 2	uppdrog	_	VERB	PAST-ACT	_	0	root	_	_
 3	åt	_	ADP	_	_	4	case	_	_
@@ -16270,7 +16270,7 @@
 17	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 843
-# text = " Talar ni jiddisch? " säger han.
+# text = "Talar ni jiddisch?" säger han.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Talar	_	VERB	PRES-ACT	_	0	root	_	_
 3	ni	_	PRON	PERS-P2PL-NOM	_	2	nsubj	_	_
@@ -16282,7 +16282,7 @@
 9	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 844
-# text = " Ja visst. "
+# text = "Ja visst."
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Ja	_	INTJ	_	_	0	root	_	_
 3	visst	_	ADV	_	_	2	advmod	_	_
@@ -16290,7 +16290,7 @@
 5	"	_	PUNCT	Quote	_	2	punct	_	_
 
 # sent_id = 845
-# text = " Jag kan inte sitta närmast er hustru.
+# text = "Jag kan inte sitta närmast er hustru.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
 3	kan	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -16313,7 +16313,7 @@
 8	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 847
-# text = Var så god ", säger han.
+# text = Var så god", säger han.
 1	Var	_	AUX	IMP-ACT	_	3	cop	_	_
 2	så	_	ADV	_	_	3	advmod	_	_
 3	god	_	ADJ	POS-SG-IND	_	6	xcomp	_	_
@@ -16324,7 +16324,7 @@
 8	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 848
-# text = " Naturligtvis. "
+# text = "Naturligtvis."
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Naturligtvis	_	ADV	_	_	0	root	_	_
 3	.	_	PUNCT	Period	_	2	punct	_	_
@@ -16543,7 +16543,7 @@
 6	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 860
-# text = Jag frågar en av värdinnorna när jag kan räkna med att få en drink och hon utbrister irriterat: " Gå tillbaka till er plats! "
+# text = Jag frågar en av värdinnorna när jag kan räkna med att få en drink och hon utbrister irriterat: "Gå tillbaka till er plats!"
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	frågar	_	VERB	PRES-ACT	_	0	root	_	_
 3	en	_	NUM	CARD-SG	_	2	obj	_	_
@@ -16655,7 +16655,7 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 866
-# text = " Det kan jag inte, vi har inte så det räcker åt dem ", säger hon.
+# text = "Det kan jag inte, vi har inte så det räcker åt dem", säger hon.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Det	_	PRON	PERS-P3SG	_	8	obj	_	_
 3	kan	_	AUX	PRES-AUX	_	0	root	_	_
@@ -16677,7 +16677,7 @@
 19	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 867
-# text = " Vi var inte förvarnade. "
+# text = "Vi var inte förvarnade."
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Vi	_	PRON	PERS-P1PL-NOM	_	5	nsubj	_	_
 3	var	_	AUX	PAST-ACT	_	5	cop	_	_
@@ -16704,7 +16704,7 @@
 14	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 869
-# text = " Vi har blivit tvungna att ta en omväg över Rom för att få tag i mer av deras speciella mat. "
+# text = "Vi har blivit tvungna att ta en omväg över Rom för att få tag i mer av deras speciella mat."
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Vi	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	_
 3	har	_	AUX	PRES-AUX	_	4	aux	_	_
@@ -16743,7 +16743,7 @@
 10	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 871
-# text = " Därför att när de kommer med min kyckling kommer den här gossen med skägget att bli alldeles ifrån sig ", förklarar jag.
+# text = "Därför att när de kommer med min kyckling kommer den här gossen med skägget att bli alldeles ifrån sig", förklarar jag.
 1	"	_	PUNCT	Quote	_	17	punct	_	_
 2	Därför	_	ADV	_	_	17	mark	_	_
 3	att	_	SCONJ	_	_	2	fixed	_	_
@@ -16834,7 +16834,7 @@
 7	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 877
-# text = Han säger: " Jag måste tala med er.
+# text = Han säger: "Jag måste tala med er.
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	säger	_	VERB	PRES-ACT	_	0	root	_	_
 3	:	_	PUNCT	Colon	_	2	punct	_	_
@@ -16847,7 +16847,7 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 878
-# text = Ni tar väl inte illa upp? "
+# text = Ni tar väl inte illa upp?"
 1	Ni	_	PRON	PERS-P2PL-NOM	_	2	nsubj	_	_
 2	tar	_	VERB	PRES-ACT	_	0	root	_	_
 3	väl	_	ADV	_	_	2	advmod	_	_
@@ -16858,7 +16858,7 @@
 8	"	_	PUNCT	Quote	_	2	punct	_	_
 
 # sent_id = 879
-# text = " Nej, det tror jag inte. "
+# text = "Nej, det tror jag inte."
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Nej	_	INTJ	_	_	5	discourse	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -16870,7 +16870,7 @@
 9	"	_	PUNCT	Quote	_	5	punct	_	_
 
 # sent_id = 880
-# text = " Ni får kanske lust att slå till mig i ansiktet. "
+# text = "Ni får kanske lust att slå till mig i ansiktet."
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Ni	_	PRON	PERS-P2PL-NOM	_	3	nsubj	_	_
 3	får	_	VERB	PRES-ACT	_	0	root	_	_
@@ -16886,7 +16886,7 @@
 13	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 881
-# text = " Varför skulle jag göra det? "
+# text = "Varför skulle jag göra det?"
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Varför	_	ADV	WH	_	5	advmod	_	_
 3	skulle	_	AUX	PAST-AUX	_	5	aux	_	_
@@ -16897,7 +16897,7 @@
 8	"	_	PUNCT	Quote	_	5	punct	_	_
 
 # sent_id = 882
-# text = " Ni är jude.
+# text = "Ni är jude.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Ni	_	PRON	PERS-P2PL-NOM	_	4	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	4	cop	_	_
@@ -16918,7 +16918,7 @@
 10	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 884
-# text = Hur kan ni äta det där! "
+# text = Hur kan ni äta det där!"
 1	Hur	_	ADV	WH	_	4	advmod	_	_
 2	kan	_	AUX	PRES-AUX	_	4	aux	_	_
 3	ni	_	PRON	PERS-P2PL-NOM	_	4	nsubj	_	_
@@ -16929,7 +16929,7 @@
 8	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 885
-# text = " Ja, den ser ruskig ut, inte sant? "
+# text = "Ja, den ser ruskig ut, inte sant?"
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Ja	_	INTJ	_	_	5	discourse	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -16944,7 +16944,7 @@
 12	"	_	PUNCT	Quote	_	5	punct	_	_
 
 # sent_id = 886
-# text = " Ni får inte röra den.
+# text = "Ni får inte röra den.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Ni	_	PRON	PERS-P2PL-NOM	_	5	nsubj	_	_
 3	får	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -16966,7 +16966,7 @@
 9	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 888
-# text = Är er fru judisk? "
+# text = Är er fru judisk?"
 1	Är	_	AUX	PRES-ACT	_	4	cop	_	_
 2	er	_	PRON	P2PL-GEN-SG	_	3	nmod:poss	_	_
 3	fru	_	NOUN	SG-IND-NOM	_	4	nsubj	_	_
@@ -16990,7 +16990,7 @@
 4	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 891
-# text = Men jag kan inte utsätta honom för alltför många chocker på en enda gång, så jag säger: " Hon har inte fått en judisk uppfostran. "
+# text = Men jag kan inte utsätta honom för alltför många chocker på en enda gång, så jag säger: "Hon har inte fått en judisk uppfostran."
 1	Men	_	CCONJ	_	_	5	cc	_	_
 2	jag	_	PRON	PERS-P1SG-NOM	_	5	nsubj	_	_
 3	kan	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -17022,7 +17022,7 @@
 29	"	_	PUNCT	Quote	_	24	punct	_	_
 
 # sent_id = 892
-# text = " Hon talar inte jiddisch? "
+# text = "Hon talar inte jiddisch?"
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Hon	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 3	talar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17039,7 +17039,7 @@
 4	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 894
-# text = Men ni får ursäkta, nu vill jag ha min lunch. "
+# text = Men ni får ursäkta, nu vill jag ha min lunch."
 1	Men	_	CCONJ	_	_	4	cc	_	_
 2	ni	_	PRON	PERS-P2PL-NOM	_	4	nsubj	_	_
 3	får	_	AUX	PRES-AUX	_	4	aux	_	_
@@ -17055,7 +17055,7 @@
 13	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 895
-# text = " Vill ni inte äta lite av min koschermat i stället, som en tjänst? "
+# text = "Vill ni inte äta lite av min koschermat i stället, som en tjänst?"
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Vill	_	AUX	PRES-AUX	_	5	aux	_	_
 3	ni	_	PRON	PERS-P2PL-NOM	_	5	nsubj	_	_
@@ -17075,7 +17075,7 @@
 17	"	_	PUNCT	Quote	_	5	punct	_	_
 
 # sent_id = 896
-# text = " Med nöje. "
+# text = "Med nöje."
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Med	_	ADP	_	_	3	case	_	_
 3	nöje	_	NOUN	SG-IND-NOM	_	0	root	_	_
@@ -17083,7 +17083,7 @@
 5	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 897
-# text = " Då ska jag ge er en smörgås, fast bara på ett villkor.
+# text = "Då ska jag ge er en smörgås, fast bara på ett villkor.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Då	_	ADV	_	_	5	advmod	_	_
 3	ska	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -17101,7 +17101,7 @@
 15	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 898
-# text = Ni får aldrig aldrig äta trephena-mat mera. "
+# text = Ni får aldrig aldrig äta trephena-mat mera."
 1	Ni	_	PRON	PERS-P2PL-NOM	_	5	nsubj	_	_
 2	får	_	AUX	PRES-AUX	_	5	aux	_	_
 3	aldrig	_	ADV	NEG	_	5	advmod	_	_
@@ -17113,7 +17113,7 @@
 9	"	_	PUNCT	Quote	_	5	punct	_	_
 
 # sent_id = 899
-# text = " Det kan jag inte lova er.
+# text = "Det kan jag inte lova er.
 1	"	_	PUNCT	Quote	_	6	punct	_	_
 2	Det	_	PRON	PERS-P3SG	_	6	iobj	_	_
 3	kan	_	AUX	PRES-AUX	_	6	aux	_	_
@@ -17132,7 +17132,7 @@
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 901
-# text = Och bara för en enda smörgås. "
+# text = Och bara för en enda smörgås."
 1	Och	_	CCONJ	_	_	3	cc	_	_
 2	bara	_	ADV	_	_	3	advmod	_	_
 3	för	_	ADP	_	_	6	case	_	_
@@ -17143,7 +17143,7 @@
 8	"	_	PUNCT	Quote	_	6	punct	_	_
 
 # sent_id = 902
-# text = " Jag har en plikt mot er ", förklarar han för mig.
+# text = "Jag har en plikt mot er", förklarar han för mig.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	har	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17160,7 +17160,7 @@
 14	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 903
-# text = " Vill ni höra på ett förslag? "
+# text = "Vill ni höra på ett förslag?"
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Vill	_	AUX	PRES-AUX	_	4	aux	_	_
 3	ni	_	PRON	PERS-P2PL-NOM	_	4	nsubj	_	_
@@ -17172,7 +17172,7 @@
 9	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 904
-# text = " Visst vill jag det. "
+# text = "Visst vill jag det."
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Visst	_	ADV	_	_	3	advmod	_	_
 3	vill	_	AUX	PRES-AUX	_	0	root	_	_
@@ -17182,7 +17182,7 @@
 7	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 905
-# text = " Då gör vi en överenskommelse.
+# text = "Då gör vi en överenskommelse.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Då	_	ADV	_	_	3	advmod	_	_
 3	gör	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17202,7 +17202,7 @@
 7	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 907
-# text = Om ni lovar att bara äta koschermat kommer jag att skicka er femton dollar i veckan så länge ni lever. "
+# text = Om ni lovar att bara äta koschermat kommer jag att skicka er femton dollar i veckan så länge ni lever."
 1	Om	_	SCONJ	_	_	3	mark	_	_
 2	ni	_	PRON	PERS-P2PL-NOM	_	3	nsubj	_	_
 3	lovar	_	VERB	PRES-ACT	_	11	advcl	_	_
@@ -17227,7 +17227,7 @@
 22	"	_	PUNCT	Quote	_	11	punct	_	_
 
 # sent_id = 908
-# text = " Det var mycket generöst ", säger jag.
+# text = "Det var mycket generöst", säger jag.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Det	_	PRON	PERS-P3SG	_	5	nsubj	_	_
 3	var	_	AUX	PAST-ACT	_	5	cop	_	_
@@ -17240,7 +17240,7 @@
 10	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 909
-# text = " Ni är ju jude ", säger han.
+# text = "Ni är ju jude", säger han.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Ni	_	PRON	PERS-P2PL-NOM	_	5	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	5	cop	_	_
@@ -17253,7 +17253,7 @@
 10	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 910
-# text = " Jag måste försöka rädda er. "
+# text = "Jag måste försöka rädda er."
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
 3	måste	_	AUX	AUX	_	4	aux	_	_
@@ -17264,7 +17264,7 @@
 8	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 911
-# text = " Hur förtjänar ni ert uppehälle? "
+# text = "Hur förtjänar ni ert uppehälle?"
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Hur	_	ADV	WH	_	3	advmod	_	_
 3	förtjänar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17275,7 +17275,7 @@
 8	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 912
-# text = " På en chassidisk trikåfabrik i New Jersey.
+# text = "På en chassidisk trikåfabrik i New Jersey.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	På	_	ADP	_	_	5	case	_	_
 3	en	_	DET	SG-IND	_	5	det	_	_
@@ -17322,7 +17322,7 @@
 16	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 916
-# text = Min rabbi är i Jerusalem. "
+# text = Min rabbi är i Jerusalem."
 1	Min	_	PRON	P1SG-GEN-SG	_	2	nmod:poss	_	_
 2	rabbi	_	NOUN	SG-IND-NOM	_	3	nsubj	_	_
 3	är	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17332,7 +17332,7 @@
 7	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 917
-# text = " Hur kommer det sig att ni inte talar engelska? "
+# text = "Hur kommer det sig att ni inte talar engelska?"
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Hur	_	ADV	WH	_	3	advmod	_	_
 3	kommer	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17347,7 +17347,7 @@
 12	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 918
-# text = " Vad ska jag med engelska till?
+# text = "Vad ska jag med engelska till?
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Vad	_	PRON	WH-SG	_	3	obl	_	_
 3	ska	_	AUX	PRES-AUX	_	0	root	_	_
@@ -17358,7 +17358,7 @@
 8	?	_	PUNCT	QuestionMark	_	3	punct	_	_
 
 # sent_id = 919
-# text = Men nu frågar jag, vill ni ta emot mina femton dollar? "
+# text = Men nu frågar jag, vill ni ta emot mina femton dollar?"
 1	Men	_	CCONJ	_	_	3	cc	_	_
 2	nu	_	ADV	_	_	3	advmod	_	_
 3	frågar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17375,7 +17375,7 @@
 14	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 920
-# text = " Koschermat är dyrare än andra sorter ", säger jag.
+# text = "Koschermat är dyrare än andra sorter", säger jag.
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Koschermat	_	NOUN	SG-IND-NOM	_	4	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	4	cop	_	_
@@ -17390,7 +17390,7 @@
 12	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 921
-# text = " Femton dollar räcker inte på långa vägar. "
+# text = "Femton dollar räcker inte på långa vägar."
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Femton	_	NUM	CARD-PL	_	3	nummod	_	_
 3	dollar	_	NOUN	IND-NOM	_	4	nsubj	_	_
@@ -17403,7 +17403,7 @@
 10	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 922
-# text = " Jag kan gå så långt som till tjugofem. "
+# text = "Jag kan gå så långt som till tjugofem."
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
 3	kan	_	AUX	PRES-AUX	_	4	aux	_	_
@@ -17417,7 +17417,7 @@
 11	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 923
-# text = " Ett sånt offer kan jag inte ta emot av er. "
+# text = "Ett sånt offer kan jag inte ta emot av er."
 1	"	_	PUNCT	Quote	_	8	punct	_	_
 2	Ett	_	DET	SG-IND	_	4	det	_	_
 3	sånt	_	ADJ	POS-SG-IND	_	4	amod	_	_
@@ -17469,7 +17469,7 @@
 7	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 926
-# text = " Han är så intensiv ", säger min fru.
+# text = "Han är så intensiv", säger min fru.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Han	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	5	cop	_	_
@@ -17483,7 +17483,7 @@
 11	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 927
-# text = " Jag undrar om han ber för dig. "
+# text = "Jag undrar om han ber för dig."
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	undrar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17541,7 +17541,7 @@
 8	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 931
-# text = " Jag tycker om dem ", säger min fru.
+# text = "Jag tycker om dem", säger min fru.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	tycker	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17555,7 +17555,7 @@
 11	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 932
-# text = " De är så livliga, precis som barn. "
+# text = "De är så livliga, precis som barn."
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	De	_	PRON	PERS-P3PL-NOM	_	5	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	5	cop	_	_
@@ -17569,7 +17569,7 @@
 11	"	_	PUNCT	Quote	_	5	punct	_	_
 
 # sent_id = 933
-# text = " Du skulle kanske få lite svårt att leva tillsammans med dem ", förklarar jag.
+# text = "Du skulle kanske få lite svårt att leva tillsammans med dem", förklarar jag.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Du	_	PRON	PERS-P2SG-NOM	_	5	nsubj	_	_
 3	skulle	_	AUX	PAST-AUX	_	5	aux	_	_
@@ -17589,7 +17589,7 @@
 17	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 934
-# text = " Det är de som bestämmer hur allting ska göras, det finns inget att välja på. "
+# text = "Det är de som bestämmer hur allting ska göras, det finns inget att välja på."
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Det	_	PRON	EX-P3SG	_	4	expl	_	_
 3	är	_	AUX	PRES-ACT	_	4	cop	_	_
@@ -17611,7 +17611,7 @@
 19	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 935
-# text = " Men de är så glada, och så varma och naturliga.
+# text = "Men de är så glada, och så varma och naturliga.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Men	_	CCONJ	_	_	6	cc	_	_
 3	de	_	PRON	PERS-P3PL-NOM	_	6	nsubj	_	_
@@ -17635,7 +17635,7 @@
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 937
-# text = Kan du inte skaffa dig en sån där vacker hatt? "
+# text = Kan du inte skaffa dig en sån där vacker hatt?"
 1	Kan	_	AUX	PRES-AUX	_	4	aux	_	_
 2	du	_	PRON	PERS-P2SG-NOM	_	4	nsubj	_	_
 3	inte	_	PART	NEG	_	4	advmod	_	_
@@ -17650,7 +17650,7 @@
 12	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 938
-# text = " Jag vet inte om de säljer dem till utomstående. "
+# text = "Jag vet inte om de säljer dem till utomstående."
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	vet	_	VERB	PRES-ACT	_	0	root	_	_
@@ -17696,7 +17696,7 @@
 28	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 940
-# text = " Vad är hon? "
+# text = "Vad är hon?"
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Vad	_	PRON	WH-SG	_	0	root	_	_
 3	är	_	AUX	PRES-ACT	_	2	cop	_	_
@@ -17705,7 +17705,7 @@
 6	"	_	PUNCT	Quote	_	2	punct	_	_
 
 # sent_id = 941
-# text = " Matematiker. "
+# text = "Matematiker."
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Matematiker	_	NOUN	SG-IND-NOM	_	0	root	_	_
 3	.	_	PUNCT	Period	_	2	punct	_	_
@@ -17719,7 +17719,7 @@
 4	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 943
-# text = " Vad är det? " frågar han.
+# text = "Vad är det?" frågar han.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Vad	_	PRON	WH-SG	_	0	root	_	_
 3	är	_	AUX	PRES-ACT	_	2	cop	_	_
@@ -17738,7 +17738,7 @@
 4	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 945
-# text = Han säger: " Det har jag aldrig hört talas om.
+# text = Han säger: "Det har jag aldrig hört talas om.
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	säger	_	VERB	PRES-ACT	_	0	root	_	_
 3	:	_	PUNCT	Colon	_	2	punct	_	_
@@ -17753,7 +17753,7 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 946
-# text = Vad är det egentligen de sysslar med? "
+# text = Vad är det egentligen de sysslar med?"
 1	Vad	_	PRON	WH-SG	_	6	obl	_	_
 2	är	_	VERB	PRES-ACT	_	0	root	_	_
 3	det	_	PRON	EX-P3SG	_	2	expl	_	_
@@ -17797,7 +17797,7 @@
 23	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 949
-# text = " Jaså, ni vet inte vad en matematiker är.
+# text = "Jaså, ni vet inte vad en matematiker är.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Jaså	_	INTJ	_	_	5	discourse	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -17981,7 +17981,7 @@
 32	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 956
-# text = " När jag gick min väg ", sa han skrattande, " grät gisslan och tiggde mig om att stanna kvar. "
+# text = "När jag gick min väg", sa han skrattande, "grät gisslan och tiggde mig om att stanna kvar."
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	När	_	SCONJ	_	_	4	mark	_	_
 3	jag	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
@@ -18379,7 +18379,7 @@
 15	.	_	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 975
-# text = Denna atmosfär ger en sådan verklighet åt det vardagliga uttrycket " inte av denna världen " att man får en stöt för bröstet.
+# text = Denna atmosfär ger en sådan verklighet åt det vardagliga uttrycket "inte av denna världen" att man får en stöt för bröstet.
 1	Denna	_	DET	DEM-SG-IND	_	2	det	_	_
 2	atmosfär	_	NOUN	SG-IND-NOM	_	3	nsubj	_	_
 3	ger	_	VERB	PRES-ACT	_	0	root	_	_
@@ -18647,7 +18647,7 @@
 19	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 988
-# text = Den amerikanska firman Booz, Allen &amp; Hamilton lånade ut en av sina specialister vid namn Miles Copeland till utrikesdepartementet, där han år 1955 ingick i en grupp som kallades Planeringskommittén för Mellanöstern och vars huvudsyfte med hans egna ord var " att räkna ut olika sätt att dra fördel av den vänskap som höll på att utvecklas mellan oss och Nasser ".
+# text = Den amerikanska firman Booz, Allen &amp; Hamilton lånade ut en av sina specialister vid namn Miles Copeland till utrikesdepartementet, där han år 1955 ingick i en grupp som kallades Planeringskommittén för Mellanöstern och vars huvudsyfte med hans egna ord var "att räkna ut olika sätt att dra fördel av den vänskap som höll på att utvecklas mellan oss och Nasser".
 1	Den	_	DET	SG-DEF	_	3	det	_	_
 2	amerikanska	_	ADJ	POS-DEF	_	3	amod	_	_
 3	firman	_	NOUN	SG-DEF-NOM	_	4	nmod	_	_
@@ -18715,7 +18715,7 @@
 65	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 989
-# text = 1947 skickades Copeland till Damaskus (" av vem har inte bekantgjorts ", säger Kedourie) " för att ta inofficiella kontakter " med syriska ledare och " känna sig för beträffande medel för att övertyga dem om att av egen kraft liberalisera sitt politiska system. "
+# text = 1947 skickades Copeland till Damaskus ("av vem har inte bekantgjorts", säger Kedourie) "för att ta inofficiella kontakter" med syriska ledare och "känna sig för beträffande medel för att övertyga dem om att av egen kraft liberalisera sitt politiska system."
 1	1947	_	NUM	ID	_	2	obl	_	_
 2	skickades	_	VERB	PAST-PASS	_	0	root	_	_
 3	Copeland	_	PROPN	SG-NOM	_	2	nsubj:pass	_	_
@@ -18822,7 +18822,7 @@
 19	:	_	PUNCT	Colon	_	4	punct	_	_
 
 # sent_id = 992
-# text = " Den amerikanske ministern i Damaskus beslöt att uppmuntra en militärkupp för att Syrien skulle kunna komma i åtnjutande av demokrati ", skriver Kedourie.
+# text = "Den amerikanske ministern i Damaskus beslöt att uppmuntra en militärkupp för att Syrien skulle kunna komma i åtnjutande av demokrati", skriver Kedourie.
 1	"	_	PUNCT	Quote	_	7	punct	_	_
 2	Den	_	DET	SG-DEF	_	4	det	_	_
 3	amerikanske	_	ADJ	POS-DEF	_	4	amod	_	_
@@ -18851,7 +18851,7 @@
 26	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 993
-# text = Detta ansågs inte speciellt egendomligt: andra amerikanska ambassadörer och ministrar i arabvärlden stödde helhjärtat " äkta " revolutioner för att störta gamla jordägare, rika skurkar och politiker.
+# text = Detta ansågs inte speciellt egendomligt: andra amerikanska ambassadörer och ministrar i arabvärlden stödde helhjärtat "äkta" revolutioner för att störta gamla jordägare, rika skurkar och politiker.
 1	Detta	_	PRON	DEM-SG	_	2	nsubj:pass	_	_
 2	ansågs	_	VERB	PAST-PASS	_	0	root	_	_
 3	inte	_	PART	NEG	_	2	advmod	_	_
@@ -18884,7 +18884,7 @@
 30	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 994
-# text = " Vad som krävdes var en elit som kunde understödja härskarna, vilka i sin tur understöddes och bars upp av ett folk som antogs förstå, gilla och legitimera en sådan elits syften.
+# text = "Vad som krävdes var en elit som kunde understödja härskarna, vilka i sin tur understöddes och bars upp av ett folk som antogs förstå, gilla och legitimera en sådan elits syften.
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Vad	_	PRON	WH-REL-SG	_	4	mark	_	_
 3	som	_	ADP	WH-REL-SG	_	2	fixed	_	_
@@ -18922,7 +18922,7 @@
 35	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 995
-# text = Alla som känner till Mellanöstern håller säkert med om att ett sådant sökande var en politisk motsvarighet till sökandet efter de vises sten. "
+# text = Alla som känner till Mellanöstern håller säkert med om att ett sådant sökande var en politisk motsvarighet till sökandet efter de vises sten."
 1	Alla	_	PRON	TOT-PL-NOM	_	6	nsubj	_	_
 2	som	_	SCONJ	REL	_	3	mark	_	_
 3	känner	_	VERB	PRES-ACT	_	1	acl:relcl	_	_
@@ -18964,7 +18964,7 @@
 11	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 997
-# text = Kermit Roosevelt från CIA " träffade ett antal officerare som varit inblandade i den sammansvärjning vilken ledde till statskuppen den 22 juli 1952 ".
+# text = Kermit Roosevelt från CIA "träffade ett antal officerare som varit inblandade i den sammansvärjning vilken ledde till statskuppen den 22 juli 1952".
 1	Kermit	_	PROPN	SG-NOM	_	6	nsubj	_	_
 2	Roosevelt	_	PROPN	SG-NOM	_	1	flat	_	_
 3	från	_	ADP	_	_	4	case	_	_
@@ -18992,7 +18992,7 @@
 25	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 998
-# text = Amerikanerna ville att den nya regimen skulle göra befolkningens breda lager läskunniga och skapa " en stor och stabil medelklass och en tillräcklig identifiering med landets egna ideal och värderingar, så att verkligt inhemska demokratiska institutioner kunde växa fram ".
+# text = Amerikanerna ville att den nya regimen skulle göra befolkningens breda lager läskunniga och skapa "en stor och stabil medelklass och en tillräcklig identifiering med landets egna ideal och värderingar, så att verkligt inhemska demokratiska institutioner kunde växa fram".
 1	Amerikanerna	_	NOUN	PL-DEF-NOM	_	2	nsubj	_	_
 2	ville	_	AUX	PAST-AUX	_	0	root	_	_
 3	att	_	SCONJ	_	_	8	mark	_	_
@@ -19071,7 +19071,7 @@
 11	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1001
-# text = James Eichelberger, en statsvetare vid SUD som hade varit direktör i J Walter Thompson, en av världens största reklam- och PR-firmor, " skickades till Kairo där han talade med Nasser och hans rådgivare och producerade en rad rapporter som preciserade den nya regimens problem och rekommenderade politiska åtgärder för att ta itu med dem ".
+# text = James Eichelberger, en statsvetare vid SUD som hade varit direktör i J Walter Thompson, en av världens största reklam- och PR-firmor, "skickades till Kairo där han talade med Nasser och hans rådgivare och producerade en rad rapporter som preciserade den nya regimens problem och rekommenderade politiska åtgärder för att ta itu med dem".
 1	James	_	PROPN	SG-NOM	_	26	nsubj:pass	_	_
 2	Eichelberger	_	PROPN	SG-NOM	_	1	flat	_	_
 3	,	_	PUNCT	Comma	_	5	punct	_	_
@@ -19133,7 +19133,7 @@
 59	.	_	PUNCT	Period	_	26	punct	_	_
 
 # sent_id = 1002
-# text = En av dessa rapporter, som Eichelberger själv hade skrivit, översattes till arabiska, " kommenterades av medlemmar av Nassers stab och översattes tillbaka till engelska för Eichelbergers räkning ".
+# text = En av dessa rapporter, som Eichelberger själv hade skrivit, översattes till arabiska, "kommenterades av medlemmar av Nassers stab och översattes tillbaka till engelska för Eichelbergers räkning".
 1	En	_	NUM	CARD-SG	_	12	nsubj:pass	_	_
 2	av	_	ADP	_	_	4	case	_	_
 3	dessa	_	DET	DEM-PL	_	4	det	_	_
@@ -19168,7 +19168,7 @@
 32	.	_	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 1003
-# text = Detta dokument, betitlat " Maktproblem för en revolutionär regering ", passerade enligt mr Copeland " fram och tillbaka mellan engelska och arabiska tills en slutlig version hade åstadkommits.
+# text = Detta dokument, betitlat "Maktproblem för en revolutionär regering", passerade enligt mr Copeland "fram och tillbaka mellan engelska och arabiska tills en slutlig version hade åstadkommits.
 1	Detta	_	DET	DEM-SG-IND	_	2	det	_	_
 2	dokument	_	NOUN	IND-NOM	_	13	nsubj	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -19202,7 +19202,7 @@
 31	.	_	PUNCT	Period	_	13	punct	_	_
 
 # sent_id = 1004
-# text = Slutrapporten lämnades ut till omvärlden och uppgavs vara ett verk av Zakaria Mohieddin, Nassers mest insiktsfulla och resonliga medarbetare (i västerländska ögon), och den togs för gott av informationsanalytiker på utrikesdepartementet och CIA, liksom sannolikt också av motsvarande organ för andra staters regeringar ".
+# text = Slutrapporten lämnades ut till omvärlden och uppgavs vara ett verk av Zakaria Mohieddin, Nassers mest insiktsfulla och resonliga medarbetare (i västerländska ögon), och den togs för gott av informationsanalytiker på utrikesdepartementet och CIA, liksom sannolikt också av motsvarande organ för andra staters regeringar".
 1	Slutrapporten	_	NOUN	SG-DEF-NOM	_	2	nsubj:pass	_	_
 2	lämnades	_	VERB	PAST-PASS	_	0	root	_	_
 3	ut	_	ADV	_	_	2	compound:prt	_	_
@@ -19271,7 +19271,7 @@
 13	:	_	PUNCT	Colon	_	4	punct	_	_
 
 # sent_id = 1006
-# text = " Polisen bör politiseras och i all den utsträckning som är nödvändig göras till ett paramilitärt vapen i revolutionsregeringens hand "?
+# text = "Polisen bör politiseras och i all den utsträckning som är nödvändig göras till ett paramilitärt vapen i revolutionsregeringens hand"?
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Polisen	_	NOUN	SG-DEF-NOM	_	5	nsubj	_	_
 3	bör	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -19313,7 +19313,7 @@
 14	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 1008
-# text = Eller detta: " Nervcentrum för hela säkerhetssystemet i en revolutionär stat (eller varje annan stat) ligger i en hemlig kropp, vars identitet och själva existens av säkerhetshänsyn endast får vara känd av den revolutionära regeringens ledare och minsta möjliga antal övriga ledare. "
+# text = Eller detta: "Nervcentrum för hela säkerhetssystemet i en revolutionär stat (eller varje annan stat) ligger i en hemlig kropp, vars identitet och själva existens av säkerhetshänsyn endast får vara känd av den revolutionära regeringens ledare och minsta möjliga antal övriga ledare."
 1	Eller	_	CCONJ	_	_	2	cc	_	_
 2	detta	_	PRON	DEM-SG	_	19	discourse	_	_
 3	:	_	PUNCT	Colon	_	19	punct	_	_
@@ -19483,7 +19483,7 @@
 6	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 1015
-# text = I den rapport som mr Eichelberger och hans egyptiska medarbetare skrev framhålls det givetvis att målet för Nassers maktövertagande var " att lösa de angelägna sociala och politiska problem som gjort revolutionen nödvändig ".
+# text = I den rapport som mr Eichelberger och hans egyptiska medarbetare skrev framhålls det givetvis att målet för Nassers maktövertagande var "att lösa de angelägna sociala och politiska problem som gjort revolutionen nödvändig".
 1	I	_	ADP	_	_	3	case	_	_
 2	den	_	DET	SG-DEF	_	3	det	_	_
 3	rapport	_	NOUN	SG-IND-NOM	_	12	obl	_	_
@@ -19635,7 +19635,7 @@
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1023
-# text = Mr Kedourie betvivlar att han behövde " ta den amerikanska statsvetenskapens resurser i bruk för sådana lektioner i tyranni.
+# text = Mr Kedourie betvivlar att han behövde "ta den amerikanska statsvetenskapens resurser i bruk för sådana lektioner i tyranni.
 1	Mr	_	NOUN	SG-IND-NOM	_	2	nmod	_	_
 2	Kedourie	_	PROPN	SG-NOM	_	3	nsubj	_	_
 3	betvivlar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -19658,7 +19658,7 @@
 20	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 1024
-# text = Vad som förblir mest gåtfullt ", säger han, " är hur man kunde tro att meddelandet av sådan undervisning skulle kunna främja Förenta staternas intressen eller ens bidra till det egyptiska folkets välfärd ".
+# text = Vad som förblir mest gåtfullt", säger han, "är hur man kunde tro att meddelandet av sådan undervisning skulle kunna främja Förenta staternas intressen eller ens bidra till det egyptiska folkets välfärd".
 1	Vad	_	PRON	WH-REL-SG	_	3	nsubj	_	_
 2	som	_	ADP	WH-REL-SG	_	1	fixed	_	_
 3	förblir	_	VERB	PRES-ACT	_	16	csubj	_	_
@@ -19740,7 +19740,7 @@
 11	?	_	PUNCT	QuestionMark	_	6	punct	_	_
 
 # sent_id = 1028
-# text = När jag läste " Stormen och vreden " i går kväll stötte jag på några ord bland Quentin Compsons tankar som hörde samman med EE Cummings och trettiotalet, inte med år 1910.
+# text = När jag läste "Stormen och vreden" i går kväll stötte jag på några ord bland Quentin Compsons tankar som hörde samman med EE Cummings och trettiotalet, inte med år 1910.
 1	När	_	SCONJ	_	_	3	mark	_	_
 2	jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	läste	_	VERB	PAST-ACT	_	12	advcl	_	_
@@ -19777,7 +19777,7 @@
 34	.	_	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 1029
-# text = " Judegrabbens och dagosens land ", säger Compson för sig själv när han köper en bulle av en liten italiensk flicka.
+# text = "Judegrabbens och dagosens land", säger Compson för sig själv när han köper en bulle av en liten italiensk flicka.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Judegrabbens	_	NOUN	SG-DEF-GEN	_	5	nmod:poss	_	_
 3	och	_	CCONJ	_	_	4	cc	_	_
@@ -19848,7 +19848,7 @@
 15	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 1032
-# text = Det kan tänkas att människor vid sekelskiftet travesterade sångens ord " land of the brave, home of the free " på samma sätt och talade om " judegrabbens land " och att Faulkner inte hade lånat det från Cummings.
+# text = Det kan tänkas att människor vid sekelskiftet travesterade sångens ord "land of the brave, home of the free" på samma sätt och talade om "judegrabbens land" och att Faulkner inte hade lånat det från Cummings.
 1	Det	_	PRON	EX-P3SG	_	3	expl	_	_
 2	kan	_	AUX	PRES-AUX	_	3	aux	_	_
 3	tänkas	_	VERB	INF-PASS	_	0	root	_	_
@@ -19974,7 +19974,7 @@
 19	?	_	PUNCT	QuestionMark	_	17	punct	_	_
 
 # sent_id = 1036
-# text = För sina strängare vänsterkritiker, somliga av dem judar, är Israel å andra sidan inte alls det " demokratiska undantag " som det påstås vara.
+# text = För sina strängare vänsterkritiker, somliga av dem judar, är Israel å andra sidan inte alls det "demokratiska undantag" som det påstås vara.
 1	För	_	ADP	_	_	4	case	_	_
 2	sina	_	PRON	RFL-PL-GEN	_	4	nmod:poss	_	_
 3	strängare	_	ADJ	CMP	_	4	amod	_	_
@@ -20045,7 +20045,7 @@
 24	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 1039
-# text = Av somliga israeler anklagas det emellanåt för att vara korrumperat, " levantinskt ", teokratiskt.
+# text = Av somliga israeler anklagas det emellanåt för att vara korrumperat, "levantinskt", teokratiskt.
 1	Av	_	ADP	_	_	3	case	_	_
 2	somliga	_	ADJ	POS-PL-IND	_	3	det	_	_
 3	israeler	_	NOUN	PL-IND-NOM	_	4	obl:agent	_	_
@@ -20166,7 +20166,7 @@
 31	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 1043
-# text = " Vi kom hit för att bygga upp ett rättvist samhälle.
+# text = "Vi kom hit för att bygga upp ett rättvist samhälle.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Vi	_	PRON	PERS-P1PL-NOM	_	3	nsubj	_	_
 3	kom	_	VERB	PAST-ACT	_	0	root	_	_
@@ -20181,7 +20181,7 @@
 12	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 1044
-# text = Och hur gick det från första stund? "
+# text = Och hur gick det från första stund?"
 1	Och	_	CCONJ	_	_	3	cc	_	_
 2	hur	_	ADV	WH	_	3	advmod	_	_
 3	gick	_	VERB	PAST-ACT	_	0	root	_	_
@@ -20202,7 +20202,7 @@
 6	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1046
-# text = Han säger till mig: " Där det inte finns någon paradox finns det inget liv. "
+# text = Han säger till mig: "Där det inte finns någon paradox finns det inget liv."
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	säger	_	VERB	PRES-ACT	_	0	root	_	_
 3	till	_	ADP	_	_	4	case	_	_
@@ -20223,7 +20223,7 @@
 18	"	_	PUNCT	Quote	_	13	punct	_	_
 
 # sent_id = 1047
-# text = I Jakov Linds intressanta lilla bok om Israel uppges Ben-Gurion ha sagt: " Judarna vet knappast någonting om ett helvete som skulle kunna vänta dem.
+# text = I Jakov Linds intressanta lilla bok om Israel uppges Ben-Gurion ha sagt: "Judarna vet knappast någonting om ett helvete som skulle kunna vänta dem.
 1	I	_	ADP	_	_	9	advmod	_	_
 2	Jakov	_	PROPN	SG-NOM	_	6	nmod:poss	_	_
 3	Linds	_	PROPN	SG-GEN	_	2	flat	_	_
@@ -20253,7 +20253,7 @@
 27	.	_	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 1048
-# text = Deras helvete är deras egen missbelåtenhet med sig själva om de tillhör medelmåttan. "
+# text = Deras helvete är deras egen missbelåtenhet med sig själva om de tillhör medelmåttan."
 1	Deras	_	PRON	P3PL-GEN	_	2	nmod:poss	_	_
 2	helvete	_	NOUN	SG-IND-NOM	_	6	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	6	cop	_	_
@@ -20400,7 +20400,7 @@
 23	?	_	PUNCT	QuestionMark	_	2	punct	_	_
 
 # sent_id = 1055
-# text = " Skulle det inte vara den förfärligaste ironi om judarna helt bekvämt hade samlat ihop sig i ett enda land inför en andra utrotning? "
+# text = "Skulle det inte vara den förfärligaste ironi om judarna helt bekvämt hade samlat ihop sig i ett enda land inför en andra utrotning?"
 1	"	_	PUNCT	Quote	_	8	punct	_	_
 2	Skulle	_	AUX	PAST-AUX	_	8	aux	_	_
 3	det	_	PRON	EX-P3SG	_	8	expl	_	_
@@ -21387,7 +21387,7 @@
 16	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 1107
-# text = Han säger: " Jag frågar mig på vilka sätt mitt liv inte har varit typiskt.
+# text = Han säger: "Jag frågar mig på vilka sätt mitt liv inte har varit typiskt.
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	säger	_	VERB	PRES-ACT	_	0	root	_	_
 3	:	_	PUNCT	Colon	_	2	punct	_	_
@@ -21459,7 +21459,7 @@
 12	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 1110
-# text = Inget märkvärdigt. "
+# text = Inget märkvärdigt."
 1	Inget	_	DET	NEG-SG-IND	_	2	det	_	_
 2	märkvärdigt	_	ADJ	POS-SG-IND	_	0	root	_	_
 3	.	_	PUNCT	Period	_	2	punct	_	_
@@ -21580,7 +21580,7 @@
 16	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 1118
-# text = På mindre än fem timmar hade John reparerat motorerna, men hamnmyndigheterna påstod att fartyget inte var sjödugligt och krävde att kaptenen skulle ställa borgen på tjugotusen dollar för de kostnader som hans " skadade fartyg " kunde förorsaka.
+# text = På mindre än fem timmar hade John reparerat motorerna, men hamnmyndigheterna påstod att fartyget inte var sjödugligt och krävde att kaptenen skulle ställa borgen på tjugotusen dollar för de kostnader som hans "skadade fartyg" kunde förorsaka.
 1	På	_	ADP	_	_	2	case	_	_
 2	mindre	_	ADV	CMP	_	8	advmod	_	_
 3	än	_	ADP	CMP	_	5	case	_	_
@@ -22178,7 +22178,7 @@
 9	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 1152
-# text = Då sa en maskinist från Balkan: " I vår by brukade vi spika fast ugglor på kyrkdörren när vi hade fångat dem. "
+# text = Då sa en maskinist från Balkan: "I vår by brukade vi spika fast ugglor på kyrkdörren när vi hade fångat dem."
 1	Då	_	ADV	_	_	2	advmod	_	_
 2	sa	_	VERB	PAST-ACT	_	0	root	_	_
 3	en	_	DET	SG-IND	_	4	det	_	_
@@ -22245,7 +22245,7 @@
 9	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1155
-# text = " Flyg hem till Stromboli, din jävla idiot ", sa han.
+# text = "Flyg hem till Stromboli, din jävla idiot", sa han.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Flyg	_	VERB	IMP-ACT	_	0	root	_	_
 3	hem	_	ADV	_	_	2	advmod	_	_
@@ -22303,7 +22303,7 @@
 22	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1158
-# text = Innan jag for från Chicago sa konstkritikern Harold Rosenberg till mig: " Du ska fara till Jerusalem?
+# text = Innan jag for från Chicago sa konstkritikern Harold Rosenberg till mig: "Du ska fara till Jerusalem?
 1	Innan	_	SCONJ	_	_	3	mark	_	_
 2	jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	for	_	VERB	PAST-ACT	_	6	advcl	_	_
@@ -22340,7 +22340,7 @@
 12	?	_	PUNCT	QuestionMark	_	3	punct	_	_
 
 # sent_id = 1160
-# text = Nu skämtar du väl ändå de kommer att prata dig fördärvad. "
+# text = Nu skämtar du väl ändå de kommer att prata dig fördärvad."
 1	Nu	_	ADV	_	_	2	advmod	_	_
 2	skämtar	_	VERB	PRES-ACT	_	0	root	_	_
 3	du	_	PRON	PERS-P2SG-NOM	_	2	nsubj	_	_
@@ -23921,7 +23921,7 @@
 7	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 1226
-# text = De hade seglat ut från Deptford, från Greenwich, från Erith ; äventyrare och imperiebyggare ; kungars skepp och penningfurstars ; kaptener, amiraler, den österländska trafikens skumma smyghandlare och Ostindiska kompaniets befullmäktigade " generaler ".
+# text = De hade seglat ut från Deptford, från Greenwich, från Erith ; äventyrare och imperiebyggare ; kungars skepp och penningfurstars ; kaptener, amiraler, den österländska trafikens skumma smyghandlare och Ostindiska kompaniets befullmäktigade "generaler".
 1	De	_	PRON	PERS-P3PL-NOM	_	3	nsubj	_	_
 2	hade	_	AUX	PAST-AUX	_	3	aux	_	_
 3	seglat	_	VERB	SUP-ACT	_	0	root	_	_
@@ -30118,7 +30118,7 @@
 33	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 1492
-# text = Mina förklaringar hörde han inte på, satt bara och snurrade en lackstång mellan fingrarna och upprepade ideligen att situationen var ' ytterst allvarlig, ytterst allvarlig '.
+# text = Mina förklaringar hörde han inte på, satt bara och snurrade en lackstång mellan fingrarna och upprepade ideligen att situationen var 'ytterst allvarlig, ytterst allvarlig'.
 1	Mina	_	PRON	P1SG-GEN-PL	_	2	nmod:poss	_	_
 2	förklaringar	_	NOUN	PL-IND-NOM	_	3	dislocated	_	_
 3	hörde	_	VERB	PAST-ACT	_	0	root	_	_
@@ -30331,7 +30331,7 @@
 30	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1502
-# text = Sen ville han veta ' hur lång tid skulle det ta '...
+# text = Sen ville han veta 'hur lång tid skulle det ta'...
 1	Sen	_	ADV	_	_	4	advmod	_	_
 2	ville	_	AUX	PAST-AUX	_	4	aux	_	_
 3	han	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
@@ -30495,7 +30495,7 @@
 7	!	_	PUNCT	ExclMark	_	3	punct	_	_
 
 # sent_id = 1513
-# text = Efteråt fick jag ta tillbaka, när jag med häpnad kunde konstatera med vilken exakthet han hade beräknat den tid ' angelägenheten ' skulle ta.
+# text = Efteråt fick jag ta tillbaka, när jag med häpnad kunde konstatera med vilken exakthet han hade beräknat den tid 'angelägenheten' skulle ta.
 1	Efteråt	_	ADV	_	_	4	advmod	_	_
 2	fick	_	AUX	PAST-AUX	_	4	aux	_	_
 3	jag	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
@@ -30631,7 +30631,7 @@
 23	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1519
-# text = Ordet ' elfenben ' fyllde luften, viskades, suckades fram.
+# text = Ordet 'elfenben' fyllde luften, viskades, suckades fram.
 1	Ordet	_	NOUN	SG-DEF-NOM	_	3	nmod	_	_
 2	'	_	PUNCT	Quote	_	3	punct	_	_
 3	elfenben	_	NOUN	IND-NOM	_	5	nsubj	_	_
@@ -30794,7 +30794,7 @@
 49	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 1528
-# text = Jag rökte just en pipa i lugn och ro bredvid min avtacklade ångare och såg dem skutta omkring i eldskenet med uppsträckta armar, när tjockisen med mustascherna kom rusande ned till floden med en bleckhink i handen, försäkrade att alla ' skötte sig storartat, storartat ', vippade åt sig ungefär en liter vatten och rusade tillbaka igen.
+# text = Jag rökte just en pipa i lugn och ro bredvid min avtacklade ångare och såg dem skutta omkring i eldskenet med uppsträckta armar, när tjockisen med mustascherna kom rusande ned till floden med en bleckhink i handen, försäkrade att alla 'skötte sig storartat, storartat', vippade åt sig ungefär en liter vatten och rusade tillbaka igen.
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	rökte	_	VERB	PAST-ACT	_	0	root	_	_
 3	just	_	ADV	_	_	2	advmod	_	_
@@ -31032,7 +31032,7 @@
 19	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 1540
-# text = Jag uppfattade namnet Kurtz och så orden ' dra fördel av den här beklagliga olyckshändelsen '.
+# text = Jag uppfattade namnet Kurtz och så orden 'dra fördel av den här beklagliga olyckshändelsen'.
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	uppfattade	_	VERB	PAST-ACT	_	0	root	_	_
 3	namnet	_	NOUN	SG-DEF-NOM	_	4	nmod	_	_
@@ -34862,7 +34862,7 @@
 14	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1753
-# text = Men vi kan inte godta begreppet " ekonomisk betydelse " när det gäller rättighetsinnehavarna.
+# text = Men vi kan inte godta begreppet "ekonomisk betydelse" när det gäller rättighetsinnehavarna.
 1	Men	_	CCONJ	_	_	5	cc	_	_
 2	vi	_	PRON	PERS-P1PL-NOM	_	5	nsubj	_	_
 3	kan	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -35114,7 +35114,7 @@
 17	!	_	PUNCT	ExclMark	_	2	punct	_	_
 
 # sent_id = 1767
-# text = I motsats till kommissionens förslag är det nödvändigt att bevara det nuvarande s.k. " artikel 43- förfarandet ".
+# text = I motsats till kommissionens förslag är det nödvändigt att bevara det nuvarande s.k. "artikel 43- förfarandet".
 1	I	_	ADP	_	_	2	case	_	_
 2	motsats	_	NOUN	SG-IND-NOM	_	8	nmod	_	_
 3	till	_	ADP	_	_	5	case	_	_
@@ -48965,7 +48965,7 @@
 7	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2380
-# text = Om jag bara kunde få släppa ut henne på natten "
+# text = Om jag bara kunde få släppa ut henne på natten"
 1	Om	_	SCONJ	_	_	6	mark	_	_
 2	jag	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	_
 3	bara	_	ADV	_	_	6	advmod	_	_
@@ -49017,7 +49017,7 @@
 22	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2383
-# text = " Vi måste göda dig medan vi har chansen jag tycker inte den där skolmaten låter särskilt bra "
+# text = "Vi måste göda dig medan vi har chansen jag tycker inte den där skolmaten låter särskilt bra"
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Vi	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	_
 3	måste	_	AUX	AUX	_	4	aux	_	_
@@ -49119,7 +49119,7 @@
 49	.	_	PUNCT	Period	_	43	punct	_	_
 
 # sent_id = 2386
-# text = " Jag menade var snäll och! " sade Harry hastigt.
+# text = "Jag menade var snäll och!" sade Harry hastigt.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	menade	_	VERB	PAST-ACT	_	0	root	_	_
@@ -49910,7 +49910,7 @@
 12	.	_	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = 2414
-# text = " i dag kan mycket väl bli den dag då jag gör mitt livs bästa affär ", sade morbror Vernon.
+# text = "i dag kan mycket väl bli den dag då jag gör mitt livs bästa affär", sade morbror Vernon.
 1	"	_	PUNCT	Quote	_	7	punct	_	_
 2	i	_	ADV	_	_	7	advmod	_	_
 3	dag	_	NOUN	_	_	2	fixed	_	_
@@ -50010,7 +50010,7 @@
 28	.	_	PUNCT	Period	_	8	punct	_	_
 
 # sent_id = 2419
-# text = " Bra, mycket bra.
+# text = "Bra, mycket bra.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Bra	_	ADJ	POS-IND	_	0	root	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -50032,7 +50032,7 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2421
-# text = " Utmärkt, Dudley ", sade morbror Vernon.
+# text = "Utmärkt, Dudley", sade morbror Vernon.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Utmärkt	_	ADV	_	_	0	root	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -50055,7 +50055,7 @@
 7	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2423
-# text = Klockan tjugo och femton "
+# text = Klockan tjugo och femton"
 1	Klockan	_	NOUN	SG-DEF-NOM	_	2	nmod	_	_
 2	tjugo	_	NUM	CARD-PL	_	0	root	_	_
 3	och	_	CCONJ	_	_	4	cc	_	_
@@ -50063,7 +50063,7 @@
 5	"	_	PUNCT	Quote	_	2	punct	_	_
 
 # sent_id = 2424
-# text = " Och du? " sade morbror Vernon ilsket till Harry.
+# text = "Och du?" sade morbror Vernon ilsket till Harry.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Och	_	CCONJ	_	_	3	cc	_	_
 3	du	_	PRON	PERS-P2SG-NOM	_	0	root	_	_
@@ -50094,7 +50094,7 @@
 13	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2426
-# text = Ni måste tala om för mig var ni har köpt er klänning, mrs Mason. "
+# text = Ni måste tala om för mig var ni har köpt er klänning, mrs Mason."
 1	Ni	_	PRON	PERS-P2PL-NOM	_	3	nsubj	_	_
 2	måste	_	AUX	AUX	_	3	aux	_	_
 3	tala	_	VERB	INF-ACT	_	0	root	_	_
@@ -50174,7 +50174,7 @@
 13	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2430
-# text = " Just det och ingenting annat ", sade morbror Vernon med eftertryck.
+# text = "Just det och ingenting annat", sade morbror Vernon med eftertryck.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Just	_	ADV	_	_	3	advmod	_	_
 3	det	_	PRON	PERS-P3SG	_	0	root	_	_
@@ -50290,7 +50290,7 @@
 8	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2437
-# text = Han gick tvärs över gräsmattan, sjönk ner på trädgårdsbänken och sjöng tyst för sig själv: " Ja, må jag leva ja, må jag leva "
+# text = Han gick tvärs över gräsmattan, sjönk ner på trädgårdsbänken och sjöng tyst för sig själv: "Ja, må jag leva ja, må jag leva"
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	gick	_	VERB	PAST-ACT	_	0	root	_	_
 3	tvärs	_	ADV	_	_	5	advmod	_	_
@@ -50875,7 +50875,7 @@
 8	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2461
-# text = " Så du har äntligen lärt dig veckans dagar. "
+# text = "Så du har äntligen lärt dig veckans dagar."
 1	"	_	PUNCT	Quote	_	6	punct	_	_
 2	Så	_	SCONJ	_	_	6	mark	_	_
 3	du	_	PRON	PERS-P2SG-NOM	_	6	nsubj	_	_
@@ -50907,7 +50907,7 @@
 15	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2463
-# text = " Varför stirrar du på häcken? " frågade han misstänksamt.
+# text = "Varför stirrar du på häcken?" frågade han misstänksamt.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Varför	_	ADV	WH	_	3	advmod	_	_
 3	stirrar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -50942,7 +50942,7 @@
 17	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2465
-# text = " Maaaaaammma! " tjöt Dudley och rusade i väg mot huset, snavande över sina egna fötter.
+# text = "Maaaaaammma!" tjöt Dudley och rusade i väg mot huset, snavande över sina egna fötter.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Maaaaaammma	_	NOUN	SG-IND-NOM	_	5	vocative	_	_
 3	!	_	PUNCT	ExclMark	_	5	punct	_	_
@@ -51215,7 +51215,7 @@
 7	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2476
-# text = " Ät fort!
+# text = "Ät fort!
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Ät	_	VERB	IMP-ACT	_	0	root	_	_
 3	fort	_	ADV	_	_	2	advmod	_	_
@@ -51436,7 +51436,7 @@
 12	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2488
-# text = " Låt mig ta era ytterkläder, mr och mrs Mason. "
+# text = "Låt mig ta era ytterkläder, mr och mrs Mason."
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Låt	_	VERB	IMP-ACT	_	0	root	_	_
 3	mig	_	PRON	PERS-P1SG-ACC	_	2	obj	_	_
@@ -51504,7 +51504,7 @@
 26	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2491
-# text = " T-tack ", sade Harry. Han smög tyst utmed väggen och sjönk ner på skrivbordsstolen intill Hedwig, som sov i sin stora bur.
+# text = "T-tack", sade Harry. Han smög tyst utmed väggen och sjönk ner på skrivbordsstolen intill Hedwig, som sov i sin stora bur.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	T-tack	_	INTJ	_	_	0	root	_	_
 3	"	_	PUNCT	Quote	_	2	punct	_	_
@@ -51540,7 +51540,7 @@
 3	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2493
-# text = " Öh jag vill inte vara oartig eller så, men det här är inte nåt lämpligt tillfälle för mig att ha en husalf i rummet. "
+# text = "Öh jag vill inte vara oartig eller så, men det här är inte nåt lämpligt tillfälle för mig att ha en husalf i rummet."
 1	"	_	PUNCT	Quote	_	7	punct	_	_
 2	Öh	_	INTJ	_	_	4	discourse	_	_
 3	jag	_	PRON	PERS-P1SG-NOM	_	7	nsubj	_	_
@@ -51638,7 +51638,7 @@
 20	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2498
-# text = " Lämna mig i fred lägg av jag försöker sova "
+# text = "Lämna mig i fred lägg av jag försöker sova"
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Lämna	_	VERB	IMP-ACT	_	0	root	_	_
 3	mig	_	PRON	PERS-P1SG-ACC	_	2	obj	_	_
@@ -51768,7 +51768,7 @@
 17	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2506
-# text = " Varför har du inte svarat på mina brev?
+# text = "Varför har du inte svarat på mina brev?
 1	"	_	PUNCT	Quote	_	6	punct	_	_
 2	Varför	_	ADV	WH	_	6	advmod	_	_
 3	har	_	AUX	PRES-AUX	_	6	aux	_	_
@@ -51781,7 +51781,7 @@
 10	?	_	PUNCT	QuestionMark	_	6	punct	_	_
 
 # sent_id = 2507
-# text = " Lite magstarkt för att komma från dig ", sade Harry och tittade på den svävande bilen.
+# text = "Lite magstarkt för att komma från dig", sade Harry och tittade på den svävande bilen.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Lite	_	ADV	_	_	3	advmod	_	_
 3	magstarkt	_	ADV	_	_	0	root	_	_
@@ -51803,7 +51803,7 @@
 19	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2508
-# text = " Sluta snacka ", sade Ron. " Vi har kommit för att ta med dig hem till oss. "
+# text = "Sluta snacka", sade Ron. "Vi har kommit för att ta med dig hem till oss."
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Sluta	_	VERB	IMP-ACT	_	0	root	_	_
 3	snacka	_	VERB	INF-ACT	_	2	xcomp	_	_
@@ -51828,7 +51828,7 @@
 22	"	_	PUNCT	Quote	_	12	punct	_	_
 
 # sent_id = 2509
-# text = " Om Dursleys vaknar är jag dödens ", sade Harry medan han knöt fast repet hårt om en stång och Fred rusade motorn.
+# text = "Om Dursleys vaknar är jag dödens", sade Harry medan han knöt fast repet hårt om en stång och Fred rusade motorn.
 1	"	_	PUNCT	Quote	_	7	punct	_	_
 2	Om	_	SCONJ	_	_	4	mark	_	_
 3	Dursleys	_	PROPN	PL-NOM	_	4	nsubj	_	_
@@ -51978,7 +51978,7 @@
 20	.	_	PUNCT	Period	_	12	punct	_	_
 
 # sent_id = 2515
-# text = " Inlåsta i skrubben under trappan, och jag kan inte komma ut ur det här rummet "
+# text = "Inlåsta i skrubben under trappan, och jag kan inte komma ut ur det här rummet"
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Inlåsta	_	VERB	AD-PL-IND	_	0	root	_	_
 3	i	_	ADP	_	_	4	case	_	_
@@ -52055,7 +52055,7 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2519
-# text = " Se upp för nedersta trappsteget, det knarrar ", viskade Harry tillbaka då tvillingarna försvann ut på den mörka trappavsatsen.
+# text = "Se upp för nedersta trappsteget, det knarrar", viskade Harry tillbaka då tvillingarna försvann ut på den mörka trappavsatsen.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Se	_	VERB	IMP-ACT	_	0	root	_	_
 3	upp	_	ADV	_	_	2	compound:prt	_	_
@@ -52378,7 +52378,7 @@
 16	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2534
-# text = " Petunia! " vrålade morbror Vernon.
+# text = "Petunia!" vrålade morbror Vernon.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Petunia	_	PROPN	SG-NOM	_	0	root	_	_
 3	!	_	PUNCT	ExclMark	_	2	punct	_	_
@@ -52492,7 +52492,7 @@
 22	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2540
-# text = " Släpp ut Hedwig ", sade han till Ron, " hon kan flyga bakom oss.
+# text = "Släpp ut Hedwig", sade han till Ron, "hon kan flyga bakom oss.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Släpp	_	VERB	IMP-ACT	_	0	root	_	_
 3	ut	_	ADV	_	_	2	compound:prt	_	_
@@ -52578,7 +52578,7 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2544
-# text = " Definitivt misstänkt ", instämde George.
+# text = "Definitivt misstänkt", instämde George.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Definitivt	_	ADV	_	_	3	advmod	_	_
 3	misstänkt	_	ADJ	POS-SG-IND	_	6	xcomp	_	_
@@ -52602,7 +52602,7 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2546
-# text = " Njaa ", sade Fred, " vi kan väl säga så här: husalfer har sin egen starka trolldomskraft, men de brukar inte kunna använda den utan lov från sin husbonde.
+# text = "Njaa", sade Fred, "vi kan väl säga så här: husalfer har sin egen starka trolldomskraft, men de brukar inte kunna använda den utan lov från sin husbonde.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Njaa	_	INTJ	_	_	12	discourse	_	_
 3	"	_	PUNCT	Quote	_	2	punct	_	_
@@ -52673,7 +52673,7 @@
 8	.	_	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 2549
-# text = " Draco Malfoy? " sade George och vände sig om.
+# text = "Draco Malfoy?" sade George och vände sig om.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Draco	_	PROPN	SG-NOM	_	0	root	_	_
 3	Malfoy	_	PROPN	SG-NOM	_	2	flat	_	_
@@ -52688,7 +52688,7 @@
 12	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2550
-# text = " Han var en ivrig anhängare till Ni-vet-vem. "
+# text = "Han var en ivrig anhängare till Ni-vet-vem."
 1	"	_	PUNCT	Quote	_	6	punct	_	_
 2	Han	_	PRON	PERS-P3SG-NOM	_	6	nsubj	_	_
 3	var	_	AUX	PAST-ACT	_	6	cop	_	_
@@ -52740,7 +52740,7 @@
 15	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2553
-# text = " Ja, mamma önskar jämt att vi hade en husalf som kunde ta hand om strykningen ", sade George.
+# text = "Ja, mamma önskar jämt att vi hade en husalf som kunde ta hand om strykningen", sade George.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Ja	_	INTJ	_	_	5	advmod	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -52855,7 +52855,7 @@
 14	?	_	PUNCT	QuestionMark	_	5	punct	_	_
 
 # sent_id = 2558
-# text = Jag trodde först det var Errols fel "
+# text = Jag trodde först det var Errols fel"
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	trodde	_	VERB	PAST-ACT	_	0	root	_	_
 3	först	_	ADV	_	_	2	advmod	_	_
@@ -52888,7 +52888,7 @@
 12	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2561
-# text = " Ugglan som mamma och pappa köpte till Percy när han blev vald till prefekt ", sade Fred från framsätet.
+# text = "Ugglan som mamma och pappa köpte till Percy när han blev vald till prefekt", sade Fred från framsätet.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Ugglan	_	NOUN	SG-DEF-NOM	_	0	root	_	_
 3	som	_	SCONJ	REL	_	7	mark	_	_
@@ -52932,7 +52932,7 @@
 16	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2563
-# text = Du kör alldeles för långt åt väster, Fred ", tillade han och pekade på en kompass på instrumentbrädan.
+# text = Du kör alldeles för långt åt väster, Fred", tillade han och pekade på en kompass på instrumentbrädan.
 1	Du	_	PRON	PERS-P2SG-NOM	_	2	nsubj	_	_
 2	kör	_	VERB	PRES-ACT	_	0	root	_	_
 3	alldeles	_	ADV	_	_	4	advmod	_	_
@@ -52964,7 +52964,7 @@
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2565
-# text = " Han arbetar på den tråkigaste avdelningen ", sade Ron.
+# text = "Han arbetar på den tråkigaste avdelningen", sade Ron.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Han	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 3	arbetar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -53022,7 +53022,7 @@
 19	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2568
-# text = " Vad hände? "
+# text = "Vad hände?"
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Vad	_	PRON	WH-SG	_	3	nsubj	_	_
 3	hände	_	VERB	PAST-ACT	_	0	root	_	_
@@ -53074,7 +53074,7 @@
 19	.	_	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 2572
-# text = Det gör mamma vansinnig. "
+# text = Det gör mamma vansinnig."
 1	Det	_	PRON	PERS-P3SG	_	2	nsubj	_	_
 2	gör	_	VERB	PRES-ACT	_	0	root	_	_
 3	mamma	_	NOUN	SG-IND-NOM	_	2	obj	_	_
@@ -53138,7 +53138,7 @@
 9	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2577
-# text = " Vi är nere! " sade Fred då de slog i marken med en lätt stöt.
+# text = "Vi är nere!" sade Fred då de slog i marken med en lätt stöt.
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Vi	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	_
 3	är	_	VERB	PRES-ACT	_	4	cop	_	_
@@ -53300,7 +53300,7 @@
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2584
-# text = Sen, Ron, kommer du skuttande nerför trappan och säger: Mamma, titta vem som dök upp mitt i natten!, och hon kommer att bli jätteglad över att få se Harry och ingen behöver nånsin få veta att vi flugit med bilen. "
+# text = Sen, Ron, kommer du skuttande nerför trappan och säger: Mamma, titta vem som dök upp mitt i natten!, och hon kommer att bli jätteglad över att få se Harry och ingen behöver nånsin få veta att vi flugit med bilen."
 1	Sen	_	ADV	_	_	5	advmod	_	_
 2	,	_	PUNCT	Comma	_	5	punct	_	_
 3	Ron	_	PROPN	SG-NOM	_	1	vocative	_	_
@@ -53465,7 +53465,7 @@
 16	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2590
-# text = " Jaså ", sade hon.
+# text = "Jaså", sade hon.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Jaså	_	INTJ	_	_	0	root	_	_
 3	"	_	PUNCT	Quote	_	2	punct	_	_
@@ -53506,7 +53506,7 @@
 3	!	_	PUNCT	ExclMark	_	2	punct	_	_
 
 # sent_id = 2593
-# text = Bilen borta kunde ha kraschat Alldeles ifrån mig av oro det brydde ni er väl inte om? Aldrig i hela mitt liv vänta ni bara tills pappa kommer hem Såna här bekymmer hade vi aldrig med Bill eller Charlie eller Percy "
+# text = Bilen borta kunde ha kraschat Alldeles ifrån mig av oro det brydde ni er väl inte om? Aldrig i hela mitt liv vänta ni bara tills pappa kommer hem Såna här bekymmer hade vi aldrig med Bill eller Charlie eller Percy"
 1	Bilen	_	NOUN	SG-DEF-NOM	_	6	nsubj	_	_
 2	borta	_	ADV	_	_	6	advmod	_	_
 3	kunde	_	AUX	PAST-AUX	_	5	aux	_	_
@@ -53587,7 +53587,7 @@
 20	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2596
-# text = " Kom in och ät lite frukost. "
+# text = "Kom in och ät lite frukost."
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Kom	_	VERB	IMP-ACT	_	0	root	_	_
 3	in	_	ADV	_	_	2	advmod	_	_
@@ -53762,7 +53762,7 @@
 30	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2604
-# text = " Arthur och jag har också varit oroliga för dig.
+# text = "Arthur och jag har också varit oroliga för dig.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Arthur	_	PROPN	SG-NOM	_	8	nsubj	_	_
 3	och	_	CCONJ	_	_	4	cc	_	_
@@ -53832,7 +53832,7 @@
 24	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2607
-# text = " Det gäller dig också! " sade mrs Weasley, men hon såg lite mildare ut då hon började skära upp bröd åt Harry och breda smör på det.
+# text = "Det gäller dig också!" sade mrs Weasley, men hon såg lite mildare ut då hon började skära upp bröd åt Harry och breda smör på det.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Det	_	PRON	PERS-P3SG	_	3	nsubj	_	_
 3	gäller	_	VERB	PRES-ACT	_	0	root	_	_
@@ -53918,7 +53918,7 @@
 18	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2610
-# text = " Jösses, vad jag är trött ", gäspade Fred och lade äntligen ifrån sig kniv och gaffel.
+# text = "Jösses, vad jag är trött", gäspade Fred och lade äntligen ifrån sig kniv och gaffel.
 1	"	_	PUNCT	Quote	_	7	punct	_	_
 2	Jösses	_	INTJ	_	_	7	discourse	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -53941,14 +53941,14 @@
 20	.	_	PUNCT	Period	_	10	punct	_	_
 
 # sent_id = 2611
-# text = " Men mamma "
+# text = "Men mamma"
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Men	_	CCONJ	_	_	3	cc	_	_
 3	mamma	_	NOUN	SG-IND-NOM	_	0	root	_	_
 4	"	_	PUNCT	Quote	_	3	punct	_	_
 
 # sent_id = 2612
-# text = " Det är väldigt snällt av dig, lille vän, men det är inget särskilt spännande arbete ", sade mrs Weasley.
+# text = "Det är väldigt snällt av dig, lille vän, men det är inget särskilt spännande arbete", sade mrs Weasley.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Det	_	PRON	PERS-P3SG	_	5	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	5	cop	_	_
@@ -54027,7 +54027,7 @@
 16	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2617
-# text = " Han klarar det säkert, Molly. Pjoska inte nu ", sade mr Weasley och försåg sig med lite flampulver han också.
+# text = "Han klarar det säkert, Molly. Pjoska inte nu", sade mr Weasley och försåg sig med lite flampulver han också.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Han	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 3	klarar	_	VERB	PRES-ACT	_	0	root	_	_
@@ -54055,7 +54055,7 @@
 25	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2618
-# text = " När du kliver in i elden, så säg vart du ska "
+# text = "När du kliver in i elden, så säg vart du ska"
 1	"	_	PUNCT	Quote	_	10	punct	_	_
 2	När	_	SCONJ	_	_	4	mark	_	_
 3	du	_	PRON	PERS-P2SG-NOM	_	4	nsubj	_	_
@@ -54072,7 +54072,7 @@
 14	"	_	PUNCT	Quote	_	10	punct	_	_
 
 # sent_id = 2619
-# text = " För då skulle du mycket väl kunna falla ner ur fel skorsten "
+# text = "För då skulle du mycket väl kunna falla ner ur fel skorsten"
 1	"	_	PUNCT	Quote	_	9	punct	_	_
 2	För	_	ADP	_	_	9	advmod	_	_
 3	då	_	ADV	_	_	9	advmod	_	_
@@ -54582,7 +54582,7 @@
 15	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2642
-# text = " Jag sa att jag skulle köpa dig en racerkvast ", sade hans far och trummade med fingrarna mot disken.
+# text = "Jag sa att jag skulle köpa dig en racerkvast", sade hans far och trummade med fingrarna mot disken.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	sa	_	VERB	PAST-ACT	_	0	root	_	_
@@ -54664,7 +54664,7 @@
 20	.	_	PUNCT	Period	_	16	punct	_	_
 
 # sent_id = 2646
-# text = " Mr Malfoy, så roligt att se er här igen ", sade mr Borgin med en röst som var lika oljig som hans hår.
+# text = "Mr Malfoy, så roligt att se er här igen", sade mr Borgin med en röst som var lika oljig som hans hår.
 1	"	_	PUNCT	Quote	_	6	punct	_	_
 2	Mr	_	NOUN	SG-IND-NOM	_	3	nmod	_	_
 3	Malfoy	_	PROPN	SG-NOM	_	14	vocative	_	_
@@ -54716,7 +54716,7 @@
 8	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2649
-# text = " Ni har förstås hört att Ministeriet tänker genomföra ännu fler razzior ", sade mr Malfoy och tog fram en pergamentrulle ur innerfickan. Han rullade ut den så att mr Borgin kunde läsa.
+# text = "Ni har förstås hört att Ministeriet tänker genomföra ännu fler razzior", sade mr Malfoy och tog fram en pergamentrulle ur innerfickan. Han rullade ut den så att mr Borgin kunde läsa.
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Ni	_	PRON	PERS-P2PL-NOM	_	5	nsubj	_	_
 3	har	_	AUX	PRES-AUX	_	5	aux	_	_
@@ -54815,7 +54815,7 @@
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2654
-# text = " och som ni förstår, kan vissa av de här giftblandningarna ge intryck av "
+# text = "och som ni förstår, kan vissa av de här giftblandningarna ge intryck av"
 1	"	_	PUNCT	Quote	_	13	punct	_	_
 2	och	_	CCONJ	_	_	5	cc	_	_
 3	som	_	SCONJ	_	_	5	mark	_	_
@@ -54834,7 +54834,7 @@
 16	"	_	PUNCT	Quote	_	13	punct	_	_
 
 # sent_id = 2655
-# text = " Om man sätter ett stearinljus i den, så lyser det bara för den som håller i handen.
+# text = "Om man sätter ett stearinljus i den, så lyser det bara för den som håller i handen.
 1	"	_	PUNCT	Quote	_	11	punct	_	_
 2	Om	_	SCONJ	_	_	4	mark	_	_
 3	man	_	PRON	PERS-P3-NOM	_	4	nsubj	_	_
@@ -54866,7 +54866,7 @@
 6	!	_	PUNCT	ExclMark	_	5	punct	_	_
 
 # sent_id = 2657
-# text = " Alla lärarna har gullegrisar, den där Hermione Granger "
+# text = "Alla lärarna har gullegrisar, den där Hermione Granger"
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Alla	_	DET	TOT-PL	_	3	det	_	_
 3	lärarna	_	NOUN	PL-DEF-NOM	_	4	nsubj	_	_
@@ -54880,7 +54880,7 @@
 11	"	_	PUNCT	Quote	_	4	punct	_	_
 
 # sent_id = 2658
-# text = " Inte för mig ", sade mr Malfoy med vibrerande näsborrar.
+# text = "Inte för mig", sade mr Malfoy med vibrerande näsborrar.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Inte	_	PART	NEG	_	7	advmod	_	_
 3	för	_	ADP	_	_	4	case	_	_
@@ -55023,7 +55023,7 @@
 13	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2666
-# text = " Kom nu, Draco! "
+# text = "Kom nu, Draco!"
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Kom	_	VERB	IMP-ACT	_	0	root	_	_
 3	nu	_	ADV	_	_	2	advmod	_	_
@@ -55399,7 +55399,7 @@
 4	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2683
-# text = " Jag ska bara "
+# text = "Jag ska bara"
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Jag	_	PRON	PERS-P1SG-NOM	_	3	nsubj	_	_
 3	ska	_	AUX	PRES-AUX	_	0	root	_	_
@@ -55490,7 +55490,7 @@
 9	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2689
-# text = " Som du ser ut! " sade Hagrid barskt och borstade av sot från Harry med en kraft som nästan fick honom att åka på huvudet ner i en tunna med drakgödsel utanför apoteket.
+# text = "Som du ser ut!" sade Hagrid barskt och borstade av sot från Harry med en kraft som nästan fick honom att åka på huvudet ner i en tunna med drakgödsel utanför apoteket.
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Som	_	SCONJ	_	_	4	mark	_	_
 3	du	_	PRON	PERS-P2SG-NOM	_	4	nsubj	_	_
@@ -55529,7 +55529,7 @@
 36	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2690
-# text = " Dom äter opp skolans kålhuven.
+# text = "Dom äter opp skolans kålhuven.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Dom	_	PRON	PERS-PL	_	3	nsubj	_	_
 3	äter	_	VERB	PRES-ACT	_	0	root	_	_
@@ -55563,7 +55563,7 @@
 11	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2693
-# text = " Förbaskade mugglare ", brummade Hagrid.
+# text = "Förbaskade mugglare", brummade Hagrid.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Förbaskade	_	ADJ	POS-PL-IND	_	3	amod	_	_
 3	mugglare	_	NOUN	PL-IND-NOM	_	6	nsubj	_	_
@@ -55638,7 +55638,7 @@
 11	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2698
-# text = Ska du in till Gringotts, Harry? "
+# text = Ska du in till Gringotts, Harry?"
 1	Ska	_	AUX	PRES-AUX	_	0	root	_	_
 2	du	_	PRON	PERS-P2SG-NOM	_	1	nsubj	_	_
 3	in	_	ADV	_	_	1	advmod	_	_
@@ -55690,7 +55690,7 @@
 7	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2701
-# text = " Molly är alldeles ifrån sig -- hon är på väg hit nu.
+# text = "Molly är alldeles ifrån sig -- hon är på väg hit nu.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	Molly	_	PROPN	SG-NOM	_	3	nsubj	_	_
 3	är	_	VERB	PRES-ACT	_	0	root	_	_
@@ -55707,7 +55707,7 @@
 14	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2702
-# text = " Fattas bara annat, ta mej tusan ", brummade Hagrid.
+# text = "Fattas bara annat, ta mej tusan", brummade Hagrid.
 1	"	_	PUNCT	Quote	_	2	punct	_	_
 2	Fattas	_	VERB	PRES-DPO	_	0	root	_	_
 3	bara	_	ADV	_	_	2	advmod	_	_
@@ -55833,7 +55833,7 @@
 21	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2707
-# text = " Kan ni gissa vem jag såg hos Borgin &amp; Burkes? " sade Harry till Ron och Hermione då de klev uppför trappan till Gringotts.
+# text = "Kan ni gissa vem jag såg hos Borgin & Burkes?" sade Harry till Ron och Hermione då de klev uppför trappan till Gringotts.
 1	"	_	PUNCT	Quote	_	4	punct	_	_
 2	Kan	_	AUX	PRES-AUX	_	4	aux	_	_
 3	ni	_	PRON	PERS-P2PL-NOM	_	4	nsubj	_	_
@@ -55863,7 +55863,7 @@
 27	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 2708
-# text = " Å, vad jag önskar att jag kunde sätta dit Lucius Malfoy för nånting "
+# text = "Å, vad jag önskar att jag kunde sätta dit Lucius Malfoy för nånting"
 1	"	_	PUNCT	Quote	_	6	punct	_	_
 2	Å	_	INTJ	_	_	6	discourse	_	_
 3	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -55905,7 +55905,7 @@
 10	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2711
-# text = Molly, titta! "
+# text = Molly, titta!"
 1	Molly	_	PROPN	SG-NOM	_	3	nsubj	_	_
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	titta	_	VERB	IMP-ACT	_	0	root	_	_
@@ -56221,7 +56221,7 @@
 44	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 2725
-# text = " En biografi över skolprefekter från Hogwarts och deras vidare karriärer ", läste Ron högt från bokens baksidestext.
+# text = "En biografi över skolprefekter från Hogwarts och deras vidare karriärer", läste Ron högt från bokens baksidestext.
 1	"	_	PUNCT	Quote	_	3	punct	_	_
 2	En	_	DET	SG-IND	_	3	det	_	_
 3	biografi	_	NOUN	SG-IND-NOM	_	0	root	_	_
@@ -56337,7 +56337,7 @@
 14	16.30	_	NUM	ID	_	12	nummod	_	_
 
 # sent_id = 2731
-# text = " Han har ju skrivit alla böckerna på vår boklista!
+# text = "Han har ju skrivit alla böckerna på vår boklista!
 1	"	_	PUNCT	Quote	_	5	punct	_	_
 2	Han	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
 3	har	_	AUX	PRES-AUX	_	5	aux	_	_
