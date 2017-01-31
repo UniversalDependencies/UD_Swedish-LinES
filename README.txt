@@ -47,7 +47,7 @@ BASIC STATISTICS
 Tree count:  4564
 Word count:  79812
 Token count: 79812
-Dep. relations: 38 of which 4 are language-specific
+Dep. relations: 40 of which 7 are language-specific
 POS tags: 17
 Category=value feature pairs: 0
 
