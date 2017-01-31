@@ -80,18 +80,19 @@ There is no feature annotation in this version.
 SYNTAX
 
 The syntactic annotation in the Swedish UD treebank follows the general
-guidelines but adds four language-specific relations, as in the first
-Swedish UD treebank, Talbanken (Nivre
+guidelines but adds some language-specific relations:
 
-- acl:relcl for relative clauses
-- compound:prt for verb particles
-- nmod:agent for agents of passive verbs
-- nmod:poss for possessive/genitive modifiers
+- nmod:poss
+- acl:relcl 
+- compound:prt
+- nsubj:pass
+- aux:pass
+- obl:agent 
+- csubj:pass
 
-The syntactic annotation has been automatically converted from the original
-LinES annotation scheme as described in Ahrenberg (2015).
-
-There may be occasional deviations from the general guidelines.
+The syntactic annotation was first automatically converted from the original
+LinES annotation scheme as described in Ahrenberg (2015). After conversion to UD version 2.0
+the analyses have been reviewed again. Occasional deviations from the guidelines may remain.
 
 
 REFERENCES
