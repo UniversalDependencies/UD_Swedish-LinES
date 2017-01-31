@@ -112,7 +112,12 @@ Dissertation No. 607.
 
 Changelog
 
-  *  Versions conforming to UD version 2.0 added January 29, 2017.
+  From version 1.3 to version 2.0 the following changes have been made:
+  - a new split of the treebank into train, dev and test data
+  - addition of sentence id:s and text comment for every tree
+  - more fixed phrases have been recognized as such 
+  - sentences of the form '"I'm hungry", said John', where the root previously was 'said' have been reanalyzed 
+    in accordance with the UD guidelines, 'said' then linking to 'hungry' as 'parataxis'
 
 
 --- Machine readable metadata ---
