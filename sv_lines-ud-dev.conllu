@@ -3141,7 +3141,7 @@
 24	hans	_	PRON	P3SG-GEN	_	25	nmod:poss	_	_
 25	romaner	_	NOUN	PL-IND-NOM	_	22	nmod	_	_
 26	om	_	ADP	_	_	27	case	_	_
-27	Ma	x_	PROPN	SG-NOM	_	25	nmod	_	_
+27	Max	_	PROPN	SG-NOM	_	25	nmod	_	_
 28	Work	_	PROPN	SG-NOM	_	27	flat	_	_
 29	.	_	PUNCT	Period	_	8	punct	_	_
 
@@ -7516,7 +7516,7 @@
 52	.	_	PUNCT	Period	_	40	punct	_	_
 
 # sent_id = 3120
-# text = Jag förklarar för damen att jag har skickat en kopia av ett lovtal till Hitler som Sadat skrev 1953 till Sydney Gruson på New york Times och dessutom till Katherine Graham på Washington Post.
+# text = Jag förklarar för damen att jag har skickat en kopia av ett lovtal till Hitler som Sadat skrev 1953 till Sydney Gruson på New York Times och dessutom till Katherine Graham på Washington Post.
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	förklarar	_	VERB	PRES-ACT	_	0	root	_	_
 3	för	_	ADP	_	_	4	case	_	_

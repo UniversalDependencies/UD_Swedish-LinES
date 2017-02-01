@@ -8529,7 +8529,7 @@
 4	fundera	_	VERB	INF-ACT	_	2	xcomp	_	_
 5	över	_	ADP	_	_	11	case	_	_
 6	vad	_	PRON	WH	_	11	obj	_	_
-7	Ma	x_	PROPN	SG-NOM	_	11	nsubj	_	_
+7	Max	_	PROPN	SG-NOM	_	11	nsubj	_	_
 8	Work	_	PROPN	SG-NOM	_	7	flat	_	_
 9	skulle	_	AUX	PAST-AUX	_	11	aux	_	_
 10	ha	_	AUX	INF-AUX	_	11	aux	_	_
