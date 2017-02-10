@@ -18792,7 +18792,7 @@
 20	bestod	_	VERB	PAST-ACT	_	9	conj	_	_
 21	trots	_	ADP	_	_	22	case	_	_
 22	allt	_	PRON	TOT-SG-NOM	_	20	obl	_	_
-23	vad	_	PRON	WH-SG	_	29	mark	_	_
+23	vad	_	PRON	WH-SG	_	29	obj	_	_
 24	deras	_	PRON	P3PL-GEN	_	25	nmod:poss	_	_
 25	makt	_	NOUN	SG-IND-NOM	_	29	nsubj	_	_
 26	och	_	CCONJ	_	_	27	cc	_	_
@@ -18888,8 +18888,8 @@
 # sent_id = 994
 # text = "Vad som krävdes var en elit som kunde understödja härskarna, vilka i sin tur understöddes och bars upp av ett folk som antogs förstå, gilla och legitimera en sådan elits syften.
 1	"	_	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
-2	Vad	_	PRON	WH-REL-SG	_	4	mark	_	_
-3	som	_	ADP	WH-REL-SG	_	2	fixed	_	_
+2	Vad	_	PRON	WH-REL-SG	_	4	nsubj:pass	_	_
+3	som	_	SCONJ	WH-REL-SG	_	4	mark	_	_
 4	krävdes	_	VERB	PAST-PASS	_	7	csubj	_	_
 5	var	_	AUX	PAST-ACT	_	7	cop	_	_
 6	en	_	DET	SG-IND	_	7	det	_	_
@@ -18899,7 +18899,7 @@
 10	understödja	_	VERB	INF-ACT	_	7	acl	_	_
 11	härskarna	_	NOUN	PL-DEF-NOM	_	10	obj	_	SpaceAfter=No
 12	,	_	PUNCT	Comma	_	17	punct	_	_
-13	vilka	_	PRON	WH-REL-PL	_	17	mark	_	_
+13	vilka	_	PRON	WH-REL-PL	_	17	nsubj:pass	_	_
 14	i	_	ADP	_	_	16	case	_	_
 15	sin	_	PRON	RFL-SG-GEN	_	16	nmod:poss	_	_
 16	tur	_	NOUN	SG-IND-NOM	_	17	obl	_	_
@@ -23798,7 +23798,7 @@
 14	och	_	CCONJ	_	_	15	cc	_	_
 15	fartyg	_	NOUN	IND-NOM	_	13	conj	_	_
 16	som	_	SCONJ	REL	_	19	mark	_	_
-17	det	_	PRON	PERS-P3SG	_	18	mark	_	_
+17	det	_	PRON	PERS-P3SG	_	19	nsubj	_	_
 18	har	_	AUX	PRES-ACT	_	19	aux	_	_
 19	burit	_	VERB	SUP-ACT	_	13	acl:relcl	_	_
 20	till	_	ADP	_	_	22	case	_	_
@@ -24454,7 +24454,7 @@
 
 # sent_id = 1244
 # text = Det var helt karakteristiskt för Marlow och mottogs med tystnad.
-1	Det	_	PRON	PERS-P3SG	_	4	mark	_	_
+1	Det	_	PRON	PERS-P3SG	_	4	nsubj	_	_
 2	var	_	AUX	PAST-ACT	_	4	cop	_	_
 3	helt	_	ADV	_	_	4	advmod	_	_
 4	karakteristiskt	_	ADJ	POS-SG-IND	_	0	root	_	_
@@ -25437,10 +25437,10 @@
 5	tålig	_	ADJ	POS-SG-IND	_	6	amod	_	_
 6	väntan	_	NOUN	SG-IND-NOM	_	2	obl	_	_
 7	–	_	PUNCT	Dash	_	9	punct	_	_
-8	det	_	PRON	PERS-P3SG	_	9	mark	_	_
+8	det	_	PRON	PERS-P3SG	_	9	expl	_	_
 9	fanns	_	VERB	PAST-DPO	_	2	appos	_	_
-10	ingenting	_	PRON	NEG-SG	_	11	advmod	_	_
-11	annat	_	ADJ	POS-SG-IND	_	9	nsubj	_	_
+10	ingenting	_	PRON	NEG-SG	_	9	nsubj	_	_
+11	annat	_	ADJ	POS-SG-IND	_	10	amod	_	_
 12	att	_	PART	_	_	13	mark	_	_
 13	göra	_	VERB	INF-ACT	_	11	acl	_	_
 14	tills	_	SCONJ	_	_	16	mark	_	_
@@ -25742,7 +25742,7 @@
 
 # sent_id = 1291
 # text = Det var mycket trevligt till en tid, men så tröttnade jag på att vila mig.
-1	Det	_	PRON	PERS-P3SG	_	4	mark	_	_
+1	Det	_	PRON	PERS-P3SG	_	4	nsubj	_	_
 2	var	_	AUX	PAST-ACT	_	4	cop	_	_
 3	mycket	_	ADV	_	_	4	advmod	_	_
 4	trevligt	_	ADJ	POS-SG-IND	_	0	root	_	_
@@ -26837,12 +26837,12 @@
 6	bränningarna	_	NOUN	PL-DEF-NOM	_	4	obl	_	SpaceAfter=No
 7	,	_	PUNCT	Comma	_	4	punct	_	_
 8	men	_	CCONJ	_	_	10	cc	_	_
-9	det	_	PRON	PERS-P3SG	_	10	mark	_	_
+9	det	_	PRON	PERS-P3SG	_	10	expl	_	_
 10	verkade	_	VERB	PAST-ACT	_	4	conj	_	_
 11	som	_	SCONJ	_	_	14	mark	_	_
 12	om	_	SCONJ	_	_	11	fixed	_	_
 13	ingen	_	PRON	NEG-SG	_	14	nsubj	_	_
-14	brydde	_	VERB	PAST-ACT	_	10	ccomp	_	_
+14	brydde	_	VERB	PAST-ACT	_	10	csubj	_	_
 15	sig	_	PRON	RFL-ACC	_	14	obj	_	_
 16	om	_	ADP	_	_	19	case	_	_
 17	ifall	_	SCONJ	_	_	19	mark	_	_
@@ -28079,7 +28079,7 @@
 
 # sent_id = 1395
 # text = Den böjde av kring klippblock och likaledes kring en liten smalspårig godsfinka som låg där kullvräkt med hjulen i vädret.
-1	Den	_	PRON	PERS-P3SG	_	2	mark	_	_
+1	Den	_	PRON	PERS-P3SG	_	2	nsubj	_	_
 2	böjde	_	VERB	PAST-ACT	_	0	root	_	_
 3	av	_	ADV	_	_	2	compound:prt	_	_
 4	kring	_	ADP	_	_	5	case	_	_
@@ -30548,7 +30548,7 @@
 
 # sent_id = 1515
 # text = Det kändes som om detta var min enda möjlighet att hålla kontakten med livets försonande realiteter.
-1	Det	_	PRON	PERS-P3SG	_	2	mark	_	_
+1	Det	_	PRON	PERS-P3SG	_	2	nsubj	_	_
 2	kändes	_	VERB	PAST-DPO	_	0	root	_	_
 3	som	_	SCONJ	_	_	6	mark	_	_
 4	om	_	SCONJ	_	_	3	fixed	_	_
@@ -37025,7 +37025,7 @@
 
 # sent_id = 1874
 # text = Vad man ville åstadkomma var alltså att avhjälpa nämnda brister, vilket jag tror att vi är på väg att lyckas med.
-1	Vad	_	PRON	WH-REL	_	4	mark	_	_
+1	Vad	_	PRON	WH-REL	_	4	obj	_	_
 2	man	_	PRON	PERS-P3-NOM	_	4	nsubj	_	_
 3	ville	_	AUX	PAST-AUX	_	4	aux	_	_
 4	åstadkomma	_	VERB	INF-ACT	_	0	root	_	_
@@ -41994,7 +41994,7 @@
 10	sex	_	NUM	CARD-PL	_	11	nummod	_	_
 11	år	_	NOUN	IND-NOM	_	6	obl	_	_
 12	sen	_	ADP	_	_	11	case	_	_
-13	dom	_	PRON	PERS-PL	_	14	mark	_	_
+13	dom	_	PRON	PERS-PL	_	14	nsubj	_	_
 14	gav	_	VERB	PAST-ACT	_	6	dislocated	_	_
 15	sig	_	PRON	RFL-ACC	_	14	obj	_	_
 16	iväg	_	ADV	_	_	14	advmod	_	SpaceAfter=No
@@ -45080,7 +45080,7 @@
 
 # sent_id = 2201
 # text = man utgick tydligen ifrån att han skulle snappa upp familjeförhållandena och andra personliga samband rätt och slätt genom att utsättas för dem.
-1	man	_	PRON	PERS-P3-NOM	_	2	mark	_	_
+1	man	_	PRON	PERS-P3-NOM	_	2	nsubj	_	_
 2	utgick	_	VERB	PAST-ACT	_	0	root	_	_
 3	tydligen	_	ADV	_	_	2	advmod	_	_
 4	ifrån	_	ADP	_	_	2	compound:prt	_	_
@@ -48272,7 +48272,7 @@
 2	var	_	AUX	PAST-ACT	_	3	cop	_	_
 3	antropolog	_	NOUN	SG-IND-NOM	_	0	root	_	SpaceAfter=No
 4	,	_	PUNCT	Comma	_	2	punct	_	_
-5	vilket	_	PRON	WH-REL-SG	_	7	mark	_	_
+5	vilket	_	PRON	WH-REL-SG	_	7	obj	_	_
 6	Bray	_	PROPN	SG-NOM	_	7	nsubj	_	_
 7	tog	_	VERB	PAST-ACT	_	3	ccomp	_	_
 8	som	_	ADP	_	_	10	case	_	_
@@ -48681,14 +48681,14 @@
 10	titeln	_	NOUN	SG-DEF-NOM	_	11	nmod	_	_
 11	bwana	_	NOUN	SG-IND-NOM	_	7	obj	_	SpaceAfter=No
 12	,	_	PUNCT	Comma	_	7	punct	_	_
-13	vilket	_	PRON	WH-REL-SG	_	19	mark	_	_
+13	vilket	_	PRON	WH-REL-SG	_	19	obj	_	_
 14	en	_	DET	SG-IND	_	16	det	_	_
 15	vit	_	ADJ	POS-SG-IND	_	16	amod	_	_
 16	man	_	NOUN	SG-IND-NOM	_	19	nsubj	_	_
 17	rimligen	_	ADV	_	_	19	advmod	_	_
 18	borde	_	AUX	PAST-AUX	_	19	aux	_	_
 19	vänta	_	VERB	INF-ACT	_	11	acl:relcl	_	_
-20	sig	_	PRON	RFL-ACC	_	19	obj	_	_
+20	sig	_	PRON	RFL-ACC	_	19	iobj	_	_
 21	om	_	SCONJ	_	_	24	mark	_	_
 22	han	_	PRON	PERS-P3SG-NOM	_	24	nsubj	_	_
 23	skulle	_	AUX	PAST-AUX	_	24	aux	_	_
@@ -49763,7 +49763,7 @@
 41	för	_	CCONJ	_	_	47	mark	_	_
 42	det	_	PRON	PERS-P3SG	_	47	nsubj	_	_
 43	var	_	AUX	PAST-ACT	_	47	cop	_	_
-44	vad	_	PRON	WH-SG	_	47	mark	_	_
+44	vad	_	PRON	WH-SG	_	47	obj	_	_
 45	Dursleys	_	PROPN	PL-NOM	_	47	nsubj	_	_
 46	hade	_	AUX	PAST-AUX	_	47	aux	_	_
 47	sagt	_	VERB	SUP-ACT	_	28	advcl	_	_
@@ -53928,7 +53928,7 @@
 1	"	_	PUNCT	Quote	_	7	punct	_	SpaceAfter=No
 2	Jösses	_	INTJ	_	_	7	discourse	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
-4	vad	_	PRON	WH-SG	_	7	mark	_	_
+4	vad	_	SCONJ	WH-SG	_	7	mark	_	_
 5	jag	_	PRON	PERS-P1SG-NOM	_	7	nsubj	_	_
 6	är	_	AUX	PRES-ACT	_	7	cop	_	_
 7	trött	_	ADJ	POS-SG-IND	_	0	root	_	SpaceAfter=No
@@ -54951,7 +54951,7 @@
 18	att	_	PART	_	_	20	mark	_	_
 19	hånflinande	_	VERB	NDE	_	20	advcl	_	_
 20	läsa	_	VERB	INF-ACT	_	6	conj	_	_
-21	vad	_	PRON	WH-SG	_	23	mark	_	_
+21	vad	_	PRON	WH-SG	_	23	obj	_	_
 22	det	_	PRON	PERS-P3SG	_	23	nsubj	_	_
 23	stod	_	VERB	PAST-ACT	_	20	ccomp	_	_
 24	på	_	ADP	_	_	26	case	_	_
@@ -55873,7 +55873,7 @@
 1	"	_	PUNCT	Quote	_	6	punct	_	SpaceAfter=No
 2	Å	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
-4	vad	_	PRON	WH-SG	_	6	mark	_	_
+4	vad	_	SCONJ	WH-SG	_	6	mark	_	_
 5	jag	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	_
 6	önskar	_	VERB	PRES-ACT	_	0	root	_	_
 7	att	_	SCONJ	_	_	10	mark	_	_

@@ -5601,7 +5601,7 @@
 9	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3018
-# text = Den innehåller huvudet av Sankt Jakob, Johannes broder, och en-mängd reliker.
+# text = Den innehåller huvudet av Sankt Jakob, Johannes broder, och en mängd reliker.
 1	Den	_	PRON	PERS-P3SG	_	2	nsubj	_	_
 2	innehåller	_	VERB	PRES-ACT	_	0	root	_	_
 3	huvudet	_	NOUN	SG-DEF-NOM	_	2	obj	_	_
@@ -7701,7 +7701,7 @@
 16	.	_	PUNCT	Period	_	13	punct	_	_
 
 # sent_id = 3129
-# text = Han citerar ur Dostojevskijs "Döda huset" ett samtal mellan författaren och en brutal mördare, en av de-där brottslingarna som fascinerade honom.
+# text = Han citerar ur Dostojevskijs "Döda huset" ett samtal mellan författaren och en brutal mördare, en av de där brottslingarna som fascinerade honom.
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	citerar	_	VERB	PRES-ACT	_	0	root	_	_
 3	ur	_	ADP	_	_	7	case	_	_
@@ -8824,7 +8824,7 @@
 5	tappa	_	VERB	INF-ACT	_	1	xcomp	_	_
 6	humöret	_	NOUN	SG-DEF-NOM	_	5	obj	_	SpaceAfter=No
 7	,	_	PUNCT	Comma	_	10	punct	_	_
-8	det	_	PRON	PERS-P3SG	_	10	mark	_	_
+8	det	_	PRON	PERS-P3SG	_	10	nsubj	_	_
 9	är	_	AUX	PRES-ACT	_	10	cop	_	_
 10	farligare	_	ADJ	CMP	_	1	advmod	_	_
 11	än	_	ADP	CMP	_	13	case	_	_
@@ -13849,7 +13849,7 @@
 
 # sent_id = 3413
 # text = Ingen bryr sig ett förbannat dugg om var han håller hus.
-1	Ingen	_	PRON	NEG-SG	_	2	mark	_	_
+1	Ingen	_	PRON	NEG-SG	_	2	nsubj	_	_
 2	bryr	_	VERB	PRES-ACT	_	0	root	_	_
 3	sig	_	PRON	RFL-ACC	_	2	obj	_	_
 4	ett	_	DET	SG-IND	_	6	det	_	_
@@ -14751,7 +14751,7 @@
 14	från	_	ADP	_	_	15	case	_	_
 15	stolen	_	NOUN	SG-DEF-NOM	_	12	obl	_	SpaceAfter=No
 16	,	_	PUNCT	Comma	_	2	punct	_	_
-17	man	_	PRON	PERS-P3-NOM	_	18	mark	_	_
+17	man	_	PRON	PERS-P3-NOM	_	18	nsubj	_	_
 18	nöjer	_	VERB	PRES-ACT	_	2	conj	_	_
 19	sig	_	PRON	RFL-ACC	_	18	obj	_	_
 20	helt	_	ADV	_	_	18	advmod	_	_
@@ -16067,10 +16067,10 @@
 32	så	_	CCONJ	_	_	37	cc	_	_
 33	åtminstone	_	ADV	_	_	37	advmod	_	_
 34	ungefär	_	ADV	_	_	37	advmod	_	_
-35	vad	_	PRON	WH	_	37	iobj	_	_
-36	man	_	PRON	PERS-P3-NOM	_	37	mark	_	_
+35	vad	_	PRON	WH	_	37	obj	_	_
+36	man	_	PRON	PERS-P3-NOM	_	37	nsubj	_	_
 37	väntade	_	VERB	PAST-ACT	_	27	ccomp	_	_
-38	sig	_	PRON	RFL-ACC	_	37	obj	_	SpaceAfter=No
+38	sig	_	PRON	RFL-ACC	_	37	iobj	_	SpaceAfter=No
 39	.	_	PUNCT	Period	_	7	punct	_	_
 
 # sent_id = 3514
