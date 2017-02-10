@@ -182,7 +182,7 @@
 15	som	_	SCONJ	REL	_	16	mark	_	_
 16	använder	_	VERB	PRES-ACT	_	14	acl:relcl	_	_
 17	ANSI-92	_	PROPN	SG-NOM	_	18	nmod	_	_
-18	SQL-synta	x_	NOUN	SG-IND-NOM	_	16	obj	_	SpaceAfter=No
+18	SQL-syntax	_	NOUN	SG-IND-NOM	_	16	obj	_	SpaceAfter=No
 19	.	_	PUNCT	Period	_	13	punct	_	_
 
 # sent_id = 12
@@ -423,7 +423,7 @@
 1	ANSI-89	_	PROPN	SG-NOM	_	5	nsubj	_	_
 2	är	_	AUX	PRES-ACT	_	5	cop	_	_
 3	den	_	DET	SG-DEF	_	5	det	_	_
-4	enda	_	ADJ	POS-DEF	_	5	det	_	_
+4	enda	_	ADJ	POS-DEF	_	5	amod	_	_
 5	frågelägesinställning	_	NOUN	SG-IND-NOM	_	0	root	_	_
 6	som	_	SCONJ	REL	_	8	mark	_	_
 7	är	_	AUX	PRES-ACT	_	8	cop	_	_
@@ -1125,7 +1125,7 @@
 6	analysera	_	VERB	INF-ACT	_	0	root	_	_
 7	data	_	NOUN	PL-IND-NOM	_	6	obj	_	_
 8	med	_	ADP	_	_	11	case	_	_
-9	flera	_	ADJ	POS-PL-IND	_	11	det	_	_
+9	flera	_	ADJ	POS-PL-IND	_	11	amod	_	_
 10	olika	_	ADJ	POS-PL-IND	_	11	amod	_	_
 11	metoder	_	NOUN	PL-IND-NOM	_	6	obl	_	SpaceAfter=No
 12	.	_	PUNCT	Period	_	6	punct	_	_
@@ -1705,7 +1705,7 @@
 8	en	_	DET	SG-IND	_	9	det	_	_
 9	vy	_	NOUN	SG-IND-NOM	_	10	nsubj	_	_
 10	innehåller	_	VERB	PRES-ACT	_	4	advcl	_	_
-11	flera	_	ADJ	POS-PL-IND	_	12	det	_	_
+11	flera	_	ADJ	POS-PL-IND	_	12	amod	_	_
 12	rader	_	NOUN	PL-IND-NOM	_	10	obj	_	_
 13	och	_	CCONJ	_	_	14	cc	_	_
 14	kolumner	_	NOUN	PL-IND-NOM	_	12	conj	_	_
@@ -2098,7 +2098,7 @@
 # sent_id = 126
 # text = På så sätt kan presentationsinformationen i ett XML-dokument transformeras från ett källformat till ett målformat och tillbaka igen.
 1	På	_	ADP	_	_	3	case	_	_
-2	så	_	ADJ	POS-SG-IND	_	3	det	_	_
+2	så	_	ADJ	POS-SG-IND	_	3	amod	_	_
 3	sätt	_	NOUN	IND-NOM	_	9	obl	_	_
 4	kan	_	AUX	PRES-AUX	_	9	aux	_	_
 5	presentationsinformationen	_	NOUN	SG-DEF-NOM	_	9	nsubj:pass	_	_
@@ -2176,7 +2176,7 @@
 10	som	_	SCONJ	REL	_	11	mark	_	_
 11	finns	_	VERB	PRES-DPO	_	8	acl:relcl	_	_
 12	i	_	ADP	_	_	14	case	_	_
-13	andra	_	ADJ	CMP-PL-IND	_	14	det	_	_
+13	andra	_	ADJ	CMP-PL-IND	_	14	amod	_	_
 14	programmeringsspråk	_	NOUN	IND-NOM	_	11	obl	_	SpaceAfter=No
 15	,	_	PUNCT	Comma	_	17	punct	_	_
 16	vilket	_	PRON	WH-REL-SG	_	17	nsubj	_	_
@@ -2197,7 +2197,7 @@
 # sent_id = 129
 # text = På så sätt kan utvecklaren styra resultatet av XML-informationen i hög grad.
 1	På	_	ADP	_	_	3	case	_	_
-2	så	_	ADJ	POS-SG-IND	_	3	det	_	_
+2	så	_	ADJ	POS-SG-IND	_	3	amod	_	_
 3	sätt	_	NOUN	IND-NOM	_	6	obl	_	_
 4	kan	_	AUX	PRES-AUX	_	6	aux	_	_
 5	utvecklaren	_	NOUN	SG-DEF-NOM	_	6	nsubj	_	_
@@ -2411,7 +2411,7 @@
 7	ett	_	DET	SG-IND	_	8	det	_	_
 8	XML-dokument	_	NOUN	IND-NOM	_	5	nmod	_	_
 9	på	_	ADP	_	_	11	case	_	_
-10	flera	_	ADJ	POS-PL-IND	_	11	det	_	_
+10	flera	_	ADJ	POS-PL-IND	_	11	amod	_	_
 11	sätt	_	NOUN	IND-NOM	_	3	obl	_	SpaceAfter=No
 12	:	_	PUNCT	Colon	_	3	punct	_	_
 
@@ -2974,7 +2974,7 @@
 6	vara	_	AUX	INF-AUX	_	7	aux:pass	_	_
 7	inkapslade	_	VERB	AD-PL-IND	_	0	root	_	_
 8	i	_	ADP	_	_	10	case	_	_
-9	andra	_	ADJ	CMP-PL-IND	_	10	det	_	_
+9	andra	_	ADJ	CMP-PL-IND	_	10	amod	_	_
 10	element	_	NOUN	IND-NOM	_	7	obl	_	_
 11	på	_	ADP	_	_	13	case	_	_
 12	rätt	_	ADJ	POS-SG-IND	_	13	amod	_	_
@@ -2992,7 +2992,7 @@
 7	tolkas	_	VERB	PRES-PASS	_	3	conj	_	_
 8	inte	_	PART	NEG	_	7	advmod	_	_
 9	som	_	ADP	_	_	11	case	_	_
-10	själva	_	ADJ	POS-DEF	_	11	det	_	_
+10	själva	_	ADJ	POS-DEF	_	11	amod	_	_
 11	tecknen	_	NOUN	PL-DEF-NOM	_	7	obl	_	_
 12	om	_	SCONJ	_	_	14	mark	_	_
 13	de	_	PRON	PERS-P3PL-NOM	_	14	nsubj:pass	_	_
@@ -3272,7 +3272,7 @@
 7	till	_	ADP	_	_	8	case	_	_
 8	Excel	_	PROPN	SG-NOM	_	6	nmod	_	_
 9	och	_	CCONJ	_	_	11	cc	_	_
-10	andra	_	ADJ	CMP-PL-IND	_	11	det	_	_
+10	andra	_	ADJ	CMP-PL-IND	_	11	amod	_	_
 11	program	_	NOUN	IND-NOM	_	8	conj	_	_
 
 # sent_id = 190
@@ -3470,7 +3470,7 @@
 26	ibland	_	ADV	_	_	27	advmod	_	_
 27	implementerade	_	VERB	AD-PL-IND	_	9	conj	_	_
 28	på	_	ADP	_	_	30	case	_	_
-29	andra	_	ADJ	CMP-PL-IND	_	30	det	_	_
+29	andra	_	ADJ	CMP-PL-IND	_	30	amod	_	_
 30	sätt	_	NOUN	IND-NOM	_	25	obl	_	SpaceAfter=No
 31	.	_	PUNCT	Period	_	25	punct	_	_
 
@@ -3497,7 +3497,7 @@
 1	Kopiera	_	VERB	IMP-ACT	_	0	root	_	_
 2	data	_	NOUN	PL-IND-NOM	_	1	obj	_	_
 3	till	_	ADP	_	_	5	case	_	_
-4	andra	_	ADJ	CMP-PL-IND	_	5	det	_	_
+4	andra	_	ADJ	CMP-PL-IND	_	5	amod	_	_
 5	program	_	NOUN	IND-NOM	_	1	obl	_	_
 6	för	_	ADP	_	_	7	case	_	_
 7	användning	_	NOUN	SG-IND-NOM	_	5	nmod	_	_
@@ -3508,7 +3508,7 @@
 # text = Kopiera till andra program
 1	Kopiera	_	VERB	IMP-ACT	_	0	root	_	_
 2	till	_	ADP	_	_	4	case	_	_
-3	andra	_	ADJ	CMP-PL-IND	_	4	det	_	_
+3	andra	_	ADJ	CMP-PL-IND	_	4	amod	_	_
 4	program	_	NOUN	IND-NOM	_	1	obl	_	_
 
 # sent_id = 203
@@ -3523,7 +3523,7 @@
 8	en	_	DET	SG-IND	_	9	det	_	_
 9	pivottabellvy	_	NOUN	SG-IND-NOM	_	6	obl	_	_
 10	till	_	ADP	_	_	12	case	_	_
-11	andra	_	ADJ	CMP-PL-IND	_	12	det	_	_
+11	andra	_	ADJ	CMP-PL-IND	_	12	amod	_	_
 12	program	_	NOUN	IND-NOM	_	9	nmod	_	SpaceAfter=No
 13	,	_	PUNCT	Comma	_	3	punct	_	_
 14	exempelvis	_	ADV	_	_	15	advmod	_	_
@@ -3538,7 +3538,7 @@
 3	kopierar	_	VERB	PRES-ACT	_	21	advcl	_	_
 4	data	_	NOUN	PL-IND-NOM	_	3	obj	_	_
 5	till	_	ADP	_	_	7	case	_	_
-6	andra	_	ADJ	CMP-PL-IND	_	7	det	_	_
+6	andra	_	ADJ	CMP-PL-IND	_	7	amod	_	_
 7	program	_	NOUN	IND-NOM	_	3	obl	_	_
 8	än	_	ADP	CMP	_	9	case	_	_
 9	Excel	_	PROPN	SG-NOM	_	6	nmod	_	_
@@ -3641,7 +3641,7 @@
 19	och	_	CCONJ	_	_	20	cc	_	_
 20	döljer	_	VERB	PRES-ACT	_	17	conj	_	_
 21	alla	_	DET	TOT-PL	_	23	det	_	_
-22	andra	_	ADJ	CMP-PL-IND	_	23	det	_	_
+22	andra	_	ADJ	CMP-PL-IND	_	23	amod	_	_
 23	element	_	NOUN	IND-NOM	_	20	obj	_	SpaceAfter=No
 24	.	_	PUNCT	Period	_	6	punct	_	_
 
@@ -4951,7 +4951,7 @@
 14	i	_	ADP	_	_	15	case	_	_
 15	webbläsaren	_	NOUN	SG-DEF-NOM	_	8	appos	_	_
 16	eller	_	CCONJ	_	_	18	cc	_	_
-17	andra	_	ADJ	CMP-PL-IND	_	18	det	_	_
+17	andra	_	ADJ	CMP-PL-IND	_	18	amod	_	_
 18	program	_	NOUN	IND-NOM	_	15	conj	_	SpaceAfter=No
 19	)	_	PUNCT	RightParenthesis	_	15	punct	_	SpaceAfter=No
 20	.	_	PUNCT	Period	_	4	punct	_	_
@@ -5650,11 +5650,11 @@
 16	innehålla	_	VERB	INF-ACT	_	7	conj	_	_
 17	referenser	_	NOUN	PL-IND-NOM	_	16	obj	_	_
 18	till	_	ADP	_	_	20	case	_	_
-19	andra	_	ADJ	CMP-PL-IND	_	20	det	_	_
+19	andra	_	ADJ	CMP-PL-IND	_	20	amod	_	_
 20	filer	_	NOUN	PL-IND-NOM	_	17	nmod	_	SpaceAfter=No
 21	,	_	PUNCT	Comma	_	7	punct	_	_
 22	t.ex	_	ADV	_	_	24	advmod	_	_
-23	andra	_	ADJ	CMP-PL-IND	_	24	det	_	_
+23	andra	_	ADJ	CMP-PL-IND	_	24	amod	_	_
 24	Access-filer	_	NOUN	PL-IND-NOM	_	20	nmod	_	SpaceAfter=No
 25	.	_	PUNCT	Period	_	7	punct	_	_
 
@@ -6192,7 +6192,7 @@
 
 # sent_id = 341
 # text = Sådana kontroller kommer att vara obundna på sidan.
-1	Sådana	_	ADJ	POS-PL-IND	_	2	det	_	_
+1	Sådana	_	ADJ	POS-PL-IND	_	2	amod	_	_
 2	kontroller	_	NOUN	PL-IND-NOM	_	6	nsubj	_	_
 3	kommer	_	AUX	PRES-AUX	_	6	aux	_	_
 4	att	_	PART	_	_	6	mark	_	_
@@ -6446,6 +6446,7 @@
 
 # sent_id = 357
 # text = Om sortering av data i pivottabell- och pivotdiagramvy
+# newdoc
 1	Om	_	ADP	_	_	2	case	_	_
 2	sortering	_	NOUN	SG-IND-NOM	_	0	root	_	_
 3	av	_	ADP	_	_	4	case	_	_
@@ -6455,7 +6456,6 @@
 7	och	_	CCONJ	_	_	8	cc	_	_
 8	pivotdiagramvy	_	NOUN	SG-IND-NOM	_	6	conj	_	_
 
-# newdoc
 # sent_id = 358
 # text = Det var en felringning som var början till alltihop, telefonen som ringde tre gånger mitt i natten och så rösten i andra änden som frågade efter någon som inte var han.
 1	Det	_	PRON	EX-P3SG	_	4	expl	_	_
@@ -6499,7 +6499,7 @@
 3	,	_	PUNCT	Comma	_	7	punct	_	_
 4	när	_	SCONJ	_	_	7	mark	_	_
 5	han	_	PRON	PERS-P3SG-NOM	_	7	nsubj	_	_
-6	var	_	VERB	PAST-ACT	_	7	cop	_	_
+6	var	_	AUX	PAST-ACT	_	7	cop	_	_
 7	i	_	ADV	_	_	2	advcl	_	_
 8	stånd	_	NOUN	IND-NOM	_	7	fixed	_	_
 9	att	_	PART	_	_	10	mark	_	_
@@ -7001,7 +7001,7 @@
 15	med	_	ADP	_	_	16	case	_	_
 16	vilken	_	PRON	WH-SG	_	20	obl	_	_
 17	den	_	PRON	PERS-P3SG	_	20	nsubj:pass	_	_
-18	hela	_	ADJ	POS-DEF	_	19	det	_	_
+18	hela	_	ADJ	POS-DEF	_	19	amod	_	_
 19	tiden	_	NOUN	SG-DEF-NOM	_	20	obl	_	_
 20	förändrades	_	VERB	PAST-PASS	_	14	acl:relcl	_	_
 21	gjorde	_	VERB	PAST-ACT	_	2	conj	_	_
@@ -7034,7 +7034,7 @@
 10	att	_	PART	_	_	11	mark	_	_
 11	sätta	_	VERB	INF-ACT	_	9	acl	_	_
 12	den	_	DET	SG-DEF	_	14	det	_	_
-13	ena	_	ADJ	POS-SG-DEF	_	14	det	_	_
+13	ena	_	ADJ	POS-SG-DEF	_	14	amod	_	_
 14	foten	_	NOUN	SG-DEF-NOM	_	11	obj	_	_
 15	framför	_	ADP	_	_	17	case	_	_
 16	den	_	DET	SG-DEF	_	17	det	_	_
@@ -7144,7 +7144,7 @@
 3	hade	_	AUX	PAST-AUX	_	5	aux	_	_
 4	han	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
 5	fått	_	VERB	SUP-ACT	_	0	root	_	_
-6	flera	_	ADJ	POS-PL-IND	_	7	det	_	_
+6	flera	_	ADJ	POS-PL-IND	_	7	amod	_	_
 7	diktsamlingar	_	NOUN	PL-IND-NOM	_	5	obj	_	_
 8	utgivna	_	VERB	AD-PL-IND	_	5	ccomp	_	SpaceAfter=No
 9	,	_	PUNCT	Comma	_	5	punct	_	_
@@ -7237,8 +7237,8 @@
 19	att	_	PART	_	_	20	mark	_	_
 20	existera	_	VERB	INF-ACT	_	18	xcomp	_	_
 21	på	_	ADP	_	_	24	case	_	_
-22	flera	_	ADJ	POS-PL-IND	_	24	det	_	_
-23	andra	_	ADJ	CMP-PL-IND	_	24	det	_	_
+22	flera	_	ADJ	POS-PL-IND	_	24	amod	_	_
+23	andra	_	ADJ	CMP-PL-IND	_	24	amod	_	_
 24	sätt	_	NOUN	IND-NOM	_	20	obl	_	_
 25	så	_	ADV	_	_	26	advmod	_	_
 26	existerade	_	VERB	PAST-ACT	_	6	conj	_	_
@@ -7265,7 +7265,7 @@
 8	hade	_	AUX	PAST-AUX	_	9	aux	_	_
 9	gjort	_	VERB	SUP-ACT	_	5	acl	_	_
 10	på	_	ADP	_	_	12	case	_	_
-11	flera	_	ADJ	POS-PL-IND	_	12	det	_	_
+11	flera	_	ADJ	POS-PL-IND	_	12	amod	_	_
 12	veckor	_	NOUN	PL-IND-NOM	_	9	obl	_	SpaceAfter=No
 13	.	_	PUNCT	Period	_	3	punct	_	_
 
@@ -7620,7 +7620,7 @@
 # sent_id = 406
 # text = På ena sidan om sig hade han parken, grön i morgonsolen och med skarpa, snabbt förbiilande skuggor; på den andra sidan hade han Fricks konstmuseum, en vit, stram byggnad som tycktes överlämnad åt de döda.
 1	På	_	ADP	_	_	3	case	_	_
-2	ena	_	ADJ	POS-SG-DEF	_	3	det	_	_
+2	ena	_	ADJ	POS-SG-DEF	_	3	amod	_	_
 3	sidan	_	NOUN	SG-DEF-NOM	_	6	obl	_	_
 4	om	_	ADP	_	_	5	case	_	_
 5	sig	_	PRON	RFL-ACC	_	3	nmod	_	_
@@ -9025,7 +9025,7 @@
 9	ord	_	NOUN	IND-NOM	_	7	obj	_	_
 10	till	_	ADP	_	_	13	case	_	_
 11	en	_	DET	SG-IND	_	13	det	_	_
-12	sådan	_	ADJ	POS-SG-IND	_	13	det	_	_
+12	sådan	_	ADJ	POS-SG-IND	_	13	amod	_	_
 13	uppenbarelse	_	NOUN	SG-IND-NOM	_	7	obl	_	SpaceAfter=No
 14	.	_	PUNCT	Period	_	4	punct	_	_
 
@@ -9681,7 +9681,7 @@
 12	hylla	_	NOUN	SG-IND-NOM	_	13	nmod	_	_
 13	herrtidningar	_	NOUN	PL-IND-NOM	_	9	nmod	_	_
 14	längs	_	ADP	_	_	16	case	_	_
-15	ena	_	ADJ	POS-SG-DEF	_	16	det	_	_
+15	ena	_	ADJ	POS-SG-DEF	_	16	amod	_	_
 16	väggen	_	NOUN	SG-DEF-NOM	_	13	nmod	_	SpaceAfter=No
 17	,	_	PUNCT	Comma	_	13	punct	_	_
 18	en	_	DET	SG-IND	_	19	det	_	_
@@ -10292,7 +10292,7 @@
 3	Stillman	_	PROPN	SG-NOM	_	2	nsubj	_	_
 4	efter	_	ADP	_	_	8	case	_	_
 5	en	_	DET	SG-IND	_	8	det	_	_
-6	sådan	_	ADJ	POS-SG-IND	_	8	det	_	_
+6	sådan	_	ADJ	POS-SG-IND	_	8	amod	_	_
 7	ingående	_	ADJ	NDE	_	8	amod	_	_
 8	undersökning	_	NOUN	SG-IND-NOM	_	2	obl	_	_
 9	kasta	_	VERB	INF-ACT	_	2	xcomp	_	_
@@ -10327,7 +10327,7 @@
 4	sticka	_	VERB	INF-ACT	_	2	xcomp	_	_
 5	handen	_	NOUN	SG-DEF-NOM	_	4	obj	_	_
 6	i	_	ADP	_	_	8	case	_	_
-7	ena	_	ADJ	POS-SG-DEF	_	8	det	_	_
+7	ena	_	ADJ	POS-SG-DEF	_	8	amod	_	_
 8	rockfickan	_	NOUN	SG-DEF-NOM	_	4	obl	_	_
 9	och	_	CCONJ	_	_	10	cc	_	_
 10	dra	_	VERB	INF-ACT	_	4	conj	_	_
@@ -10463,8 +10463,8 @@
 46	mekaniska	_	ADJ	POS-PL-IND	_	47	amod	_	_
 47	delar	_	NOUN	PL-IND-NOM	_	35	conj	_	_
 48	samt	_	CCONJ	_	_	51	cc	_	_
-49	diverse	_	ADJ	POS-IND	_	51	det	_	_
-50	annat	_	ADJ	POS-SG-IND	_	51	det	_	_
+49	diverse	_	ADJ	POS-IND	_	51	amod	_	_
+50	annat	_	ADJ	POS-SG-IND	_	51	amod	_	_
 51	vrakgods	_	NOUN	SG-IND-NOM	_	35	conj	_	_
 52	som	_	SCONJ	REL	_	56	mark	_	_
 53	han	_	PRON	PERS-P3SG-NOM	_	56	nsubj	_	_
@@ -10484,7 +10484,7 @@
 7	skräpuppsamlarsyssla	_	NOUN	SG-IND-NOM	_	5	obj	_	_
 8	på	_	ADP	_	_	11	case	_	_
 9	ett	_	DET	SG-IND	_	11	det	_	_
-10	sådant	_	ADJ	POS-SG-IND	_	11	det	_	_
+10	sådant	_	ADJ	POS-SG-IND	_	11	amod	_	_
 11	allvar	_	NOUN	IND-NOM	_	5	obl	_	_
 12	gjorde	_	VERB	PAST-ACT	_	0	root	_	_
 13	Quinn	_	PROPN	SG-NOM	_	12	obj	_	_
@@ -10603,7 +10603,7 @@
 7	att	_	PART	_	_	8	mark	_	_
 8	ta	_	VERB	INF-ACT	_	6	csubj	_	_
 9	ett	_	DET	SG-IND	_	11	det	_	_
-10	sådant	_	ADJ	POS-SG-IND	_	11	det	_	_
+10	sådant	_	ADJ	POS-SG-IND	_	11	amod	_	_
 11	steg	_	NOUN	IND-NOM	_	8	obj	_	SpaceAfter=No
 12	.	_	PUNCT	Period	_	6	punct	_	_
 
@@ -10746,7 +10746,7 @@
 # sent_id = 548
 # text = De flesta dagar tillbringade han minst ett par timmar i Riverside Park, där han metodiskt sökte saker längs de asfalterade gångarna eller tröskade igenom buskagen med hjälp av en käpp.
 1	De	_	DET	PL-DEF	_	3	det	_	_
-2	flesta	_	ADJ	SPL-PL	_	3	det	_	_
+2	flesta	_	ADJ	SPL-PL	_	3	amod	_	_
 3	dagar	_	NOUN	PL-IND-NOM	_	4	obl	_	_
 4	tillbringade	_	VERB	PAST-ACT	_	0	root	_	_
 5	han	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
@@ -11225,7 +11225,7 @@
 27	grund	_	NOUN	SG-IND-NOM	_	25	obj	_	_
 28	för	_	ADP	_	_	31	case	_	_
 29	en	_	DET	SG-IND	_	31	det	_	_
-30	sådan	_	ADJ	POS-SG-IND	_	31	det	_	_
+30	sådan	_	ADJ	POS-SG-IND	_	31	amod	_	_
 31	tro	_	NOUN	SG-IND-NOM	_	25	obl	_	SpaceAfter=No
 32	.	_	PUNCT	Period	_	2	punct	_	_
 
@@ -11297,7 +11297,7 @@
 1	Och	_	CCONJ	_	_	6	cc	_	_
 2	om	_	SCONJ	_	_	6	mark	_	_
 3	en	_	DET	SG-IND	_	5	det	_	_
-4	sådan	_	ADJ	POS-SG-IND	_	5	det	_	_
+4	sådan	_	ADJ	POS-SG-IND	_	5	amod	_	_
 5	tolkning	_	NOUN	SG-IND-NOM	_	6	nsubj	_	_
 6	förutsatte	_	VERB	PAST-ACT	_	18	advcl	_	_
 7	att	_	SCONJ	_	_	9	mark	_	_
@@ -11400,7 +11400,7 @@
 19	inåt	_	ADV	_	_	16	advmod	_	_
 20	och	_	CCONJ	_	_	24	cc	_	_
 21	på	_	ADP	_	_	23	case	_	_
-22	så	_	ADJ	POS-SG-IND	_	23	det	_	_
+22	så	_	ADJ	POS-SG-IND	_	23	amod	_	_
 23	sätt	_	NOUN	IND-NOM	_	24	obl	_	_
 24	ta	_	VERB	INF-ACT	_	16	conj	_	_
 25	herraväldet	_	NOUN	SG-DEF-NOM	_	24	obj	_	_
@@ -11438,7 +11438,7 @@
 24	sig	_	PRON	RFL-ACC	_	23	iobj	_	_
 25	själv	_	ADJ	POS-SG-IND	_	24	amod	_	_
 26	en	_	DET	SG-IND	_	28	det	_	_
-27	viss	_	ADJ	POS-SG-IND	_	28	det	_	_
+27	viss	_	ADJ	POS-SG-IND	_	28	amod	_	_
 28	kontroll	_	NOUN	SG-IND-NOM	_	23	obj	_	_
 29	över	_	ADP	_	_	31	case	_	_
 30	sina	_	PRON	RFL-PL-GEN	_	31	nmod:poss	_	_
@@ -11492,7 +11492,7 @@
 11	blind	_	ADJ	POS-SG-IND	_	7	obl	_	_
 12	från	_	ADP	_	_	15	case	_	_
 13	det	_	DET	SG-DEF	_	15	det	_	_
-14	ena	_	ADJ	POS-SG-DEF	_	15	det	_	_
+14	ena	_	ADJ	POS-SG-DEF	_	15	amod	_	_
 15	stället	_	NOUN	SG-DEF-NOM	_	7	obl	_	_
 16	till	_	ADP	_	_	18	case	_	_
 17	det	_	DET	SG-DEF	_	18	det	_	_
@@ -11588,7 +11588,7 @@
 2	att	_	PART	_	_	3	mark	_	_
 3	undvika	_	VERB	INF-ACT	_	7	advcl	_	_
 4	ett	_	DET	SG-IND	_	6	det	_	_
-5	sådant	_	ADJ	POS-SG-IND	_	6	det	_	_
+5	sådant	_	ADJ	POS-SG-IND	_	6	amod	_	_
 6	missöde	_	NOUN	SG-IND-NOM	_	3	obj	_	_
 7	räknade	_	VERB	PAST-ACT	_	0	root	_	_
 8	han	_	PRON	PERS-P3SG-NOM	_	7	nsubj	_	_
@@ -11647,7 +11647,7 @@
 19	tvångströja	_	NOUN	SG-IND-NOM	_	15	obl	_	_
 20	som	_	SCONJ	REL	_	24	mark	_	_
 21	ett	_	DET	SG-IND	_	23	det	_	_
-22	sådant	_	ADJ	POS-SG-IND	_	23	det	_	_
+22	sådant	_	ADJ	POS-SG-IND	_	23	amod	_	_
 23	personbyte	_	NOUN	SG-IND-NOM	_	24	nsubj	_	_
 24	medförde	_	VERB	PAST-ACT	_	19	acl:relcl	_	SpaceAfter=No
 25	.	_	PUNCT	Period	_	4	punct	_	_
@@ -11913,7 +11913,7 @@
 1	Det	_	PRON	EX-P3SG	_	2	expl	_	_
 2	fanns	_	VERB	PAST-DPO	_	0	root	_	_
 3	givetvis	_	ADV	_	_	2	advmod	_	_
-4	vissa	_	ADJ	POS-PL-IND	_	5	det	_	_
+4	vissa	_	ADJ	POS-PL-IND	_	5	amod	_	_
 5	ytterlighetsåtgärder	_	NOUN	PL-IND-NOM	_	2	nsubj	_	_
 6	de	_	PRON	PERS-P3PL-NOM	_	8	nsubj	_	_
 7	kunde	_	AUX	PAST-AUX	_	8	aux	_	_
@@ -12922,7 +12922,7 @@
 4	en	_	DET	SG-IND	_	5	det	_	_
 5	bok	_	NOUN	SG-IND-NOM	_	2	obj	_	_
 6	för	_	ADP	_	_	8	case	_	_
-7	flera	_	ADJ	POS-PL-IND	_	8	det	_	_
+7	flera	_	ADJ	POS-PL-IND	_	8	amod	_	_
 8	år	_	NOUN	IND-NOM	_	2	obl	_	_
 9	sen	_	ADP	_	_	6	nmod	_	SpaceAfter=No
 10	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -13049,7 +13049,7 @@
 10	var	_	AUX	PAST-ACT	_	11	cop	_	_
 11	ovanlig	_	ADJ	POS-SG-IND	_	7	amod	_	_
 12	med	_	ADP	_	_	15	case	_	_
-13	flera	_	ADJ	POS-PL-IND	_	15	det	_	_
+13	flera	_	ADJ	POS-PL-IND	_	15	amod	_	_
 14	långa	_	ADJ	POS-PL-IND	_	15	amod	_	_
 15	korridorer	_	NOUN	PL-IND-NOM	_	10	dislocated	_	SpaceAfter=No
 16	,	_	PUNCT	Comma	_	11	punct	_	_
@@ -13686,7 +13686,7 @@
 # text = Eller med andra ord: hur mycket hädelser skulle människorna vara beredda att tolerera om dessa hädelser samtidigt roade dem?
 1	Eller	_	CCONJ	_	_	4	advmod	_	_
 2	med	_	ADP	_	_	4	case	_	_
-3	andra	_	ADJ	CMP-PL-IND	_	4	det	_	_
+3	andra	_	ADJ	CMP-PL-IND	_	4	amod	_	_
 4	ord	_	NOUN	IND-NOM	_	11	discourse	_	SpaceAfter=No
 5	:	_	PUNCT	_	_	11	punct	_	_
 6	hur	_	ADV	WH	_	7	advmod	_	_
@@ -14305,7 +14305,7 @@
 # sent_id = 733
 # text = Det var en stor filosof som en gång sa att vägen upp och vägen ner är samma sak, muttrade Quinn.
 1	Det	_	PRON	EX-P3SG	_	5	expl	_	_
-2	var	_	VERB	PAST-ACT	_	5	cop	_	_
+2	var	_	AUX	PAST-ACT	_	5	cop	_	_
 3	en	_	DET	SG-IND	_	5	det	_	_
 4	stor	_	ADJ	POS-SG-IND	_	5	amod	_	_
 5	filosof	_	NOUN	SG-IND-NOM	_	0	root	_	_
@@ -14433,11 +14433,11 @@
 12	hon	_	PRON	PERS-P3SG-NOM	_	13	nsubj	_	_
 13	utstrålade	_	VERB	PAST-ACT	_	3	conj	_	_
 14	en	_	DET	SG-IND	_	16	det	_	_
-15	sådan	_	ADJ	POS-SG-IND	_	16	det	_	_
+15	sådan	_	ADJ	POS-SG-IND	_	16	amod	_	_
 16	energi	_	NOUN	SG-IND-NOM	_	13	obj	_	_
 17	och	_	CCONJ	_	_	20	cc	_	_
 18	en	_	DET	SG-IND	_	20	det	_	_
-19	sådan	_	ADJ	POS-SG-IND	_	20	det	_	_
+19	sådan	_	ADJ	POS-SG-IND	_	20	amod	_	_
 20	lycka	_	NOUN	SG-IND-NOM	_	16	conj	_	_
 21	att	_	SCONJ	_	_	26	mark	_	_
 22	hon	_	PRON	PERS-P3SG-NOM	_	26	nsubj	_	_
@@ -14508,7 +14508,7 @@
 14	,	_	PUNCT	Comma	_	8	punct	_	_
 15	sitta	_	VERB	INF-ACT	_	8	conj	_	_
 16	där	_	ADV	_	_	15	advmod	_	_
-17	hela	_	ADJ	POS-DEF	_	18	det	_	_
+17	hela	_	ADJ	POS-DEF	_	18	amod	_	_
 18	dagarna	_	NOUN	PL-DEF-NOM	_	15	obl	_	_
 19	och	_	CCONJ	_	_	20	cc	_	_
 20	häva	_	VERB	INF-ACT	_	8	conj	_	_
@@ -14869,7 +14869,7 @@
 3	visade	_	VERB	PAST-ACT	_	0	root	_	_
 4	på	_	ADP	_	_	6	case	_	_
 5	nästan	_	ADV	_	_	6	advmod	_	_
-6	se	x_	NUM	ID	_	3	obl	_	SpaceAfter=No
+6	sex	_	NUM	ID	_	3	obl	_	SpaceAfter=No
 7	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 763
@@ -15037,7 +15037,7 @@
 1	Han	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 2	kunde	_	AUX	PAST-AUX	_	3	aux	_	_
 3	glömma	_	VERB	INF-ACT	_	0	root	_	_
-4	hela	_	ADJ	POS-DEF	_	5	det	_	_
+4	hela	_	ADJ	POS-DEF	_	5	amod	_	_
 5	fallet	_	NOUN	SG-DEF-NOM	_	3	obj	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	3	punct	_	_
 7	återgå	_	VERB	INF-ACT	_	3	conj	_	_
@@ -15219,7 +15219,7 @@
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	så	_	ADV	_	_	6	advmod	_	_
 4	ännu	_	ADV	_	_	5	advmod	_	_
-5	mer	_	ADJ	CMP-IND	_	6	det	_	_
+5	mer	_	ADJ	CMP-IND	_	6	amod	_	_
 6	förändringar	_	NOUN	PL-IND-NOM	_	1	conj	_	SpaceAfter=No
 7	.	_	PUNCT	Period	_	1	punct	_	_
 
@@ -15317,7 +15317,7 @@
 13	spegeln	_	NOUN	SG-DEF-NOM	_	10	obl	_	_
 14	och	_	CCONJ	_	_	15	cc	_	_
 15	försökte	_	VERB	PAST-ACT	_	4	conj	_	_
-16	hela	_	ADJ	POS-DEF	_	17	det	_	_
+16	hela	_	ADJ	POS-DEF	_	17	amod	_	_
 17	tiden	_	NOUN	SG-DEF-NOM	_	15	obl	_	_
 18	undvika	_	VERB	INF-ACT	_	15	xcomp	_	_
 19	sig	_	PRON	RFL-ACC	_	18	obj	_	_
@@ -15574,7 +15574,7 @@
 13	och	_	CCONJ	_	_	14	cc	_	_
 14	väntade	_	VERB	PAST-ACT	_	5	conj	_	SpaceAfter=No
 15	,	_	PUNCT	Comma	_	5	punct	_	_
-16	hela	_	ADJ	POS-DEF	_	17	det	_	_
+16	hela	_	ADJ	POS-DEF	_	17	amod	_	_
 17	tiden	_	NOUN	SG-DEF-NOM	_	11	obl	_	_
 18	med	_	ADP	_	_	20	case	_	_
 19	samma	_	ADJ	POS-IND	_	20	amod	_	_
@@ -15627,7 +15627,7 @@
 9	ett	_	DET	SG-IND	_	10	det	_	_
 10	nummer	_	NOUN	IND-NOM	_	8	obj	_	SpaceAfter=No
 11	,	_	PUNCT	Comma	_	2	punct	_	_
-12	flera	_	ADJ	POS-PL-IND	_	13	det	_	_
+12	flera	_	ADJ	POS-PL-IND	_	13	amod	_	_
 13	röster	_	NOUN	PL-IND-NOM	_	14	nsubj:pass	_	_
 14	hördes	_	VERB	PAST-PASS	_	2	conj	_	SpaceAfter=No
 15	.	_	PUNCT	Period	_	2	punct	_	_
@@ -15975,6 +15975,7 @@
 
 # sent_id = 829
 # text = I drömmen, som han sedan glömde, vandrade han nerför Broadway med Austers son vid handen.
+# newdoc
 1	I	_	ADP	_	_	2	case	_	_
 2	drömmen	_	NOUN	SG-DEF-NOM	_	9	obl	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	1	punct	_	_
@@ -15994,7 +15995,6 @@
 17	handen	_	NOUN	SG-DEF-NOM	_	15	nmod	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	9	punct	_	_
 
-# newdoc
 # sent_id = 830
 # text = Säkerhetsåtgärderna är strikta när man flyger till Israel, väskorna genomsöks, männen visiteras och man drar en elektronisk ring över kvinnorna från för till akter.
 1	Säkerhetsåtgärderna	_	NOUN	PL-DEF-NOM	_	3	nsubj	_	_
@@ -17005,7 +17005,7 @@
 10	chocker	_	NOUN	PL-IND-NOM	_	5	obl	_	_
 11	på	_	ADP	_	_	14	case	_	_
 12	en	_	DET	SG-IND	_	14	det	_	_
-13	enda	_	ADJ	POS-SG-IND	_	14	det	_	_
+13	enda	_	ADJ	POS-SG-IND	_	14	amod	_	_
 14	gång	_	NOUN	SG-IND-NOM	_	5	obl	_	SpaceAfter=No
 15	,	_	PUNCT	Comma	_	16	punct	_	_
 16	så	_	CCONJ	_	_	5	advcl	_	_
@@ -17139,7 +17139,7 @@
 2	bara	_	ADV	_	_	3	advmod	_	_
 3	för	_	ADP	_	_	6	case	_	_
 4	en	_	DET	SG-IND	_	6	det	_	_
-5	enda	_	ADJ	POS-SG-IND	_	6	det	_	_
+5	enda	_	ADJ	POS-SG-IND	_	6	amod	_	_
 6	smörgås	_	NOUN	SG-IND-NOM	_	0	root	_	SpaceAfter=No
 7	.	_	PUNCT	Period	_	6	punct	_	SpaceAfter=No
 8	"	_	PUNCT	Quote	_	6	punct	_	_
@@ -17383,7 +17383,7 @@
 3	är	_	AUX	PRES-ACT	_	4	cop	_	_
 4	dyrare	_	ADJ	CMP	_	0	root	_	_
 5	än	_	ADP	CMP	_	7	case	_	_
-6	andra	_	ADJ	CMP-PL-IND	_	7	det	_	_
+6	andra	_	ADJ	CMP-PL-IND	_	7	amod	_	_
 7	sorter	_	NOUN	PL-IND-NOM	_	4	nmod	_	SpaceAfter=No
 8	"	_	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
 9	,	_	PUNCT	Comma	_	10	punct	_	_
@@ -18169,7 +18169,7 @@
 1	Universum	_	NOUN	SG-IND-NOM	_	2	nsubj	_	_
 2	blir	_	VERB	PRES-ACT	_	0	root	_	_
 3	sin	_	PRON	RFL-SG-GEN	_	4	nmod:poss	_	_
-4	egen	_	ADJ	POS-SG-IND	_	5	det	_	_
+4	egen	_	ADJ	POS-SG-IND	_	5	amod	_	_
 5	tolkning	_	NOUN	SG-IND-NOM	_	2	xcomp	_	_
 6	inför	_	ADP	_	_	7	case	_	_
 7	ögonen	_	NOUN	PL-DEF-NOM	_	2	obl	_	_
@@ -18190,7 +18190,7 @@
 # sent_id = 967
 # text = På andra ställen dör man och löses upp.
 1	På	_	ADP	_	_	3	case	_	_
-2	andra	_	ADJ	CMP-PL-IND	_	3	det	_	_
+2	andra	_	ADJ	CMP-PL-IND	_	3	amod	_	_
 3	ställen	_	NOUN	PL-IND-NOM	_	4	obl	_	_
 4	dör	_	VERB	PRES-ACT	_	0	root	_	_
 5	man	_	PRON	PERS-P3-NOM	_	4	nsubj	_	_
@@ -18325,7 +18325,7 @@
 8	inte	_	PART	NEG	_	9	advmod	_	_
 9	äldre	_	ADJ	CMP	_	0	root	_	_
 10	än	_	ADP	CMP	_	12	case	_	_
-11	andra	_	ADJ	CMP-PL-IND	_	12	det	_	_
+11	andra	_	ADJ	CMP-PL-IND	_	12	amod	_	_
 12	ställen	_	NOUN	PL-IND-NOM	_	9	nmod	_	SpaceAfter=No
 13	,	_	PUNCT	Comma	_	15	punct	_	_
 14	men	_	CCONJ	_	_	17	cc	_	_
@@ -18634,7 +18634,7 @@
 4	och	_	CCONJ	_	_	8	cc	_	_
 5	förmodligen	_	ADV	_	_	11	advmod	_	_
 6	på	_	ADP	_	_	8	case	_	_
-7	andra	_	ADJ	CMP-PL-IND	_	8	det	_	_
+7	andra	_	ADJ	CMP-PL-IND	_	8	amod	_	_
 8	håll	_	NOUN	IND-NOM	_	2	conj	_	_
 9	också	_	ADV	_	_	8	advmod	_	SpaceAfter=No
 10	,	_	PUNCT	Comma	_	1	punct	_	_
@@ -18689,7 +18689,7 @@
 37	huvudsyfte	_	NOUN	SG-IND-NOM	_	45	mark	_	_
 38	med	_	ADP	_	_	41	case	_	_
 39	hans	_	PRON	P3SG-GEN	_	41	nmod:poss	_	_
-40	egna	_	ADJ	POS-DEF	_	41	det	_	_
+40	egna	_	ADJ	POS-DEF	_	41	amod	_	_
 41	ord	_	NOUN	IND-NOM	_	45	obl	_	_
 42	var	_	AUX	PAST-ACT	_	45	cop	_	_
 43	"	_	PUNCT	Quote	_	45	punct	_	SpaceAfter=No
@@ -18759,7 +18759,7 @@
 39	om	_	ADP	_	_	44	case	_	_
 40	att	_	PART	_	_	44	mark	_	_
 41	av	_	ADP	_	_	43	case	_	_
-42	egen	_	ADJ	POS-SG-IND	_	43	det	_	_
+42	egen	_	ADJ	POS-SG-IND	_	43	amod	_	_
 43	kraft	_	NOUN	SG-IND-NOM	_	44	obl	_	_
 44	liberalisera	_	VERB	INF-ACT	_	37	advcl	_	_
 45	sitt	_	PRON	RFL-SG-GEN	_	47	nmod:poss	_	_
@@ -18860,7 +18860,7 @@
 4	speciellt	_	ADV	_	_	5	advmod	_	_
 5	egendomligt	_	ADJ	POS-SG-IND	_	2	xcomp	_	SpaceAfter=No
 6	:	_	PUNCT	Colon	_	2	punct	_	_
-7	andra	_	ADJ	CMP-PL-IND	_	9	det	_	_
+7	andra	_	ADJ	CMP-PL-IND	_	9	amod	_	_
 8	amerikanska	_	ADJ	POS-PL-IND	_	9	amod	_	_
 9	ambassadörer	_	NOUN	PL-IND-NOM	_	14	nsubj	_	_
 10	och	_	CCONJ	_	_	11	cc	_	_
@@ -19021,7 +19021,7 @@
 24	identifiering	_	NOUN	SG-IND-NOM	_	20	conj	_	_
 25	med	_	ADP	_	_	28	case	_	_
 26	landets	_	NOUN	SG-DEF-GEN	_	28	nmod:poss	_	_
-27	egna	_	ADJ	POS-DEF	_	28	det	_	_
+27	egna	_	ADJ	POS-DEF	_	28	amod	_	_
 28	ideal	_	NOUN	IND-NOM	_	24	nmod	_	_
 29	och	_	CCONJ	_	_	30	cc	_	_
 30	värderingar	_	NOUN	PL-IND-NOM	_	28	conj	_	SpaceAfter=No
@@ -19250,7 +19250,7 @@
 43	motsvarande	_	ADJ	NDE	_	44	amod	_	_
 44	organ	_	NOUN	IND-NOM	_	33	conj	_	_
 45	för	_	ADP	_	_	48	case	_	_
-46	andra	_	ADJ	CMP-PL-IND	_	47	det	_	_
+46	andra	_	ADJ	CMP-PL-IND	_	47	amod	_	_
 47	staters	_	NOUN	PL-IND-GEN	_	48	nmod:poss	_	_
 48	regeringar	_	NOUN	PL-IND-NOM	_	44	nmod	_	SpaceAfter=No
 49	"	_	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
@@ -20049,7 +20049,7 @@
 # sent_id = 1039
 # text = Av somliga israeler anklagas det emellanåt för att vara korrumperat, "levantinskt", teokratiskt.
 1	Av	_	ADP	_	_	3	case	_	_
-2	somliga	_	ADJ	POS-PL-IND	_	3	det	_	_
+2	somliga	_	ADJ	POS-PL-IND	_	3	amod	_	_
 3	israeler	_	NOUN	PL-IND-NOM	_	4	obl:agent	_	_
 4	anklagas	_	VERB	PRES-PASS	_	0	root	_	_
 5	det	_	PRON	PERS-P3SG	_	4	nsubj:pass	_	_
@@ -20260,7 +20260,7 @@
 2	helvete	_	NOUN	SG-IND-NOM	_	6	nsubj	_	_
 3	är	_	AUX	PRES-ACT	_	6	cop	_	_
 4	deras	_	PRON	P3PL-GEN	_	5	nmod:poss	_	_
-5	egen	_	ADJ	POS-SG-IND	_	6	det	_	_
+5	egen	_	ADJ	POS-SG-IND	_	6	amod	_	_
 6	missbelåtenhet	_	NOUN	SG-IND-NOM	_	0	root	_	_
 7	med	_	ADP	_	_	8	case	_	_
 8	sig	_	PRON	RFL-ACC	_	6	nmod	_	_
@@ -20421,11 +20421,11 @@
 16	sig	_	PRON	RFL-ACC	_	14	obj	_	_
 17	i	_	ADP	_	_	20	case	_	_
 18	ett	_	DET	SG-IND	_	20	det	_	_
-19	enda	_	ADJ	POS-SG-IND	_	20	det	_	_
+19	enda	_	ADJ	POS-SG-IND	_	20	amod	_	_
 20	land	_	NOUN	SG-IND-NOM	_	14	obl	_	_
 21	inför	_	ADP	_	_	24	case	_	_
 22	en	_	DET	SG-IND	_	24	det	_	_
-23	andra	_	ADJ	ORD	_	24	det	_	_
+23	andra	_	ADJ	ORD	_	24	amod	_	_
 24	utrotning	_	NOUN	SG-IND-NOM	_	20	nmod	_	SpaceAfter=No
 25	?	_	PUNCT	QuestionMark	_	8	punct	_	SpaceAfter=No
 26	"	_	PUNCT	Quote	_	8	punct	_	_
@@ -20822,7 +20822,7 @@
 15	sina	_	PRON	RFL-PL-GEN	_	16	nmod:poss	_	_
 16	dikter	_	NOUN	PL-IND-NOM	_	13	obj	_	_
 17	för	_	ADP	_	_	19	case	_	_
-18	andra	_	ADJ	CMP-PL-IND	_	19	det	_	_
+18	andra	_	ADJ	CMP-PL-IND	_	19	amod	_	_
 19	fångar	_	NOUN	PL-IND-NOM	_	16	nmod	_	_
 20	på	_	ADP	_	_	22	case	_	_
 21	deras	_	PRON	P3PL-GEN	_	22	nmod:poss	_	_
@@ -20969,7 +20969,7 @@
 9	sextio	_	NUM	CARD-PL	_	2	obl	_	_
 10	att	_	PART	_	_	11	mark	_	_
 11	komma	_	VERB	INF-ACT	_	2	xcomp	_	_
-12	andra	_	ADJ	CMP-PL-IND	_	13	det	_	_
+12	andra	_	ADJ	CMP-PL-IND	_	13	amod	_	_
 13	människor	_	NOUN	PL-IND-NOM	_	11	obj	_	_
 14	nära	_	ADV	_	_	11	advmod	_	SpaceAfter=No
 15	.	_	PUNCT	Period	_	2	punct	_	_
@@ -21330,7 +21330,7 @@
 14	,	_	PUNCT	Comma	_	13	punct	_	_
 15	och	_	CCONJ	_	_	19	cc	_	_
 16	i	_	ADP	_	_	18	case	_	_
-17	flera	_	ADJ	POS-PL-IND	_	18	det	_	_
+17	flera	_	ADJ	POS-PL-IND	_	18	amod	_	_
 18	år	_	NOUN	IND-NOM	_	19	obl	_	_
 19	arbetade	_	VERB	PAST-ACT	_	13	conj	_	_
 20	han	_	PRON	PERS-P3SG-NOM	_	19	nsubj	_	_
@@ -21805,7 +21805,7 @@
 33	allt	_	PRON	TOT-SG-NOM	_	32	obj	_	_
 34	till	_	ADP	_	_	37	case	_	_
 35	ett	_	DET	SG-IND	_	37	det	_	_
-36	enda	_	ADJ	POS-SG-IND	_	37	det	_	_
+36	enda	_	ADJ	POS-SG-IND	_	37	amod	_	_
 37	kaos	_	NOUN	SG-IND-NOM	_	32	obl	_	_
 38	och	_	CCONJ	_	_	39	cc	_	_
 39	tuta	_	VERB	INF-ACT	_	25	conj	_	_
@@ -21823,7 +21823,7 @@
 6	alltihop	_	PRON	TOT-SG-NOM	_	7	nsubj	_	_
 7	blev	_	VERB	PAST-ACT	_	2	csubj	_	_
 8	en	_	DET	SG-IND	_	11	det	_	_
-9	enda	_	ADJ	POS-SG-IND	_	11	det	_	_
+9	enda	_	ADJ	POS-SG-IND	_	11	amod	_	_
 10	flåsande	_	ADJ	NDE	_	11	amod	_	_
 11	stockning	_	NOUN	SG-IND-NOM	_	7	xcomp	_	_
 12	morgon	_	NOUN	SG-IND-NOM	_	7	obl	_	_
@@ -22242,7 +22242,7 @@
 4	ganska	_	ADV	_	_	5	advmod	_	_
 5	illa	_	ADV	_	_	2	advmod	_	_
 6	på	_	ADP	_	_	8	case	_	_
-7	ena	_	ADJ	POS-SG-DEF	_	8	det	_	_
+7	ena	_	ADJ	POS-SG-DEF	_	8	amod	_	_
 8	armen	_	NOUN	SG-DEF-NOM	_	2	obl	_	SpaceAfter=No
 9	.	_	PUNCT	Period	_	2	punct	_	_
 
@@ -22464,7 +22464,7 @@
 11	förbättringar	_	NOUN	PL-IND-NOM	_	9	conj	_	_
 12	av	_	ADP	_	_	15	case	_	_
 13	ens	_	ADV	_	_	14	advmod	_	_
-14	egna	_	ADJ	POS-DEF	_	15	det	_	_
+14	egna	_	ADJ	POS-DEF	_	15	amod	_	_
 15	frågor	_	NOUN	PL-IND-NOM	_	11	nmod	_	SpaceAfter=No
 16	;	_	PUNCT	SemiColon	_	3	punct	_	_
 
@@ -22565,7 +22565,7 @@
 23	Israel	_	PROPN	SG-NOM	_	21	obl	_	_
 24	på	_	ADP	_	_	27	case	_	_
 25	några	_	DET	PL-IND	_	27	det	_	_
-26	få	_	ADJ	POS-PL-IND	_	27	det	_	_
+26	få	_	ADJ	POS-PL-IND	_	27	amod	_	_
 27	årtionden	_	NOUN	PL-IND-NOM	_	21	obl	_	SpaceAfter=No
 28	.	_	PUNCT	Period	_	11	punct	_	_
 
@@ -22606,7 +22606,7 @@
 15	Jerusalem	_	PROPN	SG-NOM	_	20	nsubj	_	_
 16	är	_	AUX	PRES-ACT	_	20	cop	_	_
 17	den	_	DET	SG-DEF	_	20	det	_	_
-18	enda	_	ADJ	POS-DEF	_	20	det	_	_
+18	enda	_	ADJ	POS-DEF	_	20	amod	_	_
 19	uråldriga	_	ADJ	POS-DEF	_	20	amod	_	_
 20	stad	_	NOUN	SG-IND-NOM	_	7	obl	_	_
 21	jag	_	PRON	PERS-P1SG-NOM	_	23	nsubj	_	_
@@ -22811,7 +22811,7 @@
 2	vet	_	VERB	PRES-ACT	_	0	root	_	_
 3	att	_	SCONJ	_	_	8	mark	_	_
 4	många	_	ADJ	POS-PL-IND	_	6	amod	_	_
-5	andra	_	ADJ	CMP-PL-IND	_	6	det	_	_
+5	andra	_	ADJ	CMP-PL-IND	_	6	amod	_	_
 6	familjer	_	NOUN	PL-IND-NOM	_	8	nsubj	_	_
 7	har	_	AUX	PRES-AUX	_	8	aux	_	_
 8	förlorat	_	VERB	SUP-ACT	_	2	ccomp	_	_
@@ -23034,6 +23034,7 @@
 
 # sent_id = 1191
 # text = De har hävdat sin position.
+# newdoc
 1	De	_	PRON	PERS-P3PL-NOM	_	3	nsubj	_	_
 2	har	_	AUX	PRES-AUX	_	3	aux	_	_
 3	hävdat	_	VERB	SUP-ACT	_	0	root	_	_
@@ -23041,7 +23042,6 @@
 5	position	_	NOUN	SG-IND-NOM	_	3	obj	_	SpaceAfter=No
 6	.	_	PUNCT	Period	_	3	punct	_	_
 
-# newdoc
 # sent_id = 1192
 # text = Yawlen Nellie red för ankaret med slappa segel och låg orörlig.
 1	Yawlen	_	NOUN	SG-DEF-NOM	_	2	nmod	_	_
@@ -24507,7 +24507,7 @@
 18	–	_	PUNCT	Dash	_	2	punct	_	_
 19	häromdagen	_	ADV	_	_	14	advmod	_	_
 20	med	_	ADP	_	_	22	case	_	_
-21	andra	_	ADJ	CMP-PL-IND	_	22	det	_	_
+21	andra	_	ADJ	CMP-PL-IND	_	22	amod	_	_
 22	ord	_	NOUN	IND-NOM	_	19	nmod	_	SpaceAfter=No
 23	.	_	PUNCT	Period	_	2	punct	_	_
 
@@ -24974,7 +24974,7 @@
 30	omkring	_	ADP	_	_	31	case	_	_
 31	honom	_	PRON	PERS-P3SG-ACC	_	28	obl	_	_
 32	–	_	PUNCT	Dash	_	1	punct	_	_
-33	hela	_	ADJ	POS-DEF	_	37	det	_	_
+33	hela	_	ADJ	POS-DEF	_	37	amod	_	_
 34	detta	_	DET	DEM-SG-IND	_	37	det	_	_
 35	vildmarkens	_	NOUN	SG-DEF-GEN	_	37	nmod:poss	_	_
 36	hemlighetsfulla	_	ADJ	POS-DEF	_	37	amod	_	_
@@ -25008,7 +25008,7 @@
 11	bli	_	AUX	INF-AUX	_	12	aux:pass	_	_
 12	invigd	_	VERB	AD-SG-IND	_	7	amod	_	_
 13	i	_	ADP	_	_	15	case	_	_
-14	sådana	_	ADJ	POS-PL-IND	_	15	det	_	_
+14	sådana	_	ADJ	POS-PL-IND	_	15	amod	_	_
 15	mysterier	_	NOUN	PL-IND-NOM	_	12	obl	_	SpaceAfter=No
 16	.	_	PUNCT	Period	_	3	punct	_	_
 
@@ -25527,7 +25527,7 @@
 22	svaghet	_	NOUN	SG-IND-NOM	_	17	obj	_	_
 23	som	_	ADP	_	_	26	case	_	_
 24	många	_	ADJ	POS-PL-IND	_	26	amod	_	_
-25	andra	_	ADJ	CMP-PL-IND	_	26	det	_	_
+25	andra	_	ADJ	CMP-PL-IND	_	26	amod	_	_
 26	berättare	_	NOUN	SG-IND-NOM	_	22	nmod	_	_
 27	vilka	_	PRON	WH-REL-PL	_	30	nsubj	_	_
 28	så	_	ADV	_	_	29	advmod	_	_
@@ -26817,7 +26817,7 @@
 41	i	_	ADP	_	_	40	acl	_	SpaceAfter=No
 42	;	_	PUNCT	SemiColon	_	10	punct	_	_
 43	landsatte	_	VERB	PAST-ACT	_	10	conj	_	_
-44	flera	_	ADJ	POS-PL-IND	_	45	det	_	_
+44	flera	_	ADJ	POS-PL-IND	_	45	amod	_	_
 45	soldater	_	NOUN	PL-IND-NOM	_	43	obj	_	_
 46	–	_	PUNCT	Dash	_	43	punct	_	_
 47	som	_	SCONJ	REL	_	50	mark	_	_
@@ -26889,7 +26889,7 @@
 18	men	_	CCONJ	_	_	20	cc	_	_
 19	vi	_	PRON	PERS-P1PL-NOM	_	20	nsubj	_	_
 20	passerade	_	VERB	PAST-ACT	_	3	conj	_	_
-21	flera	_	ADJ	POS-PL-IND	_	22	det	_	_
+21	flera	_	ADJ	POS-PL-IND	_	22	amod	_	_
 22	samhällen	_	NOUN	PL-IND-NOM	_	20	obj	_	_
 23	–	_	PUNCT	Dash	_	24	punct	_	_
 24	handelsplatser	_	NOUN	PL-IND-NOM	_	22	nmod	_	_
@@ -27413,7 +27413,7 @@
 # text = Vi angjorde fler platser med farsartade namn, där död och köpenskap trådde sin lustiga dans i en stillastående och jordluktande atmosfär som i ett hett gravvalv; vidare utmed hela denna konturlösa kust med sitt bräm av farlig bränning som om naturen själv hade velat avvisa intränglingar; in och ut ur floder, som såg ut som om dödsrikets flöden hade gått i dagen, med stränder som ruttnade till dy och slemtjockt vatten som trängde in bland de slingrande mangroveträden vilka tycktes vrida sig mot oss i maktlös förtvivlan.
 1	Vi	_	PRON	PERS-P1PL-NOM	_	2	nsubj	_	_
 2	angjorde	_	VERB	PAST-ACT	_	0	root	_	_
-3	fler	_	ADJ	CMP-PL-IND	_	4	det	_	_
+3	fler	_	ADJ	CMP-PL-IND	_	4	amod	_	_
 4	platser	_	NOUN	PL-IND-NOM	_	2	obj	_	_
 5	med	_	ADP	_	_	7	case	_	_
 6	farsartade	_	ADJ	POS-PL-IND	_	7	amod	_	_
@@ -27728,7 +27728,7 @@
 2	är	_	AUX	PRES-ACT	_	3	cop	_	_
 3	konstigt	_	ADJ	POS-SG-IND	_	0	root	_	_
 4	vad	_	PRON	WH	_	8	obj	_	_
-5	somliga	_	ADJ	POS-PL-IND	_	6	det	_	_
+5	somliga	_	ADJ	POS-PL-IND	_	6	amod	_	_
 6	människor	_	NOUN	PL-IND-NOM	_	8	nsubj	_	_
 7	kan	_	AUX	PRES-AUX	_	8	aux	_	_
 8	göra	_	VERB	INF-ACT	_	3	csubj	_	_
@@ -28124,7 +28124,7 @@
 1	Sen	_	ADV	_	_	2	advmod	_	_
 2	hittade	_	VERB	PAST-ACT	_	0	root	_	_
 3	jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
-4	mera	_	ADJ	CMP-IND	_	5	det	_	_
+4	mera	_	ADJ	CMP-IND	_	5	amod	_	_
 5	skrot	_	NOUN	IND-NOM	_	2	obj	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	2	punct	_	_
 7	bland	_	ADP	_	_	8	case	_	_
@@ -28812,7 +28812,7 @@
 11	underfund	_	ADV	_	_	10	advmod	_	_
 12	med	_	ADP	_	_	6	case	_	_
 13	förrän	_	ADP	_	_	16	case	_	_
-14	flera	_	ADJ	POS-PL-IND	_	15	det	_	_
+14	flera	_	ADJ	POS-PL-IND	_	15	amod	_	_
 15	månader	_	NOUN	PL-IND-NOM	_	16	nmod	_	_
 16	senare	_	ADV	CMP	_	10	advmod	_	_
 17	och	_	CCONJ	_	_	21	cc	_	_
@@ -29320,7 +29320,7 @@
 11	till	_	ADP	_	_	12	case	_	_
 12	stationen	_	NOUN	SG-DEF-NOM	_	10	obl	_	SpaceAfter=No
 13	,	_	PUNCT	Comma	_	3	punct	_	_
-14	flera	_	ADJ	POS-PL-IND	_	15	det	_	_
+14	flera	_	ADJ	POS-PL-IND	_	15	amod	_	_
 15	månader	_	NOUN	PL-IND-NOM	_	3	obj	_	SpaceAfter=No
 16	.	_	PUNCT	Period	_	3	punct	_	_
 
@@ -29416,7 +29416,7 @@
 3	och	_	CCONJ	_	_	2	fixed	_	_
 4	med	_	ADV	_	_	2	fixed	_	_
 5	vid	_	ADP	_	_	7	case	_	_
-6	sådana	_	ADJ	POS-PL-IND	_	7	det	_	_
+6	sådana	_	ADJ	POS-PL-IND	_	7	amod	_	_
 7	tillfällen	_	NOUN	PL-IND-NOM	_	8	obl	_	_
 8	tycktes	_	VERB	PAST-DPO	_	0	root	_	_
 9	hans	_	PRON	P3SG-GEN	_	11	nmod:poss	_	_
@@ -29789,7 +29789,7 @@
 15	drivfjädern	_	NOUN	SG-DEF-NOM	_	10	ccomp	_	_
 16	inom	_	ADP	_	_	19	case	_	_
 17	en	_	DET	SG-IND	_	19	det	_	_
-18	sådan	_	ADJ	POS-SG-IND	_	19	det	_	_
+18	sådan	_	ADJ	POS-SG-IND	_	19	amod	_	_
 19	människa	_	NOUN	SG-IND-NOM	_	15	nmod	_	SpaceAfter=No
 20	.	_	PUNCT	Period	_	3	punct	_	_
 
@@ -29820,7 +29820,7 @@
 3	till	_	ADV	_	_	2	compound:prt	_	_
 4	inför	_	ADP	_	_	7	case	_	_
 5	en	_	DET	SG-IND	_	7	det	_	_
-6	sådan	_	ADJ	POS-SG-IND	_	7	det	_	_
+6	sådan	_	ADJ	POS-SG-IND	_	7	amod	_	_
 7	misstanke	_	NOUN	SG-IND-NOM	_	2	obl	_	SpaceAfter=No
 8	,	_	PUNCT	Comma	_	2	punct	_	_
 9	för	_	CCONJ	_	_	11	cc	_	_
@@ -30401,7 +30401,7 @@
 9	det	_	PRON	PERS-P3SG	_	10	nsubj	_	_
 10	tar	_	VERB	PRES-ACT	_	6	advcl	_	_
 11	väl	_	ADV	_	_	10	advmod	_	_
-12	flera	_	ADJ	POS-PL-IND	_	13	det	_	_
+12	flera	_	ADJ	POS-PL-IND	_	13	amod	_	_
 13	månader	_	NOUN	PL-IND-NOM	_	10	obj	_	SpaceAfter=No
 14	.	_	PUNCT	Period	_	6	punct	_	_
 
@@ -30419,7 +30419,7 @@
 
 # sent_id = 1508
 # text = Flera månader, sa han.
-1	Flera	_	ADJ	POS-PL-IND	_	2	det	_	_
+1	Flera	_	ADJ	POS-PL-IND	_	2	amod	_	_
 2	månader	_	NOUN	PL-IND-NOM	_	0	root	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
 4	sa	_	VERB	PAST-ACT	_	2	parataxis	_	_
@@ -30490,10 +30490,10 @@
 # sent_id = 1512
 # text = En sån idiot! Sånt struntprat!
 1	En	_	DET	SG-IND	_	3	det	_	_
-2	sån	_	ADJ	POS-SG-IND	_	3	det	_	_
+2	sån	_	ADJ	POS-SG-IND	_	3	amod	_	_
 3	idiot	_	NOUN	SG-IND-NOM	_	0	root	_	SpaceAfter=No
 4	!	_	PUNCT	ExclMark	_	3	punct	_	_
-5	Sånt	_	ADJ	POS-SG-IND	_	6	det	_	_
+5	Sånt	_	ADJ	POS-SG-IND	_	6	amod	_	_
 6	struntprat	_	NOUN	IND-NOM	_	3	conj	_	SpaceAfter=No
 7	!	_	PUNCT	ExclMark	_	3	punct	_	_
 
@@ -30881,7 +30881,7 @@
 # sent_id = 1531
 # text = Det var ingen brådska.
 1	Det	_	PRON	EX-P3SG	_	4	expl	_	_
-2	var	_	VERB	PAST-ACT	_	4	cop	_	_
+2	var	_	AUX	PAST-ACT	_	4	cop	_	_
 3	ingen	_	DET	NEG-SG-IND	_	4	det	_	_
 4	brådska	_	NOUN	SG-IND-NOM	_	0	root	_	SpaceAfter=No
 5	.	_	PUNCT	Period	_	4	punct	_	_
@@ -30974,7 +30974,7 @@
 3	jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 4	honom	_	PRON	PERS-P3SG-ACC	_	2	obj	_	_
 5	i	_	ADP	_	_	7	case	_	_
-6	flera	_	ADJ	POS-PL-IND	_	7	det	_	_
+6	flera	_	ADJ	POS-PL-IND	_	7	amod	_	_
 7	dar	_	NOUN	PL-IND-NOM	_	8	obl	_	_
 8	sitta	_	VERB	INF-ACT	_	2	xcomp	_	_
 9	på	_	ADP	_	_	12	case	_	_
@@ -31607,6 +31607,7 @@
 
 # sent_id = 1565
 # text = Men det finns ett sätt att snegla efter ett grimskaft som skulle kunna fresta det mest överseende helgon till en spark.
+# newdoc
 1	Men	_	CCONJ	_	_	3	cc	_	_
 2	det	_	PRON	EX-P3SG	_	3	expl	_	_
 3	finns	_	VERB	PRES-DPO	_	0	root	_	_
@@ -31630,12 +31631,11 @@
 21	spark	_	NOUN	SG-IND-NOM	_	14	obl	_	SpaceAfter=No
 22	.	_	PUNCT	Period	_	3	punct	_	_
 
-# newdoc
 # sent_id = 1566
 # text = Med ett sådant perspektiv kanske utvärderingen av budgetarbetet får en dimension som omfattar mer än rena detaljer.
 1	Med	_	ADP	_	_	4	case	_	_
 2	ett	_	DET	SG-IND	_	4	det	_	_
-3	sådant	_	ADJ	POS-SG-IND	_	4	det	_	_
+3	sådant	_	ADJ	POS-SG-IND	_	4	amod	_	_
 4	perspektiv	_	NOUN	IND-NOM	_	9	obl	_	_
 5	kanske	_	ADV	_	_	9	advmod	_	_
 6	utvärderingen	_	NOUN	SG-DEF-NOM	_	9	nsubj	_	_
@@ -31687,7 +31687,7 @@
 # sent_id = 1569
 # text = Huvudsaken är, tror jag, den politiska betydelsen av detta avtal.
 1	Huvudsaken	_	NOUN	SG-DEF-NOM	_	9	nsubj	_	_
-2	är	_	VERB	PRES-ACT	_	9	cop	_	SpaceAfter=No
+2	är	_	AUX	PRES-ACT	_	9	cop	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
 4	tror	_	VERB	PRES-ACT	_	9	parataxis	_	_
 5	jag	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	SpaceAfter=No
@@ -31817,7 +31817,7 @@
 1	Det	_	PRON	PERS-P3SG	_	2	nsubj	_	_
 2	beror	_	VERB	PRES-ACT	_	0	root	_	_
 3	på	_	ADP	_	_	5	case	_	_
-4	flera	_	ADJ	POS-PL-IND	_	5	det	_	_
+4	flera	_	ADJ	POS-PL-IND	_	5	amod	_	_
 5	omständigheter	_	NOUN	PL-IND-NOM	_	2	obl	_	SpaceAfter=No
 6	.	_	PUNCT	Period	_	2	punct	_	_
 
@@ -32845,7 +32845,7 @@
 4	har	_	VERB	PRES-ACT	_	0	root	_	_
 5	rätt	_	NOUN	SG-IND-NOM	_	4	obj	_	_
 6	till	_	ADP	_	_	8	case	_	_
-7	samma	_	ADJ	POS-IND	_	8	det	_	_
+7	samma	_	ADJ	POS-IND	_	8	amod	_	_
 8	behandling	_	NOUN	SG-IND-NOM	_	5	nmod	_	_
 9	som	_	ADP	_	_	13	case	_	_
 10	alla	_	DET	TOT-PL	_	13	det	_	_
@@ -33179,7 +33179,7 @@
 7	grekiska	_	ADJ	POS-DEF	_	8	amod	_	_
 8	järnvägen	_	NOUN	SG-DEF-NOM	_	4	nmod	_	_
 9	för	_	ADP	_	_	11	case	_	_
-10	flera	_	ADJ	POS-PL-IND	_	11	det	_	_
+10	flera	_	ADJ	POS-PL-IND	_	11	amod	_	_
 11	år	_	NOUN	IND-NOM	_	8	nmod	_	_
 12	sedan	_	ADV	_	_	11	advmod	_	_
 13	och	_	CCONJ	_	_	16	cc	_	_
@@ -33187,7 +33187,7 @@
 15	är	_	AUX	PRES-ACT	_	16	cop	_	_
 16	skyldiga	_	ADJ	POS-PL-IND	_	2	conj	_	_
 17	honom	_	PRON	PERS-P3SG-ACC	_	16	nmod	_	_
-18	flera	_	ADJ	POS-PL-IND	_	20	det	_	_
+18	flera	_	ADJ	POS-PL-IND	_	20	amod	_	_
 19	tusen	_	NUM	CARD-PL	_	20	nummod	_	_
 20	pund	_	NOUN	IND-NOM	_	17	nmod	_	SpaceAfter=No
 21	.	_	PUNCT	Period	_	2	punct	_	_
@@ -33757,7 +33757,7 @@
 4	ses	_	VERB	INF-PASS	_	0	root	_	SpaceAfter=No
 5	:	_	PUNCT	Colon	_	3	punct	_	_
 6	å	_	ADP	_	_	8	case	_	_
-7	ena	_	ADJ	POS-SG-DEF	_	8	det	_	_
+7	ena	_	ADJ	POS-SG-DEF	_	8	amod	_	_
 8	sidan	_	NOUN	SG-DEF-NOM	_	10	nmod	_	_
 9	det	_	DET	SG-DEF	_	10	det	_	_
 10	pragmatiska	_	ADJ	POS-DEF	_	4	appos	_	SpaceAfter=No
@@ -33912,7 +33912,7 @@
 4	nyss	_	ADV	_	_	3	advmod	_	_
 5	–	_	PUNCT	Dash	_	10	punct	_	_
 6	det	_	PRON	EX-P3SG	_	10	expl	_	_
-7	är	_	VERB	PRES-ACT	_	10	cop	_	_
+7	är	_	AUX	PRES-ACT	_	10	cop	_	_
 8	knappt	_	ADV	_	_	9	advmod	_	_
 9	tjugo	_	NUM	CARD-PL	_	10	nummod	_	_
 10	minuter	_	NOUN	PL-IND-NOM	_	3	parataxis	_	_
@@ -34505,7 +34505,7 @@
 7	om	_	ADP	_	_	9	case	_	_
 8	att	_	PART	_	_	9	mark	_	_
 9	ge	_	VERB	INF-ACT	_	5	advcl	_	_
-10	sådana	_	ADJ	POS-PL-IND	_	11	det	_	_
+10	sådana	_	ADJ	POS-PL-IND	_	11	amod	_	_
 11	rättigheter	_	NOUN	PL-IND-NOM	_	9	obj	_	_
 12	till	_	ADP	_	_	13	case	_	_
 13	artister	_	NOUN	PL-IND-NOM	_	9	obl	_	_
@@ -36022,11 +36022,11 @@
 # sent_id = 1816
 # text = På samma gång är dessa enda verkliga europeiska egna medel på väg att förlora sin betydelse.
 1	På	_	ADP	_	_	3	case	_	_
-2	samma	_	ADJ	POS-IND	_	3	det	_	_
+2	samma	_	ADJ	POS-IND	_	3	amod	_	_
 3	gång	_	NOUN	SG-IND-NOM	_	4	obl	_	_
 4	är	_	VERB	PRES-ACT	_	0	root	_	_
 5	dessa	_	DET	DEM-PL	_	10	det	_	_
-6	enda	_	ADJ	POS-DEF	_	10	det	_	_
+6	enda	_	ADJ	POS-DEF	_	10	amod	_	_
 7	verkliga	_	ADJ	POS-DEF	_	10	amod	_	_
 8	europeiska	_	ADJ	POS-DEF	_	10	amod	_	_
 9	egna	_	ADJ	POS-DEF	_	10	amod	_	_
@@ -36168,7 +36168,7 @@
 # sent_id = 1825
 # text = En enda sak skyddar oss mot detta: regeln om enhällighet.
 1	En	_	DET	SG-IND	_	3	det	_	_
-2	enda	_	ADJ	POS-SG-IND	_	3	det	_	_
+2	enda	_	ADJ	POS-SG-IND	_	3	amod	_	_
 3	sak	_	NOUN	SG-IND-NOM	_	4	nsubj	_	_
 4	skyddar	_	VERB	PRES-ACT	_	0	root	_	_
 5	oss	_	PRON	PERS-P1PL-ACC	_	4	obj	_	_
@@ -36423,7 +36423,7 @@
 # sent_id = 1841
 # text = Den enda vara som har någon betydelse är tomatkonserver, vilka ändå inte utgör mer än sju procent av den sydafrikanska marknaden.
 1	Den	_	DET	SG-DEF	_	3	det	_	_
-2	enda	_	ADJ	POS-SG-IND	_	3	det	_	_
+2	enda	_	ADJ	POS-SG-IND	_	3	amod	_	_
 3	vara	_	NOUN	SG-IND-NOM	_	9	nsubj	_	_
 4	som	_	SCONJ	REL	_	5	mark	_	_
 5	har	_	VERB	PRES-ACT	_	3	acl:relcl	_	_
@@ -36674,7 +36674,7 @@
 11	modifierats	_	VERB	SUP-PASS	_	7	advcl	_	_
 12	inom	_	ADP	_	_	15	case	_	_
 13	några	_	DET	PL-IND	_	15	det	_	_
-14	få	_	ADJ	POS-PL-IND	_	15	det	_	_
+14	få	_	ADJ	POS-PL-IND	_	15	amod	_	_
 15	veckor	_	NOUN	PL-IND-NOM	_	11	obl	_	SpaceAfter=No
 16	.	_	PUNCT	Period	_	2	punct	_	_
 
@@ -37449,7 +37449,7 @@
 13	rensat	_	VERB	SUP-ACT	_	9	conj	_	_
 14	bort	_	ADV	_	_	13	compound:prt	_	_
 15	ännu	_	ADV	_	_	16	advmod	_	_
-16	fler	_	ADJ	CMP-PL-IND	_	17	det	_	_
+16	fler	_	ADJ	CMP-PL-IND	_	17	amod	_	_
 17	regleringar	_	NOUN	PL-IND-NOM	_	13	obj	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	5	punct	_	_
 
@@ -37688,7 +37688,7 @@
 12	steg	_	NOUN	IND-NOM	_	0	root	_	_
 13	i	_	ADP	_	_	16	case	_	_
 14	en	_	DET	SG-IND	_	16	det	_	_
-15	sådan	_	ADJ	POS-SG-IND	_	16	det	_	_
+15	sådan	_	ADJ	POS-SG-IND	_	16	amod	_	_
 16	riktning	_	NOUN	SG-IND-NOM	_	12	nmod	_	SpaceAfter=No
 17	.	_	PUNCT	Period	_	12	punct	_	_
 
@@ -37863,6 +37863,7 @@
 
 # sent_id = 1921
 # text = Kanske är det i stället särskilt viktigt, att exakt konkretisera det ansvar som staden får.
+# newdoc
 1	Kanske	_	ADV	_	_	7	advmod	_	_
 2	är	_	AUX	PRES-ACT	_	7	cop	_	_
 3	det	_	PRON	EX-P3SG	_	7	expl	_	_
@@ -37881,7 +37882,6 @@
 16	får	_	VERB	PRES-ACT	_	13	acl:relcl	_	SpaceAfter=No
 17	.	_	PUNCT	Period	_	7	punct	_	_
 
-# newdoc
 # sent_id = 1922
 # text = En fågel skriade till uppe på taket, och han vaknade.
 1	En	_	DET	SG-IND	_	2	det	_	_
@@ -38300,7 +38300,7 @@
 # sent_id = 1938
 # text = Det borde, som Olivia brukade säga, ha varit ett dystert ställe men var det inte. Tvärt om skedde en förnyelse: landsbygden hade kommit i ropet igen, skänkt människorna den trygghet som kommer av orubblig ro och seg livskraft, en möjlighet att börja från början igen.
 1	Det	_	PRON	PERS-P3SG	_	13	nsubj	_	_
-2	borde	_	AUX	PAST-AUX	_	13	au	x_	SpaceAfter=No
+2	borde	_	AUX	PAST-AUX	_	13	aux	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	13	punct	_	_
 4	som	_	SCONJ	REL	_	6	mark	_	_
 5	Olivia	_	PROPN	SG-NOM	_	7	nsubj	_	_
@@ -38722,7 +38722,7 @@
 # sent_id = 1955
 # text = i så fall har du mer eller mindre hunnit komma i ordning när hon kommer ner.
 1	i	_	ADP	_	_	3	case	_	_
-2	så	_	ADJ	POS-SG-IND	_	3	det	_	_
+2	så	_	ADJ	POS-SG-IND	_	3	amod	_	_
 3	fall	_	NOUN	IND-NOM	_	9	obl	_	_
 4	har	_	AUX	PRES-AUX	_	9	aux	_	_
 5	du	_	PRON	PERS-P2SG-NOM	_	9	nsubj	_	_
@@ -40222,7 +40222,7 @@
 45	man	_	PRON	PERS-P3-NOM	_	51	nsubj	_	_
 46	på	_	ADP	_	_	49	case	_	_
 47	ett	_	DET	SG-IND	_	49	det	_	_
-48	enda	_	ADJ	POS-SG-IND	_	49	det	_	_
+48	enda	_	ADJ	POS-SG-IND	_	49	amod	_	_
 49	ögonblick	_	NOUN	IND-NOM	_	50	obl	_	_
 50	hade	_	AUX	PAST-AUX	_	51	aux	_	_
 51	mist	_	VERB	SUP-ACT	_	43	ccomp	_	_
@@ -40738,7 +40738,7 @@
 24	smutsig	_	ADJ	POS-SG-IND	_	25	amod	_	_
 25	putstrasa	_	NOUN	SG-IND-NOM	_	20	conj	_	_
 26	i	_	ADP	_	_	28	case	_	_
-27	ena	_	ADJ	POS-SG-DEF	_	28	det	_	_
+27	ena	_	ADJ	POS-SG-DEF	_	28	amod	_	_
 28	handen	_	NOUN	SG-DEF-NOM	_	25	nmod	_	SpaceAfter=No
 29	.	_	PUNCT	Period	_	9	punct	_	_
 
@@ -40805,7 +40805,7 @@
 5	års	_	NOUN	IND-GEN	_	6	nmod:poss	_	_
 6	flicka	_	NOUN	SG-IND-NOM	_	16	nsubj	_	_
 7	med	_	ADP	_	_	9	case	_	_
-8	ena	_	ADJ	POS-SG-DEF	_	9	det	_	_
+8	ena	_	ADJ	POS-SG-DEF	_	9	amod	_	_
 9	jackärmen	_	NOUN	SG-DEF-NOM	_	6	nmod	_	_
 10	översållad	_	VERB	AD-SG-IND	_	9	amod	_	_
 11	av	_	ADP	_	_	15	case	_	_
@@ -41910,7 +41910,7 @@
 5	övertog	_	VERB	PAST-ACT	_	0	root	_	_
 6	Silver	_	PROPN	SG-NOM	_	5	nsubj	_	_
 7	Rhino	_	PROPN	SG-NOM	_	6	flat	_	_
-8	förra	_	ADJ	POS-DEF	_	9	det	_	_
+8	förra	_	ADJ	POS-DEF	_	9	amod	_	_
 9	året	_	NOUN	SG-DEF-NOM	_	5	obl	_	SpaceAfter=No
 10	.	_	PUNCT	Period	_	5	punct	_	_
 
@@ -42591,7 +42591,7 @@
 18	är	_	AUX	PRES-AUX	_	19	aux:pass	_	_
 19	fördelade	_	VERB	AD-PL-IND	_	11	obj	_	_
 20	på	_	ADP	_	_	23	case	_	_
-21	flera	_	ADJ	POS-PL-IND	_	23	det	_	_
+21	flera	_	ADJ	POS-PL-IND	_	23	amod	_	_
 22	olika	_	ADJ	POS-PL-IND	_	23	amod	_	_
 23	organ	_	NOUN	IND-NOM	_	19	obl	_	SpaceAfter=No
 24	:	_	PUNCT	Colon	_	2	punct	_	_
@@ -43305,7 +43305,7 @@
 38	säga	_	VERB	INF-ACT	_	34	acl	_	_
 39	det	_	PRON	PERS-P3SG	_	38	obj	_	_
 40	i	_	ADP	_	_	42	case	_	_
-41	så	_	ADJ	POS-SG-IND	_	42	det	_	_
+41	så	_	ADJ	POS-SG-IND	_	42	amod	_	_
 42	fall	_	NOUN	IND-NOM	_	38	obl	_	SpaceAfter=No
 43	...	_	PUNCT	Dots	_	14	punct	_	_
 
@@ -43498,7 +43498,7 @@
 7	gunga	_	VERB	INF-ACT	_	6	xcomp	_	_
 8	från	_	ADP	_	_	11	case	_	_
 9	den	_	DET	SG-DEF	_	11	det	_	_
-10	ena	_	ADJ	POS-SG-DEF	_	11	det	_	_
+10	ena	_	ADJ	POS-SG-DEF	_	11	amod	_	_
 11	foten	_	NOUN	SG-DEF-NOM	_	7	obl	_	_
 12	till	_	ADP	_	_	14	case	_	_
 13	den	_	DET	SG-DEF	_	14	det	_	_
@@ -44371,7 +44371,7 @@
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	kände	_	VERB	PAST-ACT	_	0	root	_	_
 3	i	_	ADP	_	_	5	case	_	_
-4	själva	_	ADJ	POS-DEF	_	5	det	_	_
+4	själva	_	ADJ	POS-DEF	_	5	amod	_	_
 5	verket	_	NOUN	SG-DEF-NOM	_	2	obl	_	_
 6	bara	_	ADV	_	_	8	advmod	_	_
 7	ett	_	DET	SG-IND	_	8	det	_	_
@@ -44429,7 +44429,7 @@
 29	Clough	_	PROPN	SG-NOM	_	28	flat	_	SpaceAfter=No
 30	,	_	PUNCT	Comma	_	33	punct	_	_
 31	den	_	DET	SG-DEF	_	33	det	_	_
-32	siste	_	ADJ	ORD	_	33	det	_	_
+32	siste	_	ADJ	ORD	_	33	amod	_	_
 33	guvernören	_	NOUN	SG-DEF-NOM	_	28	appos	_	SpaceAfter=No
 34	,	_	PUNCT	Comma	_	33	punct	_	_
 35	som	_	SCONJ	REL	_	37	mark	_	_
@@ -44470,7 +44470,7 @@
 20	en	_	PRON	IND-SG	_	17	nmod	_	_
 21	av	_	ADP	_	_	25	case	_	_
 22	territoriets	_	NOUN	SG-DEF-GEN	_	25	nmod:poss	_	_
-23	få	_	ADJ	POS-PL-IND	_	25	det	_	_
+23	få	_	ADJ	POS-PL-IND	_	25	amod	_	_
 24	afrikanska	_	ADJ	POS-PL-IND	_	25	amod	_	_
 25	läkare	_	NOUN	IND-NOM	_	20	nmod	_	SpaceAfter=No
 26	,	_	PUNCT	Comma	_	20	punct	_	_
@@ -44943,7 +44943,7 @@
 16	sig	_	PRON	RFL-ACC	_	14	obl	_	_
 17	att	_	PART	_	_	18	mark	_	_
 18	glömma	_	VERB	INF-ACT	_	14	xcomp	_	_
-19	såna	_	ADJ	POS-PL-IND	_	20	det	_	_
+19	såna	_	ADJ	POS-PL-IND	_	20	amod	_	_
 20	saker	_	NOUN	PL-IND-NOM	_	18	obj	_	_
 21	av	_	ADP	_	_	23	case	_	_
 22	ren	_	ADJ	POS-SG-IND	_	23	amod	_	_
@@ -45044,7 +45044,7 @@
 5	accepteras	_	VERB	INF-PASS	_	15	csubj	_	_
 6	med	_	ADP	_	_	12	case	_	_
 7	en	_	DET	SG-IND	_	12	det	_	_
-8	sådan	_	ADJ	POS-SG-IND	_	12	det	_	_
+8	sådan	_	ADJ	POS-SG-IND	_	12	amod	_	_
 9	omedelbar	_	ADJ	POS-SG-IND	_	12	amod	_	SpaceAfter=No
 10	,	_	PUNCT	Comma	_	9	punct	_	_
 11	självklar	_	ADJ	POS-SG-IND	_	12	amod	_	_
@@ -45476,7 +45476,7 @@
 2	bröt	_	VERB	PAST-ACT	_	0	root	_	_
 3	sten	_	NOUN	SG-IND-NOM	_	2	obj	_	_
 4	med	_	ADP	_	_	6	case	_	_
-5	sådana	_	ADJ	POS-PL-IND	_	6	det	_	_
+5	sådana	_	ADJ	POS-PL-IND	_	6	amod	_	_
 6	händer	_	NOUN	PL-IND-NOM	_	2	obl	_	_
 7	--	_	PUNCT	Dash	_	2	punct	_	_
 8	här	_	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -45561,7 +45561,7 @@
 39	viss	_	ADJ	POS-SG-IND	_	40	amod	_	_
 40	standard	_	NOUN	SG-IND-NOM	_	37	obj	_	_
 41	på	_	ADP	_	_	43	case	_	_
-42	såna	_	ADJ	POS-PL-IND	_	43	det	_	_
+42	såna	_	ADJ	POS-PL-IND	_	43	amod	_	_
 43	ställen	_	NOUN	PL-IND-NOM	_	37	obl	_	_
 44	där	_	ADV	REL	_	52	advmod	_	_
 45	lärarna	_	NOUN	PL-DEF-NOM	_	52	nsubj	_	_
@@ -45948,7 +45948,7 @@
 1	Ja	_	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	med	_	ADP	_	_	5	case	_	_
-4	ena	_	ADJ	POS-SG-DEF	_	5	det	_	_
+4	ena	_	ADJ	POS-SG-DEF	_	5	amod	_	_
 5	handen	_	NOUN	SG-DEF-NOM	_	0	root	_	SpaceAfter=No
 6	.	_	PUNCT	Period	_	3	punct	_	_
 7	Medan	_	SCONJ	_	_	9	mark	_	_
@@ -46325,7 +46325,7 @@
 16	sig	_	PRON	RFL-ACC	_	15	obj	_	_
 17	ner	_	ADV	_	_	15	advmod	_	_
 18	i	_	ADP	_	_	21	case	_	_
-19	såna	_	ADJ	POS-PL-IND	_	21	det	_	_
+19	såna	_	ADJ	POS-PL-IND	_	21	amod	_	_
 20	här	_	ADV	_	_	19	advmod	_	_
 21	länder	_	NOUN	PL-IND-NOM	_	15	obl	_	SpaceAfter=No
 22	.	_	PUNCT	Period	_	3	punct	_	_
@@ -46676,7 +46676,7 @@
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	går	_	VERB	PRES-ACT	_	0	root	_	_
 3	i	_	ADP	_	_	5	case	_	_
-4	sista	_	ADJ	ORD	_	5	det	_	_
+4	sista	_	ADJ	ORD	_	5	amod	_	_
 5	klassen	_	NOUN	SG-DEF-NOM	_	2	obl	_	_
 6	i	_	ADP	_	_	7	case	_	_
 7	gymnasiet	_	NOUN	SG-DEF-NOM	_	2	obl	_	_
@@ -47330,7 +47330,7 @@
 19	vad	_	PRON	WH	_	20	iobj	_	_
 20	innebär	_	VERB	PRES-ACT	_	2	conj	_	_
 21	i	_	ADP	_	_	23	case	_	_
-22	så	_	ADJ	POS-SG-IND	_	23	det	_	_
+22	så	_	ADJ	POS-SG-IND	_	23	amod	_	_
 23	fall	_	NOUN	IND-NOM	_	20	obl	_	_
 24	er	_	PRON	P2PL-GEN-SG	_	25	nmod:poss	_	_
 25	oavhängighet	_	NOUN	SG-IND-NOM	_	20	obj	_	SpaceAfter=No
@@ -48385,7 +48385,7 @@
 # text = Dom har såna där glödlampor som man ser på filmer runt omkring stjärnornas toalettbord, sade hon, och dom tänds och släcks och bildar orden LEVE OAVHÄNGIGHETEN!
 1	Dom	_	PRON	PERS-PL	_	2	nsubj	_	_
 2	har	_	VERB	PRES-ACT	_	0	root	_	_
-3	såna	_	ADJ	POS-PL-IND	_	5	det	_	_
+3	såna	_	ADJ	POS-PL-IND	_	5	amod	_	_
 4	där	_	ADV	_	_	3	advmod	_	_
 5	glödlampor	_	NOUN	PL-IND-NOM	_	2	obl	_	_
 6	som	_	SCONJ	REL	_	8	mark	_	_
@@ -48870,6 +48870,7 @@
 
 # sent_id = 2375
 # text = Fattigbasaren hade anlagts redan för länge sedan mer eller mindre på en slump; butiker dök upp helt plötsligt, gator korsade varandra härs och tvärs, bilen skumpade och gungade.
+# newdoc
 1	Fattigbasaren	_	NOUN	SG-DEF-NOM	_	3	nsubj:pass	_	_
 2	hade	_	AUX	PAST-AUX	_	3	aux	_	_
 3	anlagts	_	VERB	SUP-PASS	_	0	root	_	_
@@ -48903,7 +48904,6 @@
 31	gungade	_	VERB	PAST-ACT	_	3	conj	_	SpaceAfter=No
 32	.	_	PUNCT	Period	_	29	punct	_	_
 
-# newdoc
 # sent_id = 2376
 # text = Den värsta födelsedagen
 1	Den	_	DET	SG-DEF	_	3	det	_	_
@@ -49526,7 +49526,7 @@
 1	Harry	_	PROPN	SG-NOM	_	8	nsubj	_	SpaceAfter=No
 2	,	_	PUNCT	Comma	_	1	punct	_	_
 3	å	_	ADP	_	_	5	case	_	_
-4	andra	_	ADJ	CMP-DEF	_	5	det	_	_
+4	andra	_	ADJ	CMP-DEF	_	5	amod	_	_
 5	sidan	_	NOUN	SG-DEF-NOM	_	8	nmod	_	SpaceAfter=No
 6	,	_	PUNCT	Comma	_	8	punct	_	_
 7	var	_	AUX	PAST-ACT	_	8	cop	_	_
@@ -49644,7 +49644,7 @@
 22	vars	_	PRON	WH-REL-GEN	_	23	nmod:poss	_	_
 23	namn	_	NOUN	IND-NOM	_	31	mark	_	_
 24	de	_	DET	PL-DEF	_	26	det	_	_
-25	flesta	_	ADJ	SPL-PL	_	26	det	_	_
+25	flesta	_	ADJ	SPL-PL	_	26	amod	_	_
 26	häxor	_	NOUN	PL-IND-NOM	_	31	nsubj	_	_
 27	och	_	CCONJ	_	_	28	cc	_	_
 28	trollkarlar	_	NOUN	PL-IND-NOM	_	26	conj	_	_
@@ -50779,7 +50779,7 @@
 21	med	_	ADV	_	_	19	fixed	_	_
 22	nu	_	ADV	_	_	28	advmod	_	SpaceAfter=No
 23	,	_	PUNCT	Comma	_	26	punct	_	_
-24	flera	_	ADJ	POS-PL-IND	_	25	det	_	_
+24	flera	_	ADJ	POS-PL-IND	_	25	amod	_	_
 25	veckor	_	NOUN	PL-IND-NOM	_	26	nmod	_	_
 26	senare	_	ADV	CMP	_	22	advmod	_	SpaceAfter=No
 27	,	_	PUNCT	Comma	_	3	punct	_	_
@@ -52834,7 +52834,7 @@
 17	var	_	AUX	PAST-ACT	_	21	cop	_	_
 18	just	_	ADV	_	_	19	advmod	_	_
 19	en	_	DET	SG-IND	_	21	det	_	_
-20	sån	_	ADJ	POS-SG-IND	_	21	det	_	_
+20	sån	_	ADJ	POS-SG-IND	_	21	amod	_	_
 21	sak	_	NOUN	SG-IND-NOM	_	0	root	_	_
 22	som	_	SCONJ	REL	_	21	mark	_	_
 23	Malfoy	_	PROPN	SG-NOM	_	25	nsubj:pass	_	_
@@ -53147,7 +53147,7 @@
 # text = "Vi är nere!" sade Fred då de slog i marken med en lätt stöt.
 1	"	_	PUNCT	Quote	_	4	punct	_	SpaceAfter=No
 2	Vi	_	PRON	PERS-P1PL-NOM	_	4	nsubj	_	_
-3	är	_	VERB	PRES-ACT	_	4	cop	_	_
+3	är	_	AUX	PRES-ACT	_	4	cop	_	_
 4	nere	_	ADV	_	_	0	root	_	SpaceAfter=No
 5	!	_	PUNCT	ExclMark	_	4	punct	_	SpaceAfter=No
 6	"	_	PUNCT	Quote	_	4	punct	_	_
@@ -53219,7 +53219,7 @@
 25	tills	_	SCONJ	_	_	27	mark	_	_
 26	det	_	PRON	PERS-P3SG	_	27	nsubj	_	_
 27	blivit	_	AUX	SUP-AUX	_	20	advcl	_	_
-28	flera	_	ADJ	POS-PL-IND	_	29	det	_	_
+28	flera	_	ADJ	POS-PL-IND	_	29	amod	_	_
 29	våningar	_	NOUN	PL-IND-NOM	_	30	nmod	_	_
 30	högt	_	ADJ	POS-SG-IND	_	27	xcomp	_	_
 31	och	_	CCONJ	_	_	33	cc	_	_
@@ -53285,7 +53285,7 @@
 
 # sent_id = 2582
 # text = Flera tjocka bruna kycklingar gick omkring och pickade på gården.
-1	Flera	_	ADJ	POS-PL-IND	_	4	det	_	_
+1	Flera	_	ADJ	POS-PL-IND	_	4	amod	_	_
 2	tjocka	_	ADJ	POS-PL-IND	_	4	amod	_	_
 3	bruna	_	ADJ	POS-PL-IND	_	4	amod	_	_
 4	kycklingar	_	NOUN	PL-IND-NOM	_	5	nsubj	_	_
@@ -53394,7 +53394,7 @@
 6	gården	_	NOUN	SG-DEF-NOM	_	4	obl	_	_
 7	med	_	ADP	_	_	10	case	_	_
 8	en	_	DET	SG-IND	_	10	det	_	_
-9	sådan	_	ADJ	POS-SG-IND	_	10	det	_	_
+9	sådan	_	ADJ	POS-SG-IND	_	10	amod	_	_
 10	fart	_	NOUN	SG-IND-NOM	_	4	obl	_	_
 11	att	_	SCONJ	_	_	13	mark	_	_
 12	kycklingarna	_	NOUN	PL-DEF-NOM	_	13	nsubj:pass	_	_
@@ -53443,7 +53443,7 @@
 12	stirrade	_	VERB	PAST-ACT	_	3	conj	_	_
 13	från	_	ADP	_	_	17	case	_	_
 14	det	_	DET	SG-DEF	_	17	det	_	_
-15	ena	_	ADJ	POS-SG-DEF	_	17	det	_	_
+15	ena	_	ADJ	POS-SG-DEF	_	17	amod	_	_
 16	skuldmedvetna	_	ADJ	POS-DEF	_	17	amod	_	_
 17	ansiktet	_	NOUN	SG-DEF-NOM	_	12	obl	_	_
 18	till	_	ADP	_	_	20	case	_	_
@@ -53543,7 +53543,7 @@
 28	pappa	_	NOUN	SG-IND-NOM	_	29	nsubj	_	_
 29	kommer	_	VERB	PRES-ACT	_	24	advcl	_	_
 30	hem	_	ADV	_	_	29	advmod	_	_
-31	Såna	_	ADJ	ADJ-PL-NOM	_	33	det	_	_
+31	Såna	_	ADJ	ADJ-PL-NOM	_	33	amod	_	_
 32	här	_	ADV	_	_	31	advmod	_	_
 33	bekymmer	_	NOUN	PL-IND-NOM	_	34	obj	_	_
 34	hade	_	VERB	PAST-ACT	_	5	conj	_	_
@@ -55747,7 +55747,7 @@
 15	vilt	_	ADV	_	_	16	advmod	_	_
 16	svängande	_	VERB	NDE	_	14	amod	_	_
 17	i	_	ADP	_	_	19	case	_	_
-18	ena	_	ADJ	POS-SG-DEF	_	19	det	_	_
+18	ena	_	ADJ	POS-SG-DEF	_	19	amod	_	_
 19	handen	_	NOUN	SG-DEF-NOM	_	14	nmod	_	_
 20	och	_	CCONJ	_	_	21	cc	_	_
 21	Ginny	_	PROPN	SG-NOM	_	14	conj	_	_
@@ -56221,7 +56221,7 @@
 38	och	_	CCONJ	_	_	39	cc	_	_
 39	studerade	_	VERB	PAST-ACT	_	35	conj	_	_
 40	de	_	DET	PL-DEF	_	43	det	_	_
-41	många	_	ADJ	POS-PL-DEF	_	43	det	_	_
+41	många	_	ADJ	POS-PL-DEF	_	43	amod	_	_
 42	spännande	_	ADJ	NDE	_	43	amod	_	_
 43	butiksfönstren	_	NOUN	PL-DEF-NOM	_	39	obj	_	SpaceAfter=No
 44	.	_	PUNCT	Period	_	6	punct	_	_
