@@ -15683,7 +15683,7 @@
 10	konversationen	_	NOUN	SG-DEF-NOM	_	7	obl	_	_
 11	i	_	ADP	_	_	12	case	_	_
 12	förbifarten	_	NOUN	SG-DEF-NOM	_	7	obl	_	SpaceAfter=No
-13	:	_	PUNCT	Colon	_	7	punct	_	_
+13	:	_	PUNCT	Colon	_	7	punct	_	SpaceAfter=No
 14	...	_	PUNCT	Dots	_	20	punct	_	_
 15	det	_	PRON	DEM-SG	_	20	nsubj	_	_
 16	där	_	ADV	DEM-SG	_	15	fixed	_	_
