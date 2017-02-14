@@ -240,7 +240,7 @@
 
 # sent_id = 2750
 # text = Access-projektet måste vara anslutet till en SQL Server-databas (version 7.0 eller senare) eller en Microsoft SQL Server 2000 Desktop Engine.
-1	Access-projektet	_	NOUN	SG-DEF-NOM	_	4	nsubj	_	_
+1	Access-projektet	_	NOUN	SG-DEF-NOM	_	4	nsubj:pass	_	_
 2	måste	_	AUX	AUX	_	4	aux	_	_
 3	vara	_	AUX	INF-AUX	_	4	aux:pass	_	_
 4	anslutet	_	VERB	AD-SG-IND	_	0	root	_	_
@@ -726,7 +726,7 @@
 1	Med	_	ADP	_	_	2	case	_	_
 2	XML	_	PROPN	SG-NOM	_	5	nmod	_	_
 3	är	_	AUX	PRES-ACT	_	5	cop	_	_
-4	det	_	PRON	PERS-P3SG	_	5	nsubj	_	_
+4	det	_	PRON	EX-P3SG	_	5	expl	_	_
 5	enklare	_	ADJ	CMP	_	0	root	_	_
 6	att	_	PART	_	_	7	mark	_	_
 7	överföra	_	VERB	INF-ACT	_	5	csubj	_	_
@@ -1363,7 +1363,7 @@
 9	försäljarna	_	NOUN	PL-DEF-NOM	_	7	nmod	_	_
 10	baserat	_	VERB	AD-SG-IND	_	7	amod	_	_
 11	på	_	ADP	_	_	14	case	_	_
-12	antalet	_	NOUN	SG-DEF-NOM	_	14	det	_	_
+12	antalet	_	NOUN	SG-DEF-NOM	_	14	nmod	_	_
 13	hanterade	_	ADJ	AD-PL-IND	_	14	amod	_	_
 14	order	_	NOUN	IND-NOM	_	10	obl	_	SpaceAfter=No
 15	.	_	PUNCT	Period	_	7	punct	_	_
@@ -3063,7 +3063,7 @@
 5	hon	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
 6	ett	_	DET	SG-IND	_	8	det	_	_
 7	stort	_	ADJ	POS-SG-IND	_	8	amod	_	_
-8	antal	_	NOUN	IND-NOM	_	9	det	_	_
+8	antal	_	NOUN	IND-NOM	_	9	nmod	_	_
 9	blemmor	_	NOUN	PL-IND-NOM	_	4	obj	_	_
 10	som	_	SCONJ	REL	_	12	mark	_	_
 11	hon	_	PRON	PERS-P3SG-NOM	_	12	nsubj	_	_
@@ -4238,7 +4238,7 @@
 52	tjänade	_	VERB	PAST-ACT	_	41	advcl	_	_
 53	det	_	DET	SG-DEF	_	55	det	_	_
 54	ackumulerade	_	ADJ	AD-DEF	_	55	amod	_	_
-55	antalet	_	NOUN	SG-DEF-NOM	_	56	det	_	_
+55	antalet	_	NOUN	SG-DEF-NOM	_	56	nmod	_	_
 56	åldringar	_	NOUN	PL-IND-NOM	_	52	nsubj	_	_
 57	som	_	ADP	_	_	61	case	_	_
 58	ett	_	DET	SG-IND	_	61	det	_	_
@@ -5057,7 +5057,7 @@
 # text = Men en sak kan jag ju faktiskt göra för er.
 1	Men	_	CCONJ	_	_	8	cc	_	_
 2	en	_	DET	SG-IND	_	3	det	_	_
-3	sak	_	NOUN	SG-IND-NOM	_	8	nsubj	_	_
+3	sak	_	NOUN	SG-IND-NOM	_	8	obj	_	_
 4	kan	_	AUX	PRES-AUX	_	8	aux	_	_
 5	jag	_	PRON	PERS-P1SG-NOM	_	8	nsubj	_	_
 6	ju	_	ADV	_	_	8	advmod	_	_
@@ -6116,14 +6116,14 @@
 
 # sent_id = 3044
 # text = Felet med dem är att diskussionsdeltagarna oföränderligt överför sin egen intelligens på det som de diskuterar.
-1	Felet	_	NOUN	SG-DEF-NOM	_	8	nsubj	_	_
+1	Felet	_	NOUN	SG-DEF-NOM	_	0	root	_	_
 2	med	_	ADP	_	_	3	case	_	_
 3	dem	_	PRON	PERS-P3PL-ACC	_	1	nmod	_	_
-4	är	_	AUX	PRES-ACT	_	8	cop	_	_
+4	är	_	AUX	PRES-ACT	_	1	cop	_	_
 5	att	_	SCONJ	_	_	8	mark	_	_
 6	diskussionsdeltagarna	_	NOUN	PL-DEF-NOM	_	8	nsubj	_	_
 7	oföränderligt	_	ADV	_	_	8	advmod	_	_
-8	överför	_	VERB	PRES-ACT	_	0	root	_	_
+8	överför	_	VERB	PRES-ACT	_	1	csubj	_	_
 9	sin	_	PRON	RFL-SG-GEN	_	10	nmod:poss	_	_
 10	egen	_	ADJ	POS-SG-IND	_	11	amod	_	_
 11	intelligens	_	NOUN	SG-IND-NOM	_	8	obj	_	_
@@ -6300,21 +6300,21 @@
 1	Vad	_	PRON	WH-REL-SG	_	4	nsubj:pass	_	_
 2	som	_	ADP	WH-REL-SG	_	1	fixed	_	_
 3	fortfarande	_	ADV	_	_	4	advmod	_	_
-4	hålls	_	VERB	PRES-PASS	_	11	csubj	_	_
+4	hålls	_	VERB	PRES-PASS	_	13	csubj	_	_
 5	vid	_	ADP	_	_	6	case	_	_
 6	liv	_	NOUN	IND-NOM	_	4	obl	_	_
 7	i	_	ADP	_	_	10	case	_	_
 8	alla	_	DET	TOT-PL	_	10	det	_	_
 9	civiliserade	_	ADJ	POS-PL-IND	_	10	amod	_	_
 10	samtal	_	NOUN	IND-NOM	_	4	obl	_	_
-11	är	_	VERB	PRES-ACT	_	0	root	_	_
+11	är	_	VERB	PRES-ACT	_	13	cop	_	_
 12	själva	_	ADJ	POS-DEF	_	13	amod	_	_
-13	ritualen	_	NOUN	SG-DEF-NOM	_	11	nsubj	_	_
+13	ritualen	_	NOUN	SG-DEF-NOM	_	0	root	_	_
 14	för	_	ADP	_	_	17	case	_	_
 15	det	_	DET	SG-DEF	_	17	det	_	_
 16	civiliserade	_	ADJ	POS-DEF	_	17	amod	_	_
 17	samtalet	_	NOUN	SG-DEF-NOM	_	13	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	Period	_	11	punct	_	_
+18	.	_	PUNCT	Period	_	13	punct	_	_
 
 # sent_id = 3053
 # text = Tatu håller med ärkebiskopen i fråga om ryssarna.
@@ -7139,17 +7139,17 @@
 
 # sent_id = 3102
 # text = Detta är vad jag skulle säga om jag svarade henne:
-1	Detta	_	PRON	DEM-SG	_	6	nsubj	_	_
-2	är	_	AUX	PRES-ACT	_	6	cop	_	_
+1	Detta	_	PRON	DEM-SG	_	0	root	_	_
+2	är	_	AUX	PRES-ACT	_	1	cop	_	_
 3	vad	_	PRON	WH-SG	_	6	obj	_	_
 4	jag	_	PRON	PERS-P1SG-NOM	_	6	nsubj	_	_
 5	skulle	_	AUX	PAST-AUX	_	6	aux	_	_
-6	säga	_	VERB	INF-ACT	_	0	root	_	_
+6	säga	_	VERB	INF-ACT	_	1	csubj	_	_
 7	om	_	SCONJ	_	_	9	mark	_	_
 8	jag	_	PRON	PERS-P1SG-NOM	_	9	nsubj	_	_
 9	svarade	_	VERB	PAST-ACT	_	6	advcl	_	_
 10	henne	_	PRON	PERS-P3SG-ACC	_	9	obj	_	SpaceAfter=No
-11	:	_	PUNCT	Colon	_	6	punct	_	_
+11	:	_	PUNCT	Colon	_	1	punct	_	_
 
 # sent_id = 3103
 # text = Amerikaner älskar att öppna sitt hjärta för utländska besökare.
@@ -8007,7 +8007,7 @@
 
 # sent_id = 3143
 # text = Det var som om hon hade känt till allt om dem och om mig med.
-1	Det	_	PRON	PERS-P3SG	_	7	nsubj	_	_
+1	Det	_	PRON	EX-P3SG	_	7	expl	_	_
 2	var	_	AUX	PAST-ACT	_	7	cop	_	_
 3	som	_	ADP	_	_	7	mark	_	_
 4	om	_	SCONJ	_	_	3	fixed	_	_
@@ -10508,16 +10508,16 @@
 3	säkert	_	ADV	_	_	4	advmod	_	_
 4	kontraproduktivt	_	ADJ	POS-SG-IND	_	0	root	_	_
 5	att	_	PART	_	_	6	mark	_	_
-6	ge	_	VERB	INF-ACT	_	1	dislocated	_	_
+6	ge	_	VERB	INF-ACT	_	4	csubj	_	_
 7	ett	_	DET	SG-IND	_	8	det	_	_
 8	anbud	_	NOUN	SG-IND-NOM	_	6	obj	_	SpaceAfter=No
 9	,	_	PUNCT	Comma	_	4	punct	_	_
-10	det	_	PRON	PERS-P3SG	_	15	nsubj	_	_
+10	det	_	PRON	PERS-P3SG	_	15	obj	_	_
 11	har	_	AUX	PRES-AUX	_	15	aux	_	_
 12	en	_	PRON	IND-SG-NOM	_	15	nsubj	_	_
 13	del	_	NOUN	IND-SG-NOM	_	12	fixed	_	_
 14	redan	_	ADV	_	_	15	advmod	_	_
-15	försökt	_	VERB	SUP-ACT	_	4	conj	_	SpaceAfter=No
+15	försökt	_	VERB	SUP-ACT	_	4	parataxis	_	SpaceAfter=No
 16	,	_	PUNCT	Comma	_	25	punct	_	_
 17	så	_	ADV	_	_	25	mark	_	_
 18	länge	_	ADV	_	_	17	fixed	_	_
@@ -11275,7 +11275,7 @@
 3	och	_	CCONJ	_	_	4	cc	_	_
 4	herrar	_	NOUN	PL-IND-NOM	_	2	conj	_	SpaceAfter=No
 5	!	_	PUNCT	ExclMark	_	7	punct	_	_
-6	Det	_	PRON	PERS-P3SG	_	9	nsubj	_	_
+6	Det	_	PRON	PERS-P3SG	_	9	expl	_	_
 7	är	_	AUX	PRES-ACT	_	9	cop	_	_
 8	ju	_	ADV	_	_	9	advmod	_	_
 9	bra	_	ADJ	POS-IND	_	0	root	_	_
@@ -13044,7 +13044,7 @@
 3	stank	_	NOUN	SG-IND-NOM	_	7	nsubj	_	_
 4	av	_	ADP	_	_	3	acl	_	_
 5	dött	_	ADJ	POS-SG-IND	_	6	amod	_	_
-6	djur	_	NOUN	IND-NOM	_	7	nsubj	_	_
+6	djur	_	NOUN	IND-NOM	_	3	nmod	_	_
 7	fläktade	_	VERB	PAST-ACT	_	0	root	_	_
 8	mot	_	ADP	_	_	9	case	_	_
 9	honom	_	PRON	PERS-P3SG-ACC	_	7	obl	_	SpaceAfter=No
@@ -14211,14 +14211,14 @@
 # text = Du känner Mweta.
 1	Du	_	PRON	PERS-P2SG-NOM	_	2	nsubj	_	_
 2	känner	_	VERB	PRES-ACT	_	0	root	_	_
-3	Mweta	_	PROPN	SG-NOM	_	2	nsubj	_	SpaceAfter=No
+3	Mweta	_	PROPN	SG-NOM	_	2	obj	_	SpaceAfter=No
 4	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3434
 # text = Jag känner Mweta.
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	känner	_	VERB	PRES-ACT	_	0	root	_	_
-3	Mweta	_	PROPN	SG-NOM	_	2	nsubj	_	SpaceAfter=No
+3	Mweta	_	PROPN	SG-NOM	_	2	obj	_	SpaceAfter=No
 4	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3435
@@ -14257,7 +14257,7 @@
 6	när	_	SCONJ	_	_	8	mark	_	_
 7	jag	_	PRON	PERS-P1SG-NOM	_	8	nsubj	_	_
 8	träffade	_	VERB	PAST-ACT	_	2	advcl	_	_
-9	Mweta	_	PROPN	SG-NOM	_	8	nsubj	_	_
+9	Mweta	_	PROPN	SG-NOM	_	8	obj	_	_
 10	i	_	ADP	_	_	11	case	_	_
 11	London	_	PROPN	SG-NOM	_	8	obl	_	_
 12	senast	_	ADV	SPL	_	8	advmod	_	_
@@ -14361,10 +14361,10 @@
 
 # sent_id = 3445
 # text = En del av svaren var överraskande;
-1	En	_	DET	SG-IND	_	2	det	_	_
-2	del	_	NOUN	SG-IND-NOM	_	6	nsubj	_	_
+1	En	_	PRON	IND-SG-NOM	_	6	nsubj	_	_
+2	del	_	NOUN	SG-IND-NOM	_	1	fixed	_	_
 3	av	_	ADP	_	_	2	acl	_	_
-4	svaren	_	NOUN	PL-DEF-NOM	_	6	nsubj	_	_
+4	svaren	_	NOUN	PL-DEF-NOM	_	1	nmod	_	_
 5	var	_	AUX	PAST-ACT	_	6	cop	_	_
 6	överraskande	_	VERB	NDE	_	0	root	_	SpaceAfter=No
 7	;	_	PUNCT	SemiColon	_	6	punct	_	_
@@ -14407,8 +14407,8 @@
 34	helomvändningar	_	NOUN	PL-IND-NOM	_	30	obl	_	_
 35	med	_	ADP	_	_	36	case	_	_
 36	vilka	_	PRON	WH-REL-PL	_	40	obl	_	_
-37	en	_	DET	SG-IND	_	38	det	_	_
-38	del	_	NOUN	SG-IND-NOM	_	39	det	_	_
+37	en	_	DET	SG-IND	_	39	det	_	_
+38	del	_	NOUN	SG-IND-NOM	_	37	fixed	_	_
 39	vita	_	ADJ	POS-PL-IND	_	40	nsubj	_	_
 40	ställde	_	VERB	PAST-ACT	_	34	acl:relcl	_	_
 41	sig	_	PRON	RFL-ACC	_	40	obj	_	_
@@ -14639,8 +14639,8 @@
 12	morgonen	_	NOUN	SG-DEF-NOM	_	7	obl	_	SpaceAfter=No
 13	...	_	PUNCT	Dots	_	2	punct	_	_
 14	att	_	SCONJ	_	_	24	mark	_	_
-15	en	_	DET	SG-IND	_	16	det	_	_
-16	del	_	NOUN	SG-IND-NOM	_	17	det	_	_
+15	en	_	DET	SG-IND	_	17	det	_	_
+16	del	_	NOUN	SG-IND-NOM	_	15	fixed	_	_
 17	vita	_	ADJ	POS-PL-IND	_	24	nsubj	_	_
 18	som	_	SCONJ	REL	_	20	mark	_	_
 19	fortfarande	_	ADV	_	_	20	advmod	_	_
@@ -15661,7 +15661,7 @@
 21	engelska	_	NOUN	SG-IND-NOM	_	22	nsubj	_	_
 22	låter	_	VERB	PRES-ACT	_	3	conj	_	_
 23	ju	_	ADV	_	_	22	advmod	_	_
-24	i	_	ADP	_	_	22	advmod	_	_
+24	i	_	ADV	_	_	22	advmod	_	_
 25	och	_	CCONJ	_	_	24	fixed	_	_
 26	för	_	ADP	_	_	24	fixed	_	_
 27	sig	_	PRON	RFL-ACC	_	24	fixed	_	_
@@ -17088,7 +17088,7 @@
 
 # sent_id = 3558
 # text = Det har kommit till vår kännedom att en svävarförtrollning har använts tolv minuter över nio i kväll hemma i er bostad.
-1	Det	_	PRON	PERS-P3SG	_	3	nsubj	_	_
+1	Det	_	PRON	EX-P3SG	_	3	expl	_	_
 2	har	_	AUX	PRES-AUX	_	3	aux	_	_
 3	kommit	_	VERB	SUP-ACT	_	0	root	_	_
 4	till	_	ADP	_	_	6	case	_	_
@@ -17908,7 +17908,7 @@
 6	gillat	_	VERB	SUP-ACT	_	0	root	_	_
 7	den	_	PRON	PERS-P3SG	_	6	obj	_	_
 8	--	_	PUNCT	Dash	_	10	punct	_	_
-9	det	_	PRON	PERS-P3SG	_	10	nsubj	_	_
+9	det	_	PRON	EX-P3SG	_	10	expl	_	_
 10	fanns	_	VERB	PAST-DPO	_	6	advcl	_	_
 11	massor	_	NOUN	PL-IND-NOM	_	10	nsubj	_	_
 12	med	_	ADP	_	_	13	case	_	_
@@ -18321,9 +18321,9 @@
 11	skallig	_	ADJ	POS-SG-IND	_	10	xcomp	_	SpaceAfter=No
 12	,	_	PUNCT	Comma	_	2	punct	_	_
 13	men	_	CCONJ	_	_	21	cc	_	_
-14	det	_	PRON	PERS-P3SG	_	18	nsubj	_	_
+14	det	_	DET	SG-DEF	_	16	det	_	_
 15	lilla	_	ADJ	POS-DEF	_	16	amod	_	_
-16	hår	_	NOUN	IND-NOM	_	21	nsubj	_	_
+16	hår	_	NOUN	IND-NOM	_	21	obj	_	_
 17	han	_	PRON	PERS-P3SG-NOM	_	18	nsubj	_	_
 18	hade	_	VERB	PAST-ACT	_	16	acl:relcl	_	_
 19	var	_	AUX	PAST-ACT	_	21	cop	_	_
@@ -18399,7 +18399,7 @@
 
 # sent_id = 3618
 # text = Det är förstås väldigt svårt att ställa nån till svars för det, för inga mugglare vill erkänna att de har nycklar som krymper -- de påstår bara att de tappar dem hela tiden.
-1	Det	_	PRON	PERS-P3SG	_	5	nsubj	_	_
+1	Det	_	PRON	EX-P3SG	_	5	expl	_	_
 2	är	_	AUX	PRES-ACT	_	5	cop	_	_
 3	förstås	_	ADV	_	_	5	advmod	_	_
 4	väldigt	_	ADV	_	_	5	advmod	_	_
@@ -18478,21 +18478,21 @@
 
 # sent_id = 3622
 # text = "Ja, Arthur, bilar", sade mrs Weasley med blixtrande ögon.
-1	"	_	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
-2	Ja	_	INTJ	_	_	9	advmod	_	SpaceAfter=No
+1	"	_	PUNCT	Quote	_	6	punct	_	SpaceAfter=No
+2	Ja	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	2	punct	_	_
-4	Arthur	_	PROPN	SG-NOM	_	9	nsubj	_	SpaceAfter=No
+4	Arthur	_	PROPN	SG-NOM	_	6	vocative	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	4	punct	_	_
-6	bilar	_	NOUN	PL-IND-NOM	_	4	nmod	_	SpaceAfter=No
-7	"	_	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
-8	,	_	PUNCT	Comma	_	7	punct	_	_
-9	sade	_	VERB	PAST-ACT	_	0	root	_	_
+6	bilar	_	NOUN	PL-IND-NOM	_	0	root	_	SpaceAfter=No
+7	"	_	PUNCT	Quote	_	6	punct	_	SpaceAfter=No
+8	,	_	PUNCT	Comma	_	6	punct	_	_
+9	sade	_	VERB	PAST-ACT	_	6	parataxis	_	_
 10	mrs	_	NOUN	SG-IND-NOM	_	11	nmod	_	_
 11	Weasley	_	PROPN	SG-NOM	_	9	nsubj	_	_
 12	med	_	ADP	_	_	14	case	_	_
 13	blixtrande	_	ADJ	NDE	_	14	amod	_	_
 14	ögon	_	NOUN	PL-IND-NOM	_	9	obl	_	SpaceAfter=No
-15	.	_	PUNCT	Period	_	9	punct	_	_
+15	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3623
 # text = Mr Weasley blinkade.
@@ -18674,7 +18674,7 @@
 19	liten	_	ADJ	POS-SG-IND	_	20	amod	_	_
 20	skylt	_	NOUN	SG-IND-NOM	_	13	conj	_	_
 21	där	_	ADV	REL	_	23	mark	_	_
-22	det	_	PRON	PERS-P3SG	_	23	nsubj	_	_
+22	det	_	PRON	EX-P3SG	_	23	expl	_	_
 23	stod	_	VERB	PAST-ACT	_	20	acl:relcl	_	_
 24	"	_	PUNCT	Quote	_	26	punct	_	SpaceAfter=No
 25	Ronalds	_	PROPN	SG-GEN	_	26	nmod:poss	_	_
@@ -19063,12 +19063,12 @@
 20	gengångaren	_	NOUN	SG-DEF-NOM	_	16	conj	_	SpaceAfter=No
 21	,	_	PUNCT	Comma	_	16	punct	_	_
 22	utan	_	CCONJ	_	_	28	cc	_	_
-23	det	_	PRON	PERS-P3SG	_	28	nsubj	_	_
-24	var	_	AUX	PAST-ACT	_	28	cop	_	_
+23	det	_	PRON	PERS-P3SG	_	16	conj	_	_
+24	var	_	AUX	PAST-ACT	_	23	cop	_	_
 25	att	_	SCONJ	_	_	28	mark	_	_
 26	alla	_	PRON	TOT-PL-NOM	_	28	nsubj	_	_
 27	där	_	ADV	_	_	26	advmod	_	_
-28	verkade	_	VERB	PAST-ACT	_	16	conj	_	_
+28	verkade	_	VERB	PAST-ACT	_	23	csubj	_	_
 29	tycka	_	VERB	INF-ACT	_	28	xcomp	_	_
 30	om	_	ADP	_	_	29	compound:prt	_	_
 31	honom	_	PRON	PERS-P3SG-ACC	_	29	obj	_	SpaceAfter=No
