@@ -10134,23 +10134,23 @@
 17	av	_	ADP	_	_	19	case	_	_
 18	110:e	_	ADJ	ORD	_	19	amod	_	_
 19	gatan	_	NOUN	SG-DEF-NOM	_	16	obl	_	SpaceAfter=No
-20	,	_	PUNCT	Comma	_	22	punct	_	_
+20	,	_	PUNCT	Comma	_	25	punct	_	_
 21	i	_	ADP	_	_	22	case	_	_
 22	söder	_	NOUN	SG-IND-NOM	_	25	nmod	_	_
 23	av	_	ADP	_	_	25	case	_	_
 24	72:a	_	ADJ	ORD	_	25	amod	_	_
-25	gatan	_	NOUN	SG-DEF-NOM	_	22	orphan	_	SpaceAfter=No
-26	,	_	PUNCT	Comma	_	28	punct	_	_
+25	gatan	_	NOUN	SG-DEF-NOM	_	19	conj	_	SpaceAfter=No
+26	,	_	PUNCT	Comma	_	30	punct	_	_
 27	i	_	ADP	_	_	28	case	_	_
-28	väster	_	NOUN	SG-IND-NOM	_	16	conj	_	_
+28	väster	_	NOUN	SG-IND-NOM	_	30	nmod	_	_
 29	av	_	ADP	_	_	30	case	_	_
-30	Riverside	_	PROPN	SG-NOM	_	28	orphan	_	_
+30	Riverside	_	PROPN	SG-NOM	_	19	conj	_	_
 31	Park	_	NOUN	SG-FGN	_	30	flat	_	_
-32	och	_	CCONJ	_	_	34	cc	_	_
+32	och	_	CCONJ	_	_	36	cc	_	_
 33	i	_	ADP	_	_	34	case	_	_
-34	öster	_	NOUN	SG-IND-NOM	_	16	conj	_	_
+34	öster	_	NOUN	SG-IND-NOM	_	36	nmod	_	_
 35	av	_	ADP	_	_	36	case	_	_
-36	Amsterdam	_	PROPN	SG-NOM	_	34	orphan	_	_
+36	Amsterdam	_	PROPN	SG-NOM	_	19	conj	_	_
 37	Avenue	_	PROPN	SG-NOM	_	36	flat	_	SpaceAfter=No
 38	.	_	PUNCT	Period	_	3	punct	_	_
 
@@ -26363,7 +26363,7 @@
 8	samsats	_	VERB	SUP-PASS	_	3	acl:relcl	_	_
 9	helt	_	ADV	_	_	10	advmod	_	_
 10	belåtet	_	ADV	_	_	8	advmod	_	_
-11	med	_	ADP	_	_	8	advmod	_	_
+11	med	_	ADP	_	_	3	case	_	_
 12	sen	_	ADP	_	_	14	case	_	_
 13	skapelsens	_	NOUN	SG-DEF-GEN	_	14	nmod:poss	_	_
 14	morgon	_	NOUN	SG-IND-NOM	_	8	obl	_	_
@@ -27842,7 +27842,7 @@
 1	Han	_	PRON	PERS-P3SG-NOM	_	3	nsubj	_	_
 2	var	_	AUX	PAST-ACT	_	3	cop	_	_
 3	svensk	_	ADJ	POS-SG-IND	_	0	root	_	_
-4	till	_	ADP	_	_	2	advmod	_	_
+4	till	_	ADV	_	_	6	advmod	_	_
 5	på	_	ADP	_	_	6	case	_	_
 6	köpet	_	NOUN	SG-DEF-NOM	_	3	nmod	_	SpaceAfter=No
 7	.	_	PUNCT	Period	_	3	punct	_	_
@@ -28717,7 +28717,7 @@
 55	jag	_	PRON	PERS-P1SG-NOM	_	57	nsubj	_	_
 56	hade	_	AUX	PAST-AUX	_	57	aux	_	_
 57	hamnat	_	VERB	SUP-ACT	_	54	acl:relcl	_	_
-58	i	_	ADP	_	_	57	advmod	_	SpaceAfter=No
+58	i	_	ADP	_	_	54	case	_	SpaceAfter=No
 59	.	_	PUNCT	Period	_	56	punct	_	_
 
 # sent_id = 1423
@@ -29722,9 +29722,9 @@
 22	hamn	_	NOUN	SG-IND-NOM	_	20	nmod	_	_
 23	och	_	CCONJ	_	_	31	cc	_	_
 24	bara	_	ADV	_	_	27	advmod	_	_
-25	i	_	ADP	_	_	31	advmod	_	_
+25	i	_	ADP	_	_	27	case	_	_
 26	yttre	_	ADJ	CMP	_	27	amod	_	_
-27	måtto	_	NOUN	SG-IND-NOM	_	28	nmod	_	_
+27	måtto	_	NOUN	SG-IND-NOM	_	31	nmod	_	_
 28	på	_	ADP	_	_	31	case	_	_
 29	ett	_	DET	SG-IND	_	31	det	_	_
 30	annat	_	ADJ	POS-SG-IND	_	31	amod	_	_
@@ -29832,7 +29832,7 @@
 15	tecken	_	NOUN	IND-NOM	_	11	nsubj	_	_
 16	att	_	PART	_	_	17	mark	_	_
 17	gå	_	VERB	INF-ACT	_	15	acl	_	_
-18	efter	_	ADP	_	_	17	advmod	_	SpaceAfter=No
+18	efter	_	ADP	_	_	15	case	_	SpaceAfter=No
 19	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1477
@@ -32420,7 +32420,7 @@
 15	inte	_	PART	NEG	_	17	advmod	_	_
 16	kan	_	AUX	PRES-AUX	_	17	aux	_	_
 17	bortse	_	VERB	INF-ACT	_	12	acl:relcl	_	_
-18	från	_	ADP	_	_	17	advmod	_	_
+18	från	_	ADP	_	_	12	case	_	_
 19	och	_	CCONJ	_	_	21	cc	_	_
 20	det	_	PRON	EX-P3SG	_	21	expl	_	_
 21	säkerställer	_	VERB	PRES-ACT	_	17	conj	_	_
@@ -32715,9 +32715,9 @@
 8	,	_	PUNCT	Comma	_	11	punct	_	_
 9	som	_	SCONJ	_	_	11	mark	_	_
 10	många	_	PRON	IND-PL	_	11	nsubj	_	_
-11	varit	_	VERB	SUP-ACT	_	2	advcl	_	_
+11	varit	_	VERB	SUP-ACT	_	5	advcl	_	_
 12	inne	_	ADV	_	_	11	advmod	_	_
-13	på	_	ADP	_	_	11	advmod	_	_
+13	på	_	ADP	_	_	5	case	_	_
 14	i	_	ADP	_	_	15	case	_	_
 15	debatten	_	NOUN	SG-DEF-NOM	_	11	obl	_	_
 16	i	_	ADP	_	_	17	case	_	_
@@ -33456,14 +33456,14 @@
 4	höghastighetståg	_	NOUN	IND-NOM	_	2	obl	_	SpaceAfter=No
 5	,	_	PUNCT	Comma	_	2	punct	_	_
 6	stora	_	ADJ	POS-PL-IND	_	7	amod	_	_
-7	motorvägar	_	NOUN	PL-IND-NOM	_	4	nmod	_	_
+7	motorvägar	_	NOUN	PL-IND-NOM	_	4	conj	_	_
 8	som	_	SCONJ	REL	_	11	mark	_	_
 9	man	_	PRON	PERS-P3-NOM	_	11	nsubj	_	_
 10	skulle	_	AUX	PAST-AUX	_	11	aux	_	_
 11	behöva	_	VERB	INF-ACT	_	7	acl:relcl	_	_
 12	göra	_	VERB	INF-ACT	_	11	xcomp	_	_
 13	något	_	PRON	IND-SG	_	12	obj	_	_
-14	åt	_	ADP	_	_	12	advmod	_	SpaceAfter=No
+14	åt	_	ADP	_	_	7	case	_	SpaceAfter=No
 15	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1671
@@ -33692,8 +33692,8 @@
 # text = Jag stöder till fullo behoven av kontakter med tredje land.
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	stöder	_	VERB	PRES-ACT	_	0	root	_	_
-3	till	_	ADP	_	_	2	advmod	_	_
-4	fullo	_	NOUN	SG-IND-DAT	_	2	obj	_	_
+3	till	_	ADV	_	_	2	advmod	_	_
+4	fullo	_	NOUN	SG-IND-DAT	_	3	fixed	_	_
 5	behoven	_	NOUN	PL-DEF-NOM	_	4	nmod	_	_
 6	av	_	ADP	_	_	7	case	_	_
 7	kontakter	_	NOUN	PL-IND-NOM	_	5	nmod	_	_
@@ -33973,10 +33973,10 @@
 6	påverka	_	VERB	INF-ACT	_	0	root	_	_
 7	våra	_	PRON	P1PL-GEN-PL	_	8	nmod:poss	_	_
 8	ekonomier	_	NOUN	PL-IND-NOM	_	6	obj	_	_
-9	utan	_	ADP	_	_	10	advmod	_	_
-10	också	_	ADV	_	_	8	conj	_	_
+9	utan	_	CCONJ	_	_	14	cc	_	_
+10	också	_	ADV	_	_	14	advmod	_	_
 11	och	_	CCONJ	_	_	12	cc	_	_
-12	framför	_	ADV	_	_	8	conj	_	_
+12	framför	_	ADV	_	_	10	conj	_	_
 13	allt	_	PRON	_	_	12	fixed	_	_
 14	utsikterna	_	NOUN	PL-DEF-NOM	_	8	conj	_	_
 15	för	_	ADP	_	_	17	case	_	_
@@ -40322,12 +40322,12 @@
 
 # sent_id = 2013
 # text = Det var naturligtvis i stort sett en artighetsgest.
-1	Det	_	PRON	EX-P3SG	_	8	expl	_	_
+1	Det	_	PRON	PERS-P3SG	_	8	nsubj	_	_
 2	var	_	AUX	PAST-ACT	_	8	cop	_	_
 3	naturligtvis	_	ADV	_	_	8	advmod	_	_
-4	i	_	ADP	_	_	6	advmod	_	_
-5	stort	_	ADJ	POS-SG-IND	_	6	amod	_	_
-6	sett	_	VERB	AD-SG-IND	_	8	advcl	_	_
+4	i	_	ADV	_	_	8	advmod	_	_
+5	stort	_	ADJ	POS-SG-IND	_	4	fixed	_	_
+6	sett	_	VERB	AD-SG-IND	_	4	fixed	_	_
 7	en	_	DET	SG-IND	_	8	det	_	_
 8	artighetsgest	_	NOUN	SG-IND-NOM	_	0	root	_	SpaceAfter=No
 9	.	_	PUNCT	Period	_	8	punct	_	_
@@ -41106,7 +41106,7 @@
 19	de	_	PRON	PERS-P3PL-NOM	_	20	nsubj	_	_
 20	hade	_	VERB	PAST-ACT	_	17	acl:relcl	_	_
 21	hattarna	_	NOUN	PL-DEF-NOM	_	20	obj	_	_
-22	i	_	ADP	_	_	20	advmod	_	SpaceAfter=No
+22	i	_	ADP	_	_	17	case	_	SpaceAfter=No
 23	,	_	PUNCT	Comma	_	5	punct	_	_
 24	och	_	CCONJ	_	_	34	cc	_	_
 25	när	_	SCONJ	_	_	29	mark	_	_
@@ -42361,7 +42361,7 @@
 5	men	_	CCONJ	_	_	12	cc	_	_
 6	det	_	PRON	PERS-P3SG	_	12	nsubj	_	_
 7	är	_	AUX	PRES-ACT	_	12	cop	_	_
-8	i	_	ADP	_	_	12	advmod	_	_
+8	i	_	ADV	_	_	12	advmod	_	_
 9	alla	_	DET	TOT-PL	_	8	fixed	_	_
 10	fall	_	NOUN	IND-NOM	_	8	fixed	_	_
 11	fel	_	ADJ	POS-IND	_	12	amod	_	_
@@ -42664,7 +42664,7 @@
 14	kan	_	AUX	PRES-AUX	_	15	aux	_	_
 15	vända	_	VERB	INF-ACT	_	11	acl:relcl	_	_
 16	sig	_	PRON	RFL-ACC	_	15	obj	_	_
-17	till	_	ADP	_	_	15	advmod	_	SpaceAfter=No
+17	till	_	ADP	_	_	11	case	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2115
@@ -42727,7 +42727,7 @@
 13	så	_	PART	_	_	14	discourse	_	_
 14	är	_	VERB	PRES-ACT	_	0	root	_	_
 15	det	_	PRON	EX-P3SG	_	14	expl	_	_
-16	i	_	ADP	_	_	14	advmod	_	_
+16	i	_	ADV	_	_	14	advmod	_	_
 17	alla	_	DET	TOT-PL	_	16	fixed	_	_
 18	fall	_	NOUN	IND-NOM	_	16	fixed	_	_
 19	inte	_	PART	NEG	_	14	advmod	_	_
@@ -42988,7 +42988,7 @@
 15	sätta	_	VERB	INF-ACT	_	10	acl:relcl	_	_
 16	mitt	_	PRON	P1SG-GEN-SG	_	17	nmod:poss	_	_
 17	namn	_	NOUN	IND-NOM	_	15	obj	_	_
-18	under	_	ADP	_	_	15	advmod	_	SpaceAfter=No
+18	under	_	ADP	_	_	10	case	_	SpaceAfter=No
 19	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 2135
@@ -43985,12 +43985,12 @@
 9	han	_	PRON	PERS-P3SG-NOM	_	11	nsubj	_	_
 10	hade	_	AUX	PAST-AUX	_	11	aux	_	_
 11	trott	_	VERB	SUP-ACT	_	7	acl:relcl	_	_
-12	på	_	ADP	_	_	11	obl	_	SpaceAfter=No
+12	på	_	ADP	_	_	7	case	_	SpaceAfter=No
 13	,	_	PUNCT	Comma	_	11	punct	_	_
 14	eftersträvat	_	VERB	SUP-ACT	_	11	conj	_	_
 15	och	_	CCONJ	_	_	16	cc	_	_
 16	arbetat	_	VERB	SUP-ACT	_	11	conj	_	_
-17	för	_	ADP	_	_	16	advmod	_	_
+17	för	_	ADP	_	_	16	orphan	_	_
 18	under	_	ADP	_	_	21	case	_	_
 19	en	_	DET	SG-IND	_	21	det	_	_
 20	avsevärd	_	ADJ	POS-SG-IND	_	21	amod	_	_
@@ -44008,7 +44008,7 @@
 4	dånande	_	ADJ	NDE	_	5	amod	_	_
 5	jubel	_	NOUN	IND-NOM	_	1	obl	_	_
 6	som	_	SCONJ	REL	_	10	mark	_	_
-7	med	_	ADP	_	_	10	advmod	_	_
+7	med	_	ADP	_	_	9	case	_	_
 8	jämna	_	ADJ	POS-PL-IND	_	9	amod	_	_
 9	mellanrum	_	NOUN	IND-NOM	_	10	nsubj	_	_
 10	ekade	_	VERB	PAST-ACT	_	5	acl:relcl	_	_
@@ -44120,7 +44120,7 @@
 24	och	_	CCONJ	_	_	25	cc	_	_
 25	betraktade	_	VERB	PAST-ACT	_	6	conj	_	_
 26	allting	_	PRON	TOT-SG-NOM	_	25	obj	_	_
-27	runt	_	ADP	_	_	29	advmod	_	_
+27	runt	_	ADV	_	_	29	advmod	_	_
 28	omkring	_	ADP	_	_	29	case	_	_
 29	sig	_	PRON	RFL-ACC	_	25	obl	_	SpaceAfter=No
 30	,	_	PUNCT	Comma	_	35	punct	_	_
@@ -44330,9 +44330,9 @@
 33	verkliga	_	ADJ	POS-DEF	_	34	amod	_	_
 34	tillställningarna	_	NOUN	PL-DEF-NOM	_	35	nsubj	_	_
 35	försiggick	_	VERB	PAST-ACT	_	2	conj	_	_
-36	före	_	ADP	_	_	35	advmod	_	_
+36	före	_	ADV	_	_	35	advmod	_	_
 37	eller	_	CCONJ	_	_	38	cc	_	_
-38	efter	_	ADP	_	_	36	conj	_	SpaceAfter=No
+38	efter	_	ADV	_	_	36	conj	_	SpaceAfter=No
 39	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2180
@@ -45428,8 +45428,8 @@
 40	landet	_	NOUN	SG-DEF-NOM	_	38	nmod	_	_
 41	som	_	SCONJ	REL	_	43	mark	_	_
 42	han	_	PRON	PERS-P3SG-NOM	_	43	nsubj	_	_
-43	kom	_	VERB	PAST-ACT	_	40	acl:relcl	_	_
-44	ifrån	_	ADP	_	_	43	advmod	_	SpaceAfter=No
+43	kom	_	VERB	PAST-ACT	_	38	acl:relcl	_	_
+44	ifrån	_	ADP	_	_	38	case	_	SpaceAfter=No
 45	.	_	PUNCT	Period	_	26	punct	_	_
 46	Men	_	CCONJ	_	_	57	cc	_	_
 47	händerna	_	NOUN	PL-DEF-NOM	_	57	nsubj	_	_
@@ -45618,9 +45618,9 @@
 6	mycket	_	ADV	_	_	5	advmod	_	_
 7	vare	_	CCONJ	_	_	9	cc	_	_
 8	sig	_	PRON	_	_	7	fixed	_	_
-9	från	_	ADP	_	_	5	advmod	_	_
+9	från	_	ADV	_	_	5	advmod	_	_
 10	eller	_	CCONJ	_	_	11	cc	_	_
-11	till	_	ADP	_	_	9	conj	_	SpaceAfter=No
+11	till	_	ADV	_	_	9	conj	_	SpaceAfter=No
 12	.	_	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 2224
@@ -45956,7 +45956,7 @@
 9	rörde	_	VERB	PAST-ACT	_	3	acl	_	_
 10	i	_	ADP	_	_	11	case	_	_
 11	grytorna	_	NOUN	PL-DEF-NOM	_	9	obl	_	_
-12	för	_	ADP	_	_	13	advmod	_	_
+12	för	_	ADV	_	_	13	advmod	_	_
 13	fullt	_	ADV	_	_	9	advmod	_	_
 14	med	_	ADP	_	_	16	case	_	_
 15	den	_	DET	SG-DEF	_	16	det	_	_
@@ -46025,7 +46025,7 @@
 2	tyckte	_	VERB	PAST-ACT	_	0	root	_	_
 3	att	_	SCONJ	_	_	11	mark	_	_
 4	det	_	PRON	EX-P3SG	_	11	expl	_	_
-5	i	_	ADP	_	_	11	advmod	_	_
+5	i	_	ADV	_	_	11	advmod	_	_
 6	alla	_	DET	TOT-PL	_	5	fixed	_	_
 7	fall	_	NOUN	IND-NOM	_	5	fixed	_	_
 8	var	_	AUX	PAST-ACT	_	11	cop	_	_
@@ -46959,17 +46959,17 @@
 9	vi	_	PRON	PERS-P1PL-NOM	_	11	nsubj	_	_
 10	kan	_	AUX	PRES-AUX	_	11	aux	_	_
 11	utgå	_	VERB	INF-ACT	_	2	conj	_	_
-12	ifrån	_	ADP	_	_	11	advmod	_	_
+12	ifrån	_	ADP	_	_	16	case	_	_
 13	att	_	SCONJ	_	_	16	mark	_	_
 14	kolonialism	_	NOUN	SG-IND-NOM	_	16	nsubj	_	_
 15	är	_	AUX	PRES-ACT	_	16	cop	_	_
-16	oförsvarlig	_	ADJ	POS-SG-IND	_	2	advmod	_	SpaceAfter=No
+16	oförsvarlig	_	ADJ	POS-SG-IND	_	2	advcl	_	SpaceAfter=No
 17	,	_	PUNCT	Comma	_	2	punct	_	_
 18	för	_	ADP	_	_	19	case	_	_
 19	oss	_	PRON	PERS-P1PL-ACC	_	16	nmod	_	SpaceAfter=No
 20	,	_	PUNCT	Comma	_	2	punct	_	_
 21	inte	_	PART	NEG	_	22	advmod	_	_
-22	sant	_	ADJ	POS-SG-IND	_	16	parataxis	_	SpaceAfter=No
+22	sant	_	ADJ	POS-SG-IND	_	16	discourse	_	SpaceAfter=No
 23	?	_	PUNCT	QuestionMark	_	16	punct	_	_
 
 # sent_id = 2291
@@ -48393,7 +48393,7 @@
 8	ser	_	VERB	PRES-ACT	_	5	acl:relcl	_	_
 9	på	_	ADP	_	_	10	case	_	_
 10	filmer	_	NOUN	PL-IND-NOM	_	8	obl	_	_
-11	runt	_	ADP	_	_	14	advmod	_	_
+11	runt	_	ADV	_	_	14	advmod	_	_
 12	omkring	_	ADP	_	_	14	case	_	_
 13	stjärnornas	_	NOUN	PL-DEF-GEN	_	14	nmod:poss	_	_
 14	toalettbord	_	NOUN	IND-NOM	_	8	obl	_	SpaceAfter=No
@@ -49578,10 +49578,10 @@
 6	som	_	SCONJ	REL	_	7	mark	_	_
 7	gjorde	_	VERB	PAST-ACT	_	5	acl:relcl	_	_
 8	Harry	_	PROPN	SG-NOM	_	7	obj	_	_
-9	till	_	ADP	_	_	7	advmod	_	_
+9	till	_	ADP	_	_	12	case	_	_
 10	något	_	DET	SG-IND	_	12	det	_	_
 11	särskilt	_	ADV	_	_	12	advmod	_	_
-12	ovanligt	_	ADV	_	_	7	advmod	_	SpaceAfter=No
+12	ovanligt	_	ADV	_	_	7	xcomp	_	SpaceAfter=No
 13	,	_	PUNCT	Comma	_	12	punct	_	_
 14	till	_	ADV	_	_	18	advmod	_	_
 15	och	_	CCONJ	_	_	14	fixed	_	_
@@ -50906,7 +50906,7 @@
 8	att	_	PART	_	_	14	mark	_	_
 9	glida	_	VERB	INF-ACT	_	6	advcl	_	_
 10	ner	_	ADV	_	_	14	advmod	_	_
-11	över	_	ADP	_	_	14	advmod	_	_
+11	över	_	ADP	_	_	14	case	_	_
 12	hans	_	PRON	P3SG-GEN	_	14	nmod:poss	_	_
 13	tjocka	_	ADJ	POS-DEF	_	14	amod	_	_
 14	bak	_	NOUN	SG-IND-NOM	_	7	nmod	_	SpaceAfter=No
@@ -51130,13 +51130,13 @@
 21	själv	_	ADJ	POS-SG-IND	_	20	amod	_	_
 22	hade	_	AUX	PAST-AUX	_	23	aux	_	_
 23	tänkt	_	VERB	SUP-ACT	_	18	acl:relcl	_	_
-24	kanske	_	ADV	_	_	26	advmod	_	_
-25	hade	_	VERB	PAST-ACT	_	23	ccomp	_	_
+24	kanske	_	ADV	_	_	25	advmod	_	_
+25	hade	_	VERB	PAST-ACT	_	23	parataxis	_	_
 26	han	_	PRON	PERS-P3SG-NOM	_	25	nsubj	_	_
 27	inga	_	DET	NEG-PL-IND	_	28	det	_	_
 28	vänner	_	NOUN	PL-IND-NOM	_	25	obj	_	_
-29	på	_	ADP	_	_	25	advmod	_	_
-30	Hogwarts	_	PROPN	SG-NOM	_	29	nmod	_	SpaceAfter=No
+29	på	_	ADP	_	_	30	case	_	_
+30	Hogwarts	_	PROPN	SG-NOM	_	28	nmod	_	SpaceAfter=No
 31	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2472
@@ -52925,7 +52925,7 @@
 3	ju	_	ADV	_	_	5	advmod	_	_
 4	inte	_	PART	NEG	_	5	advmod	_	_
 5	hålla	_	VERB	INF-ACT	_	0	root	_	_
-6	på	_	ADP	_	_	5	advmod	_	_
+6	på	_	ADP	_	_	5	compound:prt	_	_
 7	och	_	CCONJ	_	_	8	cc	_	_
 8	polera	_	VERB	INF-ACT	_	5	conj	_	_
 9	sitt	_	PRON	RFL-SG-GEN	_	10	nmod:poss	_	_
@@ -52942,7 +52942,7 @@
 1	Du	_	PRON	PERS-P2SG-NOM	_	2	nsubj	_	_
 2	kör	_	VERB	PRES-ACT	_	0	root	_	_
 3	alldeles	_	ADV	_	_	4	advmod	_	_
-4	för	_	ADP	_	_	5	advmod	_	_
+4	för	_	ADV	_	_	5	advmod	_	_
 5	långt	_	ADV	_	_	7	advmod	_	_
 6	åt	_	ADP	_	_	7	case	_	_
 7	väster	_	NOUN	SG-IND-NOM	_	2	obl	_	SpaceAfter=No
@@ -53513,30 +53513,30 @@
 
 # sent_id = 2593
 # text = Bilen borta kunde ha kraschat Alldeles ifrån mig av oro det brydde ni er väl inte om? Aldrig i hela mitt liv vänta ni bara tills pappa kommer hem Såna här bekymmer hade vi aldrig med Bill eller Charlie eller Percy"
-1	Bilen	_	NOUN	SG-DEF-NOM	_	6	nsubj	_	_
-2	borta	_	ADV	_	_	6	advmod	_	_
+1	Bilen	_	NOUN	SG-DEF-NOM	_	2	nsubj	_	_
+2	borta	_	ADV	_	_	0	root	_	_
 3	kunde	_	AUX	PAST-AUX	_	5	aux	_	_
-4	ha	_	AUX	INF-AUX	_	6	aux	_	_
-5	kraschat	_	VERB	SUP-ACT	_	0	root	_	_
+4	ha	_	AUX	INF-AUX	_	5	aux	_	_
+5	kraschat	_	VERB	SUP-ACT	_	2	parataxis	_	_
 6	Alldeles	_	ADV	_	_	8	advmod	_	_
 7	ifrån	_	ADP	_	_	8	case	_	_
-8	mig	_	PRON	PERS-P1SG-ACC	_	5	conj	_	_
-9	av	_	ADP	_	_	7	advmod	_	_
-10	oro	_	NOUN	SG-IND-NOM	_	12	obl	_	_
-11	det	_	PRON	PERS-P3SG	_	12	iobj	_	_
-12	brydde	_	VERB	PAST-ACT	_	5	conj	_	_
+8	mig	_	PRON	PERS-P1SG-ACC	_	2	conj	_	_
+9	av	_	ADP	_	_	10	case	_	_
+10	oro	_	NOUN	SG-IND-NOM	_	8	nmod	_	_
+11	det	_	PRON	PERS-P3SG	_	12	obl	_	_
+12	brydde	_	VERB	PAST-ACT	_	8	parataxis	_	_
 13	ni	_	PRON	PERS-P2PL-NOM	_	12	nsubj	_	_
-14	er	_	PRON	RFL-ACC	_	12	obj	_	_
+14	er	_	PRON	RFL-ACC	_	12	iobj	_	_
 15	väl	_	ADV	_	_	12	advmod	_	_
 16	inte	_	PART	NEG	_	12	advmod	_	_
 17	om	_	ADV	_	_	12	compound:prt	_	SpaceAfter=No
 18	?	_	PUNCT	QuestionMark	_	12	punct	_	_
-19	Aldrig	_	ADV	NEG	_	5	conj	_	_
+19	Aldrig	_	ADV	NEG	_	23	advmod	_	_
 20	i	_	ADP	_	_	23	case	_	_
 21	hela	_	ADJ	POS-DEF	_	23	amod	_	_
 22	mitt	_	PRON	P1SG-GEN-SG	_	23	nmod:poss	_	_
-23	liv	_	NOUN	IND-NOM	_	19	nmod	_	_
-24	vänta	_	VERB	IMP-ACT	_	5	conj	_	_
+23	liv	_	NOUN	IND-NOM	_	2	conj	_	_
+24	vänta	_	VERB	IMP-ACT	_	23	parataxis	_	_
 25	ni	_	PRON	PERS-P2PL-NOM	_	24	nsubj	_	_
 26	bara	_	ADV	_	_	24	advmod	_	_
 27	tills	_	SCONJ	_	_	29	mark	_	_
@@ -53546,7 +53546,7 @@
 31	Såna	_	ADJ	ADJ-PL-NOM	_	33	amod	_	_
 32	här	_	ADV	_	_	31	advmod	_	_
 33	bekymmer	_	NOUN	PL-IND-NOM	_	34	obj	_	_
-34	hade	_	VERB	PAST-ACT	_	5	conj	_	_
+34	hade	_	VERB	PAST-ACT	_	2	conj	_	_
 35	vi	_	PRON	PERS-P1PL-NOM	_	34	nsubj	_	_
 36	aldrig	_	ADV	NEG	_	34	advmod	_	_
 37	med	_	ADP	_	_	38	case	_	_
@@ -54007,10 +54007,10 @@
 2	tittade	_	VERB	PAST-ACT	_	0	root	_	_
 3	på	_	ADP	_	_	4	case	_	_
 4	pärmen	_	NOUN	SG-DEF-NOM	_	2	obl	_	_
-5	till	_	ADP	_	_	2	advmod	_	_
-6	mrs	_	NOUN	SG-IND-NOM	_	5	nmod	_	_
+5	till	_	ADP	_	_	8	case	_	_
+6	mrs	_	NOUN	SG-IND-NOM	_	7	nmod	_	_
 7	Weasleys	_	PROPN	SG-GEN	_	8	nmod:poss	_	_
-8	bok	_	NOUN	SG-IND-NOM	_	2	obj	_	SpaceAfter=No
+8	bok	_	NOUN	SG-IND-NOM	_	4	nmod	_	SpaceAfter=No
 9	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 2616
@@ -54080,7 +54080,7 @@
 # sent_id = 2619
 # text = "För då skulle du mycket väl kunna falla ner ur fel skorsten"
 1	"	_	PUNCT	Quote	_	9	punct	_	SpaceAfter=No
-2	För	_	ADP	_	_	9	advmod	_	_
+2	För	_	CCONJ	_	_	9	cc	_	_
 3	då	_	ADV	_	_	9	advmod	_	_
 4	skulle	_	AUX	PAST-AUX	_	9	aux	_	_
 5	du	_	PRON	PERS-P2SG-NOM	_	9	nsubj	_	_
@@ -54211,7 +54211,7 @@
 1	Någonting	_	PRON	IND-SG	_	3	nsubj	_	_
 2	hårt	_	ADV	_	_	1	advmod	_	_
 3	stötte	_	VERB	PAST-ACT	_	0	root	_	_
-4	emot	_	ADP	_	_	3	advmod	_	_
+4	emot	_	ADP	_	_	6	case	_	_
 5	hans	_	PRON	P3SG-GEN	_	6	nmod:poss	_	_
 6	armbåge	_	NOUN	SG-IND-NOM	_	3	obj	_	_
 7	och	_	CCONJ	_	_	9	cc	_	_
@@ -55001,7 +55001,7 @@
 1	Draco	_	PROPN	SG-NOM	_	2	nsubj	_	_
 2	vände	_	VERB	PAST-ACT	_	0	root	_	_
 3	sig	_	PRON	RFL-ACC	_	2	obj	_	_
-4	om	_	ADP	_	_	2	advmod	_	_
+4	om	_	ADV	_	_	2	advmod	_	_
 5	och	_	CCONJ	_	_	6	cc	_	_
 6	fick	_	VERB	PAST-ACT	_	2	conj	_	_
 7	syn	_	NOUN	SG-IND-NOM	_	6	compound:prt	_	_
@@ -55102,7 +55102,7 @@
 11	tillbaka	_	ADV	_	_	10	advmod	_	_
 12	och	_	CCONJ	_	_	13	cc	_	_
 13	smög	_	VERB	PAST-ACT	_	10	conj	_	_
-14	sedan	_	ADP	_	_	13	advmod	_	_
+14	sedan	_	ADV	_	_	13	advmod	_	_
 15	så	_	ADV	_	_	16	advmod	_	_
 16	tyst	_	ADV	_	_	13	advmod	_	_
 17	han	_	PRON	PERS-P3SG-NOM	_	18	nsubj	_	_
@@ -55662,7 +55662,7 @@
 3	Hermione	_	PROPN	SG-NOM	_	1	conj	_	_
 4	såg	_	VERB	PAST-ACT	_	0	root	_	_
 5	sig	_	PRON	RFL-ACC	_	4	obj	_	_
-6	om	_	ADP	_	_	4	advmod	_	SpaceAfter=No
+6	om	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	;	_	PUNCT	SemiColon	_	4	punct	_	_
 8	där	_	ADV	_	_	9	advmod	_	_
 9	kom	_	VERB	PAST-ACT	_	4	conj	_	_
