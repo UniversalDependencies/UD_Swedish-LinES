@@ -877,7 +877,7 @@
 2	du	_	PRON	PERS-P2SG-NOM	_	3	nsubj	_	_
 3	väljer	_	VERB	PRES-ACT	_	9	advcl	_	_
 4	att	_	PART	_	_	5	mark	_	_
-5	redigera	_	VERB	INF-ACT	_	9	ccomp	_	_
+5	redigera	_	VERB	INF-ACT	_	3	xcomp	_	_
 6	anslutningsfilen	_	NOUN	SG-DEF-NOM	_	5	obj	_	_
 7	måste	_	AUX	AUX	_	9	aux	_	_
 8	du	_	PRON	PERS-P2SG-NOM	_	9	nsubj	_	_
@@ -6101,7 +6101,7 @@
 3	som	_	SCONJ	REL	_	4	mark	_	_
 4	har	_	VERB	PRES-ACT	_	2	acl:relcl	_	_
 5	kontroller	_	NOUN	PL-IND-NOM	_	4	obj	_	_
-6	ordnade	_	VERB	AD-PL-IND	_	4	ccomp	_	_
+6	ordnade	_	ADJ	POS-PL-IND	_	4	xcomp	_	_
 7	som	_	ADP	_	_	9	case	_	_
 8	ett	_	DET	SG-IND	_	9	det	_	_
 9	datablad	_	NOUN	IND-NOM	_	6	obl	_	_
@@ -7140,13 +7140,13 @@
 # sent_id = 385
 # text = Som ung hade han fått flera diktsamlingar utgivna, han hade skrivit pjäser och essäer och genomfört en rad större översättningsarbeten.
 1	Som	_	ADP	_	_	2	case	_	_
-2	ung	_	ADJ	POS-SG-IND	_	5	advmod	_	_
+2	ung	_	ADJ	POS-SG-IND	_	5	amod	_	_
 3	hade	_	AUX	PAST-AUX	_	5	aux	_	_
 4	han	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
 5	fått	_	VERB	SUP-ACT	_	0	root	_	_
 6	flera	_	ADJ	POS-PL-IND	_	7	amod	_	_
 7	diktsamlingar	_	NOUN	PL-IND-NOM	_	5	obj	_	_
-8	utgivna	_	VERB	AD-PL-IND	_	5	ccomp	_	SpaceAfter=No
+8	utgivna	_	ADJ	POS-PL-IND	_	5	xcomp	_	SpaceAfter=No
 9	,	_	PUNCT	Comma	_	5	punct	_	_
 10	han	_	PRON	PERS-P3SG-NOM	_	12	nsubj	_	_
 11	hade	_	AUX	PAST-AUX	_	12	aux	_	_
@@ -10217,7 +10217,7 @@
 2	höll	_	VERB	PAST-ACT	_	0	root	_	_
 3	ögonen	_	NOUN	PL-DEF-NOM	_	2	obj	_	_
 4	stint	_	ADV	_	_	5	advmod	_	_
-5	fästade	_	VERB	AD-PL-IND	_	2	ccomp	_	_
+5	fästade	_	VERB	AD-PL-IND	_	2	xcomp	_	_
 6	på	_	ADP	_	_	7	case	_	_
 7	trottoaren	_	NOUN	SG-DEF-NOM	_	5	obl	_	SpaceAfter=No
 8	,	_	PUNCT	Comma	_	12	punct	_	_
@@ -11103,7 +11103,7 @@
 37	att	_	PART	_	_	38	mark	_	_
 38	hålla	_	VERB	INF-ACT	_	32	advcl	_	_
 39	sig	_	PRON	RFL-ACC	_	38	obj	_	_
-40	dold	_	VERB	AD-SG-IND	_	38	ccomp	_	SpaceAfter=No
+40	dold	_	VERB	AD-SG-IND	_	38	xcomp	_	SpaceAfter=No
 41	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 563
@@ -11199,7 +11199,7 @@
 1	Quinn	_	PROPN	SG-NOM	_	2	nsubj	_	_
 2	kände	_	VERB	PAST-ACT	_	0	root	_	_
 3	sig	_	PRON	RFL-ACC	_	2	obj	_	_
-4	tröstad	_	VERB	AD-SG-IND	_	2	ccomp	_	_
+4	tröstad	_	VERB	AD-SG-IND	_	2	xcomp	_	_
 5	av	_	ADP	_	_	8	case	_	_
 6	denna	_	DET	DEM-SG-IND	_	8	det	_	_
 7	sistnämnda	_	ADJ	AD-DEF	_	8	amod	_	_
@@ -11512,8 +11512,8 @@
 # text = Ty numera var han tvingad att koncentrera sig på vad han gjorde, även om detta i och för sig var i det närmaste ingenting.
 1	Ty	_	CCONJ	_	_	5	cc	_	_
 2	numera	_	ADV	_	_	5	advmod	_	_
-3	var	_	AUX	PAST-ACT	_	5	cop	_	_
-4	han	_	PRON	PERS-P3SG-NOM	_	5	nsubj	_	_
+3	var	_	AUX	PAST-ACT	_	5	aux:pass	_	_
+4	han	_	PRON	PERS-P3SG-NOM	_	5	nsubj:pass	_	_
 5	tvingad	_	VERB	AD-SG-IND	_	0	root	_	_
 6	att	_	PART	_	_	7	mark	_	_
 7	koncentrera	_	VERB	INF-ACT	_	5	xcomp	_	_
@@ -23454,7 +23454,7 @@
 1	Direktören	_	NOUN	SG-DEF-NOM	_	2	nsubj	_	_
 2	försäkrade	_	VERB	PAST-ACT	_	0	root	_	_
 3	sig	_	PRON	RFL-ACC	_	2	obj	_	_
-4	om	_	ADP	_	_	2	obl	_	_
+4	om	_	ADP	_	_	8	case	_	_
 5	att	_	SCONJ	_	_	8	mark	_	_
 6	ankaret	_	NOUN	SG-DEF-NOM	_	8	nsubj	_	_
 7	inte	_	PART	NEG	_	8	advmod	_	_
@@ -24364,7 +24364,7 @@
 10	hela	_	ADJ	POS-DEF	_	11	amod	_	_
 11	mening	_	NOUN	SG-IND-NOM	_	13	nsubj	_	_
 12	är	_	AUX	PRES-ACT	_	13	cop	_	_
-13	tillfinnandes	_	ADV	_	_	3	ccomp	_	_
+13	tillfinnandes	_	ADV	_	_	8	acl:relcl	_	_
 14	inom	_	ADP	_	_	17	case	_	_
 15	ett	_	DET	SG-IND	_	17	det	_	_
 16	knäckt	_	ADJ	AD-SG-IND	_	17	amod	_	_
@@ -25732,7 +25732,7 @@
 60	hade	_	AUX	PAST-AUX	_	61	aux	_	_
 61	ansett	_	VERB	SUP-ACT	_	51	advcl	_	_
 62	mig	_	PRON	PERS-P1SG-ACC	_	61	obj	_	_
-63	kallad	_	VERB	AD-SG-IND	_	61	ccomp	_	_
+63	kallad	_	VERB	AD-SG-IND	_	61	xcomp	_	_
 64	av	_	ADP	_	_	65	case	_	_
 65	himlen	_	NOUN	SG-DEF-NOM	_	63	obl:agent	_	_
 66	att	_	PART	_	_	67	mark	_	_
@@ -30265,7 +30265,7 @@
 14	var	_	AUX	PAST-ACT	_	17	cop	_	_
 15	hans	_	PRON	P3SG-GEN	_	17	nmod:poss	_	_
 16	bäste	_	ADJ	SPL-SG-DEF	_	17	amod	_	_
-17	agent	_	NOUN	SG-IND-NOM	_	9	obj	_	SpaceAfter=No
+17	agent	_	NOUN	SG-IND-NOM	_	9	ccomp	_	SpaceAfter=No
 18	,	_	PUNCT	Comma	_	17	punct	_	_
 19	en	_	DET	SG-IND	_	21	det	_	_
 20	enastående	_	ADJ	NDE	_	21	amod	_	_
@@ -33659,7 +33659,7 @@
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	förklarar	_	VERB	PRES-ACT	_	0	root	_	_
 3	debatten	_	NOUN	SG-DEF-NOM	_	2	obj	_	_
-4	avslutad	_	VERB	AD-SG-IND	_	2	ccomp	_	SpaceAfter=No
+4	avslutad	_	VERB	AD-SG-IND	_	2	xcomp	_	SpaceAfter=No
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1684
@@ -35485,7 +35485,7 @@
 10	få	_	VERB	INF-ACT	_	2	conj	_	_
 11	min	_	PRON	P1SG-GEN-SG	_	12	nmod:poss	_	_
 12	protest	_	NOUN	SG-IND-NOM	_	10	obj	_	_
-13	registrerad	_	VERB	AD-SG-IND	_	10	ccomp	_	SpaceAfter=No
+13	registrerad	_	VERB	AD-SG-IND	_	10	xcomp	_	SpaceAfter=No
 14	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 1786
@@ -35529,7 +35529,7 @@
 6	och	_	CCONJ	_	_	8	cc	_	_
 7	jag	_	PRON	PERS-P1SG-NOM	_	8	nsubj	_	_
 8	finner	_	VERB	PRES-ACT	_	3	conj	_	_
-9	det	_	PRON	EX-P3SG	_	8	obj	_	_
+9	det	_	PRON	EX-P3SG	_	8	expl	_	_
 10	anmärkningsvärt	_	ADJ	POS-SG-IND	_	8	xcomp	_	_
 11	att	_	SCONJ	_	_	14	mark	_	_
 12	ni	_	PRON	PERS-P2PL-NOM	_	14	nsubj	_	_
@@ -36284,7 +36284,7 @@
 3	jag	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
 4	göra	_	VERB	INF-ACT	_	0	root	_	_
 5	fullständigt	_	ADV	_	_	6	advmod	_	_
-6	klart	_	ADV	_	_	4	ccomp	_	SpaceAfter=No
+6	klart	_	ADJ	POS-SG-IND	_	4	xcomp	_	SpaceAfter=No
 7	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 1833
@@ -36752,7 +36752,7 @@
 8	exportörer	_	NOUN	PL-IND-NOM	_	9	nsubj	_	_
 9	fått	_	VERB	SUP-ACT	_	0	root	_	_
 10	åtagandena	_	NOUN	PL-DEF-NOM	_	9	obj	_	_
-11	ersatta	_	VERB	AD-PL-IND	_	9	ccomp	_	_
+11	ersatta	_	VERB	AD-PL-IND	_	9	xcomp	_	_
 12	av	_	ADP	_	_	13	case	_	_
 13	böter	_	NOUN	PL-IND-NOM	_	11	obl	_	_
 14	istället	_	ADV	_	_	9	advmod	_	SpaceAfter=No
@@ -38475,7 +38475,7 @@
 18	lyckades	_	VERB	PAST-DPO	_	14	advcl	_	_
 19	få	_	VERB	INF-ACT	_	18	xcomp	_	_
 20	honom	_	PRON	PERS-P3SG-ACC	_	19	obj	_	_
-21	återkallad	_	VERB	AD-SG-IND	_	19	ccomp	_	_
+21	återkallad	_	VERB	AD-SG-IND	_	19	xcomp	_	_
 22	och	_	CCONJ	_	_	23	cc	_	_
 23	hemskickad	_	VERB	AD-SG-IND	_	21	conj	_	_
 24	därför	_	ADV	_	_	28	mark	_	_
@@ -39847,7 +39847,7 @@
 12	borde	_	AUX	PAST-AUX	_	14	aux	_	_
 13	ha	_	AUX	INF-AUX	_	14	aux	_	_
 14	gjort	_	VERB	SUP-ACT	_	0	root	_	_
-15	det	_	PRON	PERS-P3SG	_	14	obj	_	_
+15	det	_	PRON	EX-P3SG	_	14	expl	_	_
 16	naturligt	_	ADJ	POS-SG-IND	_	14	xcomp	_	_
 17	att	_	SCONJ	_	_	20	mark	_	_
 18	hon	_	PRON	PERS-P3SG-NOM	_	20	nsubj	_	_
@@ -47560,7 +47560,7 @@
 42	att	_	SCONJ	_	_	45	mark	_	_
 43	det	_	PRON	EX-P3SG	_	45	expl	_	_
 44	var	_	AUX	PAST-ACT	_	45	cop	_	_
-45	förskräckligt	_	ADJ	POS-SG-IND	_	40	obj	_	SpaceAfter=No
+45	förskräckligt	_	ADJ	POS-SG-IND	_	40	ccomp	_	SpaceAfter=No
 46	,	_	PUNCT	Comma	_	20	punct	_	_
 47	men	_	CCONJ	_	_	49	cc	_	_
 48	det	_	PRON	EX-P3SG	_	49	expl	_	_
@@ -50234,7 +50234,7 @@
 4	har	_	VERB	PRES-ACT	_	0	root	_	_
 5	jag	_	PRON	PERS-P1SG-NOM	_	4	nsubj	_	_
 6	avtalet	_	NOUN	SG-DEF-NOM	_	4	obj	_	_
-7	undertecknat	_	VERB	AD-SG-IND	_	4	ccomp	_	_
+7	undertecknat	_	VERB	AD-SG-IND	_	4	xcomp	_	_
 8	och	_	CCONJ	_	_	9	cc	_	_
 9	klart	_	ADJ	POS-SG-IND	_	7	conj	_	_
 10	innan	_	SCONJ	_	_	12	mark	_	_
@@ -55386,7 +55386,7 @@
 # text = Hon gav honom ett illvilligt leende som avslöjade hennes maskstungna tänder.
 1	Hon	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
 2	gav	_	VERB	PAST-ACT	_	0	root	_	_
-3	honom	_	PRON	PERS-P3SG-ACC	_	2	obj	_	_
+3	honom	_	PRON	PERS-P3SG-ACC	_	2	iobj	_	_
 4	ett	_	DET	SG-IND	_	6	det	_	_
 5	illvilligt	_	ADJ	POS-SG-IND	_	6	amod	_	_
 6	leende	_	VERB	NDE	_	2	obj	_	_
