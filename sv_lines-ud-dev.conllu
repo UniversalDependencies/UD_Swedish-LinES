@@ -7191,7 +7191,7 @@
 4	visa	_	VERB	INF-ACT	_	0	root	_	_
 5	dem	_	PRON	PERS-P3PL-ACC	_	4	obj	_	_
 6	hur	_	ADV	WH	_	7	advmod	_	_
-7	snälla	_	ADJ	POS-PL-IND	_	4	obj	_	_
+7	snälla	_	ADJ	POS-PL-IND	_	4	ccomp	_	_
 8	och	_	CCONJ	_	_	9	cc	_	_
 9	välmenande	_	ADJ	NDE	_	7	conj	_	_
 10	och	_	CCONJ	_	_	11	cc	_	_
@@ -8767,7 +8767,7 @@
 10	intet	_	DET	NEG-SG-IND	_	11	det	_	_
 11	vis	_	NOUN	IND-NOM	_	13	nmod	_	_
 12	var	_	AUX	PAST-ACT	_	13	cop	_	_
-13	typisk	_	ADJ	POS-SG-IND	_	5	obj	_	_
+13	typisk	_	ADJ	POS-SG-IND	_	5	ccomp	_	_
 14	för	_	ADP	_	_	16	case	_	_
 15	min	_	PRON	P1SG-GEN-SG	_	16	nmod:poss	_	_
 16	nation	_	NOUN	SG-IND-NOM	_	13	nmod	_	SpaceAfter=No
@@ -11205,7 +11205,7 @@
 3	den	_	DET	SG-DEF	_	5	det	_	_
 4	gemensamma	_	ADJ	POS-DEF	_	5	amod	_	_
 5	debatten	_	NOUN	SG-DEF-NOM	_	2	obj	_	_
-6	avslutad	_	VERB	AD-SG-IND	_	2	ccomp	_	SpaceAfter=No
+6	avslutad	_	VERB	AD-SG-IND	_	2	xcomp	_	SpaceAfter=No
 7	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3298
@@ -11343,7 +11343,7 @@
 21	göra	_	VERB	INF-ACT	_	19	acl	_	_
 22	vår	_	PRON	P1PL-GEN-SG	_	23	nmod:poss	_	_
 23	mening	_	NOUN	SG-IND-NOM	_	21	obj	_	_
-24	hörd	_	VERB	AD-SG-IND	_	21	ccomp	_	SpaceAfter=No
+24	hörd	_	VERB	AD-SG-IND	_	21	xcomp	_	SpaceAfter=No
 25	.	_	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 3306
@@ -12007,7 +12007,7 @@
 1	Jag	_	PRON	PERS-P1SG-NOM	_	2	nsubj	_	_
 2	förklarar	_	VERB	PRES-ACT	_	0	root	_	_
 3	debatten	_	NOUN	SG-DEF-NOM	_	2	obj	_	_
-4	avslutad	_	VERB	AD-SG-IND	_	2	ccomp	_	SpaceAfter=No
+4	avslutad	_	VERB	AD-SG-IND	_	2	xcomp	_	SpaceAfter=No
 5	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3343
@@ -12938,7 +12938,7 @@
 62	att	_	PART	_	_	63	mark	_	_
 63	få	_	AUX	INF-AUX	_	55	advcl	_	_
 64	den	_	PRON	PERS-P3SG	_	63	obj	_	_
-65	pressad	_	VERB	AD-SG-IND	_	63	ccomp	_	_
+65	pressad	_	ADJ	POS-SG-IND	_	63	xcomp	_	_
 66	--	_	PUNCT	Dash	_	30	punct	_	_
 67	utan	_	ADP	_	_	70	case	_	_
 68	att	_	PART	_	_	70	mark	_	_
@@ -14265,8 +14265,8 @@
 14	de	_	DET	PL-DEF	_	16	det	_	_
 15	eventuella	_	ADJ	POS-DEF	_	16	amod	_	_
 16	motsättningarna	_	NOUN	PL-DEF-NOM	_	18	nsubj:pass	_	_
-17	hade	_	AUX	PAST-AUX	_	18	aux	_	_
-18	dämpats	_	VERB	SUP-PASS	_	8	ccomp	_	SpaceAfter=No
+17	hade	_	AUX	PAST-AUX	_	18	aux:pass	_	_
+18	dämpats	_	VERB	SUP-PASS	_	5	dislocated	_	SpaceAfter=No
 19	.	_	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 3438
@@ -17204,9 +17204,9 @@
 # sent_id = 3561
 # text = Ha det så trevligt på lovet!
 1	Ha	_	VERB	IMP	_	0	root	_	_
-2	det	_	DET	SG-DEF	_	1	obj	_	_
+2	det	_	PRON	EX-P3SG	_	1	obj	_	_
 3	så	_	ADV	_	_	4	advmod	_	_
-4	trevligt	_	ADV	_	_	1	obj	_	_
+4	trevligt	_	ADV	_	_	1	xcomp	_	_
 5	på	_	ADP	_	_	6	case	_	_
 6	lovet	_	NOUN	SG-DEF-NOM	_	1	obl	_	SpaceAfter=No
 7	!	_	PUNCT	ExclMark	_	1	punct	_	_
