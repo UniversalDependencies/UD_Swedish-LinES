@@ -6307,7 +6307,7 @@
 8	alla	_	DET	TOT-PL	_	10	det	_	_
 9	civiliserade	_	ADJ	POS-PL-IND	_	10	amod	_	_
 10	samtal	_	NOUN	IND-NOM	_	4	obl	_	_
-11	är	_	VERB	PRES-ACT	_	13	cop	_	_
+11	är	_	AUX	PRES-ACT	_	13	cop	_	_
 12	själva	_	ADJ	POS-DEF	_	13	amod	_	_
 13	ritualen	_	NOUN	SG-DEF-NOM	_	0	root	_	_
 14	för	_	ADP	_	_	17	case	_	_
@@ -17919,7 +17919,7 @@
 17	klippas	_	VERB	INF-PASS	_	16	xcomp	_	_
 18	--	_	PUNCT	Dash	_	10	punct	_	_
 19	men	_	CCONJ	_	_	21	cc	_	_
-20	det	_	PRON	PERS-P3SG	_	21	nsubj	_	_
+20	det	_	PRON	EX-P3SG	_	21	expl	_	_
 21	växte	_	VERB	PAST-ACT	_	10	conj	_	_
 22	knotiga	_	ADJ	POS-PL-IND	_	23	amod	_	_
 23	träd	_	NOUN	IND-NOM	_	21	nsubj	_	_
