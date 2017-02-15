@@ -569,8 +569,8 @@
 7	definieras	_	VERB	PRES-PASS	_	5	acl:relcl	_	_
 8	av	_	ADP	_	_	12	case	_	_
 9	World	_	NOUN	SG-NOM-FGN	_	12	compound	_	_
-10	Wide	_	ADJ	POS-FGN	_	8	flat	_	_
-11	Web	_	PROPN	SG-NOM-FGN	_	8	flat	_	_
+10	Wide	_	ADJ	POS-FGN	_	9	flat	_	_
+11	Web	_	PROPN	SG-NOM-FGN	_	9	flat	_	_
 12	Consortium	_	NOUN	SG-NOM-FGN	_	7	obl	_	_
 13	(	_	PUNCT	LeftParenthesis	_	14	punct	_	SpaceAfter=No
 14	W3C	_	X	NOM	_	12	appos	_	SpaceAfter=No
@@ -3805,7 +3805,7 @@
 1	Från	_	ADP	_	_	2	case	_	_
 2	barndom	_	NOUN	SG-IND-NOM	_	5	obl	_	_
 3	till	_	ADP	_	_	4	case	_	_
-4	ålderdom	_	NOUN	SG-IND-NOM	_	1	nmod	_	_
+4	ålderdom	_	NOUN	SG-IND-NOM	_	2	nmod	_	_
 5	förblev	_	VERB	PAST-ACT	_	0	root	_	_
 6	de	_	PRON	PERS-P3PL-NOM	_	5	nsubj	_	_
 7	desamma	_	ADJ	POS-PL-IND	_	5	xcomp	_	_
@@ -4232,7 +4232,7 @@
 46	från	_	ADP	_	_	47	case	_	_
 47	ansikte	_	NOUN	SG-IND-NOM	_	41	obl	_	_
 48	till	_	ADP	_	_	49	case	_	_
-49	ansikte	_	NOUN	SG-IND-NOM	_	46	nmod	_	SpaceAfter=No
+49	ansikte	_	NOUN	SG-IND-NOM	_	41	obl	_	SpaceAfter=No
 50	,	_	PUNCT	Comma	_	52	punct	_	_
 51	som	_	SCONJ	_	_	52	mark	_	_
 52	tjänade	_	VERB	PAST-ACT	_	41	advcl	_	_
@@ -6682,9 +6682,9 @@
 4	inställd	_	ADJ	POS-SG-IND	_	0	root	_	_
 5	till	_	ADP	_	_	6	case	_	_
 6	Amin	_	PROPN	SG-NOM	_	4	nmod	_	_
-7	än	_	ADP	CMP	_	8	case	_	_
-8	till	_	ADP	_	_	4	nmod	_	_
-9	Rabin	_	PROPN	SG-NOM	_	7	nmod	_	SpaceAfter=No
+7	än	_	SCONJ	CMP	_	9	mark	_	_
+8	till	_	ADP	_	_	9	case	_	_
+9	Rabin	_	PROPN	SG-NOM	_	4	nmod	_	SpaceAfter=No
 10	.	_	PUNCT	Period	_	4	punct	_	_
 
 # sent_id = 3074
@@ -7032,8 +7032,8 @@
 10	gnäller	_	VERB	PRES-ACT	_	2	conj	_	_
 11	de	_	PRON	PERS-P3PL-NOM	_	10	nsubj	_	_
 12	undvikande	_	VERB	NDE	_	10	advcl	_	_
-13	av	_	ADP	_	_	14	acl	_	_
-14	dem	_	PRON	PERS-P3PL-ACC	_	16	nmod	_	_
+13	av	_	ADP	_	_	14	case	_	_
+14	dem	_	PRON	PERS-P3PL-ACC	_	12	nmod	_	_
 15	&	_	CCONJ	_	_	16	cc	_	_
 16	fasa	_	NOUN	SG-IND-NOM	_	10	appos	_	SpaceAfter=No
 17	.	_	PUNCT	Period	_	2	punct	_	_
@@ -7943,7 +7943,7 @@
 9	huvudet	_	NOUN	SG-DEF-NOM	_	2	obl	_	_
 10	och	_	CCONJ	_	_	14	cc	_	_
 11	en	_	DET	SG-IND	_	12	det	_	_
-12	vårta	_	NOUN	SG-IND-NOM	_	13	nsubj	_	_
+12	vårta	_	NOUN	SG-IND-NOM	_	14	nsubj	_	_
 13	på	_	ADP	_	_	14	case	_	_
 14	näsan	_	NOUN	SG-DEF-NOM	_	9	conj	_	SpaceAfter=No
 15	,	_	PUNCT	Comma	_	2	punct	_	_
@@ -8009,7 +8009,7 @@
 # text = Det var som om hon hade känt till allt om dem och om mig med.
 1	Det	_	PRON	EX-P3SG	_	7	expl	_	_
 2	var	_	AUX	PAST-ACT	_	7	cop	_	_
-3	som	_	ADP	_	_	7	mark	_	_
+3	som	_	SCONJ	_	_	7	mark	_	_
 4	om	_	SCONJ	_	_	3	fixed	_	_
 5	hon	_	PRON	PERS-P3SG-NOM	_	7	nsubj	_	_
 6	hade	_	AUX	PAST-AUX	_	7	aux	_	_
@@ -8152,7 +8152,7 @@
 8	med	_	ADP	_	_	10	case	_	_
 9	en	_	DET	SG-IND	_	10	det	_	_
 10	uppsyn	_	NOUN	SG-IND-NOM	_	5	obl	_	_
-11	som	_	ADP	_	_	14	mark	_	_
+11	som	_	SCONJ	_	_	14	mark	_	_
 12	om	_	SCONJ	_	_	11	fixed	_	_
 13	han	_	PRON	PERS-P3SG-NOM	_	14	nsubj	_	_
 14	tog	_	VERB	PAST-ACT	_	10	acl:relcl	_	_
@@ -10179,7 +10179,7 @@
 24	från	_	ADP	_	_	25	case	_	_
 25	topp	_	NOUN	SG-IND-NOM	_	20	obl	_	_
 26	till	_	ADP	_	_	27	case	_	_
-27	tå	_	NOUN	SG-IND-NOM	_	24	nmod	_	SpaceAfter=No
+27	tå	_	NOUN	SG-IND-NOM	_	20	obl	_	SpaceAfter=No
 28	.	_	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = 3245
@@ -11285,7 +11285,7 @@
 13	efterhand	_	NOUN	SG-IND-NOM	_	14	obl	_	_
 14	rättar	_	VERB	PRES-ACT	_	9	csubj	_	_
 15	till	_	ADP	_	_	14	compound:prt	_	_
-16	uppgifter	_	NOUN	PL-IND-NOM	_	15	obj	_	_
+16	uppgifter	_	NOUN	PL-IND-NOM	_	14	obj	_	_
 17	om	_	ADP	_	_	18	case	_	_
 18	närvaron	_	NOUN	SG-DEF-NOM	_	16	nmod	_	SpaceAfter=No
 19	.	_	PUNCT	Period	_	9	punct	_	_
@@ -12201,12 +12201,12 @@
 6	av	_	ADP	_	_	10	case	_	_
 7	den	_	DET	SG-DEF	_	9	det	_	_
 8	nye	_	ADJ	POS-SG-DEF	_	9	amod	_	_
-9	högste	_	ADJ	SPL-SG-DEF	_	6	nmod	_	_
+9	högste	_	ADJ	SPL-SG-DEF	_	10	amod	_	_
 10	ansvarige	_	ADJ	POS-SG-DEF	_	5	amod	_	_
-11	för	_	ADP	_	_	9	nmod	_	_
-12	den	_	DET	SG-DEF	_	17	det	_	_
-13	gemensamma	_	ADJ	POS-DEF	_	16	amod	_	_
-14	utrikes-	_	ADV	PFX	_	11	nmod	_	_
+11	för	_	ADP	_	_	14	case	_	_
+12	den	_	DET	SG-DEF	_	14	det	_	_
+13	gemensamma	_	ADJ	POS-DEF	_	14	amod	_	_
+14	utrikes-	_	ADV	PFX	_	10	nmod	_	_
 15	och	_	CCONJ	_	_	16	cc	_	_
 16	säkerhetspolitiken	_	NOUN	SG-DEF-NOM	_	14	conj	_	SpaceAfter=No
 17	.	_	PUNCT	Period	_	2	punct	_	_
@@ -13042,7 +13042,7 @@
 1	En	_	DET	SG-IND	_	3	det	_	_
 2	mustig	_	ADJ	POS-SG-IND	_	3	amod	_	_
 3	stank	_	NOUN	SG-IND-NOM	_	7	nsubj	_	_
-4	av	_	ADP	_	_	3	acl	_	_
+4	av	_	ADP	_	_	6	case	_	_
 5	dött	_	ADJ	POS-SG-IND	_	6	amod	_	_
 6	djur	_	NOUN	IND-NOM	_	3	nmod	_	_
 7	fläktade	_	VERB	PAST-ACT	_	0	root	_	_
@@ -13320,7 +13320,7 @@
 5	blick	_	NOUN	SG-IND-NOM	_	2	obj	_	_
 6	från	_	ADP	_	_	7	case	_	_
 7	bilen	_	NOUN	SG-DEF-NOM	_	2	obl	_	_
-8	som	_	ADP	CMP	_	16	mark	_	_
+8	som	_	SCONJ	CMP	_	16	mark	_	_
 9	om	_	SCONJ	_	_	8	fixed	_	_
 10	han	_	PRON	PERS-P3SG-NOM	_	18	nsubj	_	SpaceAfter=No
 11	,	_	PUNCT	Comma	_	18	punct	_	_
@@ -13350,7 +13350,7 @@
 35	uppträdde	_	VERB	PAST-ACT	_	2	conj	_	_
 36	han	_	PRON	PERS-P3SG-NOM	_	35	nsubj	_	_
 37	precis	_	ADV	_	_	38	advmod	_	_
-38	som	_	ADP	CMP	_	42	mark	_	_
+38	som	_	SCONJ	CMP	_	42	mark	_	_
 39	om	_	SCONJ	_	_	38	fixed	_	_
 40	de	_	PRON	PERS-P3PL-NOM	_	42	nsubj:pass	_	_
 41	hade	_	AUX	PAST-AUX	_	42	aux	_	_
@@ -14088,8 +14088,8 @@
 37	och	_	CCONJ	_	_	38	cc	_	_
 38	prydlig	_	ADJ	POS-SG-IND	_	36	conj	_	_
 39	etikett	_	NOUN	SG-IND-NOM	_	33	nmod	_	_
-40	på	_	ADP	_	_	34	acl	_	SpaceAfter=No
-41	,	_	PUNCT	Comma	_	40	punct	_	_
+40	på	_	ADP	_	_	33	case	_	SpaceAfter=No
+41	,	_	PUNCT	Comma	_	33	punct	_	_
 42	åt	_	ADP	_	_	45	case	_	_
 43	stackars	_	ADJ	POS	_	45	amod	_	_
 44	gamla	_	ADJ	POS-DEF	_	45	amod	_	_
@@ -14363,7 +14363,7 @@
 # text = En del av svaren var överraskande;
 1	En	_	PRON	IND-SG-NOM	_	6	nsubj	_	_
 2	del	_	NOUN	SG-IND-NOM	_	1	fixed	_	_
-3	av	_	ADP	_	_	2	acl	_	_
+3	av	_	ADP	_	_	4	case	_	_
 4	svaren	_	NOUN	PL-DEF-NOM	_	1	nmod	_	_
 5	var	_	AUX	PAST-ACT	_	6	cop	_	_
 6	överraskande	_	VERB	NDE	_	0	root	_	SpaceAfter=No
@@ -14703,7 +14703,7 @@
 # sent_id = 3456
 # text = Inte för att dom nånsin har ansträngt sig.
 1	Inte	_	PART	NEG	_	7	advmod	_	_
-2	för	_	ADP	_	_	7	mark	_	_
+2	för	_	SCONJ	_	_	7	mark	_	_
 3	att	_	SCONJ	_	_	2	fixed	_	_
 4	dom	_	PRON	PERS-PL	_	7	nsubj	_	_
 5	nånsin	_	ADV	_	_	7	advmod	_	_
@@ -14952,10 +14952,10 @@
 19	precis	_	ADV	_	_	22	advmod	_	_
 20	som	_	ADP	CMP	_	22	case	_	_
 21	en	_	DET	SG-IND	_	22	det	_	_
-22	hästkapplöpning	_	NOUN	SG-IND-NOM	_	15	nmod	_	_
+22	hästkapplöpning	_	NOUN	SG-IND-NOM	_	25	dislocated	_	_
 23	kan	_	AUX	PRES-AUX	_	25	aux	_	_
 24	jag	_	PRON	PERS-P1SG-NOM	_	25	nsubj	_	_
-25	försäkra	_	VERB	INF-ACT	_	20	appos	_	SpaceAfter=No
+25	försäkra	_	VERB	INF-ACT	_	15	parataxis	_	SpaceAfter=No
 26	...	_	PUNCT	Dots	_	22	punct	_	_
 27	arrangemangen	_	NOUN	PL-DEF-NOM	_	30	nsubj	_	_
 28	var	_	AUX	PAST-ACT	_	30	cop	_	_
@@ -15462,10 +15462,10 @@
 
 # sent_id = 3484
 # text = Vi skulle utan vidare kunna svepa undan hela bunten från dansgolvet.
-1	Vi	_	PRON	PERS-P1PL-NOM	_	3	nsubj	_	_
-2	skulle	_	AUX	PAST-AUX	_	3	aux	_	_
-3	utan	_	ADP	_	_	4	case	_	_
-4	vidare	_	ADV	_	_	5	advmod	_	_
+1	Vi	_	PRON	PERS-P1PL-NOM	_	6	nsubj	_	_
+2	skulle	_	AUX	PAST-AUX	_	6	aux	_	_
+3	utan	_	ADV	_	_	6	advmod	_	_
+4	vidare	_	ADV	_	_	3	fixed	_	_
 5	kunna	_	AUX	INF-AUX	_	6	aux	_	_
 6	svepa	_	VERB	INF-ACT	_	0	root	_	_
 7	undan	_	ADV	_	_	6	advmod	_	_
@@ -15733,8 +15733,8 @@
 4	inte	_	PART	NEG	_	2	advmod	_	_
 5	följa	_	VERB	INF-ACT	_	2	xcomp	_	_
 6	med	_	ADV	_	_	5	compound:prt	_	_
-7	med	_	ADP	_	_	10	mark	_	_
-8	mindre	_	SCONJ	_	_	7	fixed	_	_
+7	med	_	SCONJ	_	_	10	mark	_	_
+8	mindre	_	ADV	CMP	_	7	fixed	_	_
 9	jag	_	PRON	PERS-P1SG-NOM	_	10	nsubj	_	_
 10	lovade	_	VERB	PAST-ACT	_	2	advcl	_	_
 11	att	_	PART	_	_	12	mark	_	_
@@ -15951,7 +15951,7 @@
 25	inte	_	PART	NEG	_	27	advmod	_	_
 26	var	_	AUX	PAST-ACT	_	27	cop	_	_
 27	medvetna	_	ADJ	POS-PL-IND	_	22	acl:relcl	_	_
-28	om	_	ADP	_	_	27	acl	_	SpaceAfter=No
+28	om	_	ADP	_	_	22	case	_	SpaceAfter=No
 29	,	_	PUNCT	Comma	_	4	punct	_	_
 30	förde	_	VERB	PAST-ACT	_	4	conj	_	_
 31	med	_	ADP	_	_	32	case	_	_
@@ -19133,7 +19133,7 @@
 29	hur	_	ADV	WH	_	36	mark	_	_
 30	sådana	_	ADJ	POS-PL-IND	_	33	amod	_	_
 31	saker	_	NOUN	PL-IND-NOM	_	36	nsubj	_	_
-32	som	_	ADP	_	_	33	amod	_	_
+32	som	_	ADP	_	_	33	case	_	_
 33	elkontakter	_	NOUN	PL-IND-NOM	_	36	obl	_	_
 34	och	_	CCONJ	_	_	35	cc	_	_
 35	postväsende	_	NOUN	SG-IND-NOM	_	33	conj	_	_
