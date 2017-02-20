@@ -121,4 +121,4 @@ Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: fiction nonfiction spoken
 Contributors: Ahrenberg, Lars
-Contact:
+Contact: lars.ahrenberg@liu.se
