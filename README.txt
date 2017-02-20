@@ -2,8 +2,10 @@ Swedish_LinES
 
 This treebank is the Swedish half of the LinES Parallel Treebank 1.0
 with the original dependency annotation first automatically converted
-into Universal Dependencies and then partially reviewed. LinES
-contains segments from seven different sources, three of which are
+into Universal Dependencies, partially reviewed and, in January-February 2017
+converted to UD version 1.2 and again reviewed for errors.
+
+LinES contains segments from seven different sources, three of which are
 part of the Linköping Translation Corpus Corpus (Merkel, 1999). The
 treebank was first developed in the project 'Micro- and macro-level
 analysis of translations' funded by the Swedish Research Council
@@ -33,11 +35,11 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-10% of the trees were randomly selected as test set, 10% as development set, and the rest as training set. The randomization applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
+For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. Note that the test set will not be uploaded until after the CoNLL 2017 Shared Task
+Multilingual Parsing from Raw Text to Universal Dependencie is over. The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
- - sv-lines-ud-test.conllu
- - sv-lines-ud-dev.conllu
- - sv-lines-ud-train.conllu
+ - sv_lines-ud-dev.conllu
+ - sv_lines-ud-train.conllu
 
 
 BASIC STATISTICS
@@ -45,7 +47,7 @@ BASIC STATISTICS
 Tree count:  4564
 Word count:  79812
 Token count: 79812
-Dep. relations: 38 of which 4 are language-specific
+Dep. relations: 40 of which 7 are language-specific
 POS tags: 17
 Category=value feature pairs: 0
 
@@ -78,18 +80,19 @@ There is no feature annotation in this version.
 SYNTAX
 
 The syntactic annotation in the Swedish UD treebank follows the general
-guidelines but adds four language-specific relations, as in the first
-Swedish UD treebank, Talbanken (Nivre
+guidelines but adds some language-specific relations:
 
-- acl:relcl for relative clauses
-- compound:prt for verb particles
-- nmod:agent for agents of passive verbs
-- nmod:poss for possessive/genitive modifiers
+- nmod:poss
+- acl:relcl 
+- compound:prt
+- nsubj:pass
+- aux:pass
+- obl:agent 
+- csubj:pass
 
-The syntactic annotation has been automatically converted from the original
-LinES annotation scheme as described in Ahrenberg (2015).
-
-There may be occasional deviations from the general guidelines.
+The syntactic annotation was first automatically converted from the original
+LinES annotation scheme as described in Ahrenberg (2015). After conversion to UD version 2.0
+the analyses have been reviewed again. Occasional deviations from the guidelines may remain.
 
 
 REFERENCES
@@ -110,7 +113,14 @@ Dissertation No. 607.
 
 Changelog
 
-  * No changes since UD release 1.3.
+  From version 1.3 to version 2.0 the following changes have been made:
+  - a new split of the treebank into train, dev and test data
+  - addition of sentence id:s and text comment for every tree
+  - addition of document boundaries
+  - addition of SpaceAfter=No features in the MISC column
+  - more fixed phrases have been recognized as such 
+  - sentences of the form '"I'm hungry", said John', where the root previously was 'said' have been reanalyzed 
+    in accordance with the UD guidelines, 'said' then linking to 'hungry' as 'parataxis'
 
 
 --- Machine readable metadata ---
