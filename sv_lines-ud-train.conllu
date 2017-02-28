@@ -6446,7 +6446,6 @@
 
 # sent_id = 357
 # text = Om sortering av data i pivottabell- och pivotdiagramvy
-# newdoc
 1	Om	_	ADP	_	_	2	case	_	_
 2	sortering	_	NOUN	SG-IND-NOM	_	0	root	_	_
 3	av	_	ADP	_	_	4	case	_	_
@@ -6456,6 +6455,7 @@
 7	och	_	CCONJ	_	_	8	cc	_	_
 8	pivotdiagramvy	_	NOUN	SG-IND-NOM	_	6	conj	_	_
 
+# newdoc
 # sent_id = 358
 # text = Det var en felringning som var början till alltihop, telefonen som ringde tre gånger mitt i natten och så rösten i andra änden som frågade efter någon som inte var han.
 1	Det	_	PRON	EX-P3SG	_	4	expl	_	_
@@ -15975,7 +15975,6 @@
 
 # sent_id = 829
 # text = I drömmen, som han sedan glömde, vandrade han nerför Broadway med Austers son vid handen.
-# newdoc
 1	I	_	ADP	_	_	2	case	_	_
 2	drömmen	_	NOUN	SG-DEF-NOM	_	9	obl	_	SpaceAfter=No
 3	,	_	PUNCT	Comma	_	1	punct	_	_
@@ -15995,6 +15994,7 @@
 17	handen	_	NOUN	SG-DEF-NOM	_	15	nmod	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	9	punct	_	_
 
+# newdoc
 # sent_id = 830
 # text = Säkerhetsåtgärderna är strikta när man flyger till Israel, väskorna genomsöks, männen visiteras och man drar en elektronisk ring över kvinnorna från för till akter.
 1	Säkerhetsåtgärderna	_	NOUN	PL-DEF-NOM	_	3	nsubj	_	_
@@ -23034,7 +23034,6 @@
 
 # sent_id = 1191
 # text = De har hävdat sin position.
-# newdoc
 1	De	_	PRON	PERS-P3PL-NOM	_	3	nsubj	_	_
 2	har	_	AUX	PRES-AUX	_	3	aux	_	_
 3	hävdat	_	VERB	SUP-ACT	_	0	root	_	_
@@ -23042,6 +23041,7 @@
 5	position	_	NOUN	SG-IND-NOM	_	3	obj	_	SpaceAfter=No
 6	.	_	PUNCT	Period	_	3	punct	_	_
 
+# newdoc
 # sent_id = 1192
 # text = Yawlen Nellie red för ankaret med slappa segel och låg orörlig.
 1	Yawlen	_	NOUN	SG-DEF-NOM	_	2	nmod	_	_
@@ -31607,7 +31607,6 @@
 
 # sent_id = 1565
 # text = Men det finns ett sätt att snegla efter ett grimskaft som skulle kunna fresta det mest överseende helgon till en spark.
-# newdoc
 1	Men	_	CCONJ	_	_	3	cc	_	_
 2	det	_	PRON	EX-P3SG	_	3	expl	_	_
 3	finns	_	VERB	PRES-DPO	_	0	root	_	_
@@ -31631,6 +31630,7 @@
 21	spark	_	NOUN	SG-IND-NOM	_	14	obl	_	SpaceAfter=No
 22	.	_	PUNCT	Period	_	3	punct	_	_
 
+# newdoc
 # sent_id = 1566
 # text = Med ett sådant perspektiv kanske utvärderingen av budgetarbetet får en dimension som omfattar mer än rena detaljer.
 1	Med	_	ADP	_	_	4	case	_	_
@@ -37863,7 +37863,6 @@
 
 # sent_id = 1921
 # text = Kanske är det i stället särskilt viktigt, att exakt konkretisera det ansvar som staden får.
-# newdoc
 1	Kanske	_	ADV	_	_	7	advmod	_	_
 2	är	_	AUX	PRES-ACT	_	7	cop	_	_
 3	det	_	PRON	EX-P3SG	_	7	expl	_	_
@@ -37882,6 +37881,7 @@
 16	får	_	VERB	PRES-ACT	_	13	acl:relcl	_	SpaceAfter=No
 17	.	_	PUNCT	Period	_	7	punct	_	_
 
+# newdoc
 # sent_id = 1922
 # text = En fågel skriade till uppe på taket, och han vaknade.
 1	En	_	DET	SG-IND	_	2	det	_	_
@@ -48870,7 +48870,6 @@
 
 # sent_id = 2375
 # text = Fattigbasaren hade anlagts redan för länge sedan mer eller mindre på en slump; butiker dök upp helt plötsligt, gator korsade varandra härs och tvärs, bilen skumpade och gungade.
-# newdoc
 1	Fattigbasaren	_	NOUN	SG-DEF-NOM	_	3	nsubj:pass	_	_
 2	hade	_	AUX	PAST-AUX	_	3	aux	_	_
 3	anlagts	_	VERB	SUP-PASS	_	0	root	_	_
@@ -48904,6 +48903,7 @@
 31	gungade	_	VERB	PAST-ACT	_	3	conj	_	SpaceAfter=No
 32	.	_	PUNCT	Period	_	29	punct	_	_
 
+# newdoc
 # sent_id = 2376
 # text = Den värsta födelsedagen
 1	Den	_	DET	SG-DEF	_	3	det	_	_

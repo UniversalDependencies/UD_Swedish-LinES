@@ -2350,7 +2350,6 @@
 
 # sent_id = 2857
 # text = Du kan till exempel gruppera värdena i fältet Leveransdatum i månader om du vill visa data för order som expedierades i januari, order som expedierades i februari osv
-# newdoc
 1	Du	_	PRON	PERS-P2SG-NOM	_	5	nsubj	_	_
 2	kan	_	AUX	PRES-AUX	_	5	aux	_	_
 3	till	_	ADV	_	_	5	advmod	_	_
@@ -2381,6 +2380,7 @@
 28	februari	_	PROPN	SG-NOM	_	26	obl	_	_
 29	osv	_	ADV	_	_	18	conj	_	_
 
+# newdoc
 # sent_id = 2858
 # text = Han undrade om den unge Auster hade varit bättre på det än han.
 1	Han	_	PRON	PERS-P3SG-NOM	_	2	nsubj	_	_
@@ -5544,7 +5544,6 @@
 
 # sent_id = 3015
 # text = Och han hade läst Quinns bok, beundrat den och sett fram emot att få läsa mer.
-# newdoc
 1	Och	_	CCONJ	_	_	4	cc	_	_
 2	han	_	PRON	PERS-P3SG-NOM	_	4	nsubj	_	_
 3	hade	_	AUX	PAST-AUX	_	4	aux	_	_
@@ -5564,6 +5563,7 @@
 17	mer	_	ADJ	CMP-IND	_	16	xcomp	_	SpaceAfter=No
 18	.	_	PUNCT	Period	_	4	punct	_	_
 
+# newdoc
 # sent_id = 3016
 # text = Ärkebiskopen är faktiskt mycket ståtlig med sina fylliga kinder, sina avlånga klara mörkgröna ögon och det korta kraftfulla skägget.
 1	Ärkebiskopen	_	NOUN	SG-DEF-NOM	_	5	nsubj	_	_
@@ -7871,7 +7871,6 @@
 
 # sent_id = 3135
 # text = Kanske finns det en sorts romantisk Vautrinbeundran i detta.
-# newdoc
 1	Kanske	_	ADV	_	_	2	advmod	_	_
 2	finns	_	VERB	PRES-DPO	_	0	root	_	_
 3	det	_	PRON	EX-P3SG	_	2	expl	_	_
@@ -7883,6 +7882,7 @@
 9	detta	_	PRON	DEM-SG	_	2	obl	_	SpaceAfter=No
 10	.	_	PUNCT	Period	_	2	punct	_	_
 
+# newdoc
 # sent_id = 3136
 # text = Det kom folk hela tiden och den yngre gick fram och tillbaka och visade dem in.
 1	Det	_	PRON	EX-P3SG	_	2	expl	_	_
@@ -10469,7 +10469,6 @@
 
 # sent_id = 3259
 # text = Plötsligt hördes det växande mumlet av röster och trampet av många fötter.
-# newdoc
 1	Plötsligt	_	ADV	_	_	2	advmod	_	_
 2	hördes	_	VERB	PAST-PASS	_	0	root	_	_
 3	det	_	DET	SG-DEF	_	5	det	_	_
@@ -10484,6 +10483,7 @@
 12	fötter	_	NOUN	PL-IND-NOM	_	9	nmod	_	SpaceAfter=No
 13	.	_	PUNCT	Period	_	2	punct	_	_
 
+# newdoc
 # sent_id = 3260
 # text = För det fjärde: Säg inte att vi inte har stått till förfogande!
 1	För	_	ADP	_	_	3	case	_	_
@@ -12619,7 +12619,6 @@
 
 # sent_id = 3377
 # text = Det är ju just detta som definierar särläkemedlen, nämligen att vinstmöjligheterna är mycket begränsade.
-# newdoc
 1	Det	_	PRON	EX-P3SG	_	2	expl	_	_
 2	är	_	VERB	PRES-ACT	_	0	root	_	_
 3	ju	_	ADV	_	_	2	advmod	_	_
@@ -12637,6 +12636,7 @@
 15	begränsade	_	VERB	AD-PL-IND	_	2	dislocated	_	SpaceAfter=No
 16	.	_	PUNCT	Period	_	2	punct	_	_
 
+# newdoc
 # sent_id = 3378
 # text = Den unkna, svala luften i rummet hade värmts upp, men tröttheten hade försvunnit och han kände sig lätt och klar i huvudet.
 1	Den	_	DET	SG-DEF	_	5	det	_	_
@@ -16500,7 +16500,6 @@
 
 # sent_id = 3529
 # text = Över allt frågade Bray efter Edward Shinza; i varje fall kunde han konstatera att han inte syntes till vid något enda officiellt tillfälle.
-# newdoc
 1	Över	_	ADP	_	_	2	case	_	_
 2	allt	_	PRON	TOT-SG	_	3	obl	_	_
 3	frågade	_	VERB	PAST-ACT	_	0	root	_	_
@@ -16527,6 +16526,7 @@
 24	tillfälle	_	NOUN	SG-IND-NOM	_	18	obl	_	SpaceAfter=No
 25	.	_	PUNCT	Period	_	18	punct	_	_
 
+# newdoc
 # sent_id = 3530
 # text = Dobby tittade upp på Harry och blinkade ängsligt.
 1	Dobby	_	PROPN	SG-NOM	_	2	nsubj	_	_
