@@ -124,7 +124,8 @@ Changelog
     
   From version 2.0 to version 2.1 the following changes have been made:
   - all tokens have received a lemma
-  - the test data have been manually reviewed to fix errors and agree better with the version 2 guidelines. The changes affect some 9% of all tokens and 28% of all punctuation tokens.
+  - the test data have been manually reviewed to fix errors and agree better with the version 2 guidelines.
+    The changes affect some 9% of all tokens and 28% of all punctuation tokens.
 
 
 --- Machine readable metadata ---
