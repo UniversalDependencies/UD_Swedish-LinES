@@ -16,6 +16,7 @@ morphological features have been added.
 The treebank is being developed continuously.
 
 # Acknowledgements
+
 Three of the source texts were collected as part of the Linköping Translation Corpus Corpus
 (Merkel, 1999). The treebank was first developed in the project 'Micro- and macro-level
 analysis of translations' funded by the Swedish Research Council (Ahrenberg, 2007).
@@ -46,11 +47,13 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. Note that the test set will not be uploaded until after the CoNLL 2017 Shared Task
-Multilingual Parsing from Raw Text to Universal Dependencie is over. The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
+For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. The test set was not uploaded until after the CoNLL 2017 Shared Task on Multilingual Parsing from Raw Text to Universal Dependencies was completed.
+
+The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
  - sv_lines-ud-dev.conllu
  - sv_lines-ud-train.conllu
+ - sv_lines-ud-test.conllu
 
 
 BASIC STATISTICS
