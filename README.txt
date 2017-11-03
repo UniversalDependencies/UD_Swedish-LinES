@@ -1,15 +1,26 @@
-Swedish_LinES
+# Summary
 
-This treebank is the Swedish half of the LinES Parallel Treebank 1.0
-with the original dependency annotation first automatically converted
-into Universal Dependencies, partially reviewed and, in January-February 2017
-converted to UD version 1.2 and again reviewed for errors.
+UD Swedish_LinES is the Swedish half of the LinES Parallel Treebank with UD annotations.
+All segments are translations from English and the sources cover literary genres, online
+manuals and Europarl data.
 
-LinES contains segments from seven different sources, three of which are
-part of the Linköping Translation Corpus Corpus (Merkel, 1999). The
-treebank was first developed in the project 'Micro- and macro-level
-analysis of translations' funded by the Swedish Research Council
-(Ahrenberg, 2007). It is being developed continuously.
+# Introduction
+
+UD Swedish_LinES is the Swedish half of the LinES Parallel Treebank with UD annotations.
+All segments are translations of the corresponding English segments found in the UD English_LinES
+treebank.The original dependency annotation was first automatically converted
+to Universal Dependencies and then partially reviewed (Ahrenberg, 2015). In January-February 2017
+it was converted to UD version 2 and again reviewed for errors. With version 2.1 lemmata and
+morphological features have been added.
+
+The treebank is being developed continuously.
+
+# Acknowledgements
+Three of the source texts were collected as part of the Linköping Translation Corpus Corpus
+(Merkel, 1999). The treebank was first developed in the project 'Micro- and macro-level
+analysis of translations' funded by the Swedish Research Council (Ahrenberg, 2007).
+
+# Details on the sources
 
 All sub-corpora have English originals with Swedish translations. Five of them
 are literary works:
