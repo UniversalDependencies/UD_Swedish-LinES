@@ -152,6 +152,7 @@ Lemmas: converted from manual
 UPOS: converted from manual and corrected
 XPOS: manual native
 Features: automatic
+Relations: converted from manual and corrected
 Contributors: Ahrenberg, Lars
 Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
