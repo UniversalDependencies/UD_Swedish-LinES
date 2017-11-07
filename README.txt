@@ -72,15 +72,16 @@ The tokenization is largely based on whitespace, but punctuation marks
 except word-internal hyphens are treated as separate tokens. The
 original file also has several multi-word tokens, but these are
 separated in the UD version with all parts except the first assigned
-the UD dependency function 'mwe'.
+the UD dependency function 'fixed'.
 
 
 MORPHOLOGY
 
-The morphological annotation in the Swedish LinES treebank is the same
-as in the original LinES.  Nouns are annotated for case, number,
-species, and definiteness (but not gender). Verbs are annotated for
-tense and diathesis, adjectives for case, degree, definiteness, and
+The morphological annotation in the UFEATS column is copied from the UD_Swedish
+treebank where overlaps occur. For other tokens it is converted from the
+morphological information in the original treebank (found in the XPOS column).
+Nouns are annotated for case, number, species and gender. Verbs are annotated for
+mood, verb form, tense and diathesis, adjectives for case, degree, definiteness, and
 number. Pronouns are sub-divided in the morphological description into
 Personal, Demonstrative, Interrogative, Indefinite, Relative, Total,
 and Expletive, and are annotated for Case and Number, when relevant.
@@ -88,8 +89,6 @@ and Expletive, and are annotated for Case and Number, when relevant.
 The mapping from language-specific part-of-speech tags to universal tags
 was done automatically. There are no other tags than universal tags, but
 there may be errors.
-
-There is no feature annotation in this version.
 
 SYNTAX
 
@@ -149,5 +148,10 @@ Data source: semi-automatic
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: fiction nonfiction spoken
+Lemmas: converted from manual
+UPOS: converted from manual and corrected
+XPOS: manual native
+Features: automatic
 Contributors: Ahrenberg, Lars
+Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
