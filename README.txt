@@ -1,15 +1,27 @@
-Swedish_LinES
+# Summary
 
-This treebank is the Swedish half of the LinES Parallel Treebank 1.0
-with the original dependency annotation first automatically converted
-into Universal Dependencies, partially reviewed and, in January-February 2017
-converted to UD version 1.2 and again reviewed for errors.
+UD Swedish_LinES is the Swedish half of the LinES Parallel Treebank with UD annotations.
+All segments are translations from English and the sources cover literary genres, online
+manuals and Europarl data.
 
-LinES contains segments from seven different sources, three of which are
-part of the Linköping Translation Corpus Corpus (Merkel, 1999). The
-treebank was first developed in the project 'Micro- and macro-level
-analysis of translations' funded by the Swedish Research Council
-(Ahrenberg, 2007). It is being developed continuously.
+# Introduction
+
+UD Swedish_LinES is the Swedish half of the LinES Parallel Treebank with UD annotations.
+All segments are translations of the corresponding English segments found in the UD English_LinES
+treebank.The original dependency annotation was first automatically converted
+to Universal Dependencies and then partially reviewed (Ahrenberg, 2015). In January-February 2017
+it was converted to UD version 2 and again reviewed for errors. With version 2.1 lemmata and
+morphological features have been added.
+
+The treebank is being developed continuously.
+
+# Acknowledgements
+
+Three of the source texts were collected as part of the Linköping Translation Corpus Corpus
+(Merkel, 1999). The treebank was first developed in the project 'Micro- and macro-level
+analysis of translations' funded by the Swedish Research Council (Ahrenberg, 2007).
+
+# Details on the sources
 
 All sub-corpora have English originals with Swedish translations. Five of them
 are literary works:
@@ -35,11 +47,13 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. Note that the test set will not be uploaded until after the CoNLL 2017 Shared Task
-Multilingual Parsing from Raw Text to Universal Dependencie is over. The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
+For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. The test set was not uploaded until after the CoNLL 2017 Shared Task on Multilingual Parsing from Raw Text to Universal Dependencies was completed.
+
+The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
  - sv_lines-ud-dev.conllu
  - sv_lines-ud-train.conllu
+ - sv_lines-ud-test.conllu
 
 
 BASIC STATISTICS
@@ -58,15 +72,16 @@ The tokenization is largely based on whitespace, but punctuation marks
 except word-internal hyphens are treated as separate tokens. The
 original file also has several multi-word tokens, but these are
 separated in the UD version with all parts except the first assigned
-the UD dependency function 'mwe'.
+the UD dependency function 'fixed'.
 
 
 MORPHOLOGY
 
-The morphological annotation in the Swedish LinES treebank is the same
-as in the original LinES.  Nouns are annotated for case, number,
-species, and definiteness (but not gender). Verbs are annotated for
-tense and diathesis, adjectives for case, degree, definiteness, and
+The morphological annotation in the UFEATS column is copied from the UD_Swedish
+treebank where overlaps occur. For other tokens it is converted from the
+morphological information in the original treebank (found in the XPOS column).
+Nouns are annotated for case, number, species and gender. Verbs are annotated for
+mood, verb form, tense and diathesis, adjectives for case, degree, definiteness, and
 number. Pronouns are sub-divided in the morphological description into
 Personal, Demonstrative, Interrogative, Indefinite, Relative, Total,
 and Expletive, and are annotated for Case and Number, when relevant.
@@ -74,8 +89,6 @@ and Expletive, and are annotated for Case and Number, when relevant.
 The mapping from language-specific part-of-speech tags to universal tags
 was done automatically. There are no other tags than universal tags, but
 there may be errors.
-
-There is no feature annotation in this version.
 
 SYNTAX
 
@@ -121,6 +134,11 @@ Changelog
   - more fixed phrases have been recognized as such 
   - sentences of the form '"I'm hungry", said John', where the root previously was 'said' have been reanalyzed 
     in accordance with the UD guidelines, 'said' then linking to 'hungry' as 'parataxis'
+    
+  From version 2.0 to version 2.1 the following changes have been made:
+  - all tokens have received a lemma and morphological features have been added to tokens that should have them.
+  - the test data have been manually reviewed to fix errors and agree better with the version 2 guidelines.
+    The changes affect some 9% of all tokens and 28% of all punctuation tokens.
 
 
 --- Machine readable metadata ---
@@ -130,5 +148,11 @@ Data source: semi-automatic
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: fiction nonfiction spoken
+Lemmas: converted from manual
+UPOS: converted from manual and corrected
+XPOS: manual native
+Features: automatic
+Relations: converted from manual and corrected
 Contributors: Ahrenberg, Lars
+Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
