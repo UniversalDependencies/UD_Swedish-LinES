@@ -23,7 +23,7 @@
 3	av	av	ADP	_	_	4	case	_	_
 4	släppområde	släppområde	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
 5	visas	visa	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-6	inte	inte	PART	NEG	_	5	advmod	_	_
+6	inte	inte	PART	NEG	Polarity=Neg	5	advmod	_	_
 7	för	för	ADP	_	_	9	case	_	_
 8	enskilda	enskild	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_
 9	diagram	diagram	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
@@ -131,7 +131,7 @@
 15	typ	typ	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	_
 16	av	av	ADP	_	_	17	case	_	_
 17	diagram	diagram	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	_
-18	som	som	SCONJ	REL	_	20	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	20	obj	_	_
 19	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	nsubj	_	_
 20	använder	använda	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	2	punct	_	_
@@ -151,7 +151,7 @@
 4	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	_
 5	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	värden	värde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	_
-7	som	som	SCONJ	REL	_	8	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	9	nsubj:pass	_	_
 8	ska	skola	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 9	summeras	summera	VERB	INF-PASS	VerbForm=Inf|Voice=Pass	6	acl:relcl	_	_
 10	i	i	ADP	_	_	11	case	_	_
@@ -431,7 +431,7 @@
 5	inkludera	inkludera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 6	alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	7	det	_	_
 7	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	_
-8	som	som	SCONJ	REL	_	10	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	10	nsubj	_	_
 9	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 10	tillgängliga	tillgänglig	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	acl:relcl	_	_
 11	från	från	ADP	_	_	12	case	_	_
@@ -486,7 +486,7 @@
 28	och	och	CCONJ	_	_	30	cc	_	_
 29	mängden	mängd	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	nmod	_	_
 30	produkter	produkt	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	27	conj	_	_
-31	som	som	SCONJ	REL	_	30	mark	_	_
+31	som	som	PRON	REL	PronType=Rel	32	nsubj:pass	_	_
 32	sålts	sälja	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	30	acl:relcl	_	SpaceAfter=No
 33	.	.	PUNCT	Period	_	25	punct	_	_
 
@@ -498,7 +498,7 @@
 4	ta	ta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 5	bort	bort	ADV	_	_	4	compound:prt	_	_
 6	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	_
-7	som	som	SCONJ	REL	_	11	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	11	obj	_	_
 8	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	_
 9	inte	inte	PART	NEG	_	11	advmod	_	_
 10	vill	vilja	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
@@ -594,7 +594,7 @@
 4	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	diagram	diagram	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
 6	för	för	ADP	_	_	8	case	_	_
-7	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	8	amod	_	_
+7	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_
 8	användare	användare	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	3	punct	_	_
 10	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -606,7 +606,7 @@
 16	ändra	ändra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	14	acl	_	_
 17	diagrammets	diagram	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	18	nmod:poss	_	_
 18	layout	layout	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj	_	_
-19	genom	genom	ADP	_	_	21	case	_	_
+19	genom	genom	ADP	_	_	21	mark	_	_
 20	att	att	PART	_	_	21	mark	_	_
 21	förhindra	förhindra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	12	advcl	_	_
 22	att	att	SCONJ	_	_	24	mark	_	_
@@ -677,7 +677,7 @@
 17	därför	därför	ADV	_	_	18	advmod	_	_
 18	använda	använda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	5	conj	_	_
 19	datadispositionen	datadisposition	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obj	_	_
-20	för	för	ADP	_	_	22	case	_	_
+20	för	för	ADP	_	_	22	mark	_	_
 21	att	att	PART	_	_	22	mark	_	_
 22	granska	granska	VERB	INF-ACT	VerbForm=Inf|Voice=Act	18	advcl	_	_
 23	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	24	det	_	_
@@ -692,7 +692,7 @@
 3	också	också	ADV	_	_	4	advmod	_	_
 4	markera	markera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 5	objekten	objekt	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	obj	_	_
-6	som	som	SCONJ	REL	_	7	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	7	nsubj:pass	_	_
 7	visas	visa	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
 8	i	i	ADP	_	_	9	case	_	_
 9	datadispositionen	datadisposition	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	_	SpaceAfter=No
@@ -742,7 +742,7 @@
 10	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	_	_
 11	beräknad	beräkna	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	_
 12	kontroll	kontroll	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	conj	_	_
-13	som	som	SCONJ	REL	_	14	mark	_	_
+13	som	som	PRON	REL	PronType=Rel	14	nsubj	_	_
 14	heter	heta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
 15	Värde	Värde	PROPN	SG-NOM	Case=Nom|Number=Sing	14	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	4	punct	_	_
@@ -766,7 +766,7 @@
 15	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det	_	_
 16	beräknad	beräkna	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	_
 17	kontroll	kontroll	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj	_	_
-18	som	som	SCONJ	REL	_	19	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	19	nsubj	_	_
 19	heter	heta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
 20	Ordervärde	Ordervärde	PROPN	SG-NOM	Case=Nom|Number=Sing	19	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	5	punct	_	_
@@ -802,7 +802,7 @@
 2	Objektet	objekt	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
 3	RecordsetDef	Recordsetdef	PROPN	SG-NOM	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	6	punct	_	_
-5	som	som	SCONJ	REL	_	6	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 6	innehåller	innehålla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 7	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	_
 8	eller	eller	CCONJ	_	_	9	cc	_	_
@@ -839,7 +839,7 @@
 
 # sent_id = 3706
 # text = Om att aktivera användarnamnet Systemadministratör (SA) i ett Access-projekt
-1	Om	om	ADP	_	_	3	case	_	_
+1	Om	om	ADP	_	_	3	mark	_	_
 2	att	att	PART	_	_	3	mark	_	_
 3	aktivera	aktivera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 4	användarnamnet	användarnamn	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_
@@ -1051,7 +1051,7 @@
 # sent_id = 3721
 # text = Datum som infaller efter 1999.12.31 grupperas i en enskild grupp kallad 1999.12.31.
 1	Datum	datum	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	nsubj:pass	_	_
-2	som	som	SCONJ	REL	_	3	mark	_	_
+2	som	som	PRON	REL	PronType=Rel	3	nsubj	_	_
 3	infaller	infalla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 4	efter	efter	ADP	_	_	5	case	_	_
 5	1999.12.31	1999.12.31	NUM	ID	_	3	obl	_	_
@@ -1168,7 +1168,7 @@
 5	innehålla	innehålla	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 6	alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	7	det	_	_
 7	element	element	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	_
-8	som	som	SCONJ	REL	_	11	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	11	obj	_	_
 9	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	_
 10	inte	inte	PART	NEG	_	11	advmod	_	_
 11	inkluderade	inkludera	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
@@ -1213,7 +1213,7 @@
 10	ha	ha	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 11	tre	tre	NUM	CARD-PL	_	12	nummod	_	_
 12	medlemmar	medlem	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obj	_	SpaceAfter=No
-13	:	:	PUNCT	Colon	_	6	punct	_	_
+13	:	:	PUNCT	Colon	_	10	punct	_	_
 14	Åtgärdat	åtgärda	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	12	appos	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	14	punct	_	_
 16	Populär	populär	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	14	conj	_	_
@@ -1232,7 +1232,7 @@
 7	att	att	PART	_	_	8	mark	_	_
 8	se	se	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	ccomp	_	_
 9	ut	ut	ADV	_	_	8	compound:prt	_	_
-10	efter	efter	ADP	_	_	21	case	_	_
+10	efter	efter	ADP	_	_	21	mark	_	_
 11	att	att	SCONJ	_	_	21	mark	_	_
 12	rubrikerna	rubrik	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	21	nsubj:pass	_	_
 13	för	för	ADP	_	_	16	case	_	_
@@ -1264,7 +1264,7 @@
 # text = Innehåller element som är egna grupper och det visas som överordnat fältet som du grupperat element för.
 1	Innehåller	innehålla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	element	element	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	_
-3	som	som	SCONJ	REL	_	6	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 4	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	egna	egen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	_
 6	grupper	grupp	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	acl:relcl	_	_
@@ -1274,7 +1274,7 @@
 10	som	som	ADP	_	_	11	case	_	_
 11	överordnat	överordnad	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	_
 12	fältet	fält	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	obj	_	_
-13	som	som	SCONJ	REL	_	15	mark	_	_
+13	som	som	PRON	REL	PronType=Rel	15	dislocated	_	_
 14	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj	_	_
 15	grupperat	gruppera	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	12	acl:relcl	_	_
 16	element	element	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	obj	_	_
@@ -1293,11 +1293,11 @@
 2	som	som	ADP	_	_	3	case	_	_
 3	överordnade	överordnad	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	1	xcomp	_	_
 4	elementen	elementen	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	obj	_	_
-5	som	som	SCONJ	REL	_	8	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	8	obj	_	_
 6	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
 7	explicit	explicit	ADV	_	_	8	advmod	_	_
 8	markerade	markera	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
-9	för	för	ADP	_	_	11	case	_	_
+9	för	för	ADP	_	_	11	mark	_	_
 10	att	att	PART	_	_	11	mark	_	_
 11	skapa	skapa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	8	advcl	_	_
 12	grupperna	grupp	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	obj	_	SpaceAfter=No
@@ -1312,7 +1312,7 @@
 5	överordnad	överordnad	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
 6	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	element	element	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	_
-8	som	som	SCONJ	REL	_	11	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	11	obj	_	_
 9	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	_
 10	inte	inte	PART	NEG	_	11	advmod	_	_
 11	tilldelade	tilldela	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
@@ -1337,13 +1337,13 @@
 # sent_id = 3738
 # text = Element som tillhör olika fält eller element som tillhör överordnade element kan du inte gruppera i egna grupper.
 1	Element	element	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	obj	_	_
-2	som	som	SCONJ	REL	_	3	mark	_	_
+2	som	som	PRON	REL	PronType=Rel	3	nsubj	_	_
 3	tillhör	tillhöra	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 4	olika	olik	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	_
 5	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	_
 6	eller	eller	CCONJ	_	_	7	cc	_	_
 7	element	element	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	conj	_	_
-8	som	som	SCONJ	REL	_	9	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	9	nsubj	_	_
 9	tillhör	tillhöra	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 10	överordnade	överordnad	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	11	amod	_	_
 11	element	element	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	_
@@ -1410,7 +1410,7 @@
 5	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	_	_
 6	anpassad	anpassa	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
 7	grupp	grupp	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
-8	som	som	SCONJ	REL	_	12	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	12	nsubj	_	_
 9	inte	inte	PART	NEG	_	12	advmod	_	_
 10	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 11	fältets	fält	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	nmod:poss	_	_
@@ -1434,7 +1434,7 @@
 3	inte	inte	PART	NEG	_	2	advmod	_	_
 4	av	av	ADP	_	_	5	case	_	_
 5	grupperna	grupp	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	obl	_	_
-6	som	som	SCONJ	REL	_	8	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	8	obj	_	_
 7	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
 8	skapar	skapa	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
 9	.	.	PUNCT	Period	_	2	punct	_	_
@@ -1444,7 +1444,7 @@
 1	Flytta	flytta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 2	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	_
-4	som	som	SCONJ	REL	_	5	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	5	nsubj	_	_
 5	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 7	överordnat	överordnad	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
@@ -1457,7 +1457,7 @@
 3	flyttar	flytta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
 4	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
-6	som	som	SCONJ	REL	_	7	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	7	nsubj	_	_
 7	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8	egna	egen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_
 9	grupper	grupp	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj	_	_
@@ -1470,7 +1470,7 @@
 16	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 17	egna	egen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	18	amod	_	_
 18	gruppfälten	gruppfält	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	15	nsubj:pass	_	_
-19	som	som	SCONJ	REL	_	21	mark	_	_
+19	som	som	PRON	REL	PronType=Rel	21	nsubj:pass	_	_
 20	är	vara	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
 21	baserade	basera	VERB	AD-PL-IND	Mood=Ind|VerbForm=Inf|Voice=Pass	18	acl:relcl	_	_
 22	på	på	ADP	_	_	23	case	_	_
@@ -1512,7 +1512,7 @@
 15	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj	_	_
 16	filtrera	filtrera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 17	data	data	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obj	_	_
-18	genom	genom	ADP	_	_	20	case	_	_
+18	genom	genom	ADP	_	_	20	mark	_	_
 19	att	att	PART	_	_	20	mark	_	_
 20	markera	markera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	16	advcl	_	_
 21	egna	egen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	22	amod	_	_
@@ -1600,7 +1600,7 @@
 10	i	i	ADP	_	_	12	case	_	_
 11	två	två	NUM	CARD-PL	_	12	nummod	_	_
 12	grupper	grupp	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	obl	_	SpaceAfter=No
-13	:	:	PUNCT	Colon	_	2	punct	_	_
+13	:	:	PUNCT	Colon	_	5	punct	_	_
 14	högprioriterad	högprioriterad	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
 15	marknadsföring	marknadsföring	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	appos	_	_
 16	och	och	CCONJ	_	_	18	cc	_	_
@@ -1637,7 +1637,7 @@
 2	Ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 3	eget	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	gruppfält	gruppfält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
-5	som	som	SCONJ	REL	_	6	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	6	nsubj:pass	_	_
 6	visas	visa	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
 7	som	som	ADP	_	_	8	case	_	_
 8	överordnat	överordnad	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	6	xcomp	_	_
@@ -1783,7 +1783,7 @@
 6	på	på	ADP	_	_	8	case	_	_
 7	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det	_	_
 8	linje	linje	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
-9	som	som	SCONJ	REL	_	12	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	12	obj	_	_
 10	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	_
 11	vill	vilja	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	flytta	flytta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	8	acl:relcl	_	SpaceAfter=No
@@ -1811,7 +1811,7 @@
 # sent_id = 3767
 # text = Regler för hur en inre lodrät linje flyttas
 1	Regler	regel	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	_
-2	för	för	ADP	_	_	8	case	_	_
+2	för	för	ADP	_	_	8	mark	_	_
 3	hur	hur	ADV	WH	_	8	advmod	_	_
 4	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	_	_
 5	inre	inre	ADJ	CMP	Case=Nom|Degree=Cmp	7	amod	_	_
@@ -1892,8 +1892,8 @@
 32	linjen	linje	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	nmod	_	_
 33	förkortas	förkorta	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	SpaceAfter=No
 34	.	.	PUNCT	Period	_	8	punct	_	_
-
 # newdoc
+
 # sent_id = 3770
 # text = Vid det bortesta bordet satt två sjaskigt klädda gubbar, den ene mycket tjock och den andre mycket smal, båda djupt försjunkna i startlistorna för morgondagens hästkapplöpningar.
 1	Vid	vid	ADP	_	_	4	case	_	_
@@ -2037,15 +2037,15 @@
 5	Quinn	Quinn	PROPN	SG-NOM	Case=Nom|Number=Sing	6	nsubj	_	_
 6	fört	föra	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
 7	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	8	amod	_	_
-8	sorts	sort	NOUN	SG-IND-GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	9	nmod:poss	_	_
+8	sorts	sort	NOUN	SG-IND-GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	9	nmod:poss	_	_
 9	samtal	samtal	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	_
 10	med	med	ADP	_	_	12	case	_	_
 11	denne	denna	DET	DEM-SG-IND	Case=Nom	12	det	_	_
 12	man	man	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	_
-13	som	som	SCONJ	REL	_	17	mark	_	_
+13	som	som	PRON	REL	PronType=Rel	17	dislocated	_	_
 14	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	_	_
 15	inte	inte	PART	NEG	_	17	advmod	_	_
-16	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	15	advmod	_	_
+16	ens	ens	ADV	_	_	17	advmod	_	_
 17	visste	veta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
 18	namnet	namn	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	obj	_	_
 19	på	på	ADP	_	_	12	case	_	SpaceAfter=No
@@ -2203,7 +2203,7 @@
 2	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	killar	kille	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	_	_
 4	på	på	ADP	_	_	8	case	_	_
-5	andra	annan	ADJ	ORD	Case=Nom	8	amod	_	_
+5	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 6	och	och	CCONJ	_	_	7	cc	_	_
 7	tredje	tre	ADJ	ORD	Case=Nom	5	conj	_	_
 8	basen	bas	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
@@ -2235,7 +2235,7 @@
 2	tar	ta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	in	in	ADV	_	_	2	compound:prt	_	_
 4	hörnkillarna	hörnkille	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	obj	_	_
-5	för	för	ADP	_	_	7	case	_	_
+5	för	för	ADP	_	_	7	mark	_	_
 6	att	att	PART	_	_	7	mark	_	_
 7	samla	samla	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 8	styrkan	styrka	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obj	_	_
@@ -2466,7 +2466,7 @@
 9	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	10	nsubj	_	_
 10	vet	veta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 11	inte	inte	PART	NEG	_	10	advmod	_	_
-12	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	11	advmod	_	_
+12	ens	ens	ADV	_	_	10	advmod	_	_
 13	vem	vem	PRON	WH-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	16	obj	_	_
 14	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	16	nsubj	_	_
 15	ska	skola	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
@@ -2489,7 +2489,7 @@
 10	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 11	för	för	ADV	_	_	12	advmod	_	_
 12	fet	fet	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	conj	_	_
-13	för	för	ADP	_	_	16	case	_	_
+13	för	för	ADP	_	_	16	mark	_	_
 14	att	att	PART	_	_	16	mark	_	_
 15	kunna	kunna	AUX	INF-AUX	VerbForm=Inf|Voice=Act	16	aux	_	_
 16	springa	springa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	12	acl	_	_
@@ -2573,7 +2573,7 @@
 6	i	i	ADP	_	_	7	case	_	_
 7	backen	backe	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
 8	på	på	ADP	_	_	1	case	_	SpaceAfter=No
-9	!	!	PUNCT	ExclMark	_	2	punct	_	_
+9	!	!	PUNCT	ExclMark	_	4	punct	_	_
 10	sa	säga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 11	Quinn	Quinn	PROPN	SG-NOM	Case=Nom|Number=Sing	10	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	4	punct	_	_
@@ -2604,7 +2604,7 @@
 7	nya	ny	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_
 8	anteckningsblock	anteckningsblock	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	11	punct	_	_
-10	som	som	SCONJ	REL	_	11	mark	_	_
+10	som	som	PRON	REL	PronType=Rel	11	nsubj	_	_
 11	låg	ligga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
 12	sorterade	sortera	VERB	AD-PL-IND	Mood=Ind|VerbForm=Inf|Voice=Pass	11	xcomp	_	_
 13	i	i	ADP	_	_	17	case	_	_
@@ -2762,7 +2762,7 @@
 # text = Av skäl som han aldrig lyckades utröna kände han ett plötsligt och oemotståndligt habegär till ett speciellt rött anteckningsblock som låg längst ner i högen.
 1	Av	av	ADP	_	_	2	case	_	_
 2	skäl	skäl	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	_
-3	som	som	SCONJ	REL	_	6	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	6	dislocated	_	_
 4	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	_
 5	aldrig	aldrig	ADV	NEG	Polarity=Neg	6	advmod	_	_
 6	lyckades	lyckas	VERB	PAST-DPO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
@@ -2779,7 +2779,7 @@
 17	speciellt	speciell	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
 18	rött	röd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	19	amod	_	_
 19	anteckningsblock	anteckningsblock	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	_
-20	som	som	SCONJ	REL	_	21	mark	_	_
+20	som	som	PRON	REL	PronType=Rel	21	nsubj	_	_
 21	låg	ligga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
 22	längst	långt	ADV	SPL	Degree=Sup	23	advmod	_	_
 23	ner	ner	ADV	_	_	21	advmod	_	_
@@ -2868,7 +2868,7 @@
 20	inrymma	inrymma	VERB	INF-ACT	VerbForm=Inf|Voice=Act	12	xcomp	_	_
 21	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	ord	ord	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	obj	_	_
-23	som	som	SCONJ	REL	_	24	mark	_	_
+23	som	som	PRON	REL	PronType=Rel	24	nsubj	_	_
 24	kom	komma	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
 25	från	från	ADP	_	_	27	case	_	_
 26	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
@@ -2936,7 +2936,7 @@
 17	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	16	obj	_	_
 18	med	med	ADP	_	_	19	case	_	_
 19	platsen	plats	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	_	_
-20	för	för	ADP	_	_	22	case	_	_
+20	för	för	ADP	_	_	22	mark	_	_
 21	att	att	PART	_	_	22	mark	_	_
 22	försöka	försöka	VERB	INF-ACT	VerbForm=Inf|Voice=Act	16	advcl	_	_
 23	undvika	undvika	VERB	INF-ACT	VerbForm=Inf|Voice=Act	22	xcomp	_	_
@@ -2997,7 +2997,7 @@
 15	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 16	numrerade	numrera	ADJ	AD-PL-IND	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	17	amod	_	_
 17	perrongerna	perrong	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	nmod	_	_
-18	samtidigt	samtidigt	ADV	_	_	11	advmod	_	_
+18	samtidigt	samtidigt	ADV	_	_	21	advmod	_	_
 19	som	som	SCONJ	_	_	21	mark	_	_
 20	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	_
 21	höll	hålla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
@@ -3023,10 +3023,10 @@
 5	att	att	SCONJ	_	_	16	mark	_	_
 6	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	_	_
 7	människa	människa	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nsubj	_	_
-8	som	som	SCONJ	REL	_	10	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	10	nsubj:pass	_	_
 9	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
 10	inriktad	inrikta	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
-11	på	på	ADP	_	_	13	case	_	_
+11	på	på	ADP	_	_	13	mark	_	_
 12	att	att	PART	_	_	13	mark	_	_
 13	försvinna	försvinna	VERB	INF-ACT	VerbForm=Inf|Voice=Act	10	xcomp	_	_
 14	inte	inte	PART	NEG	_	16	advmod	_	_
@@ -3083,8 +3083,8 @@
 23	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
 24	Virginia	Virginia	PROPN	SG-NOM	Case=Nom|Number=Sing	20	ccomp	_	_
 25	Stillman	Stillman	PROPN	SG-NOM	Case=Nom|Number=Sing	24	flat	_	_
-26	som	som	SCONJ	REL	_	27	mark	_	_
-27	låg	ligga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	dislocated	_	_
+26	som	som	PRON	REL	PronType=Rel	27	nsubj	_	_
+27	låg	ligga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:cleft	_	_
 28	bakom	bakom	ADV	_	Case=Nom	27	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	Period	_	20	punct	_	_
 
@@ -3207,7 +3207,7 @@
 18	ändå	ändå	ADV	_	_	16	advmod	_	_
 19	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	20	det	_	_
 20	känsla	känsla	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj	_	_
-21	av	av	ADP	_	_	24	case	_	_
+21	av	av	ADP	_	_	24	mark	_	_
 22	att	att	PART	_	_	24	mark	_	_
 23	ha	ha	AUX	INF-AUX	VerbForm=Inf|Voice=Act	24	aux	_	_
 24	stigit	stiga	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	20	acl	_	_
@@ -3250,7 +3250,7 @@
 13	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	_
 14	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	12	obj	_	_
 15	med	med	ADP	_	_	12	advmod	_	_
-16	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	15	fixed	_	_
+16	ens	ens	ADV	_	_	15	fixed	_	_
 17	ojämförligt	ojämförlig	ADV	_	_	19	advmod	_	_
 18	mycket	mycket	ADV	_	Degree=Pos	19	advmod	_	_
 19	lättare	lätt	ADJ	CMP	Case=Nom|Degree=Cmp	12	xcomp	_	_
@@ -3332,7 +3332,7 @@
 15	--	–	PUNCT	Dash	_	17	punct	_	_
 16	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 17	syfte	syfte	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	appos	_	_
-18	som	som	SCONJ	REL	_	19	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	19	nsubj:pass	_	_
 19	kändes	kännas	VERB	PAST-PASS	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	_
 20	allt	allt	ADV	_	_	21	advmod	_	_
 21	viktigare	viktig	ADJ	CMP	Case=Nom|Degree=Cmp	19	xcomp	_	_
@@ -3369,7 +3369,7 @@
 4	satte	sätta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	_
 6	likhetstecken	likhetstecken	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
-7	mellan	mellan	ADP	_	_	9	case	_	_
+7	mellan	mellan	ADP	_	_	9	mark	_	_
 8	att	att	PART	_	_	9	mark	_	_
 9	se	se	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	advcl	_	_
 10	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	9	obj	_	_
@@ -3388,7 +3388,7 @@
 
 # sent_id = 3843
 # text = I väntan på Stillman vandrade han sålunda genom stationen som vore han Paul Auster.
-1	I	i	ADP	_	_	5	case	_	_
+1	I	i	ADP	_	_	5	mark	_	_
 2	väntan	väntan	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
 3	på	på	ADP	_	_	4	case	_	_
 4	Stillman	Stillman	PROPN	SG-NOM	Case=Nom|Number=Sing	2	nmod	_	_
@@ -3511,7 +3511,7 @@
 
 # sent_id = 3849
 # text = Mitt i alltihop kunde Quinn inte låta bli att glädja sig åt detta.
-1	Mitt	mitt	ADV	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	advmod	_	_
+1	Mitt	mitt	ADV	_	_	3	advmod	_	_
 2	i	i	ADP	_	_	3	case	_	_
 3	alltihop	alltihop	PRON	TOT-SG	_	7	obl	_	_
 4	kunde	kunna	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	_
@@ -3534,7 +3534,7 @@
 4	så	så	ADV	_	_	3	advmod	_	_
 5	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	_
 6	stund	stund	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
-7	utan	utan	ADP	_	_	9	case	_	_
+7	utan	utan	ADP	_	_	9	mark	_	_
 8	att	att	PART	_	_	9	mark	_	_
 9	säga	säga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	advcl	_	_
 10	något	något	PRON	IND-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
@@ -3549,7 +3549,7 @@
 5	på	på	ADP	_	_	6	case	_	_
 6	axlarna	axel	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	obl	_	_
 7	som	som	SCONJ	_	_	10	mark	_	_
-8	för	för	ADP	_	_	10	case	_	_
+8	för	för	ADP	_	_	10	mark	_	_
 9	att	att	PART	_	_	10	mark	_	_
 10	markera	markera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 11	att	att	SCONJ	_	_	15	mark	_	_
@@ -3599,11 +3599,11 @@
 # sent_id = 3855
 # text = Det var som om Auster anat sig till hans innersta längtan: att få något att äta, att få en anledning att dröja sig kvar en stund till.
 1	Det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	expl	_	_
-2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+2	var	vara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	som	som	SCONJ	_	_	6	mark	_	_
 4	om	om	SCONJ	_	_	3	fixed	_	_
 5	Auster	Auster	PROPN	SG-NOM	Case=Nom|Number=Sing	6	nsubj	_	_
-6	anat	ana	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
+6	anat	ana	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	2	ccomp	_	_
 7	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	6	obj	_	_
 8	till	till	ADP	_	_	11	case	_	_
 9	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
@@ -3655,7 +3655,7 @@
 9	ju	ju	ADV	_	_	11	advmod	_	_
 10	aldrig	aldrig	ADV	NEG	Polarity=Neg	11	advmod	_	_
 11	skada	skada	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	Period	_	8	punct	_	_
+12	.	.	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = 3858
 # text = Vad sägs om en skinkomelett?
@@ -3680,7 +3680,7 @@
 3	ut	ut	ADV	_	_	2	compound:prt	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	köket	kök	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
-6	för	för	ADP	_	_	8	case	_	_
+6	för	för	ADP	_	_	8	mark	_	_
 7	att	att	PART	_	_	8	mark	_	_
 8	göra	göra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 9	i	i	ADP	_	_	10	case	_	_
@@ -3729,7 +3729,7 @@
 1	I	i	ADP	_	_	2	case	_	_
 2	brist	brist	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	_
 3	på	på	ADP	_	_	5	case	_	_
-4	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	5	amod	_	_
+4	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	_
 5	idéer	idé	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nmod	_	_
 6	slöt	sluta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	_
@@ -3746,7 +3746,7 @@
 6	ibland	ibland	ADV	_	_	7	advmod	_	_
 7	funnit	finna	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
 8	tröst	tröst	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	_	_
-9	i	i	ADP	_	_	11	case	_	_
+9	i	i	ADP	_	_	11	mark	_	_
 10	att	att	PART	_	_	11	mark	_	_
 11	låta	låta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	7	xcomp	_	_
 12	omvärlden	omvärld	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obj	_	_
@@ -3794,7 +3794,7 @@
 2	hörde	höra	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 4	med	med	ADP	_	_	2	advmod	_	_
-5	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	4	fixed	_	_
+5	ens	ens	ADV	_	_	4	fixed	_	_
 6	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	_	_
 7	röst	röst	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
 8	ur	ur	ADP	_	_	9	case	_	_
@@ -3804,7 +3804,7 @@
 12	idiotiskt	idiotisk	ADV	_	_	13	advmod	_	_
 13	sjungande	sjunga	ADJ	NDE	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
 14	röst	röst	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	appos	_	_
-15	som	som	SCONJ	REL	_	16	mark	_	_
+15	som	som	PRON	REL	PronType=Rel	16	nsubj	_	_
 16	mässade	mässa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
 17	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	18	amod	_	_
 18	mening	mening	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj	_	_
@@ -3819,7 +3819,7 @@
 27	göra	göra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	18	parataxis	_	_
 28	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	29	det	_	_
 29	omelett	omelett	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	obj	_	_
-30	utan	utan	ADP	_	_	32	case	_	_
+30	utan	utan	ADP	_	_	32	mark	_	_
 31	att	att	PART	_	_	32	mark	_	_
 32	krossa	krossa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	27	advcl	_	_
 33	ägg	ägg	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	32	obj	_	SpaceAfter=No
@@ -3831,7 +3831,7 @@
 2	slog	slå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	upp	upp	ADV	_	_	2	compound:prt	_	_
 4	ögonen	öga	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	obj	_	_
-5	för	för	ADP	_	_	7	case	_	_
+5	för	för	ADP	_	_	7	mark	_	_
 6	att	att	PART	_	_	7	mark	_	_
 7	få	få	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 8	rösten	röst	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obj	_	_
@@ -3866,7 +3866,7 @@
 23	,	,	PUNCT	Comma	_	25	punct	_	_
 24	två	två	NUM	CARD-PL	_	25	nummod	_	_
 25	stycken	stycke	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	22	nmod	_	_
-26	som	som	SCONJ	REL	_	28	mark	_	_
+26	som	som	PRON	REL	PronType=Rel	28	nsubj	_	_
 27	nästan	nästan	ADV	_	_	28	advmod	_	_
 28	flödade	flöda	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
 29	över	över	ADP	_	_	28	compound:prt	_	_
@@ -3906,7 +3906,7 @@
 6	till	till	ADP	_	_	8	case	_	_
 7	det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	yttersta	ytterst	ADJ	SPL-DEF	Case=Nom|Definite=Def|Degree=Sup	4	obl	_	_
-9	för	för	ADP	_	_	11	case	_	_
+9	för	för	ADP	_	_	11	mark	_	_
 10	att	att	PART	_	_	11	mark	_	_
 11	visa	visa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	advcl	_	_
 12	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	11	obj	_	_
@@ -3947,7 +3947,7 @@
 
 # sent_id = 3873
 # text = För att visa att han inte var självupptagen och otacksam började han fråga ut Auster om dennes skrivande.
-1	För	för	ADP	_	_	3	case	_	_
+1	För	för	ADP	_	_	3	mark	_	_
 2	att	att	PART	_	_	3	mark	_	_
 3	visa	visa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	11	advcl	_	_
 4	att	att	SCONJ	_	_	8	mark	_	_
@@ -3962,7 +3962,7 @@
 13	fråga	fråga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	11	xcomp	_	_
 14	ut	ut	ADV	_	_	13	compound:prt	_	_
 15	Auster	Auster	PROPN	SG-NOM	Case=Nom|Number=Sing	13	obj	_	_
-16	om	om	ADP	_	_	18	case	_	_
+16	om	om	ADP	_	_	18	mark	_	_
 17	dennes	denna	PRON	SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Dem	18	nmod:poss	_	_
 18	skrivande	skriva	VERB	NDE	Mood=Ind|VerbForm=Part|Voice=Act	13	obl	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	11	punct	_	_
@@ -4002,7 +4002,7 @@
 
 # sent_id = 3875
 # text = En av mina älsklingsböcker, sa Quinn.
-1	En	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	0	root	_	_
+1	En	en	PRON	IND-P3SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	0	root	_	_
 2	av	av	ADP	_	_	4	case	_	_
 3	mina	jag	PRON	P1SG-GEN-PL	Case=Gen|Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 4	älsklingsböcker	älsklingsbok	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	nmod	_	SpaceAfter=No
@@ -4057,7 +4057,7 @@
 13	egentligen	egentligen	ADV	_	_	15	advmod	_	_
 14	inte	inte	PART	NEG	_	15	advmod	_	_
 15	ute	ute	ADV	_	_	2	conj	_	_
-16	efter	efter	ADP	_	_	18	case	_	_
+16	efter	efter	ADP	_	_	18	mark	_	_
 17	att	att	PART	_	_	18	mark	_	_
 18	bevisa	bevisa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	15	advcl	_	_
 19	nåt	något	PRON	IND-SG	_	18	obj	_	SpaceAfter=No
@@ -4065,15 +4065,15 @@
 
 # sent_id = 3880
 # text = Faktum är att den bygger på lösa förmodanden.
-1	Faktum	faktum	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	_
-2	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Faktum	faktum	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+2	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	att	att	SCONJ	_	_	5	mark	_	_
 4	den	den	PRON	PERS-P3SG	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	_
-5	bygger	bygga	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+5	bygger	bygga	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
 6	på	på	ADP	_	_	8	case	_	_
 7	lösa	lös	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_
 8	förmodanden	förmodande	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
-9	.	.	PUNCT	Period	_	2	punct	_	_
+9	.	.	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3881
 # text = En fantasifull tolkning, kan man kanske säga.
@@ -4106,9 +4106,9 @@
 4	mest	mycket	ADV	SPL	Degree=Sup	2	advmod	_	_
 5	kring	kring	ADP	_	_	6	case	_	_
 6	frågan	fråga	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	_
-7	om	om	ADP	_	_	10	case	_	_
+7	om	om	ADP	_	_	10	mark	_	_
 8	vem	vem	PRON	WH-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	10	nsubj	_	_
-9	som	som	SCONJ	REL	_	10	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	10	nsubj	_	_
 10	författat	författa	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	6	acl:relcl	_	_
 11	boken	bok	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obj	_	_
 12	och	och	CCONJ	_	_	15	cc	_	_
@@ -4142,7 +4142,7 @@
 11	till	till	ADP	_	_	13	case	_	_
 12	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	13	det	_	_
 13	bok	bok	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	_
-14	som	som	SCONJ	REL	_	15	mark	_	_
+14	som	som	PRON	REL	PronType=Rel	15	nsubj	_	_
 15	finns	finnas	VERB	PRES-DPO	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
 16	i	i	ADP	_	_	18	case	_	_
 17	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	18	det	_	_
@@ -4178,7 +4178,7 @@
 8	ner	ner	ADV	_	_	6	compound:prt	_	_
 9	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	_
 10	möda	möda	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
-11	på	på	ADP	_	_	13	case	_	_
+11	på	på	ADP	_	_	13	mark	_	_
 12	att	att	PART	_	_	13	mark	_	_
 13	försöka	försöka	VERB	INF-ACT	VerbForm=Inf|Voice=Act	6	advcl	_	_
 14	övertyga	övertyga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	13	xcomp	_	_
@@ -4190,7 +4190,7 @@
 20	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
 21	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	ccomp	_	_
 22	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	amod	_	_
-23	som	som	SCONJ	REL	_	25	mark	_	_
+23	som	som	PRON	REL	PronType=Rel	25	nsubj	_	_
 24	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
 25	författaren	författare	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	dislocated	_	SpaceAfter=No
 26	.	.	PUNCT	Period	_	6	punct	_	_
@@ -4263,7 +4263,7 @@
 2	säger	säga	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	2	obj	_	_
 4	inte	inte	PART	NEG	_	7	advmod	_	_
-5	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	4	advmod	_	_
+5	ens	ens	ADV	_	_	7	advmod	_	_
 6	kunna	kunna	AUX	INF-AUX	VerbForm=Inf|Voice=Act	7	aux	_	_
 7	gå	gå	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	xcomp	_	_
 8	i	i	ADP	_	_	9	case	_	_
@@ -4303,7 +4303,7 @@
 # sent_id = 3895
 # text = Alla andra versioner är förfalskningar skrivna av bedragare.
 1	Alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	3	det	_	_
-2	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	3	amod	_	_
+2	andra	annan	ADJ	POS-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	_	_
 3	versioner	version	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nsubj	_	_
 4	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	förfalskningar	förfalskning	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	_
@@ -4321,7 +4321,7 @@
 5	eftertryck	eftertryck	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	_
 6	att	att	SCONJ	_	_	15	mark	_	_
 7	allt	allt	PRON	TOT-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	15	nsubj	_	_
-8	som	som	SCONJ	REL	_	9	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	9	nsubj:pass	_	_
 9	skildras	skildra	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	_
 10	i	i	ADP	_	_	11	case	_	_
 11	boken	bok	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	_	_
@@ -4357,7 +4357,7 @@
 # sent_id = 3899
 # text = Och för att få fram det budskapet kunde han ju knappast använda en fantasiberättelse, eller hur?
 1	Och	och	CCONJ	_	_	12	cc	_	_
-2	för	för	ADP	_	_	4	case	_	_
+2	för	för	ADP	_	_	4	mark	_	_
 3	att	att	PART	_	_	4	mark	_	_
 4	få	få	VERB	INF-ACT	VerbForm=Inf|Voice=Act	12	advcl	_	_
 5	fram	fram	ADV	_	_	4	compound:prt	_	_
@@ -4378,10 +4378,10 @@
 # sent_id = 3900
 # text = Han var helt enkelt tvungen att hävda att det hänt i verkligheten.
 1	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	_
-2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
 3	helt	helt	ADV	_	Degree=Pos	5	advmod	_	_
 4	enkelt	enkelt	ADV	_	Degree=Pos	3	fixed	_	_
-5	tvungen	tvungen	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	0	root	_	_
+5	tvungen	tvinga	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	0	root	_	_
 6	att	att	PART	_	_	7	mark	_	_
 7	hävda	hävda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	5	xcomp	_	_
 8	att	att	SCONJ	_	_	10	mark	_	_
@@ -4471,12 +4471,12 @@
 10	aldrig	aldrig	ADV	NEG	Polarity=Neg	11	advmod	_	_
 11	ge	ge	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 12	än	än	SCONJ	CMP	_	15	mark	_	_
-13	genom	genom	ADP	_	_	15	case	_	_
+13	genom	genom	ADP	_	_	15	mark	_	_
 14	att	att	PART	_	_	15	mark	_	_
 15	skildra	skildra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	11	advcl	_	_
 16	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det	_	_
 17	man	man	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj	_	_
-18	som	som	SCONJ	REL	_	19	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	19	nsubj:pass	_	_
 19	förhäxats	förhäxa	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	17	acl:relcl	_	_
 20	av	av	ADP	_	_	21	case	_	_
 21	böcker	bok	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	obl	_	SpaceAfter=No
@@ -4511,15 +4511,15 @@
 17	till	till	ADP	_	_	19	case	_	_
 18	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	händelser	händelse	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	nmod	_	_
-20	som	som	SCONJ	REL	_	21	mark	_	_
+20	som	som	PRON	REL	PronType=Rel	21	nsubj:pass	_	_
 21	skildras	skildra	VERB	INF-PASS	VerbForm=Inf|Voice=Pass	19	acl:relcl	_	SpaceAfter=No
 22	.	.	PUNCT	Period	_	13	punct	_	_
 
 # sent_id = 3908
 # text = Det underliga är att Cid Hamete, den angivne författaren, aldrig träder fram.
 1	Det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	underliga	underlig	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	nsubj	_	_
-3	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
+2	underliga	underlig	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	nsubj	_	_
+3	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	att	att	SCONJ	_	_	13	mark	_	_
 5	Cid	Cid	PROPN	SG-NOM	Case=Nom|Number=Sing	13	nsubj	_	_
 6	Hamete	Hamete	PROPN	SG-NOM	Case=Nom|Number=Sing	5	flat	_	SpaceAfter=No
@@ -4529,7 +4529,7 @@
 10	författaren	författare	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	appos	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	10	punct	_	_
 12	aldrig	aldrig	ADV	NEG	Polarity=Neg	13	advmod	_	_
-13	träder	träda	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	träder	träda	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 14	fram	fram	ADV	_	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	13	punct	_	_
 
@@ -4549,7 +4549,7 @@
 12	närvarande	närvara	VERB	NDE	Case=Nom	9	xcomp	_	_
 13	vid	vid	ADP	_	_	14	case	_	_
 14	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	obl	_	_
-15	som	som	SCONJ	REL	_	16	mark	_	_
+15	som	som	PRON	REL	PronType=Rel	16	nsubj	_	_
 16	sker	ske	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	5	punct	_	_
 
@@ -4561,7 +4561,7 @@
 4	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	_
 5	ställer	ställa	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	iobj	_	_
-7	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 8	:	:	PUNCT	_	_	7	punct	_	_
 9	vem	vem	PRON	WH-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	7	parataxis	_	_
 10	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
@@ -4630,7 +4630,7 @@
 9	ju	ju	ADV	_	_	11	advmod	_	_
 10	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	det	_	_
 11	ende	enda	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	conj	_	_
-12	som	som	SCONJ	REL	_	13	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	13	nsubj	_	_
 13	gör	göra	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
 14	Don	Don	PROPN	SG-NOM	Case=Nom|Number=Sing	13	iobj	_	_
 15	Quijote	Quijote	PROPN	SG-NOM	Case=Nom|Number=Sing	14	flat	_	_
@@ -4659,7 +4659,7 @@
 4	inte	inte	PART	NEG	_	6	advmod	_	_
 5	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	6	cop	_	_
 6	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	0	root	_	_
-7	som	som	SCONJ	REL	_	9	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	9	nsubj	_	_
 8	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 9	författaren	författare	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	dislocated	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	6	punct	_	_
@@ -4667,7 +4667,7 @@
 # sent_id = 3917
 # text = Å andra sidan vet vi att Sancho har en stor språklig begåvning.
 1	Å	å	ADP	_	_	3	case	_	_
-2	andra	annan	ADJ	ORD	Case=Nom	3	amod	_	_
+2	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	sidan	sida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
 4	vet	veta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	4	nsubj	_	_
@@ -4699,7 +4699,7 @@
 15	en	en	PRON	IND-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	12	obj	_	_
 16	av	av	ADP	_	_	19	case	_	_
 17	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-18	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	19	amod	_	_
+18	andra	annan	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	19	amod	_	_
 19	personerna	person	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	15	nmod	_	_
 20	i	i	ADP	_	_	21	case	_	_
 21	boken	bok	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nmod	_	SpaceAfter=No
@@ -4759,7 +4759,7 @@
 21	från	från	ADP	_	_	22	case	_	_
 22	Salamanca	Salamanca	PROPN	SG-NOM	Case=Nom|Number=Sing	20	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	Comma	_	20	punct	_	_
-24	som	som	SCONJ	REL	_	25	mark	_	_
+24	som	som	PRON	REL	PronType=Rel	25	nsubj	_	_
 25	översatte	översätta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
 26	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	25	obj	_	_
 27	till	till	ADP	_	_	28	case	_	_
@@ -4796,7 +4796,7 @@
 4	Sancho	Sancho	PROPN	SG-NOM	Case=Nom|Number=Sing	8	nsubj	_	_
 5	och	och	CCONJ	_	_	7	cc	_	_
 6	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	4	conj	_	_
+7	andra	annan	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	4	conj	_	_
 8	göra	göra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 9	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	8	iobj	_	_
 10	så	så	ADV	_	_	11	advmod	_	_
@@ -4806,7 +4806,7 @@
 
 # sent_id = 3923
 # text = För att bota Don Quijote från hans galenskap.
-1	För	för	ADP	_	_	3	case	_	_
+1	För	för	ADP	_	_	3	mark	_	_
 2	att	att	PART	_	_	3	mark	_	_
 3	bota	bota	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 4	Don	Don	PROPN	SG-NOM	Case=Nom|Number=Sing	3	obj	_	_
@@ -4828,7 +4828,7 @@
 # sent_id = 3925
 # text = Tänk på att de i början bränner upp hans riddarromaner, men det hjälper ju inte.
 1	Tänk	tänka	VERB	IMP-ACT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
-2	på	på	ADP	_	_	7	case	_	_
+2	på	på	ADP	_	_	7	mark	_	_
 3	att	att	SCONJ	_	_	7	mark	_	_
 4	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	7	nsubj	_	_
 5	i	i	ADP	_	_	6	case	_	_
@@ -4895,7 +4895,7 @@
 32	Månen	måne	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	nmod	_	_
 33	--	–	PUNCT	Dash	_	20	punct	_	_
 34	allt	allt	PRON	TOT-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	2	parataxis	_	_
-35	för	för	ADP	_	_	37	case	_	_
+35	för	för	ADP	_	_	37	mark	_	_
 36	att	att	PART	_	_	37	mark	_	_
 37	locka	locka	VERB	INF-ACT	VerbForm=Inf|Voice=Act	34	acl	_	_
 38	Don	Don	PROPN	SG-NOM	Case=Nom|Number=Sing	37	obj	_	_
@@ -4903,8 +4903,8 @@
 40	hem	hem	ADV	_	_	37	advmod	_	_
 41	igen	igen	ADV	_	_	37	advmod	_	SpaceAfter=No
 42	.	.	PUNCT	Period	_	2	punct	_	_
-
 # newdoc
+
 # sent_id = 3928
 # text = Vet ni vad en fysiker är?
 1	Vet	veta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5087,7 +5087,7 @@
 4	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	_
 5	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	missbildningar	missbildning	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	_
-7	som	som	SCONJ	REL	_	12	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	12	obj	_	_
 8	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	10	det	_	_
 9	moderna	modern	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
 10	tiden	tid	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
@@ -5142,7 +5142,7 @@
 1	För	för	ADP	_	_	2	case	_	_
 2	Israel	Israel	PROPN	SG-NOM	Case=Nom|Number=Sing	14	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	5	punct	_	_
-4	som	som	SCONJ	REL	_	5	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	5	nsubj	_	_
 5	ger	ge	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 6	oss	vi	PRON	PERS-P1PL-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	5	iobj	_	_
 7	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
@@ -5253,7 +5253,7 @@
 3	ligger	ligga	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	kyrkan	kyrka	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	8	punct	_	_
-6	som	som	SCONJ	REL	_	8	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	8	nsubj	_	_
 7	delvis	delvis	ADV	_	_	8	advmod	_	_
 8	daterar	datera	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 9	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	8	obj	_	_
@@ -5270,7 +5270,7 @@
 5	med	med	ADP	_	_	6	case	_	_
 6	pondus	pondus	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	10	punct	_	_
-8	för	för	ADP	_	_	10	case	_	_
+8	för	för	ADP	_	_	10	mark	_	_
 9	att	att	PART	_	_	10	mark	_	_
 10	använda	använda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	advcl	_	_
 11	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
@@ -5352,7 +5352,7 @@
 19	två	två	NUM	CARD-PL	_	21	nummod	_	_
 20	israeliska	israelisk	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_
 21	par	par	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	_	_
-22	som	som	SCONJ	REL	_	26	mark	_	_
+22	som	som	PRON	REL	PronType=Rel	26	obj	_	_
 23	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	nsubj	_	_
 24	inte	inte	PART	NEG	_	26	advmod	_	_
 25	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
@@ -5475,7 +5475,7 @@
 1	(	(	PUNCT	LeftParenthesis	_	13	punct	_	SpaceAfter=No
 2	Tatu	Tatu	PROPN	SG-NOM	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	6	punct	_	_
-4	som	som	SCONJ	REL	_	6	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 5	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	bott	bo	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	2	acl:relcl	_	_
 7	i	i	ADP	_	_	8	case	_	_
@@ -5498,7 +5498,7 @@
 # text = Ärkebiskopen, som själv har tillagat auberginerna och lammsteken, upplyser sällskapet om sina recept.
 1	Ärkebiskopen	ärkebiskop	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	6	punct	_	_
-3	som	som	SCONJ	REL	_	6	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 4	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	advmod	_	_
 5	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	tillagat	tillaga	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	1	acl:relcl	_	_
@@ -5636,7 +5636,7 @@
 14	där	där	ADV	DEM-PL	_	13	fixed	_	_
 15	kortvuxna	kortvuxen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	16	amod	_	_
 16	männen	man	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	_
-17	som	som	SCONJ	REL	_	19	mark	_	_
+17	som	som	PRON	REL	PronType=Rel	19	nsubj	_	_
 18	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
 19	lärt	lära	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	16	acl:relcl	_	_
 20	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	19	obj	_	_
@@ -5656,7 +5656,7 @@
 4	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	6	det	_	_
 5	otvungna	otvungen	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	hållning	hållning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
-7	som	som	SCONJ	REL	_	8	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	8	nsubj	_	_
 8	döljer	dölja	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 9	spänningar	spänning	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	obj	_	_
 10	av	av	ADP	_	_	12	case	_	_
@@ -5688,7 +5688,7 @@
 11	om	om	ADP	_	_	13	case	_	_
 12	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	_
 13	insändare	insändare	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	_	_
-14	som	som	SCONJ	REL	_	16	mark	_	_
+14	som	som	PRON	REL	PronType=Rel	16	obj	_	_
 15	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj	_	_
 16	skickade	skicka	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
 17	till	till	ADP	_	_	19	case	_	_
@@ -5700,7 +5700,7 @@
 23	om	om	ADP	_	_	25	case	_	_
 24	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	25	det	_	_
 25	hållning	hållning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	_
-26	som	som	SCONJ	REL	_	28	mark	_	_
+26	som	som	PRON	REL	PronType=Rel	28	obj	_	_
 27	Frankrike	Frankrike	PROPN	SG-NOM	Case=Nom|Number=Sing	28	nsubj	_	_
 28	intog	inta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	SpaceAfter=No
 29	.	.	PUNCT	Period	_	5	punct	_	_
@@ -5745,7 +5745,7 @@
 8	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	10	cop	_	_
 9	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	_
 10	människa	människa	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	xcomp	_	_
-11	som	som	SCONJ	REL	_	12	mark	_	_
+11	som	som	PRON	REL	PronType=Rel	12	nsubj	_	_
 12	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 13	någon	någon	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	15	det	_	_
 14	lätt	lätt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
@@ -5793,7 +5793,7 @@
 1	Jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	bestämmer	bestämma	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj	_	_
-4	för	för	ADP	_	_	6	case	_	_
+4	för	för	ADP	_	_	6	mark	_	_
 5	att	att	PART	_	_	6	mark	_	_
 6	låta	låta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	xcomp	_	_
 7	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	obj	_	_
@@ -5805,7 +5805,7 @@
 
 # sent_id = 3982
 # text = För att söka gemensam mark med min hustru (en berömvärd önskan) berättar han för henne att han också är av rumänskt ursprung.
-1	För	för	ADP	_	_	3	case	_	_
+1	För	för	ADP	_	_	3	mark	_	_
 2	att	att	PART	_	_	3	mark	_	_
 3	söka	söka	VERB	INF-ACT	VerbForm=Inf|Voice=Act	14	advcl	_	_
 4	gemensam	gemensam	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
@@ -5854,7 +5854,7 @@
 2	viktigaste	viktig	ADJ	SPL-DEF	Case=Nom|Definite=Def|Degree=Sup	5	nsubj	_	_
 3	av	av	ADP	_	_	4	case	_	_
 4	allt	allt	PRON	TOT-SG-NOM	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	2	nmod	_	_
-5	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	att	att	PART	_	_	8	mark	_	_
 7	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	8	cop	_	_
 8	fransman	fransman	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	xcomp	_	SpaceAfter=No
@@ -5927,7 +5927,7 @@
 # text = Dostojevskij, som inte var någon dålig domare i sådana ting, tyckte att det fanns mycket som talade för mördarens åsikt.
 1	Dostojevskij	Dostojevskij	PROPN	SG-NOM	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	8	punct	_	_
-3	som	som	SCONJ	REL	_	8	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	8	nsubj	_	_
 4	inte	inte	PART	NEG	_	8	advmod	_	_
 5	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
 6	någon	någon	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	8	det	_	_
@@ -5942,7 +5942,7 @@
 15	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	expl	_	_
 16	fanns	finnas	VERB	PAST-DPO	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
 17	mycket	mycket	PRON	IND-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	nsubj	_	_
-18	som	som	SCONJ	REL	_	19	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	19	nsubj	_	_
 19	talade	tala	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
 20	för	för	ADP	_	_	22	case	_	_
 21	mördarens	mördare	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	22	nmod:poss	_	_
@@ -6015,7 +6015,7 @@
 17	naturtillståndet	naturtillstånd	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
 18	"	"	PUNCT	Quote	_	17	punct	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	32	punct	_	_
-20	för	för	ADP	_	_	22	case	_	_
+20	för	för	ADP	_	_	22	mark	_	_
 21	att	att	PART	_	_	22	mark	_	_
 22	tala	tala	VERB	INF-ACT	VerbForm=Inf|Voice=Act	32	advmod	_	_
 23	med	med	ADP	_	_	24	case	_	_
@@ -6035,7 +6035,7 @@
 37	döden	död	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	36	obj	_	_
 38	alltför	alltför	ADV	_	_	39	advmod	_	_
 39	mycket	mycket	ADV	_	Degree=Pos	36	advmod	_	_
-40	för	för	ADP	_	_	42	case	_	_
+40	för	för	ADP	_	_	42	mark	_	_
 41	att	att	PART	_	_	42	mark	_	_
 42	ägna	ägna	VERB	INF-ACT	VerbForm=Inf|Voice=Act	39	acl	_	_
 43	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	44	amod	_	_
@@ -6097,7 +6097,7 @@
 3	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	detta	detta	PRON	DEM-SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
 5	Amerika	Amerika	PROPN	SG-NOM	Case=Nom|Number=Sing	6	nsubj	_	_
-6	står	stå	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	dislocated	_	_
+6	står	stå	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:cleft	_	_
 7	inför	inför	ADP	_	_	4	case	_	_
 8	med	med	ADP	_	_	13	case	_	_
 9	alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	13	det	_	_
@@ -6133,7 +6133,7 @@
 3	tycks	tyckas	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	5	cop	_	_
 5	benägna	benägen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	xcomp	_	_
-6	för	för	ADP	_	_	8	case	_	_
+6	för	för	ADP	_	_	8	mark	_	_
 7	att	att	PART	_	_	8	mark	_	_
 8	uppfatta	uppfatta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	5	xcomp	_	_
 9	oss	vi	PRON	PERS-P1PL-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	8	obj	_	_
@@ -6150,7 +6150,7 @@
 4	Nota	Nota	PROPN	SG-NOM	Case=Nom|Number=Sing	16	nsubj	_	_
 5	Gordon	Gordon	PROPN	SG-NOM	Case=Nom|Number=Sing	4	flat	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
-7	som	som	SCONJ	REL	_	8	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	8	nsubj	_	_
 8	kom	komma	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 9	från	från	ADP	_	_	10	case	_	_
 10	Sovjetunionen	Sovjetunionen	PROPN	SG-NOM	Case=Nom|Number=Sing	8	obl	_	_
@@ -6181,7 +6181,7 @@
 5	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	expl	_	_
 6	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 7	ni	ni	PRON	PERS-P2PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
-8	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	dislocated	_	_
+8	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:cleft	_	_
 9	att	att	PART	_	_	10	mark	_	_
 10	göra	göra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	8	xcomp	_	_
 11	med	med	ADP	_	_	4	case	_	SpaceAfter=No
@@ -6258,7 +6258,7 @@
 # sent_id = 4007
 # text = Brottslingar som släppts ut ur fängelserna under kriget tjänade i hans kompani.
 1	Brottslingar	brottsling	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	_
-2	som	som	SCONJ	REL	_	3	mark	_	_
+2	som	som	PRON	REL	PronType=Rel	3	nsubj:pass	_	_
 3	släppts	släppa	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	1	acl:relcl	_	_
 4	ut	ut	ADV	_	_	3	advmod	_	_
 5	ur	ur	ADP	_	_	6	case	_	_
@@ -6314,7 +6314,7 @@
 1	Man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	kunde	kunna	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	lita	lita	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
-4	på	på	ADP	_	_	8	case	_	_
+4	på	på	ADP	_	_	8	mark	_	_
 5	att	att	SCONJ	_	_	8	mark	_	_
 6	soldatbrottslingarna	soldatbrottsling	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	nsubj	_	_
 7	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -6333,7 +6333,7 @@
 7	att	att	PART	_	_	8	mark	_	_
 8	döda	döda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	6	acl	_	_
 9	alla	all	PRON	TOT-PL-NOM	Definite=Ind|Number=Plur|PronType=Tot	8	obj	_	_
-10	som	som	SCONJ	REL	_	11	mark	_	_
+10	som	som	PRON	REL	PronType=Rel	11	nsubj	_	_
 11	stod	stå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 12	under	under	ADP	_	_	14	case	_	_
 13	mitt	jag	PRON	P1SG-GEN-SG	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
@@ -6407,7 +6407,7 @@
 
 # sent_id = 4016
 # text = Icke desto mindre ser jag i en bok som heter "Things to Come" att två amerikaner som anser sig vara allt annat än hjälplösa och underutvecklade, Herman Kahn och B Bruce-Briggs, är föga imponerade av ryssarnas prestationer.
-1	Icke	icke	ADV	NEG	Polarity=Neg	4	advmod	_	_
+1	Icke	icke	PART	NEG	Polarity=Neg	4	advmod	_	_
 2	desto	desto	ADV	_	_	1	fixed	_	_
 3	mindre	lite	ADV	CMP	Degree=Cmp	1	fixed	_	_
 4	ser	se	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6415,7 +6415,7 @@
 6	i	i	ADP	_	_	8	case	_	_
 7	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det	_	_
 8	bok	bok	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
-9	som	som	SCONJ	REL	_	10	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	10	nsubj	_	_
 10	heter	heta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
 11	"	"	PUNCT	Quote	_	12	punct	_	SpaceAfter=No
 12	Things	thing	NOUN	PL-FGN	_	10	xcomp	_	_
@@ -6425,7 +6425,7 @@
 16	att	att	SCONJ	_	_	38	mark	_	_
 17	två	två	NUM	CARD-PL	_	18	nummod	_	_
 18	amerikaner	amerikan	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	38	nsubj	_	_
-19	som	som	SCONJ	REL	_	20	mark	_	_
+19	som	som	PRON	REL	PronType=Rel	20	nsubj	_	_
 20	anser	anse	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
 21	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	20	obj	_	_
 22	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	26	cop	_	_
@@ -6506,7 +6506,7 @@
 1	De	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	nsubj	_	_
 2	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	misslyckats	misslyckas	VERB	SUP-DPO	Mood=Ind|VerbForm=Sup|Voice=Act	0	root	_	_
-4	med	med	ADP	_	_	6	case	_	_
+4	med	med	ADP	_	_	6	mark	_	_
 5	att	att	PART	_	_	6	mark	_	_
 6	utvidga	utvidga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	xcomp	_	_
 7	sitt	sin	PRON	RFL-SG-GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
@@ -6526,7 +6526,7 @@
 7	hos	hos	ADP	_	_	8	case	_	_
 8	Indien	Indien	PROPN	SG-NOM	Case=Nom|Number=Sing	4	obl	_	_
 9	och	och	CCONJ	_	_	12	cc	_	_
-10	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	12	amod	_	_
+10	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
 11	neutrala	neutral	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
 12	nationer	nation	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	conj	_	_
 13	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
@@ -6557,7 +6557,7 @@
 18	fått	få	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	15	acl:relcl	_	_
 19	för	för	ADP	_	_	20	case	_	_
 20	besväret	besvär	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	_
-21	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+21	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 22	att	att	SCONJ	_	_	25	mark	_	_
 23	deras	de	PRON	P3PL-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
 24	skyddslingar	skyddsling	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	nsubj	_	_
@@ -6604,7 +6604,7 @@
 4	val	val	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 5	araberna	arab	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	nsubj	_	_
 6	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
-7	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	att	att	PART	_	_	9	mark	_	_
 9	låta	låta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	7	xcomp	_	_
 10	sin	sin	PRON	RFL-SG-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
@@ -6643,7 +6643,7 @@
 1	Dessa	dessa	DET	DEM-PL	Definite=Def|Number=Plur|PronType=Dem	2	det	_	_
 2	åsikter	åsikt	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	8	punct	_	_
-4	som	som	SCONJ	REL	_	8	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	8	nsubj	_	_
 5	inte	inte	PART	NEG	_	8	advmod	_	_
 6	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 7	någon	någon	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	8	det	_	_
@@ -6717,7 +6717,7 @@
 33	Institutet	institut	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	31	nmod	_	_
 34	och	och	CCONJ	_	_	37	cc	_	_
 35	på	på	ADP	_	_	37	case	_	_
-36	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	37	amod	_	_
+36	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	37	amod	_	_
 37	platser	plats	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	33	conj	_	_
 38	världen	värld	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	37	nmod	_	_
 39	över	över	ADP	_	_	38	case	_	SpaceAfter=No
@@ -6835,7 +6835,7 @@
 6	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det	_	_
 7	verkliga	verklig	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 8	ensamhet	ensamhet	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
-9	som	som	SCONJ	REL	_	12	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	12	nsubj	_	_
 10	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 11	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	villkor	villkor	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	acl:relcl	_	_
@@ -6864,7 +6864,7 @@
 8	solidaritet	solidaritet	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
 10	krav	krav	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	appos	_	_
-11	som	som	SCONJ	REL	_	12	mark	_	_
+11	som	som	PRON	REL	PronType=Rel	12	nsubj	_	_
 12	kommer	komma	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 13	inifrån	inifrån	ADP	_	_	14	case	_	_
 14	en	en	PRON	PERS-P3SG-ACC	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	12	obl	_	_
@@ -6886,7 +6886,7 @@
 30	nyhetsutsändningen	nyhetsutsändning	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obl	_	_
 31	till	till	ADP	_	_	33	case	_	_
 32	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	33	det	_	_
-33	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	26	obl	_	SpaceAfter=No
+33	andra	annan	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	obl	_	SpaceAfter=No
 34	,	,	PUNCT	Comma	_	38	punct	_	_
 35	så	så	SCONJ	_	_	38	mark	_	_
 36	att	att	SCONJ	_	_	35	fixed	_	_
@@ -6908,7 +6908,7 @@
 52	emotionell	emotionell	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	53	amod	_	_
 53	reaktion	reaktion	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	49	obl	_	SpaceAfter=No
 54	,	,	PUNCT	Comma	_	65	punct	_	_
-55	beroende	beroende	ADP	_	_	65	case	_	_
+55	beroende	beroende	ADP	_	_	65	mark	_	_
 56	på	på	ADP	_	_	55	fixed	_	_
 57	att	att	SCONJ	_	_	64	mark	_	_
 58	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	65	nsubj:pass	_	_
@@ -6919,7 +6919,7 @@
 63	är	vara	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	65	aux:pass	_	_
 64	helt	helt	ADV	_	Degree=Pos	65	advmod	_	_
 65	inställd	ställa+in	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	49	advcl	_	_
-66	på	på	ADP	_	_	68	case	_	_
+66	på	på	ADP	_	_	68	mark	_	_
 67	att	att	PART	_	_	68	mark	_	_
 68	reagera	reagera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	65	acl	_	_
 69	så	så	ADV	_	_	68	advmod	_	_
@@ -6975,7 +6975,7 @@
 19	åstadkomma	åstadkomma	VERB	INF-ACT	VerbForm=Inf|Voice=Act	12	conj	_	_
 20	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	21	det	_	_
 21	tillvaro	tillvaro	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obj	_	_
-22	av	av	ADP	_	_	24	case	_	_
+22	av	av	ADP	_	_	24	mark	_	_
 23	intellektuellt	intellektuell	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	_
 24	skapande	skapa	VERB	NDE	Case=Nom	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	Period	_	4	punct	_	SpaceAfter=No
@@ -7043,7 +7043,7 @@
 14	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj	_	_
 15	förlorat	förlora	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
 16	känslan	känsla	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	obj	_	_
-17	av	av	ADP	_	_	19	case	_	_
+17	av	av	ADP	_	_	19	mark	_	_
 18	att	att	PART	_	_	19	mark	_	_
 19	bäras	bära	VERB	INF-PASS	VerbForm=Inf|Voice=Pass	16	acl	_	_
 20	fram	fram	ADV	_	_	19	advmod	_	_
@@ -7072,7 +7072,7 @@
 # text = "Känslan av att svepas med och av osäkerhet i fråga om framtiden hindrar en från att se saker och ting med någon som helst distans.
 1	"	"	PUNCT	Quote	_	14	punct	_	SpaceAfter=No
 2	Känslan	känsla	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	_	_
-3	av	av	ADP	_	_	5	case	_	_
+3	av	av	ADP	_	_	5	mark	_	_
 4	att	att	PART	_	_	5	mark	_	_
 5	svepas	svepa	VERB	INF-PASS	VerbForm=Inf|Voice=Pass	2	acl	_	_
 6	med	med	ADV	_	Case=Nom	5	advmod	_	_
@@ -7085,7 +7085,7 @@
 13	framtiden	framtid	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod	_	_
 14	hindrar	hindra	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 15	en	en	PRON	PERS-P3SG-ACC	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	14	obj	_	_
-16	från	från	ADP	_	_	18	case	_	_
+16	från	från	ADP	_	_	18	mark	_	_
 17	att	att	PART	_	_	18	mark	_	_
 18	se	se	VERB	INF-ACT	VerbForm=Inf|Voice=Act	14	xcomp	_	_
 19	saker	sak	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	obj	_	_
@@ -7142,7 +7142,7 @@
 17	i	i	ADP	_	_	18	case	_	_
 18	sträck	sträck	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	22	punct	_	_
-20	som	som	SCONJ	REL	_	22	mark	_	_
+20	som	som	PRON	REL	PronType=Rel	22	obj	_	_
 21	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	22	nsubj	_	_
 22	kunde	kunna	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 23	för	för	ADP	_	_	27	case	_	_
@@ -7218,7 +7218,7 @@
 5	att	att	PART	_	_	6	mark	_	_
 6	politiseras	politisera	VERB	INF-PASS	VerbForm=Inf|Voice=Pass	4	xcomp	_	_
 7	(	(	PUNCT	LeftParenthesis	_	10	punct	_	SpaceAfter=No
-8	för	för	ADP	_	_	10	case	_	_
+8	för	för	ADP	_	_	10	mark	_	_
 9	att	att	PART	_	_	10	mark	_	_
 10	använda	använda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	6	appos	_	_
 11	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
@@ -7241,7 +7241,7 @@
 28	att	att	PART	_	_	29	mark	_	_
 29	veta	veta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	27	csubj	_	_
 30	vad	vad	PRON	WH-REL-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	32	nsubj	_	_
-31	som	som	SCONJ	REL	_	32	mark	_	_
+31	som	som	PRON	REL	PronType=Rel	32	nsubj	_	_
 32	händer	hända	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	ccomp	_	SpaceAfter=No
 33	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -7252,7 +7252,7 @@
 3	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	2	punct	_	_
 5	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	8	nsubj	_	_
-6	som	som	SCONJ	REL	_	7	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	7	nsubj	_	_
 7	händer	hända	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8	vägrar	vägra	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	att	att	PART	_	_	10	mark	_	_
@@ -7272,7 +7272,7 @@
 6	suggestiva	suggestiv	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	_
 7	mediaplattityder	mediaplattityd	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	conj	_	_
 8	(	(	PUNCT	LeftParenthesis	_	11	punct	_	SpaceAfter=No
-9	som	som	SCONJ	REL	_	11	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	11	nsubj	_	_
 10	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 11	plågsamma	plågsam	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	acl:relcl	_	_
 12	eftersom	eftersom	SCONJ	_	_	18	mark	_	_
@@ -7314,14 +7314,14 @@
 8	kvinna	kvinna	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
 9	i	i	ADP	_	_	10	case	_	_
 10	Italien	Italien	PROPN	SG-NOM	Case=Nom|Number=Sing	8	nmod	_	_
-11	som	som	SCONJ	REL	_	13	mark	_	_
+11	som	som	PRON	REL	PronType=Rel	13	nsubj	_	_
 12	ofta	ofta	ADV	POS	Degree=Pos	13	advmod	_	_
 13	skriver	skriva	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
 14	till	till	ADP	_	_	15	case	_	_
 15	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obl	_	_
 16	och	och	CCONJ	_	_	17	cc	_	_
 17	envisas	envisas	VERB	PRES-DPO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
-18	med	med	ADP	_	_	20	case	_	_
+18	med	med	ADP	_	_	20	mark	_	_
 19	att	att	PART	_	_	20	mark	_	_
 20	ge	ge	VERB	INF-ACT	VerbForm=Inf|Voice=Act	17	advcl	_	_
 21	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
@@ -7376,8 +7376,8 @@
 36	Dagen	dag	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	37	nmod	_	_
 37	D	d	PROPN	SG-NOM	Case=Nom|Number=Sing	35	obj	_	SpaceAfter=No
 38	.	.	PUNCT	Period	_	9	punct	_	_
-
 # newdoc
+
 # sent_id = 4050
 # text = Tyvärr måste jag nu bekänna att jag började besvära dem.
 1	Tyvärr	tyvärr	ADV	_	_	5	advmod	_	_
@@ -7524,7 +7524,7 @@
 7	i	i	ADP	_	_	8	case	_	_
 8	gång	gång	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	compound:prt	_	_
 9	fruntimmer	fruntimmer	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obj	_	_
-10	för	för	ADP	_	_	12	case	_	_
+10	för	för	ADP	_	_	12	mark	_	_
 11	att	att	PART	_	_	12	mark	_	_
 12	skaffa	skaffa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	6	advcl	_	_
 13	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	iobj	_	_
@@ -7609,7 +7609,7 @@
 24	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	_	_
 25	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	26	det	_	_
 26	man	man	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obj	_	_
-27	som	som	SCONJ	REL	_	28	mark	_	_
+27	som	som	PRON	REL	PronType=Rel	28	nsubj	_	_
 28	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
 29	stort	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
 30	inflytande	inflytande	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	obj	_	_
@@ -7673,7 +7673,7 @@
 5	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	fått	få	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	2	csubj:pass	_	_
 7	meddelande	meddelande	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	_
-8	om	om	ADP	_	_	16	case	_	_
+8	om	om	ADP	_	_	16	mark	_	_
 9	att	att	SCONJ	_	_	16	mark	_	_
 10	en	en	PRON	IND-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	16	nsubj	_	_
 11	av	av	ADP	_	_	13	case	_	_
@@ -7726,7 +7726,7 @@
 11	reda	reda	ADV	_	_	10	compound:prt	_	_
 12	på	på	ADP	_	_	13	case	_	_
 13	vad	vad	PRON	WH	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	10	obl	_	_
-14	som	som	SCONJ	REL	_	15	mark	_	_
+14	som	som	PRON	REL	PronType=Rel	15	nsubj	_	_
 15	fanns	finnas	VERB	PAST-DPO	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
 16	kvar	kvar	ADV	_	_	15	advmod	_	_
 17	av	av	ADP	_	_	19	case	_	_
@@ -7816,7 +7816,7 @@
 19	,	,	PUNCT	Comma	_	20	punct	_	_
 20	beskedligaste	beskedlig	ADJ	SPL-DEF	Case=Nom|Definite=Def|Degree=Sup	21	amod	_	_
 21	varelse	varelse	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	ccomp	_	_
-22	som	som	SCONJ	REL	_	23	mark	_	_
+22	som	som	PRON	REL	PronType=Rel	23	nsubj	_	_
 23	gick	gå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
 24	i	i	ADP	_	_	27	case	_	_
 25	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
@@ -7826,16 +7826,16 @@
 
 # sent_id = 4070
 # text = Det var han säkert, men han hade redan varit därute i två år i den stora sakens tjänst, och troligen överväldigades han av ett behov att äntligen få hävda sig på något sätt.
-1	Det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	xcomp	_	_
-2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
-4	säkert	säkert	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+1	Det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	0	root	_	_
+2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	nsubj	_	_
+4	säkert	säkert	ADV	_	Degree=Pos	1	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	10	punct	_	_
 6	men	men	CCONJ	_	_	10	cc	_	_
 7	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	_
 8	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	redan	redan	ADV	_	_	10	advmod	_	_
-10	varit	vara	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	2	conj	_	_
+10	varit	vara	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	1	conj	_	_
 11	därute	därute	ADV	_	_	10	advmod	_	_
 12	i	i	ADP	_	_	14	case	_	_
 13	två	två	NUM	CARD-PL	_	14	nummod	_	_
@@ -7861,7 +7861,7 @@
 33	på	på	ADP	_	_	35	case	_	_
 34	något	någon	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	35	det	_	_
 35	sätt	sätt	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	31	obl	_	SpaceAfter=No
-36	.	.	PUNCT	Period	_	2	punct	_	_
+36	.	.	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 4071
 # text = Därför klådde han obarmhärtigt den gamla niggern medan byinvånarna skräckslagna såg på, ända tills en av dem – det lär ha varit hövdingens son – i förtvivlan över att höra gubben tjuta stack med spjutet efter den vite mannen – och det åkte naturligtvis tvärt in mellan skulderbladen.
@@ -7893,7 +7893,7 @@
 26	–	–	PUNCT	Dash	_	25	punct	_	_
 27	i	i	ADP	_	_	28	case	_	_
 28	förtvivlan	förtvivlan	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	obl	_	_
-29	över	över	ADP	_	_	31	case	_	_
+29	över	över	ADP	_	_	31	mark	_	_
 30	att	att	PART	_	_	31	mark	_	_
 31	höra	höra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	28	acl	_	_
 32	gubben	gubbe	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	31	obj	_	_
@@ -7931,7 +7931,7 @@
 11	,	,	PUNCT	Comma	_	7	punct	_	_
 12	medan	medan	SCONJ	_	_	19	mark	_	_
 13	å	å	ADP	_	_	15	case	_	_
-14	andra	annan	ADJ	ORD	Case=Nom	15	amod	_	_
+14	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
 15	sidan	sida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	obl	_	_
 16	Freslevens	Fresleven	PROPN	SG-GEN	Case=Gen	17	nmod:poss	_	_
 17	ångare	ångare	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nsubj	_	_
@@ -7996,7 +7996,7 @@
 22	föregångare	föregångare	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obj	_	_
 23	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	31	cop	_	_
 24	gräset	gräs	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	31	nsubj	_	_
-25	som	som	SCONJ	REL	_	26	mark	_	_
+25	som	som	PRON	REL	PronType=Rel	26	nsubj	_	_
 26	växte	växa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
 27	upp	upp	ADV	_	_	26	compound:prt	_	_
 28	mellan	mellan	ADP	_	_	30	case	_	_
@@ -8114,7 +8114,7 @@
 4	fick	få	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	dem	de	PRON	PERS-P3PL-ACC	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	4	obj	_	_
 6	nog	nog	ADV	_	_	4	advmod	_	_
-7	i	i	ADP	_	_	4	case	_	_
+7	i	i	ADP	_	_	4	advmod	_	_
 8	alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	7	fixed	_	_
 9	fall	fall	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	fixed	_	SpaceAfter=No
 10	.	.	PUNCT	Period	_	4	punct	_	_
@@ -8130,9 +8130,9 @@
 7	denna	denna	DET	DEM-SG-IND	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	9	det	_	_
 8	gloriösa	gloriös	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
 9	affär	affär	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-10	som	som	SCONJ	_	_	12	mark	_	_
+10	som	som	PRON	_	PronType=Rel	12	obl	_	_
 11	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	_
-12	fick	få	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	dislocated	_	_
+12	fick	få	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:cleft	_	_
 13	min	jag	PRON	P1SG-GEN-SG	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 14	anställning	anställning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	_
 15	långt	långt	ADV	_	Degree=Pos	16	advmod	_	_
@@ -8153,7 +8153,7 @@
 3	omkring	omkring	ADV	_	_	2	advmod	_	_
 4	som	som	ADP	_	_	5	case	_	_
 5	tokig	tokig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	_
-6	för	för	ADP	_	_	8	case	_	_
+6	för	för	ADP	_	_	8	mark	_	_
 7	att	att	PART	_	_	8	mark	_	_
 8	hinna	hinna	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 9	bli	bli	VERB	INF-ACT	VerbForm=Inf|Voice=Act	8	xcomp	_	_
@@ -8172,7 +8172,7 @@
 22	väg	väg	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obl	_	_
 23	över	över	ADP	_	_	24	case	_	_
 24	Kanalen	kanal	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	nmod	_	_
-25	för	för	ADP	_	_	27	case	_	_
+25	för	för	ADP	_	_	27	mark	_	_
 26	att	att	PART	_	_	27	mark	_	_
 27	visa	visa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	22	acl	_	_
 28	upp	upp	ADV	_	_	27	compound:prt	_	_
@@ -8198,7 +8198,7 @@
 8	i	i	ADP	_	_	10	case	_	_
 9	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	_
 10	stad	stad	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	_
-11	som	som	SCONJ	REL	_	13	mark	_	_
+11	som	som	PRON	REL	PronType=Rel	13	nsubj	_	_
 12	alltid	alltid	ADV	_	_	13	advmod	_	_
 13	kommer	komma	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 14	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obj	_	_
@@ -8252,13 +8252,13 @@
 1	Man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	beredde	bereda	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	2	obj	_	_
-4	på	på	ADP	_	_	6	case	_	_
+4	på	på	ADP	_	_	6	mark	_	_
 5	att	att	PART	_	_	6	mark	_	_
 6	driva	driva	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	xcomp	_	_
 7	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	imperium	imperium	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	_
 9	på	på	ADP	_	_	11	case	_	_
-10	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	11	amod	_	_
+10	andra	två	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
 11	sidan	sida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	_	_
 12	havet	hav	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	_
 13	och	och	CCONJ	_	_	14	cc	_	_
@@ -8355,7 +8355,7 @@
 6	tjock	tjock	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	appos	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	10	punct	_	_
 8	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	_
-9	andra	annan	ADJ	ORD	Case=Nom	10	nsubj	_	_
+9	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	nsubj	_	_
 10	smal	smal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	6	conj	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	10	punct	_	_
 12	satt	sitta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8393,14 +8393,14 @@
 21	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	nsubj	_	_
 22	började	börja	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	35	advcl	_	_
 23	tänka	tänka	VERB	INF-ACT	VerbForm=Inf|Voice=Act	22	xcomp	_	_
-24	på	på	ADP	_	_	26	case	_	_
+24	på	på	ADP	_	_	26	mark	_	_
 25	att	att	PART	_	_	26	mark	_	_
 26	gå	gå	VERB	INF-ACT	VerbForm=Inf|Voice=Act	23	xcomp	_	_
 27	ur	ur	ADP	_	_	28	case	_	_
 28	vägen	väg	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obl	_	_
 29	för	för	ADP	_	_	30	case	_	_
 30	henne	hon	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	nmod	_	_
-31	som	som	SCONJ	_	_	34	mark	_	_
+31	som	som	ADP	_	_	34	case	_	_
 32	för	för	ADP	_	_	34	case	_	_
 33	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	34	det	_	_
 34	sömngångare	sömngångare	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obl	_	_
@@ -8516,7 +8516,7 @@
 40	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	42	det	_	_
 41	gredelin	gredelin	ADJ	POS-IND-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	42	amod	_	_
 42	fläck	fläck	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	_
-43	för	för	ADP	_	_	45	case	_	_
+43	för	för	ADP	_	_	45	mark	_	_
 44	att	att	PART	_	_	45	mark	_	_
 45	markera	markera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	42	acl	_	_
 46	var	var	ADV	WH	_	50	advmod	_	_
@@ -8623,7 +8623,7 @@
 # sent_id = 4101
 # text = På andra sidan denna möbel anade man något blekfett i jackett. Den store själv.
 1	På	på	ADP	_	_	3	case	_	_
-2	andra	annan	ADJ	ORD	Case=Nom	3	amod	_	_
+2	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	sidan	sida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	_	_
 4	denna	denna	DET	DEM-SG-IND	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	5	det	_	_
 5	möbel	möbel	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
@@ -8707,7 +8707,7 @@
 15	medlidsamme	medlidsam	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
 16	sekreteraren	sekreterare	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	23	punct	_	_
-18	som	som	SCONJ	REL	_	23	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	23	nsubj	_	_
 19	överflödande	överflöda	VERB	NDE	Mood=Ind|VerbForm=Part|Voice=Act	23	advcl	_	_
 20	av	av	ADP	_	_	22	case	_	_
 21	bedrövad	bedrövad	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	_
@@ -8779,8 +8779,8 @@
 
 # sent_id = 4110
 # text = Det var precis som om jag hade blivit invigd i en sammansvärjning, något – jag vet inte hur jag ska säga – något lite skumt, och jag var glad när jag fick gå.
-1	Det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
-2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	_
+2	var	vara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	precis	precis	ADV	_	_	9	advmod	_	_
 4	som	som	SCONJ	_	_	9	mark	_	_
 5	om	om	SCONJ	_	_	4	fixed	_	_
@@ -8852,7 +8852,7 @@
 7	brast	brista	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	lös	löst	ADV	_	_	7	compound:prt	_	_
 9	på	på	ADP	_	_	11	case	_	_
-10	andra	annan	ADJ	ORD	Case=Nom	11	amod	_	_
+10	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
 11	sidan	sida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	_	_
 12	väggen	vägg	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	7	punct	_	_
@@ -8867,7 +8867,7 @@
 6	på	på	ADP	_	_	7	case	_	_
 7	varandra	varandra	PRON	RCP-PL-ACC	Case=Acc|Definite=Def|Number=Plur|PronType=Rcp	5	nmod	_	_
 8	och	och	CCONJ	_	_	12	cc	_	_
-9	mitt	mitt	ADV	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	advmod	_	_
+9	mitt	mitt	ADV	_	_	11	advmod	_	_
 10	i	i	ADP	_	_	11	case	_	_
 11	oväsendet	oväsen	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	_
 12	hördes	höra	VERB	PAST-PASS	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	_
@@ -8911,7 +8911,7 @@
 4	tå	tå	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
 5	över	över	ADP	_	_	6	case	_	_
 6	rummet	rum	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
-7	för	för	ADP	_	_	9	case	_	_
+7	för	för	ADP	_	_	9	mark	_	_
 8	att	att	PART	_	_	9	mark	_	_
 9	kasta	kasta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 10	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	_	_
@@ -9002,7 +9002,7 @@
 # sent_id = 4121
 # text = Han blev sittande och funderade ett slag.
 1	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
-2	blev	bli	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	blev	bli	VERB	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sittande	sitta	VERB	NDE	Mood=Ind|VerbForm=Part|Voice=Act	2	xcomp	_	_
 4	och	och	CCONJ	_	_	5	cc	_	_
 5	funderade	fundera	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -9057,14 +9057,14 @@
 10	–	–	PUNCT	Dash	_	16	punct	_	_
 11	såna	sådan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
 12	budbärare	budbärare	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obl	_	_
-13	som	som	SCONJ	REL	_	15	mark	_	_
+13	som	som	PRON	REL	PronType=Rel	15	obj	_	_
 14	vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	15	nsubj	_	_
 15	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
 16	vet	veta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
 17	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	16	nsubj	_	_
 18	aldrig	aldrig	ADV	NEG	Polarity=Neg	16	advmod	_	_
 19	vem	vem	PRON	WH-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	21	nsubj	_	_
-20	som	som	SCONJ	REL	_	21	mark	_	_
+20	som	som	PRON	REL	PronType=Rel	21	nsubj	_	_
 21	får	få	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	_
 22	tag	tag	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	compound:prt	_	_
 23	i	i	ADP	_	_	25	case	_	_
@@ -9254,7 +9254,7 @@
 8	nätverk	nätverk	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	appos	_	_
 9	av	av	ADP	_	_	10	case	_	_
 10	stigar	stig	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nmod	_	_
-11	som	som	SCONJ	REL	_	12	mark	_	_
+11	som	som	PRON	REL	PronType=Rel	12	nsubj	_	_
 12	bredde	breda	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 13	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	12	obj	_	_
 14	över	över	ADP	_	_	16	case	_	_
@@ -9285,7 +9285,7 @@
 39	nedför	nedför	ADP	_	_	37	conj	_	_
 40	kala	kal	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	41	amod	_	_
 41	berg	berg	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	conj	_	_
-42	som	som	SCONJ	REL	_	43	mark	_	_
+42	som	som	PRON	REL	PronType=Rel	43	nsubj	_	_
 43	glödde	glöda	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	41	acl:relcl	_	_
 44	av	av	ADP	_	_	45	case	_	_
 45	hetta	hetta	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	43	obl	_	_
@@ -9348,7 +9348,7 @@
 28	höger	höger	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obl	_	_
 29	och	och	CCONJ	_	_	30	cc	_	_
 30	vänster	vänster	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	conj	_	_
-31	för	för	ADP	_	_	33	case	_	_
+31	för	för	ADP	_	_	33	mark	_	_
 32	att	att	PART	_	_	33	mark	_	_
 33	bära	bära	VERB	INF-ACT	VerbForm=Inf|Voice=Act	24	advcl	_	_
 34	tunga	tung	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	35	amod	_	_
@@ -9412,7 +9412,7 @@
 7	ruinerna	ruin	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	obl	_	_
 8	av	av	ADP	_	_	9	case	_	_
 9	väggar	vägg	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nmod	_	_
-10	som	som	SCONJ	REL	_	13	mark	_	_
+10	som	som	PRON	REL	PronType=Rel	13	nsubj:pass	_	_
 11	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 12	varit	vara	AUX	SUP-AUX	VerbForm=Sup|Voice=Act	13	aux:pass	_	_
 13	byggda	bygga	VERB	AD-PL-IND	Mood=Ind|VerbForm=Inf|Voice=Pass	9	acl:relcl	_	_
@@ -9562,7 +9562,7 @@
 6	i	i	ADP	_	_	8	case	_	_
 7	oknäppt	oknäppt	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
 8	uniform	uniform	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
-9	som	som	SCONJ	REL	_	10	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	10	nsubj	_	_
 10	kamperade	kampera	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 11	på	på	ADP	_	_	12	case	_	_
 12	stigen	stig	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obl	_	_
@@ -9579,7 +9579,7 @@
 23	och	och	CCONJ	_	_	24	cc	_	_
 24	uppspelt	uppspelt	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	22	conj	_	SpaceAfter=No
 25	,	,	PUNCT	Comma	_	30	punct	_	_
-26	för	för	ADP	_	_	29	case	_	_
+26	för	för	ADP	_	_	29	mark	_	_
 27	att	att	PART	_	_	29	mark	_	_
 28	inte	inte	PART	NEG	_	29	advmod	_	_
 29	säga	säga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	30	advcl	_	_
@@ -9626,11 +9626,11 @@
 23	kulhål	kulhål	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	_
 24	i	i	ADP	_	_	25	case	_	_
 25	pannan	panna	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	nmod	_	_
-26	som	som	SCONJ	REL	_	29	mark	_	_
+26	som	som	PRON	REL	PronType=Rel	29	dislocated	_	_
 27	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	nsubj	_	_
 28	bokstavligen	bokstavligen	ADV	_	_	29	advmod	_	_
 29	snavade	snava	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
-30	över	över	ADP	_	_	16	case	_	_
+30	över	över	ADP	_	_	26	case	_	_
 31	fem	fem	NUM	CARD-PL	_	32	nummod	_	_
 32	kilometer	kilometer	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	34	nmod	_	_
 33	längre	längre	ADV	CMP	Degree=Cmp	34	advmod	_	_
@@ -9729,7 +9729,7 @@
 
 # sent_id = 4150
 # text = För att tjäna pengar så klart.
-1	För	för	ADP	_	_	3	case	_	_
+1	För	för	ADP	_	_	3	mark	_	_
 2	att	att	PART	_	_	3	mark	_	_
 3	tjäna	tjäna	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 4	pengar	pengar	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	_
@@ -9818,7 +9818,7 @@
 9	kväll	kväll	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
 10	med	med	ADP	_	_	11	case	_	_
 11	gester	gest	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obl	_	_
-12	som	som	SCONJ	REL	_	15	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	15	nsubj	_	_
 13	inte	inte	PART	NEG	_	15	advmod	_	_
 14	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
 15	bortkastade	bortkastad	VERB	AD-PL-IND	Mood=Ind|VerbForm=Inf|Voice=Pass	11	acl:relcl	_	_
@@ -10003,7 +10003,7 @@
 22	åt	åt	ADP	_	_	25	case	_	_
 23	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 24	tre	tre	NUM	CARD-PL	_	25	nummod	_	_
-25	andra	annan	ADJ	CMP-PL-DEF	Case=Nom|Degree=Cmp	26	obl	_	_
+25	andra	annan	ADJ	POS-PL-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	obl	_	_
 26	innesluten	innesluten	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	14	conj	_	_
 27	av	av	ADP	_	_	30	case	_	_
 28	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
@@ -10037,7 +10037,7 @@
 7	blick	blick	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
 8	på	på	ADP	_	_	9	case	_	_
 9	platsen	plats	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nmod	_	_
-10	för	för	ADP	_	_	12	case	_	_
+10	för	för	ADP	_	_	12	mark	_	_
 11	att	att	PART	_	_	12	mark	_	_
 12	förstå	förstå	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	advcl	_	_
 13	att	att	SCONJ	_	_	15	mark	_	_
@@ -10189,8 +10189,8 @@
 12	förfärligt	förfärligt	ADV	_	_	13	advmod	_	_
 13	upphetsad	upphetsad	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	Period	_	4	punct	_	_
-
 # newdoc
+
 # sent_id = 4174
 # text = Det av kommissionen framlagda förslaget kan hälsas med tillfredsställelse från konsumentens sida.
 1	Det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
@@ -10220,7 +10220,7 @@
 9	förklaringar	förklaring	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nsubj:pass	_	_
 10	från	från	ADP	_	_	11	case	_	_
 11	tillverkarna	tillverkare	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	nmod	_	_
-12	som	som	SCONJ	REL	_	14	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	14	nsubj:pass	_	_
 13	är	vara	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
 14	avsedda	avse	VERB	AD-PL-IND	Mood=Ind|VerbForm=Inf|Voice=Pass	9	acl:relcl	_	_
 15	för	för	ADP	_	_	16	case	_	_
@@ -10308,7 +10308,7 @@
 2	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	_	_
 4	resultera	resultera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
-5	i	i	ADP	_	_	8	case	_	_
+5	i	i	ADP	_	_	8	mark	_	_
 6	att	att	SCONJ	_	_	8	mark	_	_
 7	arbetstillfällen	arbetstillfälle	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	_
 8	går	gå	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
@@ -10330,7 +10330,7 @@
 7	denna	denna	DET	DEM-SG-IND	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	8	det	_	_
 8	skuldfråga	skuldfråga	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nsubj	_	_
 9	ibland	ibland	ADV	_	_	14	advmod	_	_
-10	över	över	ADV	_	_	14	advmod	_	_
+10	över	över	ADP	_	_	14	advmod	_	_
 11	huvud	huvud	NOUN	_	_	10	fixed	_	_
 12	taget	ta	VERB	_	Case=Nom	10	fixed	_	_
 13	inte	inte	PART	NEG	_	14	advmod	_	_
@@ -10352,7 +10352,7 @@
 2	denne	denna	PRON	DEM-SG	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	å	å	ADP	_	_	6	case	_	_
-5	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	6	amod	_	_
+5	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	sidan	sida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	_	_
 7	nytta	nytta	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
 8	av	av	ADP	_	_	11	case	_	_
@@ -10457,9 +10457,9 @@
 5	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	_	_
 6	hel	hel	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
 7	rad	rad	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
-8	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	9	amod	_	_
+8	andra	annan	ADJ	POS-DEF	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_
 9	exempel	exempel	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	_
-10	som	som	SCONJ	REL	_	14	mark	_	_
+10	som	som	PRON	REL	PronType=Rel	14	obj	_	_
 11	vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	14	nsubj	_	_
 12	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
 13	kunna	kunna	AUX	INF-AUX	VerbForm=Inf|Voice=Act	14	aux	_	_
@@ -10665,7 +10665,7 @@
 6	för	för	ADP	_	_	8	case	_	_
 7	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det	_	_
 8	kontroll	kontroll	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
-9	som	som	SCONJ	REL	_	12	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	12	obj	_	_
 10	kommissionen	kommission	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
 11	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	utöva	utöva	VERB	INF-ACT	VerbForm=Inf|Voice=Act	8	acl:relcl	_	SpaceAfter=No
@@ -10718,7 +10718,7 @@
 4	bättre	bra	ADJ	CMP	Case=Nom|Degree=Cmp	0	root	_	_
 5	än	än	ADP	CMP	_	6	case	_	_
 6	totalharmonisering	totalharmonisering	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
-7	som	som	SCONJ	_	_	16	mark	_	_
+7	som	som	ADP	_	_	16	nsubj	_	_
 8	ju	ju	ADV	_	_	16	advmod	_	_
 9	i	i	ADP	_	_	10	case	_	_
 10	grund	grund	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nmod	_	_
@@ -10728,9 +10728,9 @@
 14	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	det	_	_
 15	kommersiell	kommersiell	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	_
 16	regel	regel	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	acl:relcl	_	_
-17	som	som	SCONJ	REL	_	18	mark	_	_
+17	som	som	PRON	REL	PronType=Rel	18	nsubj	_	_
 18	syftar	syfta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
-19	till	till	ADP	_	_	21	case	_	_
+19	till	till	ADP	_	_	21	mark	_	_
 20	att	att	PART	_	_	21	mark	_	_
 21	gynna	gynna	VERB	INF-ACT	VerbForm=Inf|Voice=Act	18	xcomp	_	_
 22	det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
@@ -10851,9 +10851,9 @@
 1	Det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	expl	_	_
 2	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	0	root	_	_
-4	som	som	SCONJ	REL	_	6	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 5	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-6	problemet	problem	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	dislocated	_	SpaceAfter=No
+6	problemet	problem	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	acl:cleft	_	SpaceAfter=No
 7	:	:	PUNCT	Colon	_	11	punct	_	_
 8	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	11	nsubj	_	_
 9	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
@@ -10905,7 +10905,7 @@
 9	att	att	PART	_	_	11	mark	_	_
 10	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	11	cop	_	_
 11	tillräckliga	tillräcklig	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	ccomp	_	_
-12	för	för	ADP	_	_	16	case	_	_
+12	för	för	ADP	_	_	16	mark	_	_
 13	att	att	SCONJ	_	_	16	mark	_	_
 14	detta	detta	DET	DEM-SG-IND	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
 15	arbete	arbete	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	nsubj:pass	_	_
@@ -10951,7 +10951,7 @@
 11	att	att	SCONJ	_	_	13	mark	_	_
 12	vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	13	nsubj	_	_
 13	samtycker	samtycka	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
-14	till	till	ADP	_	_	18	case	_	_
+14	till	till	ADP	_	_	18	mark	_	_
 15	att	att	SCONJ	_	_	18	mark	_	_
 16	parlamentet	parlament	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	nsubj:pass	_	_
 17	skall	skola	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
@@ -11028,7 +11028,7 @@
 19	möjligt	möjligt	ADV	_	Case=Nom	0	root	_	_
 20	även	även	ADV	_	_	23	advmod	_	_
 21	för	för	ADP	_	_	23	case	_	_
-22	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	23	amod	_	_
+22	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	23	amod	_	_
 23	ledamöter	ledamot	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	obl	_	SpaceAfter=No
 24	?	?	PUNCT	QuestionMark	_	19	punct	_	_
 
@@ -11076,7 +11076,7 @@
 14	dessutom	dessutom	ADV	_	_	15	advmod	_	_
 15	finns	finnas	VERB	PRES-DPO	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
 16	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	expl	_	_
-17	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	15	nsubj	_	_
+17	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	15	nsubj	_	_
 18	ni	ni	PRON	PERS-P2PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	_
 19	inte	inte	PART	NEG	_	15	advmod	_	_
 20	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
@@ -11109,7 +11109,7 @@
 9	och	och	CCONJ	_	_	10	cc	_	_
 10	Asien	Asien	PROPN	SG-NOM	Case=Nom|Number=Sing	8	conj	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	17	punct	_	_
-12	som	som	SCONJ	REL	_	17	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	17	nsubj	_	_
 13	i	i	ADP	_	_	15	case	_	_
 14	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	slag	slag	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	_
@@ -11126,7 +11126,7 @@
 # text = För det andra finns det anledning att snabbt lansera en försäljningskampanj inom gemenskapen för att göra allmänheten medveten och stimulera den europeiska konsumtionen.
 1	För	för	ADP	_	_	3	case	_	_
 2	det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
-3	andra	annan	ADJ	ORD	Case=Nom	4	obl	_	_
+3	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	obl	_	_
 4	finns	finnas	VERB	PRES-DPO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	expl	_	_
 6	anledning	anledning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
@@ -11137,7 +11137,7 @@
 11	försäljningskampanj	försäljningskampanj	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	_	_
 12	inom	inom	ADP	_	_	13	case	_	_
 13	gemenskapen	gemenskap	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod	_	_
-14	för	för	ADP	_	_	16	case	_	_
+14	för	för	ADP	_	_	16	mark	_	_
 15	att	att	PART	_	_	16	mark	_	_
 16	göra	göra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	9	advcl	_	_
 17	allmänheten	allmänhet	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obj	_	_
@@ -11155,7 +11155,7 @@
 2	blir	bli	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	skattebetalaren	skattebetalare	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	7	punct	_	_
-5	som	som	SCONJ	_	_	7	mark	_	_
+5	som	som	PRON	_	PronType=Rel	7	nsubj	_	_
 6	måste	måste	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	betala	betala	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	acl	_	_
 8	det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
@@ -11207,7 +11207,7 @@
 1	De	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	regeringar	regering	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	10	punct	_	_
-4	som	som	SCONJ	REL	_	10	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	10	nsubj	_	_
 5	nu	nu	ADV	_	_	10	advmod	_	_
 6	i	i	ADP	_	_	9	case	_	_
 7	den	den	DET	DEM-SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	_
@@ -11231,7 +11231,7 @@
 5	i	i	ADP	_	_	7	case	_	_
 6	hela	hel	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
 7	EU	EU	PROPN	SG-NOM	Case=Nom|Number=Sing	4	obl	_	_
-8	för	för	ADP	_	_	10	case	_	_
+8	för	för	ADP	_	_	10	mark	_	_
 9	att	att	PART	_	_	10	mark	_	_
 10	garantera	garantera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	advcl	_	_
 11	att	att	SCONJ	_	_	14	mark	_	_
@@ -11284,7 +11284,7 @@
 2	ser	se	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ni	ni	PRON	PERS-P2PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 4	vad	vad	PRON	WH-REL-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	7	nsubj	_	_
-5	som	som	SCONJ	REL	_	7	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	7	nsubj	_	_
 6	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	möjligt	möjlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	_
 8	hos	hos	ADP	_	_	9	case	_	_
@@ -11374,7 +11374,7 @@
 7	om	om	ADP	_	_	9	case	_	_
 8	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	_
 9	punkt	punkt	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
-10	som	som	SCONJ	REL	_	11	mark	_	_
+10	som	som	PRON	REL	PronType=Rel	11	nsubj	_	_
 11	uppmanar	uppmana	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 12	kommissionen	kommission	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obj	_	_
 13	att	att	PART	_	_	14	mark	_	_
@@ -11435,7 +11435,7 @@
 # text = Den text som gäller är "under vissa omständigheter".
 1	Den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	2	det	_	_
 2	text	text	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
-3	som	som	SCONJ	REL	_	4	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	4	nsubj	_	_
 4	gäller	gälla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 5	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	"	"	PUNCT	Quote	_	9	punct	_	SpaceAfter=No
@@ -11528,13 +11528,13 @@
 7	riskkapitalet	riskkapital	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 8	fram	fram	ADV	_	_	6	compound:prt	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	14	punct	_	_
-10	oavsett	oavsett	ADP	_	_	14	case	_	_
+10	oavsett	oavsett	ADP	_	_	14	mark	_	_
 11	om	om	SCONJ	_	_	14	mark	_	_
 12	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	14	nsubj	_	_
 13	är	vara	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
 14	fragmentiserat	fragmentisera	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	6	advcl	_	_
 15	eller	eller	CCONJ	_	_	14	cc	_	_
-16	ej	ej	ADV	NEG	Polarity=Neg	14	conj	_	SpaceAfter=No
+16	ej	ej	PART	NEG	Polarity=Neg	14	conj	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = 4249
@@ -11584,7 +11584,7 @@
 22	dessa	dessa	DET	DEM-PL-IND	Definite=Def|Number=Plur|PronType=Dem	24	det	_	_
 23	specifika	specifik	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	24	amod	_	_
 24	områden	område	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
-25	som	som	SCONJ	REL	_	27	mark	_	_
+25	som	som	PRON	REL	PronType=Rel	27	nsubj	_	_
 26	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_
 27	nödvändiga	nödvändig	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	24	acl:relcl	_	_
 28	för	för	ADP	_	_	31	case	_	_
@@ -11613,7 +11613,7 @@
 
 # sent_id = 4252
 # text = Andra betänkande (A4-0029/99) av Hautala
-1	Andra	annan	ADJ	ORD	Case=Nom	2	amod	_	_
+1	Andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	amod	_	_
 2	betänkande	betänkande	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 3	(	(	PUNCT	LeftParenthesis	_	4	punct	_	SpaceAfter=No
 4	A4-0029/99	a4-0029/99	NUM	ID	_	2	appos	_	SpaceAfter=No
@@ -11641,7 +11641,7 @@
 4	följder	följd	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nsubj:pass	_	_
 5	för	för	ADP	_	_	6	case	_	_
 6	kvinnor	kvinna	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	_
-7	som	som	SCONJ	REL	_	8	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	9	nsubj	_	_
 8	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 9	gjort	göra	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	6	acl:relcl	_	_
 10	abort	abort	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	_	_
@@ -11803,7 +11803,7 @@
 2	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
 4	fråga	fråga	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-5	som	som	SCONJ	REL	_	6	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 6	påverkar	påverka	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 7	aspekter	aspekt	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obj	_	_
 8	på	på	ADP	_	_	11	case	_	_
@@ -11818,14 +11818,14 @@
 2	och	och	CCONJ	_	_	4	cc	_	_
 3	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
 4	exponering	exponering	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
-5	som	som	SCONJ	REL	_	6	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	6	nsubj:pass	_	_
 6	föreslås	föreslå	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
 7	av	av	ADP	_	_	8	case	_	_
 8	kommissionären	kommissionär	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl:agent	_	_
 9	grundas	grunda	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 10	på	på	ADP	_	_	11	case	_	_
 11	dem	de	PRON	PERS-P3PL-ACC	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	9	obl	_	_
-12	som	som	SCONJ	REL	_	14	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	15	nsubj	_	_
 13	nyligen	nyligen	ADV	_	_	15	advmod	_	_
 14	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	offentliggjorts	offentliggöra	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	11	acl:relcl	_	_
@@ -11874,7 +11874,7 @@
 10	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	12	nsubj	_	_
 11	måste	måste	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	sörja	sörja	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	conj	_	_
-13	för	för	ADP	_	_	16	case	_	_
+13	för	för	ADP	_	_	16	mark	_	_
 14	att	att	SCONJ	_	_	16	mark	_	_
 15	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	16	nsubj:pass	_	_
 16	utnyttjas	utnyttja	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	ccomp	_	_
@@ -11952,7 +11952,7 @@
 2	vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	3	nsubj	_	_
 3	fastställa	fastställa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	17	advcl	_	_
 4	gränsvärden	gränsvärde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	_
-5	som	som	SCONJ	REL	_	6	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	7	nsubj	_	_
 6	skall	skola	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	täcka	täcka	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	acl:relcl	_	_
 8	hela	hel	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
@@ -11965,7 +11965,7 @@
 15	också	också	ADV	_	_	17	advmod	_	_
 16	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	17	cop	_	_
 17	gränsvärden	gränsvärde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
-18	som	som	SCONJ	REL	_	21	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	21	nsubj	_	_
 19	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
 20	någorlunda	någorlunda	ADV	_	_	21	advmod	_	_
 21	rimliga	rimlig	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	acl:relcl	_	SpaceAfter=No
@@ -11984,7 +11984,7 @@
 9	av	av	ADP	_	_	11	case	_	_
 10	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	länder	land	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nmod	_	_
-12	som	som	SCONJ	REL	_	13	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	13	nsubj	_	_
 13	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
 14	bra	bra	ADJ	POS-IND	Case=Nom|Degree=Pos	15	amod	_	_
 15	gränsvärden	gränsvärde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No
@@ -12056,7 +12056,7 @@
 1	Vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	3	nsubj	_	_
 2	måste	måste	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	arbeta	arbeta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
-4	för	för	ADP	_	_	6	case	_	_
+4	för	för	ADP	_	_	6	mark	_	_
 5	att	att	PART	_	_	6	mark	_	_
 6	få	få	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	advcl	_	_
 7	slut	slut	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	_
@@ -12071,7 +12071,7 @@
 # sent_id = 4278
 # text = Å andra sidan är det också svårt att kräva att de suveräna nationerna skall avstå från sina egna hälsovårdssystem.
 1	Å	å	ADP	_	_	3	case	_	_
-2	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	3	amod	_	_
+2	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	sidan	sida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nmod	_	_
 4	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	expl	_	_
@@ -12132,10 +12132,10 @@
 9	stora	stor	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	ccomp	_	_
 10	som	som	ADP	_	_	11	case	_	_
 11	fördelarna	fördel	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	nmod	_	_
-12	som	som	SCONJ	REL	_	15	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	15	obl	_	_
 13	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	15	nsubj	_	_
 14	bör	böra	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
-15	använda	använda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	dislocated	_	_
+15	använda	använda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	acl:cleft	_	_
 16	försiktighetsprincipen	försiktighetsprincip	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	obj	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	3	punct	_	_
 
@@ -12221,7 +12221,7 @@
 3	egentligen	egentligen	ADV	_	_	5	advmod	_	_
 4	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	5	det	_	_
 5	utgångspunkt	utgångspunkt	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-6	som	som	SCONJ	REL	_	10	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	10	obj	_	_
 7	vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	10	nsubj	_	_
 8	här	här	ADV	_	_	10	advmod	_	_
 9	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
@@ -12317,7 +12317,7 @@
 2	denna	denna	DET	DEM-SG-IND	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	6	det	_	_
 3	och	och	CCONJ	_	_	5	cc	_	_
 4	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	_
-5	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	2	conj	_	_
+5	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	conj	_	_
 6	anledningar	anledning	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	_	_
 7	stöder	stöda	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	vi	vi	PRON	PERS-P1PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	nsubj	_	_
@@ -12364,8 +12364,8 @@
 19	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	bananskal	bananskal	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	10	punct	_	_
-
 # newdoc
+
 # sent_id = 4294
 # text = Han gjorde en resignerad grimas som uttryckte att han förutsatte förståelse: Min fru och jag konstaterade att vi inte stod ut med det längre.
 1	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -12373,7 +12373,7 @@
 3	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	det	_	_
 4	resignerad	resignera	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
 5	grimas	grimas	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
-6	som	som	SCONJ	REL	_	7	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	7	nsubj	_	_
 7	uttryckte	uttrycka	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8	att	att	SCONJ	_	_	10	mark	_	_
 9	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	_
@@ -12562,15 +12562,15 @@
 
 # sent_id = 4305
 # text = Vad var det jag sa... jag blir tvungen att lära mig det hela från början igen.
-1	Vad	vad	PRON	WH	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	8	discourse	_	_
+1	Vad	vad	PRON	WH	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	9	discourse	_	_
 2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	obj	_	_
 4	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	_
 5	sa	säga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	csubj	_	SpaceAfter=No
 6	...	...	PUNCT	Dots	_	1	punct	_	_
-7	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
-8	blir	bli	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-9	tvungen	tvungen	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+7	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	_
+8	blir	bli	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	tvungen	tvinga	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	0	root	_	_
 10	att	att	PART	_	_	11	mark	_	_
 11	lära	lära	VERB	INF-ACT	VerbForm=Inf|Voice=Act	9	xcomp	_	_
 12	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	iobj	_	_
@@ -12579,7 +12579,7 @@
 15	från	från	ADP	_	_	16	case	_	_
 16	början	början	NOUN	SG-NOM	_	11	obl	_	_
 17	igen	igen	ADV	_	_	11	advmod	_	SpaceAfter=No
-18	.	.	PUNCT	Period	_	8	punct	_	_
+18	.	.	PUNCT	Period	_	9	punct	_	_
 
 # sent_id = 4306
 # text = Mannen såg sig hastigt om och sänkte rösten.
@@ -12615,7 +12615,7 @@
 # sent_id = 4308
 # text = Folk som tror på nånting.
 1	Folk	folk	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
-2	som	som	SCONJ	REL	_	3	mark	_	_
+2	som	som	PRON	REL	PronType=Rel	3	nsubj	_	_
 3	tror	tro	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 4	på	på	ADP	_	_	5	case	_	_
 5	nånting	någonting	PRON	IND-SG	_	3	obl	_	SpaceAfter=No
@@ -12627,7 +12627,7 @@
 2	funderar	fundera	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 4	faktiskt	faktiskt	ADV	_	Degree=Pos	2	advmod	_	_
-5	på	på	ADP	_	_	7	case	_	_
+5	på	på	ADP	_	_	7	mark	_	_
 6	att	att	PART	_	_	7	mark	_	_
 7	flytta	flytta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	xcomp	_	_
 8	tillbaka	tillbaka	ADV	_	_	7	advmod	_	_
@@ -12670,7 +12670,7 @@
 13	av	av	ADP	_	_	14	case	_	_
 14	hår	hår	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	17	punct	_	_
-16	som	som	SCONJ	REL	_	17	mark	_	_
+16	som	som	PRON	REL	PronType=Rel	17	nsubj	_	_
 17	föreföll	förefalla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
 18	ha	ha	AUX	INF-AUX	VerbForm=Inf|Voice=Act	19	aux	_	_
 19	fått	få	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	14	xcomp	_	_
@@ -12696,7 +12696,7 @@
 39	och	och	CCONJ	_	_	40	cc	_	_
 40	lätt	lätt	ADV	_	Degree=Pos	38	conj	_	SpaceAfter=No
 41	,	,	PUNCT	Comma	_	38	punct	_	_
-42	liksom	liksom	ADP	_	_	43	case	_	_
+42	liksom	liksom	ADP	_	_	43	mark	_	_
 43	omgiven	omge	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	32	advcl	_	_
 44	av	av	ADP	_	_	45	case	_	_
 45	auktoritet	auktoritet	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	43	obl	_	SpaceAfter=No
@@ -12741,7 +12741,7 @@
 2	andre	annan	ADJ	ORD-SG	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	mannen	man	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	6	punct	_	_
-5	som	som	SCONJ	REL	_	6	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 6	guppade	guppa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 7	i	i	ADP	_	_	8	case	_	_
 8	kölvattnet	kölvattten	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
@@ -12825,7 +12825,7 @@
 9	på	på	ADP	_	_	11	case	_	_
 10	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	11	det	_	_
 11	gång	gång	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
-12	utan	utan	ADP	_	_	14	case	_	_
+12	utan	utan	ADP	_	_	14	mark	_	_
 13	att	att	PART	_	_	14	mark	_	_
 14	höra	höra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	5	advcl	_	_
 15	någondera	någondera	PRON	IND-SG	_	14	obj	_	_
@@ -12912,7 +12912,7 @@
 9	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	det	_	_
 10	bleke	blek	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
 11	cockneyn	cockney	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	_
-12	som	som	SCONJ	REL	_	13	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	13	nsubj	_	_
 13	höll	hålla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
 14	på	på	ADV	_	Case=Nom	13	compound:prt	_	_
 15	att	att	PART	_	_	16	mark	_	_
@@ -12967,7 +12967,7 @@
 23	,	,	PUNCT	Comma	_	21	punct	_	_
 24	log	le	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 25	alldeles	alldeles	ADV	_	_	30	advmod	_	_
-26	som	som	SCONJ	CMP	_	30	mark	_	_
+26	som	som	ADP	CMP	_	30	case	_	_
 27	på	på	ADP	_	_	30	case	_	_
 28	det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
 29	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	30	amod	_	_
@@ -13021,7 +13021,7 @@
 38	plattfotade	plattfotad	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	39	amod	_	_
 39	bönder	bonde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	33	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	Comma	_	45	punct	_	_
-41	som	som	SCONJ	REL	_	45	mark	_	_
+41	som	som	PRON	REL	PronType=Rel	45	dislocated	_	_
 42	bärarstyrkan	bärarstyrka	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	45	nsubj	_	_
 43	alltid	alltid	ADV	_	_	45	advmod	_	_
 44	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	45	aux	_	_
@@ -13040,7 +13040,7 @@
 7	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	_
 8	aktningsfulla	aktningsfull	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
 9	beteckning	beteckning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	appos	_	_
-10	som	som	SCONJ	REL	_	11	mark	_	_
+10	som	som	PRON	REL	PronType=Rel	11	nsubj	_	_
 11	blivit	bli	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	9	acl:relcl	_	_
 12	servil	servil	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	xcomp	_	_
 13	under	under	ADP	_	_	16	case	_	_
@@ -13102,7 +13102,7 @@
 1	Presidenten	president	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
 2	utgår	utgå	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	naturligtvis	naturligtvis	ADV	_	_	2	advmod	_	_
-4	ifrån	ifrån	ADP	_	_	8	case	_	_
+4	ifrån	ifrån	ADP	_	_	8	mark	_	_
 5	att	att	SCONJ	_	_	8	mark	_	_
 6	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
 7	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -13215,7 +13215,7 @@
 12	hade	ha	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
 13	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	_
 14	känsla	känsla	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	_
-15	av	av	ADP	_	_	17	case	_	_
+15	av	av	ADP	_	_	17	mark	_	_
 16	att	att	PART	_	_	17	mark	_	_
 17	lyssna	lyssna	VERB	INF-ACT	VerbForm=Inf|Voice=Act	14	acl	_	_
 18	invärtes	invärtes	ADV	_	_	17	advmod	_	SpaceAfter=No
@@ -13321,7 +13321,7 @@
 7	bli	bli	AUX	INF-AUX	VerbForm=Inf|Voice=Act	2	ccomp	_	_
 8	väldigt	väldigt	ADV	_	Degree=Pos	9	advmod	_	_
 9	förtjusta	förtjust	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	xcomp	_	_
-10	över	över	ADP	_	_	13	case	_	_
+10	över	över	ADP	_	_	13	mark	_	_
 11	att	att	PART	_	_	13	mark	_	_
 12	få	få	AUX	INF-AUX	VerbForm=Inf|Voice=Act	13	aux	_	_
 13	återse	återse	VERB	INF-ACT	VerbForm=Inf|Voice=Act	9	xcomp	_	_
@@ -13478,7 +13478,7 @@
 21	dem	de	PRON	PERS-P3PL-ACC	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	23	advmod	_	_
 22	små	liten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	23	amod	_	_
 23	åkerlappar	åkerlapp	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	conj	_	_
-24	som	som	SCONJ	REL	_	25	mark	_	_
+24	som	som	PRON	REL	PronType=Rel	25	nsubj:pass	_	_
 25	röjts	röja	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	23	acl:relcl	_	_
 26	upp	upp	ADV	_	_	25	compound:prt	_	_
 27	i	i	ADP	_	_	28	case	_	_
@@ -13510,7 +13510,7 @@
 6	(	(	PUNCT	LeftParenthesis	_	8	punct	_	SpaceAfter=No
 7	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det	_	_
 8	förevändning	förevändning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
-9	för	för	ADP	_	_	11	case	_	_
+9	för	för	ADP	_	_	11	mark	_	_
 10	att	att	PART	_	_	11	mark	_	_
 11	lata	lata	VERB	INF-ACT	VerbForm=Inf|Voice=Act	8	acl	_	_
 12	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	11	obj	_	_
@@ -13523,7 +13523,7 @@
 1	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	ertappade	ertappa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	2	obj	_	_
-4	med	med	ADP	_	_	7	case	_	_
+4	med	med	ADP	_	_	7	mark	_	_
 5	att	att	SCONJ	_	_	7	mark	_	_
 6	ivrigt	ivrig	ADV	_	_	7	advmod	_	_
 7	vinka	vinka	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	xcomp	_	_
@@ -13541,7 +13541,7 @@
 19	sträckte	sträcka	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 20	på	på	ADP	_	_	21	case	_	_
 21	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	19	obl	_	_
-22	för	för	ADP	_	_	25	case	_	_
+22	för	för	ADP	_	_	25	mark	_	_
 23	att	att	PART	_	_	25	mark	_	_
 24	kunna	kunna	AUX	INF-AUX	VerbForm=Inf|Voice=Act	25	aux	_	_
 25	se	se	VERB	INF-ACT	VerbForm=Inf|Voice=Act	19	advcl	_	_
@@ -13639,7 +13639,7 @@
 21	från	från	ADP	_	_	22	case	_	_
 22	Wales	Wale	PROPN	SG-GEN	Case=Gen	17	nmod	_	_
 23	--	–	PUNCT	Dash	_	22	punct	_	_
-24	som	som	SCONJ	REL	_	27	mark	_	_
+24	som	som	PRON	REL	PronType=Rel	27	nsubj	_	_
 25	nyligen	nyligen	ADV	_	_	27	advmod	_	_
 26	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	aux	_	_
 27	utnämnts	utnämna	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	17	acl:relcl	_	_
@@ -13660,7 +13660,7 @@
 9	utom	utom	ADP	_	_	10	case	_	_
 10	tjänstefolket	tjänstefolk	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	dislocated	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	6	punct	_	_
-12	som	som	SCONJ	REL	_	14	mark	_	_
+12	som	som	PRON	REL	PronType=Rel	14	nsubj	_	_
 13	emellertid	emellertid	ADV	_	_	14	advmod	_	_
 14	stod	stå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 15	väl	väl	ADV	_	_	16	advmod	_	_
@@ -13681,7 +13681,7 @@
 6	kockens	kock	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	7	nmod:poss	_	_
 7	speciallunch	speciallunch	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	13	punct	_	_
-9	som	som	SCONJ	REL	_	13	mark	_	_
+9	som	som	PRON	REL	PronType=Rel	13	obj	_	_
 10	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	_
 11	så	så	ADV	_	_	12	advmod	_	_
 12	väl	väl	ADV	_	_	13	advmod	_	_
@@ -13705,7 +13705,7 @@
 30	,	,	PUNCT	Comma	_	32	punct	_	_
 31	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	32	det	_	_
 32	pudding	pudding	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	conj	_	_
-33	som	som	SCONJ	REL	_	35	mark	_	_
+33	som	som	PRON	REL	PronType=Rel	35	nsubj	_	_
 34	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	35	cop	_	_
 35	fradgig	fradgig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	32	acl:relcl	_	_
 36	upptill	upptill	ADV	_	_	35	advmod	_	_
@@ -13723,7 +13723,7 @@
 # text = Roly ringde för att höra om han hade kommit och förklarade på nytt -- han hade redan gjort det på förhand per brev -- att han var tvungen att gå på en officiell lunch.
 1	Roly	Roly	PROPN	SG-NOM	Case=Nom|Number=Sing	2	nsubj	_	_
 2	ringde	ringa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	för	för	ADP	_	_	5	case	_	_
+3	för	för	ADP	_	_	5	mark	_	_
 4	att	att	PART	_	_	5	mark	_	_
 5	höra	höra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 6	om	om	SCONJ	_	_	9	mark	_	_
@@ -13747,8 +13747,8 @@
 24	--	–	PUNCT	Dash	_	18	punct	_	_
 25	att	att	SCONJ	_	_	28	mark	_	_
 26	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	nsubj	_	_
-27	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	_
-28	tvungen	tvungen	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	11	obj	_	_
+27	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	tvungen	tvinga	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	11	obj	_	_
 29	att	att	PART	_	_	30	mark	_	_
 30	gå	gå	VERB	INF-ACT	VerbForm=Inf|Voice=Act	28	xcomp	_	_
 31	på	på	ADP	_	_	34	case	_	_
@@ -13772,7 +13772,7 @@
 11	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 12	kropp	kropp	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	Comma	_	15	punct	_	_
-14	som	som	SCONJ	REL	_	15	mark	_	_
+14	som	som	PRON	REL	PronType=Rel	15	nsubj:pass	_	_
 15	försetts	förse	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	12	acl:relcl	_	_
 16	med	med	ADP	_	_	18	case	_	_
 17	nytt	ny	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
@@ -13800,7 +13800,7 @@
 4	i	i	ADP	_	_	5	case	_	_
 5	rummet	rum	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	11	punct	_	_
-7	som	som	SCONJ	REL	_	11	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	11	obj	_	_
 8	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 9	fördragna	dra+för	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	10	amod	_	_
 10	gardinerna	gardin	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	nsubj	_	_
@@ -13835,7 +13835,7 @@
 1	Undersidan	undersida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
 2	av	av	ADP	_	_	3	case	_	_
 3	stråtaket	stråtak	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	_
-4	som	som	SCONJ	REL	_	5	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	5	nsubj	_	_
 5	vilade	vila	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	på	på	ADP	_	_	7	case	_	_
 7	dem	de	PRON	PERS-P3PL-ACC	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	5	obl	_	_
@@ -13862,8 +13862,8 @@
 28	och	och	CCONJ	_	_	27	fixed	_	_
 29	var	var	ADV	WH	_	27	fixed	_	_
 30	--	–	PUNCT	Dash	_	36	punct	_	_
-31	som	som	SCONJ	REL	_	36	mark	_	_
-32	mitt	mitt	ADV	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	36	advmod	_	_
+31	som	som	ADP	_	_	36	case	_	_
+32	mitt	mitt	ADV	_	_	36	advmod	_	_
 33	i	i	ADP	_	_	36	case	_	_
 34	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	36	det	_	_
 35	prydlig	prydlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	36	amod	_	_
@@ -13893,7 +13893,7 @@
 11	förde	föra	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 12	till	till	ADP	_	_	13	case	_	_
 13	lampan	lampa	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	_	_
-14	som	som	SCONJ	REL	_	15	mark	_	_
+14	som	som	PRON	REL	PronType=Rel	15	nsubj	_	_
 15	dinglade	dingla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
 16	ovanför	ovanför	ADP	_	_	17	case	_	_
 17	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	obl	_	SpaceAfter=No
@@ -13950,7 +13950,7 @@
 2	hade	ha	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
 4	känsla	känsla	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
-5	av	av	ADP	_	_	9	case	_	_
+5	av	av	ADP	_	_	9	mark	_	_
 6	att	att	SCONJ	_	_	9	mark	_	_
 7	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	_
 8	måste	måste	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
@@ -14008,9 +14008,9 @@
 # text = Det förekom andra ansikten ur det förgångna.
 1	Det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	_
 2	förekom	förekomma	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	4	amod	_	_
+3	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	_
 4	ansikten	ansikte	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	_
-5	ur	ur	ADP	_	_	7	case	_	_
+5	ur	ur	ADP	_	_	7	mark	_	_
 6	det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	förgångna	förgå	VERB	AD-DEF	Mood=Ind|VerbForm=Inf|Voice=Pass	4	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	Period	_	2	punct	_	_
@@ -14034,7 +14034,7 @@
 15	bankett	bankett	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	20	punct	_	_
 17	alldeles	alldeles	ADV	_	_	20	advmod	_	_
-18	som	som	SCONJ	REL	_	20	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	20	dislocated	_	_
 19	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	nsubj	_	_
 20	brukade	bruka	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
 21	göra	göra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	20	xcomp	_	_
@@ -14098,7 +14098,7 @@
 1	Den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	2	det	_	_
 2	sortens	sort	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	3	nmod:poss	_	_
 3	skratt	skratt	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
-4	som	som	SCONJ	REL	_	7	mark	_	_
+4	som	som	PRON	REL	PronType=Rel	7	obj	_	_
 5	dom	de	PRON	PERS-PL	_	7	nsubj	_	_
 6	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	fått	få	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	3	acl:relcl	_	_
@@ -14275,7 +14275,7 @@
 41	rätt	rätt	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	obl	_	SpaceAfter=No
 42	,	,	PUNCT	Comma	_	47	punct	_	_
 43	alldeles	alldeles	ADV	_	_	47	advmod	_	_
-44	som	som	SCONJ	CMP	_	47	mark	_	_
+44	som	som	ADP	CMP	_	47	case	_	_
 45	på	på	ADP	_	_	47	case	_	_
 46	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	47	det	_	_
 47	arkitektmodell	arkitektmodell	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	obl	_	SpaceAfter=No
@@ -14335,7 +14335,7 @@
 3	konsulns	konsul	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	4	nmod:poss	_	_
 4	hustru	hustru	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	9	punct	_	_
-6	som	som	SCONJ	REL	_	9	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	9	obj	_	_
 7	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	_
 8	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
 9	träffat	träffa	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	4	acl:relcl	_	_
@@ -14384,7 +14384,7 @@
 9	begär	begära	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 10	inget	inget	PRON	NEG-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	9	obj	_	_
 11	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
-12	än	än	ADP	CMP	_	15	case	_	_
+12	än	än	SCONJ	CMP	_	15	mark	_	_
 13	att	att	PART	_	_	15	mark	_	_
 14	få	få	AUX	INF-AUX	VerbForm=Inf|Voice=Act	15	aux	_	_
 15	bryta	bryta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	11	acl	_	_
@@ -14441,8 +14441,8 @@
 13	säker	säker	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	appos	_	_
 14	på	på	ADP	_	_	8	case	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	20	punct	_	_
-16	inte	inte	PART	NEG	_	17	advmod	_	_
-17	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	20	advmod	_	_
+16	inte	inte	PART	NEG	_	20	advmod	_	_
+17	ens	ens	ADV	_	_	20	advmod	_	_
 18	när	när	SCONJ	_	_	20	mark	_	_
 19	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	20	expl	_	_
 20	gäller	gälla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
@@ -14450,8 +14450,8 @@
 22	,	,	PUNCT	Comma	_	23	punct	_	_
 23	va	vad	INTJ	_	_	20	discourse	_	SpaceAfter=No
 24	?	?	PUNCT	QuestionMark	_	23	punct	_	_
-25	Inte	inte	PART	NEG	_	26	advmod	_	_
-26	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	29	advmod	_	_
+25	Inte	inte	PART	NEG	_	29	advmod	_	_
+26	ens	ens	ADV	_	_	29	advmod	_	_
 27	när	när	SCONJ	_	_	29	mark	_	_
 28	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	29	expl	_	_
 29	gäller	gälla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	_
@@ -14476,7 +14476,7 @@
 14	Clough	Clough	PROPN	SG-NOM	Case=Nom|Number=Sing	15	nsubj	_	_
 15	avbröt	avbryta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 16	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	15	obj	_	_
-17	för	för	ADP	_	_	19	case	_	_
+17	för	för	ADP	_	_	19	mark	_	_
 18	att	att	PART	_	_	19	mark	_	_
 19	säga	säga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	15	advcl	_	_
 20	--	–	PUNCT	Dash	_	25	punct	_	_
@@ -14488,13 +14488,13 @@
 26	hos	hos	ADP	_	_	28	case	_	_
 27	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	28	det	_	_
 28	person	person	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	nmod	_	_
-29	som	som	SCONJ	REL	_	31	mark	_	_
+29	som	som	PRON	REL	PronType=Rel	31	nsubj	_	_
 30	aldrig	aldrig	ADV	NEG	Polarity=Neg	31	advmod	_	_
 31	skonar	skona	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
 32	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	31	obj	_	_
 33	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	32	amod	_	SpaceAfter=No
 34	,	,	PUNCT	Comma	_	36	punct	_	_
-35	som	som	SCONJ	REL	_	36	mark	_	_
+35	som	som	PRON	REL	PronType=Rel	36	nsubj	_	_
 36	uppmuntrar	uppmuntra	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	_
 37	när	när	SCONJ	_	_	41	mark	_	_
 38	andra	andra	PRON	ADJ-PL	Definite=Ind|Number=Plur|PronType=Ind	41	nsubj	_	_
@@ -14678,7 +14678,7 @@
 7	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	det	_	_
 8	stilla	stilla	ADJ	POS-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
 9	antydan	antydan	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
-10	om	om	ADP	_	_	14	case	_	_
+10	om	om	ADP	_	_	14	mark	_	_
 11	att	att	SCONJ	_	_	14	mark	_	_
 12	också	också	ADV	_	_	13	advmod	_	_
 13	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	_
@@ -14688,7 +14688,7 @@
 17	handlag	handlag	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	_
 18	med	med	ADP	_	_	19	case	_	_
 19	afrikaner	afrikan	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	nmod	_	_
-20	som	som	SCONJ	REL	_	22	mark	_	_
+20	som	som	PRON	REL	PronType=Rel	22	obj	_	_
 21	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	nsubj	_	_
 22	tilltrodde	tilltro	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
 23	Bray	Bray	PROPN	SG-NOM	Case=Nom|Number=Sing	22	obj	_	SpaceAfter=No
@@ -14720,7 +14720,7 @@
 2	åldrige	åldrig	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	tjänaren	tjänare	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	6	punct	_	_
-5	som	som	SCONJ	REL	_	6	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 6	kom	komma	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 7	in	in	ADV	_	_	6	compound:prt	_	_
 8	med	med	ADP	_	_	9	case	_	_
@@ -14735,7 +14735,7 @@
 17	i	i	ADP	_	_	19	case	_	_
 18	yttre	yttre	ADJ	POS-DEF	Case=Nom|Degree=Cmp	19	amod	_	_
 19	ögonvrårna	ögonvrå	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	nmod	_	_
-20	som	som	SCONJ	REL	_	22	mark	_	_
+20	som	som	PRON	REL	PronType=Rel	22	nsubj	_	_
 21	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	_	_
 22	karakteristiska	karakteristisk	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	16	acl:relcl	_	_
 23	för	för	ADP	_	_	24	case	_	_
@@ -14769,7 +14769,7 @@
 8	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	10	det	_	_
 9	höviska	hövisk	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
 10	tilltalsform	tilltalsform	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
-11	som	som	SCONJ	REL	_	12	mark	_	_
+11	som	som	PRON	REL	PronType=Rel	12	nsubj	_	_
 12	brukar	bruka	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 13	användas	använda	VERB	INF-PASS	VerbForm=Inf|Voice=Pass	12	xcomp	_	_
 14	till	till	ADP	_	_	16	case	_	_
@@ -14806,7 +14806,7 @@
 45	ljusröda	ljusröd	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	46	amod	_	_
 46	läppen	läpp	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	42	nmod	_	SpaceAfter=No
 47	,	,	PUNCT	Comma	_	50	punct	_	_
-48	som	som	SCONJ	REL	_	50	mark	_	_
+48	som	som	PRON	REL	PronType=Rel	50	nsubj	_	_
 49	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	50	cop	_	_
 50	fläckig	fläckig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	46	acl:relcl	_	_
 51	som	som	ADP	CMP	_	53	case	_	_
@@ -14999,7 +14999,7 @@
 4	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	_
 5	särskild	särskild	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	6	amod	_	_
 6	låda	låda	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
-7	för	för	ADP	_	_	10	case	_	_
+7	för	för	ADP	_	_	10	mark	_	_
 8	att	att	PART	_	_	10	mark	_	_
 9	kunna	kunna	AUX	INF-AUX	VerbForm=Inf|Voice=Act	10	aux	_	_
 10	frakta	frakta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	3	advcl	_	_
@@ -15074,7 +15074,7 @@
 21	posten	post	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	_	_
 22	till	till	ADP	_	_	24	case	_	_
 23	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	24	det	_	_
-24	andra	annan	ADJ	CMP-DEF	Case=Nom|Degree=Cmp	16	obl	_	_
+24	andra	två	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	obl	_	_
 25	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	_	_
 26	rena	ren	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	27	amod	_	_
 27	barnleken	barnlek	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	parataxis	_	_
@@ -15282,7 +15282,7 @@
 2	fick	få	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	intryck	intryck	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_
-5	av	av	ADP	_	_	12	case	_	_
+5	av	av	ADP	_	_	12	mark	_	_
 6	att	att	SCONJ	_	_	12	mark	_	_
 7	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	_
 8	och	och	CCONJ	_	_	10	cc	_	_
@@ -15321,7 +15321,7 @@
 18	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	obj	_	_
 19	att	att	PART	_	_	20	mark	_	_
 20	göra	göra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	18	acl	_	_
-21	än	än	ADP	CMP	_	23	case	_	_
+21	än	än	SCONJ	CMP	_	23	mark	_	_
 22	att	att	PART	_	_	23	mark	_	_
 23	fara	fara	VERB	INF-ACT	VerbForm=Inf|Voice=Act	18	acl	_	_
 24	opp	opp	ADV	_	_	23	compound:prt	_	_
@@ -15346,11 +15346,11 @@
 11	röst	röst	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
 12	ur	ur	ADP	_	_	13	case	_	_
 13	skaran	skara	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	_	_
-14	som	som	SCONJ	REL	_	15	mark	_	_
+14	som	som	PRON	REL	PronType=Rel	15	nsubj:pass	_	_
 15	samlats	samla	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	13	acl:relcl	_	_
 16	kring	kring	ADP	_	_	17	case	_	_
 17	någon	någon	PRON	IND-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	15	obl	_	_
-18	som	som	SCONJ	REL	_	19	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	19	nsubj	_	_
 19	grillade	grilla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
 20	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
 21	får	får	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	_
@@ -15364,7 +15364,7 @@
 29	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	obj	_	_
 30	ingenting	ingenting	PRON	NEG-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	8	parataxis	_	_
 31	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
-32	än	än	ADP	CMP	_	34	case	_	_
+32	än	än	SCONJ	CMP	_	34	mark	_	_
 33	att	att	PART	_	_	34	mark	_	_
 34	fara	fara	VERB	INF-ACT	VerbForm=Inf|Voice=Act	31	acl	_	_
 35	opp	opp	ADV	_	_	34	compound:prt	_	_
@@ -15400,7 +15400,7 @@
 19	rasande	rasande	ADJ	NDE	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	6	ccomp	_	_
 20	på	på	ADP	_	_	21	case	_	_
 21	henne	hon	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	obl	_	_
-22	för	för	ADP	_	_	26	case	_	_
+22	för	för	ADP	_	_	26	mark	_	_
 23	att	att	SCONJ	_	_	26	mark	_	_
 24	hon	hon	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	nsubj	_	_
 25	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	_
@@ -15411,7 +15411,7 @@
 30	absolut	absolut	ADV	_	Degree=Pos	31	advmod	_	_
 31	livsnödvändig	livsnödvändig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	_
 32	krydda	krydda	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obj	_	_
-33	som	som	SCONJ	REL	_	36	mark	_	_
+33	som	som	PRON	REL	PronType=Rel	36	obj	_	_
 34	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	36	nsubj	_	_
 35	måste	måste	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	aux	_	_
 36	ha	ha	VERB	INF-ACT	VerbForm=Inf|Voice=Act	32	acl:relcl	_	_
@@ -15468,7 +15468,7 @@
 44	uppmärksamheten	uppmärksamhet	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	43	obj	_	_
 45	från	från	ADP	_	_	46	case	_	_
 46	henne	hon	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	43	obl	_	_
-47	genom	genom	ADP	_	_	49	case	_	_
+47	genom	genom	ADP	_	_	49	mark	_	_
 48	att	att	PART	_	_	49	mark	_	_
 49	säga	säga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	42	advcl	_	SpaceAfter=No
 50	:	:	PUNCT	Colon	_	34	punct	_	_
@@ -15496,7 +15496,7 @@
 4	på	på	ADP	_	_	6	case	_	_
 5	styva	styv	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	linan	lina	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	_
-7	genom	genom	ADP	_	_	10	case	_	_
+7	genom	genom	ADP	_	_	10	mark	_	_
 8	att	att	PART	_	_	10	mark	_	_
 9	avsiktligt	avsiktligt	ADV	_	_	10	advmod	_	_
 10	tilltala	tilltala	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
@@ -15558,8 +15558,8 @@
 15	än	än	ADP	CMP	_	16	case	_	_
 16	jag	jag	PRON	PERS-SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	2	punct	_	_
-
 # newdoc
+
 # sent_id = 4444
 # text = Till hans förfäran brast alfen i gråt -- en mycket högljudd gråt.
 1	Till	till	ADP	_	_	3	case	_	_
@@ -15608,7 +15608,7 @@
 # text = Harry, som försökte hyssja på honom och se tröstande ut på samma gång, ledde tillbaka Dobby upp på sängen, där han satt och hickade och såg ut som en stor och väldigt ful docka.
 1	Harry	Harry	PROPN	SG-NOM	Case=Nom|Number=Sing	16	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	4	punct	_	_
-3	som	som	SCONJ	REL	_	4	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	4	nsubj	_	_
 4	försökte	försöka	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 5	hyssja	hyssja	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	xcomp	_	_
 6	på	på	ADP	_	_	7	case	_	_
@@ -15760,7 +15760,7 @@
 13	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	_
 14	ytterst	ytterst	ADV	_	Degree=Sup	15	advmod	_	_
 15	hårt	hårt	ADV	_	Degree=Pos	11	advmod	_	_
-16	för	för	ADP	_	_	19	case	_	_
+16	för	för	ADP	_	_	19	mark	_	_
 17	att	att	SCONJ	_	_	19	mark	_	_
 18	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	nsubj	_	_
 19	hälsat	hälsa	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	11	advcl	_	_
@@ -15998,7 +15998,7 @@
 17	Mörkrets	mörker	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	18	nmod:poss	_	_
 18	herre	herre	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj	_	_
 19	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	21	det	_	_
-20	andra	annan	ADJ	ORD	Case=Nom	21	amod	_	_
+20	andra	två	ADJ	ORD	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	_
 21	gång	gång	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	SpaceAfter=No
 22	,	,	PUNCT	Comma	_	26	punct	_	_
 23	för	för	ADP	_	_	26	case	_	_
@@ -16049,22 +16049,22 @@
 2	Dobby	Dobby	PROPN	SG-NOM	Case=Nom|Number=Sing	4	nsubj	_	_
 3	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	kommit	komma	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
-5	för	för	ADP	_	_	7	case	_	_
+5	för	för	ADP	_	_	7	mark	_	_
 6	att	att	PART	_	_	7	mark	_	_
 7	skydda	skydda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	advcl	_	_
 8	Harry	Harry	PROPN	SG-NOM	Case=Nom|Number=Sing	7	obj	_	_
 9	Potter	Potter	PROPN	SG-NOM	Case=Nom|Number=Sing	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	13	punct	_	_
-11	för	för	ADP	_	_	13	case	_	_
+11	för	för	ADP	_	_	13	mark	_	_
 12	att	att	PART	_	_	13	mark	_	_
 13	varna	varna	VERB	INF-ACT	VerbForm=Inf|Voice=Act	7	conj	_	_
 14	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obj	_	SpaceAfter=No
-15	,	,	PUNCT	Comma	_	19	punct	_	_
-16	även	även	SCONJ	_	_	19	mark	_	_
+15	,	,	PUNCT	Comma	_	20	punct	_	_
+16	även	även	SCONJ	_	_	20	mark	_	_
 17	om	om	SCONJ	_	_	16	fixed	_	_
-18	Dobby	Dobby	PROPN	SG-NOM	Case=Nom|Number=Sing	19	nsubj	_	_
-19	blir	bli	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
-20	tvungen	tvungen	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+18	Dobby	Dobby	PROPN	SG-NOM	Case=Nom|Number=Sing	20	nsubj	_	_
+19	blir	bli	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	tvungen	tvinga	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	13	advcl	_	_
 21	att	att	PART	_	_	22	mark	_	_
 22	klämma	klämma	VERB	INF-ACT	VerbForm=Inf|Voice=Act	20	xcomp	_	_
 23	öronen	öra	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	22	obj	_	_
@@ -16079,7 +16079,7 @@
 2	uppstod	uppstå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
 4	tystnad	tystnad	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
-5	som	som	SCONJ	REL	_	7	mark	_	_
+5	som	som	PRON	REL	PronType=Rel	7	nsubj:pass	_	_
 6	endast	endast	ADV	_	_	7	advmod	_	_
 7	bröts	bryta	VERB	PAST-PASS	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
 8	av	av	ADP	_	_	9	case	_	_
@@ -16125,7 +16125,7 @@
 4	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	det	det	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	enda	enda	ADJ	POS-DEF	Case=Nom|Degree=Pos	0	root	_	_
-7	som	som	SCONJ	REL	_	8	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	8	nsubj	_	_
 8	håller	hålla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 9	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	obj	_	_
 10	uppe	uppe	ADV	_	_	8	advmod	_	SpaceAfter=No
@@ -16157,7 +16157,7 @@
 2	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	för	för	ADV	_	_	4	advmod	_	_
 4	viktig	viktig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	Comma	_	2	punct	_	_
+5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	för	för	ADV	_	_	7	advmod	_	_
 7	god	god	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	conj	_	_
 8	att	att	PART	_	_	9	mark	_	_
@@ -16462,9 +16462,9 @@
 # text = "Vänner som inte ens skriver till Harry Potter?" sade Dobby knipslugt.
 1	"	"	PUNCT	Quote	_	2	punct	_	SpaceAfter=No
 2	Vänner	vän	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	_
-3	som	som	SCONJ	REL	_	6	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 4	inte	inte	PART	NEG	_	6	advmod	_	_
-5	ens	ens	ADV	_	Case=Gen|Definite=Def|Poss=Yes|PronType=Ind	4	advmod	_	_
+5	ens	ens	ADV	_	_	6	advmod	_	_
 6	skriver	skriva	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 7	till	till	ADP	_	_	8	case	_	_
 8	Harry	Harry	PROPN	SG-NOM	Case=Nom|Number=Sing	6	obl	_	_
@@ -16540,7 +16540,7 @@
 15	några	någon	DET	PL-IND	Definite=Ind|Number=Plur|PronType=Ind	17	det	_	_
 16	klottriga	klottrig	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	_	_
 17	bokstäver	bokstav	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj	_	_
-18	som	som	SCONJ	REL	_	19	mark	_	_
+18	som	som	PRON	REL	PronType=Rel	19	nsubj	_	_
 19	såg	se	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
 20	ut	ut	ADV	_	_	19	compound:prt	_	_
 21	som	som	SCONJ	_	_	24	mark	_	_
@@ -16604,7 +16604,7 @@
 4	ner	ner	ADV	_	_	2	advmod	_	_
 5	under	under	ADP	_	_	6	case	_	_
 6	bordet	bord	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
-7	för	för	ADP	_	_	9	case	_	_
+7	för	för	ADP	_	_	9	mark	_	_
 8	att	att	PART	_	_	9	mark	_	_
 9	ta	ta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 10	upp	upp	ADV	_	_	9	compound:prt	_	_
@@ -16645,7 +16645,7 @@
 18	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	20	det	_	_
 19	rostade	rosta	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	20	amod	_	_
 20	brödskivan	brödskiva	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obj	_	_
-21	som	som	SCONJ	REL	_	24	mark	_	_
+21	som	som	PRON	REL	PronType=Rel	24	obj	_	_
 22	mrs	Mrs	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nmod	_	_
 23	Weasley	Weasley	PROPN	SG-NOM	Case=Nom|Number=Sing	24	nsubj	_	_
 24	räckte	räcka	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
@@ -16799,7 +16799,7 @@
 # text = Fred, som hade läst färdigt sin egen boklista, kikade på Harrys.
 1	Fred	Fred	PROPN	SG-NOM	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	5	punct	_	_
-3	som	som	SCONJ	REL	_	5	mark	_	_
+3	som	som	PRON	REL	PronType=Rel	5	nsubj	_	_
 4	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	läst	läsa	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	1	acl:relcl	_	_
 6	färdigt	färdig	ADV	_	Degree=Pos	5	advmod	_	_
@@ -16849,7 +16849,7 @@
 5	från	från	ADP	_	_	7	case	_	_
 6	sin	sin	PRON	RFL-SG-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 7	mamma	mamma	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
-8	som	som	SCONJ	REL	_	9	mark	_	_
+8	som	som	PRON	REL	PronType=Rel	9	nsubj	_	_
 9	fick	få	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 10	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	obj	_	_
 11	att	att	PART	_	_	13	mark	_	_
@@ -16908,7 +16908,7 @@
 3	det	det	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	expl	_	_
 4	bara	bara	ADV	_	_	5	advmod	_	_
 5	Harry	Harry	PROPN	SG-NOM	Case=Nom|Number=Sing	0	root	_	_
-6	som	som	SCONJ	REL	_	7	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	7	nsubj	_	_
 7	såg	se	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	csubj	_	_
 8	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	13	punct	_	_
@@ -16976,7 +16976,7 @@
 29	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	27	nmod	_	_
 30	--	–	PUNCT	Dash	_	32	punct	_	_
 31	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	32	nsubj	_	_
-32	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+32	var	vara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	_
 33	i	i	ADV	_	Case=Nom	32	advmod	_	_
 34	alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	33	fixed	_	_
 35	fall	fall	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	33	fixed	_	_
@@ -17062,7 +17062,7 @@
 15	gjorde	göra	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 16	någonting	någonting	PRON	IND-SG	_	15	obj	_	_
 17	olagligt	olaglig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	_
-18	för	för	ADP	_	_	20	case	_	_
+18	för	för	ADP	_	_	20	mark	_	_
 19	att	att	PART	_	_	20	mark	_	_
 20	rädda	rädda	VERB	INF-ACT	VerbForm=Inf|Voice=Act	15	advcl	_	_
 21	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	obj	_	SpaceAfter=No
@@ -17155,7 +17155,7 @@
 6	London	London	PROPN	SG-NOM	Case=Nom|Number=Sing	4	obl	_	_
 7	på	på	ADP	_	_	8	case	_	_
 8	onsdag	onsdag	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
-9	för	för	ADP	_	_	11	case	_	_
+9	för	för	ADP	_	_	11	mark	_	_
 10	att	att	PART	_	_	11	mark	_	_
 11	köpa	köpa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	4	advcl	_	_
 12	de	den	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -17190,8 +17190,8 @@
 9	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	_
 10	får	få	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	veta	veta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	1	advcl	_	_
-12	vad	vad	PRON	WH-REL-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	14	nsubj	_	_
-13	som	som	SCONJ	REL	_	12	fixed	_	_
+12	vad	vad	PRON	WH-REL-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	14	dislocated	_	_
+13	som	som	PRON	REL	PronType=Rel	14	nsubj	_	_
 14	händer	hända	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	Period	_	14	punct	_	_
 16	Hjärtliga	hjärtlig	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	_	_
@@ -17216,7 +17216,7 @@
 12	uppe	uppe	ADV	_	_	14	advmod	_	_
 13	på	på	ADP	_	_	14	case	_	_
 14	kullen	kull	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	_	_
-15	som	som	SCONJ	REL	_	18	mark	_	_
+15	som	som	PRON	REL	PronType=Rel	18	obj	_	_
 16	familjen	familj	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
 17	Weasley	Weasley	PROPN	SG-NOM	Case=Nom|Number=Sing	18	nsubj	_	_
 18	ägde	äga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No
@@ -17229,7 +17229,7 @@
 3	omgiven	omge	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	0	root	_	_
 4	av	av	ADP	_	_	5	case	_	_
 5	träd	träd	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	_
-6	som	som	SCONJ	REL	_	7	mark	_	_
+6	som	som	PRON	REL	PronType=Rel	7	nsubj	_	_
 7	skymde	skymma	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8	sikten	sikt	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obj	_	_
 9	från	från	ADP	_	_	10	case	_	_
@@ -17266,7 +17266,7 @@
 8	för	för	CCONJ	_	_	11	cc	_	_
 9	det	det	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	11	nsubj	_	_
 10	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
-11	bli	bli	AUX	INF-AUX	VerbForm=Inf|Voice=Act	4	advcl	_	_
+11	bli	bli	VERB	INF	VerbForm=Inf|Voice=Act	4	advcl	_	_
 12	svårt	svår	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	xcomp	_	_
 13	att	att	PART	_	_	14	mark	_	_
 14	förklara	förklara	VERB	INF-ACT	VerbForm=Inf|Voice=Act	12	xcomp	_	_
@@ -17306,9 +17306,9 @@
 8	Nimbus	Nimbus	PROPN	SG-NOM	Case=Nom|Number=Sing	5	obl	_	_
 9	Tvåtusen	tvåtusen	NUM	ID	_	8	nummod	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	22	punct	_	_
-11	som	som	SCONJ	REL	_	14	mark	_	_
+11	som	som	PRON	REL	PronType=Rel	17	nsubj	_	_
 12	helt	helt	ADV	_	Degree=Pos	13	advmod	_	_
-13	klart	klart	ADV	_	Case=Nom	14	advmod	_	_
+13	klart	klart	ADV	_	Case=Nom	17	advmod	_	_
 14	var	vara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
 15	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	17	det	_	_
 16	bästa	bra	ADJ	SPL-DEF	Case=Nom|Definite=Def|Degree=Sup	17	amod	_	_
@@ -17529,7 +17529,7 @@
 13	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det	_	_
 14	hel	hel	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	_
 15	förmögenhet	förmögenhet	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	_	_
-16	som	som	SCONJ	REL	_	20	mark	_	_
+16	som	som	PRON	REL	PronType=Rel	20	obj	_	_
 17	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
 18	föräldrar	förälder	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	nsubj	_	_
 19	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	_	_
@@ -17548,7 +17548,7 @@
 4	bara	bara	ADV	_	_	2	advmod	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	trollkarlsvärlden	trollkarlsvärld	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	_
-7	som	som	SCONJ	REL	_	11	mark	_	_
+7	som	som	PRON	REL	PronType=Rel	11	obj	_	_
 8	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	pengar	pengar	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nsubj	_	_
 10	var	vara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
@@ -17566,7 +17566,7 @@
 22	knutingar	knuting	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj	_	_
 23	i	i	ADP	_	_	24	case	_	_
 24	mugglarbutiker	mugglarbutik	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obl	_	SpaceAfter=No
-25	.	.	PUNCT	Period	_	15	punct	_	_
+25	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = 4555
 # text = Han hade aldrig nämnt sitt bankkonto hos Gringotts för familjen Dursley. Han var inte säker på att de skulle hysa lika stor avsky för en stor hög med guld som de gjorde för allting annat i trollkarlsvärlden.
@@ -17586,7 +17586,7 @@
 14	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
 15	inte	inte	PART	NEG	_	16	advmod	_	_
 16	säker	säker	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	parataxis	_	_
-17	på	på	ADP	_	_	21	case	_	_
+17	på	på	ADP	_	_	21	mark	_	_
 18	att	att	SCONJ	_	_	21	mark	_	_
 19	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	21	nsubj	_	_
 20	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	aux	_	_
@@ -17754,7 +17754,7 @@
 10	än	än	ADP	CMP	_	11	case	_	_
 11	Fred	Fred	PROPN	SG-NOM	Case=Nom|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	14	punct	_	_
-13	som	som	SCONJ	REL	_	14	mark	_	_
+13	som	som	PRON	REL	PronType=Rel	14	nsubj	_	_
 14	klev	kliva	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
 15	rakt	rakt	ADV	_	Degree=Pos	16	advmod	_	_
 16	in	in	ADV	_	_	18	advmod	_	_
@@ -17769,9 +17769,8 @@
 25	"	"	PUNCT	Quote	_	23	punct	_	_
 26	I	i	ADP	_	_	28	case	_	_
 27	nästa	nästa	ADJ	POS-SG-IND	Case=Nom|Degree=Pos	28	amod	_	_
-28	ögonblick	ögonblick	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	29	obl	_	_
+28	ögonblick	ögonblick	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	31	obl	_	_
 29	var	vara	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	31	aux	_	_
 30	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	nsubj	_	_
 31	försvunnen	försvinna	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	20	parataxis	_	SpaceAfter=No
 32	.	.	PUNCT	Period	_	4	punct	_	_
-
