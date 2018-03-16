@@ -96,7 +96,8 @@ The syntactic annotation in the Swedish UD treebank follows the general
 guidelines but adds some language-specific relations:
 
 - nmod:poss
-- acl:relcl 
+- acl:relcl
+- acl:cleft
 - compound:prt
 - nsubj:pass
 - aux:pass
@@ -139,6 +140,12 @@ Changelog
   - all tokens have received a lemma and morphological features have been added to tokens that should have them.
   - the test data have been manually reviewed to fix errors and agree better with the version 2 guidelines.
     The changes affect some 9% of all tokens and 28% of all punctuation tokens.
+    
+  Changes for version 2.2, made in order to harmonize annotations with those of UD_Swedish
+  - the relative pronoun 'som' has been recategorized as PRON and its dependencies have been changed accordingly to nsubj, nsubj:pass, obj, obl, dislocated as is contextually appropriate
+  - adpositions that introduce a clause have had their dependency changed from 'case' to 'mark'
+  - cleft sentences of the form 'EXPL är/var XP som ...' have been reanalyzed so that the head word of XP is annotaded as 'root' while the clause introduced by 'som' is annotated as 'acl:cleft'
+  In addition many inconsistencies and errors have been rectified.
 
 
 --- Machine readable metadata ---
