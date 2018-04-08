@@ -47,7 +47,7 @@ Online Help and the Swedish part of the Europarl corpus (v.7).
 
 DATA SPLITS
 
-For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. The test set was not uploaded until after the CoNLL 2017 Shared Task on Multilingual Parsing from Raw Text to Universal Dependencies was completed.
+For version 2.0  about 20% of the trees were randomly selected as test set, 20% as development set, and the rest as training set. This partitioning has remained the same since then.
 
 The partition applies in the same way to the English trees so that the order of corresponding trees is the same in the English and Swedish LinES files. The files are named
 
@@ -72,13 +72,13 @@ The tokenization is largely based on whitespace, but punctuation marks
 except word-internal hyphens are treated as separate tokens. The
 original file also has several multi-word tokens, but these are
 separated in the UD version with all parts except the first assigned
-the UD dependency function 'fixed'.
+the UD dependency function 'fixed'. No tokens have internal blanks.
 
 
 MORPHOLOGY
 
 The morphological annotation in the UFEATS column is copied from the UD_Swedish
-treebank where overlaps occur. For other tokens it is converted from the
+treebank where overlaps occur. For other tokens it has been converted from the
 morphological information in the original treebank (found in the XPOS column).
 Nouns are annotated for case, number, species and gender. Verbs are annotated for
 mood, verb form, tense and diathesis, adjectives for case, degree, definiteness, and
@@ -96,7 +96,8 @@ The syntactic annotation in the Swedish UD treebank follows the general
 guidelines but adds some language-specific relations:
 
 - nmod:poss
-- acl:relcl 
+- acl:relcl
+- acl:cleft
 - compound:prt
 - nsubj:pass
 - aux:pass
@@ -139,6 +140,12 @@ Changelog
   - all tokens have received a lemma and morphological features have been added to tokens that should have them.
   - the test data have been manually reviewed to fix errors and agree better with the version 2 guidelines.
     The changes affect some 9% of all tokens and 28% of all punctuation tokens.
+    
+  Changes for version 2.2, made in order to harmonize annotations with those of UD_Swedish_Talbanken
+  - the relative pronoun 'som' has been recategorized as PRON and its dependencies have been changed accordingly to nsubj, nsubj:pass, obj, obl, dislocated as is contextually appropriate
+  - adpositions that introduce a clause have had their dependency changed from 'case' to 'mark'
+  - cleft sentences of the form 'EXPL är/var XP som ...' have been reanalyzed so that the head word of XP is annotaded as 'root' while the clause introduced by 'som' is annotated as 'acl:cleft'
+  In addition many inconsistencies and errors have been rectified.
 
 
 --- Machine readable metadata ---
