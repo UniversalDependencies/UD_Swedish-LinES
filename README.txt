@@ -101,7 +101,7 @@ guidelines but adds some language-specific relations:
 - compound:prt
 - nsubj:pass
 - aux:pass
-- obl:agent 
+- obl:agent
 - csubj:pass
 
 The syntactic annotation was first automatically converted from the original
@@ -132,15 +132,15 @@ Changelog
   - addition of sentence id:s and text comment for every tree
   - addition of document boundaries
   - addition of SpaceAfter=No features in the MISC column
-  - more fixed phrases have been recognized as such 
-  - sentences of the form '"I'm hungry", said John', where the root previously was 'said' have been reanalyzed 
+  - more fixed phrases have been recognized as such
+  - sentences of the form '"I'm hungry", said John', where the root previously was 'said' have been reanalyzed
     in accordance with the UD guidelines, 'said' then linking to 'hungry' as 'parataxis'
-    
+
   From version 2.0 to version 2.1 the following changes have been made:
   - all tokens have received a lemma and morphological features have been added to tokens that should have them.
   - the test data have been manually reviewed to fix errors and agree better with the version 2 guidelines.
     The changes affect some 9% of all tokens and 28% of all punctuation tokens.
-    
+
   Changes for version 2.2, made in order to harmonize annotations with those of UD_Swedish_Talbanken
   - the relative pronoun 'som' has been recategorized as PRON and its dependencies have been changed accordingly to nsubj, nsubj:pass, obj, obl, dislocated as is contextually appropriate
   - adpositions that introduce a clause have had their dependency changed from 'case' to 'mark'
@@ -150,16 +150,15 @@ Changelog
 
 --- Machine readable metadata ---
 
-Documentation status: partial
-Data source: semi-automatic
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
+Includes text: yes
 Genre: fiction nonfiction spoken
 Lemmas: converted from manual
-UPOS: converted from manual and corrected
+UPOS: converted with corrections
 XPOS: manual native
 Features: automatic
-Relations: converted from manual and corrected
+Relations: converted with corrections
 Contributors: Ahrenberg, Lars
 Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
