@@ -146,6 +146,10 @@ Changelog
   - adpositions that introduce a clause have had their dependency changed from 'case' to 'mark'
   - cleft sentences of the form 'EXPL är/var XP som ...' have been reanalyzed so that the head word of XP is annotaded as 'root' while the clause introduced by 'som' is annotated as 'acl:cleft'
   In addition many inconsistencies and errors have been rectified.
+  
+  From version 2.2 to version 2.3
+  English names, esp. of software products, such as Microsoft Office 2002, have been reanalysed so as to agree with the analysis
+  in the English_Lines treebank. Found errors in the first parts of all three files have been corrected.
 
 
 --- Machine readable metadata ---
