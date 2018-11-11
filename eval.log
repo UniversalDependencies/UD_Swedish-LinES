@@ -1,28 +1,27 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Swedish-LinES:
-commit bcbc537d685b0c9d27499ce8276fe066e157402e
-Merge: 70eddd5 2337ce8
+commit 96ff0317b1f5969a12c56dd42dd8bc70b9a0bd7d
+Merge: 5199c95 177a67e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 79816 of 79816 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.75944797122241.
+Size: counted 79811 of 79811 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.75932267913519.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.1.
-Features: 49842 out of 79816 total words have one or more features.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 49838 out of 79811 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.1.
-Udapi: found 1356 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 79816 words.
-Genres: found 3 out of 14 known.
-Availability: README does not say Includes text: yes
+Universal relations: source of annotation (from README) factor is 0.9.
+Udapi: found 1343 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 79811 words.
+Genres: found 3 out of 17 known.
 validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-dev.conllu
 *** PASSED ***
 validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-test.conllu
@@ -31,13 +30,13 @@ validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.214285714285714) = 0.0164835164835165
+(weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.634029986403421) = 0.162571791385493
+(weight=0.256410256410256) * (score{size}=0.634020917459737) = 0.162569466015317
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.1) = 0.00769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.830109251277939) = 0.255418231162443
-(weight=0.0769230769230769) * (score{udeprels}=0.0891891891891892) = 0.00686070686070686
-(TOTAL score=0.59261629717421) * (availability=0.1) * (validity=1) = 0.059261629717421
-STARS = 0.5
-UD_Swedish-LinES	0.059261629717421	0.5
+(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
+(weight=0.307692307692308) * (score{udapi}=0.831727456115072) = 0.255916140343099
+(weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
+(TOTAL score=0.706627141558775) * (availability=1) * (validity=1) = 0.706627141558775
+STARS = 3.5
+UD_Swedish-LinES	0.706627141558775	3.5
