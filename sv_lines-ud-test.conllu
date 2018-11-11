@@ -1,3 +1,4 @@
+# newdoc
 # sent_id = 3651
 # text = Om du gör i ordning flera diagram får du se ett släppområde för multidiagramfält.
 1	Om	om	SCONJ	_	_	3	mark	_	_
@@ -125,7 +126,7 @@
 9	dock	dock	ADV	_	_	11	advmod	_	_
 10	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	variera	variera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	6	acl:relcl	_	_
-12	beroende	beroende	VERB	NDE	Case=Nom	15	case	_	_
+12	beroende	beroende	ADP	_	_	15	case	_	_
 13	på	på	ADP	_	_	12	fixed	_	_
 14	vilken	vilken	DET	WH-SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	15	det	_	_
 15	typ	typ	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	_
@@ -884,10 +885,10 @@
 # sent_id = 3710
 # text = När Microsoft SQL Server 2000 Desktop Engine (kallades tidigare Microsoft Database Engine eller MSDE) finns installerad på Microsoft Windows NT-datorer, är den installerad med Windows NT-verifiering (denna funktion kallas också integrerad säkerhet).
 1	När	när	SCONJ	_	_	17	mark	_	_
-2	Microsoft	Microsoft	PROPN	SG-NOM	Case=Nom|Number=Sing	4	compound	_	_
-3	SQL	SQL	PROPN	SG-NOM	Case=Nom|Number=Sing	4	compound	_	_
-4	Server	server	NOUN	SG-IND-NOM	Case=Nom|Number=Sing	7	nmod	_	_
-5	2000	2000	NUM	ID	_	4	nummod	_	_
+2	Microsoft	Microsoft	PROPN	SG-NOM	Case=Nom|Number=Sing	7	compound	_	_
+3	SQL	SQL	PROPN	SG-NOM	Case=Nom|Number=Sing	7	compound	_	_
+4	Server	server	NOUN	SG-IND-NOM	Case=Nom|Number=Sing	3	flat	_	_
+5	2000	2000	NUM	ID	_	3	nummod	_	_
 6	Desktop	desktop	NOUN	SG-IND-NOM	Case=Nom|Number=Sing	7	compound	_	_
 7	Engine	engine	NOUN	SG-IND-NOM	Case=Nom|Number=Sing	17	nsubj	_	_
 8	(	(	PUNCT	LeftParenthesis	_	9	punct	_	SpaceAfter=No
@@ -961,7 +962,7 @@
 16	A	A	PROPN	SG-NOM	Case=Nom|Number=Sing	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	16	punct	_	_
 18	B	b	PROPN	SG-NOM	Case=Nom|Number=Sing	16	conj	_	_
-19	osv	osv	ADV	_	Abbr=Yes	16	advmod	_	SpaceAfter=No
+19	osv	osv	ADV	_	Abbr=Yes	16	conj	_	SpaceAfter=No
 20	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = 3714
@@ -1006,7 +1007,7 @@
 3	1999.07.01	1999.07.01	NUM	ID	_	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	3	punct	_	_
 5	1999.07.08	1999.07.08	NUM	ID	_	1	conj	_	SpaceAfter=No
-6	,	,	PUNCT	Comma	_	1	punct	_	SpaceAfter=No
+6	,	,	PUNCT	Comma	_	5	punct	_	SpaceAfter=No
 7	.	.	PUNCT	Period	_	1	punct	_	_
 
 # sent_id = 3717
