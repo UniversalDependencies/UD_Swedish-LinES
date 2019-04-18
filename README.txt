@@ -151,6 +151,7 @@ Changelog
   English names, esp. of software products, such as Microsoft Office 2002, have been reanalysed so as to agree with the analysis
   in the English_Lines treebank. Found errors in the first parts of all three files have been corrected.
 
+  From version 2.3 to version 2.4 all changes concern the correction of errors so as to meet the stricter conditions on      validation.
 
 --- Machine readable metadata ---
 
