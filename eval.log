@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Swedish-LinES:
-commit 96ff0317b1f5969a12c56dd42dd8bc70b9a0bd7d
-Merge: 5199c95 177a67e
+commit 9863203f5ee40a214360a921f93e8f2d978abc1c
+Merge: b326086 5338e5f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 79811 of 79811 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.75932267913519.
@@ -15,11 +15,11 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 49838 out of 79811 total words have one or more features.
+Features: 49837 out of 79811 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi: found 1343 bugs.
+Udapi: found 992 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 79811 words.
 Genres: found 3 out of 17 known.
 validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.634020917459737) = 0.162569466015317
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.831727456115072) = 0.255916140343099
+(weight=0.307692307692308) * (score{udapi}=0.87570635626668) = 0.269448109620517
 (weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.706627141558775) * (availability=1) * (validity=1) = 0.706627141558775
+(TOTAL score=0.720159110836193) * (availability=1) * (validity=1) = 0.720159110836193
 STARS = 3.5
-UD_Swedish-LinES	0.706627141558775	3.5
+UD_Swedish-LinES	0.720159110836193	3.5
