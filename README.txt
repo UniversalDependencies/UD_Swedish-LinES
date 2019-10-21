@@ -23,7 +23,7 @@ analysis of translations' funded by the Swedish Research Council (Ahrenberg, 200
 
 # Details on the sources
 
-All sub-corpora have English originals with Swedish translations. Five of them
+All sub-corpora have English originals with Swedish translations. Six of them
 are literary works:
 
 Paul Auster: Stad av glas [City of Glass], Tiden, 1995. Translation by
@@ -41,6 +41,9 @@ Nadine Gordimer: Hedersgästen [A Guest of Honour], Bonniers,
 J. K. Rowling: Harry Potter och Hemligheternas kammare [Harry Potter
 and the Chamber of Secrets], Tiden, 2001. Translation by Lena
 Fries-Gedin.
+
+Jennette Winterson: Vintergatan går genom magen [Gut Symmetries], 
+Bakhåll, 2017. Translation by Ulla Roseen.
 
 In addition the corpus includes segments from Microsoft Access 2002
 Online Help and the Swedish part of the Europarl corpus (v.7).
@@ -152,6 +155,8 @@ Changelog
   in the English_Lines treebank. Found errors in the first parts of all three files have been corrected.
 
   From version 2.3 to version 2.4 all changes concern the correction of errors so as to meet the stricter conditions on      validation.
+  
+  From version 2.4 to version 2.5. Extension of 679 sentences from Winterson's 'Vintergatan går genom magen'. They have been distributed with 120 sentences for development and test, respectively, and the rest to the training part. The lemmatisation has been further harmonised with Swedish_Talbanken.
 
 --- Machine readable metadata ---
 
