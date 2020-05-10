@@ -157,6 +157,8 @@ Changelog
   From version 2.3 to version 2.4 all changes concern the correction of errors so as to meet the stricter conditions on      validation.
   
   From version 2.4 to version 2.5. Extension of 679 sentences from Winterson's 'Vintergatan går genom magen'. They have been distributed with 120 sentences for development and test, respectively, and the rest to the training part. The lemmatisation has been further harmonised with Swedish_Talbanken.
+  
+  From version 2.5 to version 2.6 only minor error corrections, in particular regarding the features PronType, Gender and Number.
 
 --- Machine readable metadata ---
 
