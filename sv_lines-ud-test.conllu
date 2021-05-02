@@ -17853,7 +17853,7 @@
 27	sitsen	sits	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obl	_	_
 28	under	under	ADP	_	_	29	case	_	_
 29	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	27	nmod	_	_
-30	–  	–	PUNCT	Dash	_	32	punct	_	_
+30	–	–	PUNCT	Dash	_	32	punct	_	_
 31	det	den	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	32	nsubj	_	_
 32	var	vara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	_
 33	i	i	ADV	_	Case=Nom	32	advmod	_	_
