@@ -34,7 +34,7 @@
     <tag name="X">27</tag><!-- W3C, foie, TSQL, maris, stella, Aliquem, EEG, MSDE, SAP, UDL -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="40">
+  <feats unique="38">
     <feat name="Abbr" value="Yes" upos="ADV">17</feat><!-- dvs, osv, t.ex., bl.a., dvs., etc -->
     <feat name="Case" value="Acc" upos="PRON">1657</feat><!-- sig, honom, mig, dem, oss, henne, dig, varandra, varann, er -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN,VERB">2003</feat><!-- sin, hans, min, sina, sitt, er, hennes, deras, mina, mitt -->
@@ -49,8 +49,7 @@
     <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">8723</feat><!-- det, ett, vad, detta, något, sitt, allt, sätt, år, annat -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">157</feat><!-- låt, var, se, tänk, lägg, Exportera, klicka, kom, Ändra, Filtrera -->
     <feat name="Mood" value="Ind" upos="ADJ,AUX,VERB">10808</feat><!-- var, är, hade, har, kan, skulle, sa, kunde, måste, gick -->
-    <feat name="Mood" value="Opt" upos="VERB">1</feat><!-- LEVE -->
-    <feat name="Mood" value="Sub" upos="AUX,VERB">30</feat><!-- vore, måtte, finge, förbanne, ginge, vare, vete -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">31</feat><!-- vore, måtte, LEVE, finge, förbanne, ginge, vare, vete -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">7949</feat><!-- de, vi, alla, dem, den, sina, andra, oss, några, år -->
     <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">26598</feat><!-- en, det, han, jag, den, ett, du, hon, honom, mig -->
     <feat name="NumType" value="Card" upos="NUM">2</feat><!-- Ett, fyrtioett -->
@@ -73,8 +72,7 @@
     <feat name="VerbForm" value="Part" upos="ADJ,VERB">380</feat><!-- följande, tvungen, taget, särskilt, leende, motsvarande, nuvarande, beredd, dolda, grundläggande -->
     <feat name="VerbForm" value="Sup" upos="AUX,NOUN,VERB">1109</feat><!-- varit, kommit, fått, gjort, blivit, sett, gått, sagt, hört, tagit -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">14023</feat><!-- var, är, hade, har, kan, skulle, sa, kunde, måste, vara -->
-    <feat name="Voice" value="Mid" upos="VERB">1</feat><!-- trängdes -->
-    <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">1153</feat><!-- visas, kändes, används, tvungen, hördes, tycktes, flyttas, talas, taget, skapats -->
+    <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">1154</feat><!-- visas, kändes, används, tvungen, hördes, tycktes, flyttas, talas, taget, skapats -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">

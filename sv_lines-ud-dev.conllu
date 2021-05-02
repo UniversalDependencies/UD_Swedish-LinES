@@ -21733,7 +21733,7 @@
 1	Män	man	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nsubj	_	_
 2	och	och	CCONJ	_	_	3	cc	_	_
 3	kvinnor	kvinna	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	_	_
-4	trängdes	tränga	VERB	PAST-DPO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	trängdes	tränga	VERB	PAST-DPO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	på	på	ADP	_	_	6	case	_	_
 6	däck	däck	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Period	_	4	punct	_	_
