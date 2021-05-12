@@ -11,7 +11,7 @@
     <test><sentences>1035</sentences><tokens>16994</tokens><words>16994</words><fused>0</fused></test>
   </size>
   <lemmas unique="10052" /><!-- ., ,, den, och, en, att, i, han, vara, som, jag, på, ha, med, av -->
-  <forms unique="14307" /><!-- ., ,, och, att, i, en, det, som, han, på, med, av, för, jag, den -->
+  <forms unique="14306" /><!-- ., ,, och, att, i, en, det, som, han, på, med, av, för, jag, den -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
