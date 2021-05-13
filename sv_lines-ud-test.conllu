@@ -3016,7 +3016,7 @@
 10	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc2-4379
-# text = Ändå kändes det som om det ropade på honom -- som vore dess enda mål i tillvaron att få inrymma de ord som kom från hans penna.
+# text = Ändå kändes det som om det ropade på honom – som vore dess enda mål i tillvaron att få inrymma de ord som kom från hans penna.
 # text_en = But something about it seemed to call out to him – as if its unique destiny in the world was to hold the words that came from his pen.
 1	Ändå	ändå	ADV	_	_	2	advmod	_	_
 2	kändes	kännas	VERB	PAST-PASS	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -3027,7 +3027,7 @@
 7	ropade	ropa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 8	på	på	ADP	_	_	9	case	_	_
 9	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	obl	_	_
-10	--	–	PUNCT	Dash	_	12	punct	_	_
+10	–	–	PUNCT	Dash	_	12	punct	_	_
 11	som	som	SCONJ	_	_	12	mark	_	_
 12	vore	vara	VERB	CNJ	Mood=Sub|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 13	dess	den	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
@@ -3505,7 +3505,7 @@
 25	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc2-4399
-# text = Det faktum att det nu fanns ett syfte med att han var Paul Auster -- ett syfte som kändes allt viktigare för honom -- gjorde på något sätt hela charaden moraliskt berättigad och löste honom från behovet att hitta ett försvar för sin lögn.
+# text = Det faktum att det nu fanns ett syfte med att han var Paul Auster – ett syfte som kändes allt viktigare för honom – gjorde på något sätt hela charaden moraliskt berättigad och löste honom från behovet att hitta ett försvar för sin lögn.
 # text_en = The fact that there was now a purpose to his being Paul Auster – a purpose that was becoming more and more important to him – served as a kind of moral justification for the charade and absolved him of having to defend his lie.
 1	Det	den	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	faktum	faktum	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	25	nsubj	_	_
@@ -3521,7 +3521,7 @@
 12	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
 13	Paul	Paul	PROPN	SG-NOM	Case=Nom|Number=Sing	8	nmod	_	_
 14	Auster	Auster	PROPN	SG-NOM	Case=Nom|Number=Sing	13	flat	_	_
-15	--	–	PUNCT	Dash	_	17	punct	_	_
+15	–	–	PUNCT	Dash	_	17	punct	_	_
 16	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 17	syfte	syfte	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	appos	_	_
 18	som	som	PRON	REL	PronType=Rel	19	nsubj:pass	_	_
@@ -3530,7 +3530,7 @@
 21	viktigare	viktig	ADJ	CMP	Case=Nom|Degree=Cmp	19	xcomp	_	_
 22	för	för	ADP	_	_	23	case	_	_
 23	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	obl	_	_
-24	--	–	PUNCT	Dash	_	17	punct	_	_
+24	–	–	PUNCT	Dash	_	17	punct	_	_
 25	gjorde	göra	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 26	på	på	ADP	_	_	28	case	_	_
 27	något	någon	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	28	det	_	_
@@ -3815,7 +3815,7 @@
 9	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 10	innersta	innerst	ADJ	SPL	Case=Nom|Definite=Ind|Degree=Sup	11	amod	_	_
 11	längtan	längtan	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
-12	:	:	PUNCT	_	_	14	punct	_	_
+12	:	:	PUNCT	Colon	_	14	punct	_	_
 13	att	att	PART	_	_	14	mark	_	_
 14	få	få	VERB	INF-ACT	VerbForm=Inf|Voice=Act	11	acl	_	_
 15	något	någon	PRON	IND-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	obj	_	_
@@ -4030,7 +4030,7 @@
 20	och	och	CCONJ	_	_	19	fixed	_	_
 21	om	om	ADV	_	_	19	fixed	_	_
 22	igen	igen	ADV	_	_	19	fixed	_	SpaceAfter=No
-23	:	:	PUNCT	_	_	27	punct	_	_
+23	:	:	PUNCT	Colon	_	27	punct	_	_
 24	Man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	27	nsubj	_	_
 25	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	_
 26	inte	inte	PART	NEG	_	27	advmod	_	_
@@ -4823,7 +4823,7 @@
 5	ställer	ställa	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	iobj	_	_
 7	är	vara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	9	punct	_	_
+8	:	:	PUNCT	Colon	_	9	punct	_	_
 9	vem	vem	PRON	WH-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	7	parataxis	_	_
 10	är	vara	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 11	Cid	Cid	PROPN	SG-NOM	Case=Nom|Number=Sing	9	nsubj	_	_
@@ -5005,7 +5005,7 @@
 26	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc2-4478
-# text = Dessa gav litterär form åt historien -- på spanska -- och sen lämnade de manuskriptet till Samson Carrasco, studenten från Salamanca, som översatte det till arabiska.
+# text = Dessa gav litterär form åt historien – på spanska – och sen lämnade de manuskriptet till Samson Carrasco, studenten från Salamanca, som översatte det till arabiska.
 # text_en = They put the story into proper literary form – in Spanish – and then turned the manuscript over to Samson Carrasco, the bachelor from Salamanca, who proceeded to translate it into Arabic.
 1	Dessa	denna	PRON	DEM-PL	Definite=Def|Number=Plur|PronType=Dem	2	nsubj	_	_
 2	gav	ge	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5013,10 +5013,10 @@
 4	form	form	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
 5	åt	åt	ADP	_	_	6	case	_	_
 6	historien	historia	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	obl	_	_
-7	--	–	PUNCT	Dash	_	9	punct	_	_
+7	–	–	PUNCT	Dash	_	9	punct	_	_
 8	på	på	ADP	_	_	9	case	_	_
 9	spanska	spanska	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
-10	--	–	PUNCT	Dash	_	9	punct	_	_
+10	–	–	PUNCT	Dash	_	9	punct	_	_
 11	och	och	CCONJ	_	_	13	cc	_	_
 12	sen	sedan	ADV	_	_	13	advmod	_	_
 13	lämnade	lämna	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -5137,7 +5137,7 @@
 11	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc2-4485
-# text = Sen ger de sig allihop så småningom ut och letar efter honom under olika förklädnader -- som en nödställd kvinna, som Riddaren av Speglarna, som Riddaren av den Vita Månen -- allt för att locka Don Quijote hem igen.
+# text = Sen ger de sig allihop så småningom ut och letar efter honom under olika förklädnader – som en nödställd kvinna, som Riddaren av Speglarna, som Riddaren av den Vita Månen – allt för att locka Don Quijote hem igen.
 # text_en = Then, at one time or another, they all go out looking for him in various disguises – as a woman in distress, as the Knight of the Mirrors, as the Knight of the White Moon – in order to lure Don Quixote back home.
 1	Sen	sedan	ADV	_	_	2	advmod	_	_
 2	ger	ge	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5154,7 +5154,7 @@
 13	under	under	ADP	_	_	15	case	_	_
 14	olika	olik	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	15	amod	_	_
 15	förklädnader	förklädnad	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obl	_	_
-16	--	–	PUNCT	Dash	_	20	punct	_	_
+16	–	–	PUNCT	Dash	_	20	punct	_	_
 17	som	som	ADP	_	_	20	case	_	_
 18	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	20	det	_	_
 19	nödställd	nödställd	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	_
@@ -5171,7 +5171,7 @@
 30	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	32	det	_	_
 31	Vita	vit	ADJ	POS-DEF	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
 32	Månen	måne	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	nmod	_	_
-33	--	–	PUNCT	Dash	_	20	punct	_	_
+33	–	–	PUNCT	Dash	_	20	punct	_	_
 34	allt	all	PRON	TOT-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	2	parataxis	_	_
 35	för	för	ADP	_	_	37	mark	_	_
 36	att	att	PART	_	_	37	mark	_	_
@@ -7892,7 +7892,7 @@
 # text_en = The men said 'My dear fellow' and did nothing.
 1	Karlarna	karl	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
 2	sa	säga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	_	_	6	punct	_	_
+3	:	:	PUNCT	Colon	_	6	punct	_	_
 4	Min	jag	PRON	P1SG-GEN-SG	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 5	kära	kär	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	vän	vän	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
@@ -7976,7 +7976,7 @@
 12	och	och	CCONJ	_	_	14	cc	_	_
 13	hon	hon	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	_
 14	skrev	skriva	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
-15	:	:	PUNCT	_	_	17	punct	_	_
+15	:	:	PUNCT	Colon	_	17	punct	_	_
 16	Jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	_	_
 17	gläder	glädja	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
 18	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	obj	_	_
@@ -8490,7 +8490,7 @@
 5	riktigt	riktigt	ADV	_	_	6	advmod	_	_
 6	drabbat	drabba	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
 7	byn	by	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obj	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	12	punct	_	_
+8	:	:	PUNCT	Colon	_	12	punct	_	_
 9	dess	den	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 10	invånare	invånare	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	nsubj	_	_
 11	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -9393,7 +9393,7 @@
 18	tillbaka	tillbaka	ADV	_	_	17	advmod	_	_
 19	och	och	CCONJ	_	_	20	cc	_	_
 20	sa	säga	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
-21	:	:	PUNCT	_	_	23	punct	_	_
+21	:	:	PUNCT	Colon	_	23	punct	_	_
 22	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	_	_
 23	hör	höra	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
 24	det	den	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	23	obj	_	_
@@ -9447,7 +9447,7 @@
 10	mot	mot	ADP	_	_	11	case	_	_
 11	bråket	bråk	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	_
 12	utanför	utanför	ADV	_	Case=Nom	11	advmod	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	23	punct	_	_
+13	:	:	PUNCT	Colon	_	23	punct	_	_
 14	När	när	SCONJ	_	_	17	mark	_	_
 15	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	17	nsubj	_	_
 16	måste	måste	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
@@ -10424,7 +10424,7 @@
 3	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	5	det	_	_
 4	gamle	gammal	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
 5	läkaren	läkare	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
-6	:	:	PUNCT	_	_	11	punct	_	_
+6	:	:	PUNCT	Colon	_	11	punct	_	_
 7	Det	den	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	11	expl	_	_
 8	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
 9	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	11	cop	_	_
@@ -13480,12 +13480,12 @@
 11	...	...	PUNCT	Dots	_	8	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4875
-# text = Han tackade honom -- lyssnade till båda männen på en gång utan att höra någondera -- och följde efter den muskulösa ändan i vita shorts förbi spärrar och genom ankomsthallen.
+# text = Han tackade honom – lyssnade till båda männen på en gång utan att höra någondera – och följde efter den muskulösa ändan i vita shorts förbi spärrar och genom ankomsthallen.
 # text_en = He thanked him, listening to the two men at once and hearing neither, and followed the firm rump in white shorts past barriers and through the reception hall.
 1	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	tackade	tacka	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj	_	_
-4	--	–	PUNCT	Dash	_	5	punct	_	_
+4	–	–	PUNCT	Dash	_	5	punct	_	_
 5	lyssnade	lyssna	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 6	till	till	ADP	_	_	8	case	_	_
 7	båda	båda	DET	TOT-PL	Case=Nom|Degree=Pos|Number=Plur	8	det	_	_
@@ -13497,7 +13497,7 @@
 13	att	att	PART	_	_	14	mark	_	_
 14	höra	höra	VERB	INF-ACT	VerbForm=Inf|Voice=Act	5	advcl	_	_
 15	någondera	någondera	PRON	IND-SG	_	14	obj	_	_
-16	--	–	PUNCT	Dash	_	5	punct	_	_
+16	–	–	PUNCT	Dash	_	5	punct	_	_
 17	och	och	CCONJ	_	_	18	cc	_	_
 18	följde	följa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 19	efter	efter	ADP	_	_	18	compound:prt	_	_
@@ -13776,7 +13776,7 @@
 15	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4886
-# text = Presidenten utgår naturligtvis ifrån att jag skulle hämta er i Mercedesen, men uppriktigt sagt -- om jag skulle ha väntat tills den dök upp, så vet jag inte när jag hade kommit.
+# text = Presidenten utgår naturligtvis ifrån att jag skulle hämta er i Mercedesen, men uppriktigt sagt – om jag skulle ha väntat tills den dök upp, så vet jag inte när jag hade kommit.
 # text_en = The President will be expecting me to have come for you with the Mercedes, but, honestly, if I'd have waited to get it I would have turned up I don't know when.
 1	Presidenten	president	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
 2	utgår	utgå	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13793,7 +13793,7 @@
 13	men	men	CCONJ	_	_	28	cc	_	_
 14	uppriktigt	uppriktigt	ADV	_	_	15	advmod	_	_
 15	sagt	säga	VERB	AD-SG-IND	Mood=Ind|VerbForm=Part|Voice=Pass	28	advcl	_	_
-16	--	–	PUNCT	Dash	_	15	punct	_	_
+16	–	–	PUNCT	Dash	_	15	punct	_	_
 17	om	om	SCONJ	_	_	21	mark	_	_
 18	jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	_
 19	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	aux	_	_
@@ -13981,10 +13981,10 @@
 3	?	?	PUNCT	QuestionMark	_	2	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4898
-# text = Nyligen -- eller som barn?
+# text = Nyligen – eller som barn?
 # text_en = Recently or when you were a child?
 1	Nyligen	nyligen	ADV	_	_	0	root	_	_
-2	--	–	PUNCT	Dash	_	5	punct	_	_
+2	–	–	PUNCT	Dash	_	5	punct	_	_
 3	eller	eller	CCONJ	_	_	5	cc	_	_
 4	som	som	ADP	_	_	5	case	_	_
 5	barn	barn	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No
@@ -14323,7 +14323,7 @@
 21	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4916
-# text = Fågeln satt uppe på stråtaket till det runda gästrummet ute i trädgården hos hans gamle vän Roland Dando -- ursprungligen från Wales -- som nyligen hade utnämnts till justitiekansler.
+# text = Fågeln satt uppe på stråtaket till det runda gästrummet ute i trädgården hos hans gamle vän Roland Dando – ursprungligen från Wales – som nyligen hade utnämnts till justitiekansler.
 # text_en = The bird was on the roof of the round, thatched guest room in the garden of his old friend Roland Dando – a Welshman – newly appointed as Attorney-General.
 1	Fågeln	fågel	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
 2	satt	sitta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14343,11 +14343,11 @@
 16	vän	vän	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
 17	Roland	Roland	PROPN	SG-NOM	Case=Nom|Number=Sing	12	nmod	_	_
 18	Dando	Dando	PROPN	SG-NOM	Case=Nom|Number=Sing	17	flat	_	_
-19	--	–	PUNCT	Dash	_	22	punct	_	_
+19	–	–	PUNCT	Dash	_	22	punct	_	_
 20	ursprungligen	ursprungligen	ADV	_	_	22	advmod	_	_
 21	från	från	ADP	_	_	22	case	_	_
 22	Wales	Wale	PROPN	SG-GEN	Case=Gen	17	nmod	_	_
-23	--	–	PUNCT	Dash	_	22	punct	_	_
+23	–	–	PUNCT	Dash	_	22	punct	_	_
 24	som	som	PRON	REL	PronType=Rel	27	nsubj	_	_
 25	nyligen	nyligen	ADV	_	_	27	advmod	_	_
 26	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	aux	_	_
@@ -14431,7 +14431,7 @@
 45	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4919
-# text = Roly ringde för att höra om han hade kommit och förklarade på nytt -- han hade redan gjort det på förhand per brev -- att han var tvungen att gå på en officiell lunch.
+# text = Roly ringde för att höra om han hade kommit och förklarade på nytt – han hade redan gjort det på förhand per brev – att han var tvungen att gå på en officiell lunch.
 # text_en = Roly rang up to see if he had arrived, and explained again – he had done so in advance by letter – that he had an official lunch to attend.
 1	Roly	Roly	PROPN	SG-NOM	Case=Nom|Number=Sing	2	nsubj	_	_
 2	ringde	ringa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14446,7 +14446,7 @@
 11	förklarade	förklara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 12	på	på	ADV	_	Case=Nom	11	advmod	_	_
 13	nytt	ny	ADJ	_	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	fixed	_	_
-14	--	–	PUNCT	Dash	_	18	punct	_	_
+14	–	–	PUNCT	Dash	_	18	punct	_	_
 15	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	_	_
 16	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
 17	redan	redan	ADV	_	_	18	advmod	_	_
@@ -14456,7 +14456,7 @@
 21	förhand	förhand	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	_
 22	per	per	ADP	_	_	23	case	_	_
 23	brev	brev	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	_
-24	--	–	PUNCT	Dash	_	18	punct	_	_
+24	–	–	PUNCT	Dash	_	18	punct	_	_
 25	att	att	SCONJ	_	_	28	mark	_	_
 26	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	nsubj	_	_
 27	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
@@ -14546,7 +14546,7 @@
 15	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4923
-# text = Undersidan av stråtaket som vilade på dem var jämn och slät, grå i de äldre partierna och gyllengul där halmen var ersatt med ny och här och var -- som mitt i en prydlig frisyr -- sköt ut ett och annat okynnigt strå.
+# text = Undersidan av stråtaket som vilade på dem var jämn och slät, grå i de äldre partierna och gyllengul där halmen var ersatt med ny och här och var – som mitt i en prydlig frisyr – sköt ut ett och annat okynnigt strå.
 # text_en = The underside of thatch that rested on it was smooth and straight, grey where it was old, blond where it had been replaced, and, like a tidy head, here and there showed a single stray strand out of place.
 1	Undersidan	undersida	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
 2	av	av	ADP	_	_	3	case	_	_
@@ -14577,14 +14577,14 @@
 27	här	här	ADV	_	_	38	advmod	_	_
 28	och	och	CCONJ	_	_	27	fixed	_	_
 29	var	var	ADV	WH	_	27	fixed	_	_
-30	--	–	PUNCT	Dash	_	36	punct	_	_
+30	–	–	PUNCT	Dash	_	36	punct	_	_
 31	som	som	ADP	_	_	36	case	_	_
 32	mitt	mitt	ADV	_	_	36	advmod	_	_
 33	i	i	ADP	_	_	36	case	_	_
 34	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	36	det	_	_
 35	prydlig	prydlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	36	amod	_	_
 36	frisyr	frisyr	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	obl	_	_
-37	--	–	PUNCT	Dash	_	36	punct	_	_
+37	–	–	PUNCT	Dash	_	36	punct	_	_
 38	sköt	skjuta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	conj	_	_
 39	ut	ut	ADV	_	_	38	compound:prt	_	_
 40	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	44	det	_	_
@@ -15054,7 +15054,7 @@
 31	.	.	PUNCT	Period	_	6	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4946
-# text = Det försiggick något slags uppträde just när Bray kom --
+# text = Det försiggick något slags uppträde just när Bray kom –
 # text_en = There was some sort of scuffle when Bray arrived...
 1	Det	den	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	_
 2	försiggick	försiggå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -15065,7 +15065,7 @@
 7	när	när	SCONJ	_	_	9	mark	_	_
 8	Bray	Bray	PROPN	SG-NOM	Case=Nom|Number=Sing	9	nsubj	_	_
 9	kom	komma	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
-10	--	–	PUNCT	Dash	_	2	punct	_	_
+10	–	–	PUNCT	Dash	_	2	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4947
 # text = han såg konsulns hustru, som han hade träffat helt flyktigt, försvinna uppför trappan med huvudet tröstande böjt över en siamesisk katt.
@@ -15096,13 +15096,13 @@
 24	.	.	PUNCT	Period	_	2	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4948
-# text = Över allt tronade blomsteruppsatser -- som om någon låg sjuk i huset.
+# text = Över allt tronade blomsteruppsatser – som om någon låg sjuk i huset.
 # text_en = Flower arrangements were placed everywhere, as if there were illness in the house.
 1	Över	över	ADV	_	_	3	advmod	_	_
 2	allt	all	PRON	TOT-SG	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	1	fixed	_	_
 3	tronade	trona	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	blomsteruppsatser	blomsteruppsats	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	_
-5	--	–	PUNCT	Dash	_	9	punct	_	_
+5	–	–	PUNCT	Dash	_	9	punct	_	_
 6	som	som	SCONJ	CMP	_	9	mark	_	_
 7	om	om	SCONJ	_	_	6	fixed	_	_
 8	någon	någon	PRON	IND-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	9	nsubj	_	_
@@ -15203,7 +15203,7 @@
 31	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc6-4952
-# text = En äldre tjänare kom in med glas och flaskor på en silverbricka och Clough avbröt sig för att säga -- med hela det älskvärda överseendet hos en person som aldrig skonar sig själv, som uppmuntrar när andra skulle ha gett efter för vild förtvivlan: Det vore kolossalt hyggligt om vi kunde tänka oss ett par citronskivor... och lite mera is?
+# text = En äldre tjänare kom in med glas och flaskor på en silverbricka och Clough avbröt sig för att säga – med hela det älskvärda överseendet hos en person som aldrig skonar sig själv, som uppmuntrar när andra skulle ha gett efter för vild förtvivlan: Det vore kolossalt hyggligt om vi kunde tänka oss ett par citronskivor... och lite mera is?
 # text_en = An elderly servant came in with a silver tray of glasses and bottles, and Clough interrupted himself to say with the sweet forbearance of one who does not spare himself, encouraging where others would give way to exasperation, It would be so nice if we could have a few slices of lemon... and more ice?
 1	En	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
 2	äldre	gammal	ADJ	CMP	Case=Nom|Degree=Cmp	3	amod	_	_
@@ -15224,7 +15224,7 @@
 17	för	för	ADP	_	_	19	mark	_	_
 18	att	att	PART	_	_	19	mark	_	_
 19	säga	säga	VERB	INF-ACT	VerbForm=Inf|Voice=Act	15	advcl	_	_
-20	--	–	PUNCT	Dash	_	25	punct	_	_
+20	–	–	PUNCT	Dash	_	25	punct	_	_
 21	med	med	ADP	_	_	25	case	_	_
 22	hela	hel	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	25	amod	_	_
 23	det	den	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
@@ -16355,7 +16355,7 @@
 
 # newdoc id = 7
 # sent_id = sv_lines-ud-test-doc7-5002
-# text = Till hans förfäran brast alfen i gråt -- en mycket högljudd gråt.
+# text = Till hans förfäran brast alfen i gråt – en mycket högljudd gråt.
 # text_en = To his horror, the elf burst into tears – very noisy tears.
 1	Till	till	ADP	_	_	3	case	_	_
 2	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
@@ -16364,7 +16364,7 @@
 5	alfen	alf	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
 6	i	i	ADP	_	_	7	case	_	_
 7	gråt	gråt	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
-8	--	–	PUNCT	Dash	_	12	punct	_	_
+8	–	–	PUNCT	Dash	_	12	punct	_	_
 9	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	_	_
 10	mycket	mycket	ADV	_	Degree=Pos	11	advmod	_	_
 11	högljudd	högljudd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	_
@@ -17685,7 +17685,7 @@
 14	.	.	PUNCT	Period	_	11	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc7-5080
-# text = "Den nye läraren i försvar mot svartkonster måste vara en beundrare till honom -- slår vad om att det är en häxa."
+# text = "Den nye läraren i försvar mot svartkonster måste vara en beundrare till honom – slår vad om att det är en häxa."
 # text_en = The new Defense Against the Dark Arts teacher must be a fan – bet it's a witch.
 1	"	"	PUNCT	Quote	_	12	punct	_	SpaceAfter=No
 2	Den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
@@ -17701,7 +17701,7 @@
 12	beundrare	beundrare	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
 13	till	till	ADP	_	_	14	case	_	_
 14	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nmod	_	_
-15	--	–	PUNCT	Dash	_	16	punct	_	_
+15	–	–	PUNCT	Dash	_	16	punct	_	_
 16	slår	slå	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
 17	vad	vad	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	_
 18	om	om	ADP	_	_	23	case	_	_
@@ -17822,7 +17822,7 @@
 15	.	.	PUNCT	Period	_	5	punct	_	_
 
 # sent_id = sv_lines-ud-test-doc7-5086
-# text = Han slog sig ner på den enda lediga stolen men for upp igen nästan med detsamma och drog fram en grå dammvippa med lossnande fjädrar från sitsen under sig -- det var i alla fall vad Harry trodde att det var, tills han såg att den andades.
+# text = Han slog sig ner på den enda lediga stolen men for upp igen nästan med detsamma och drog fram en grå dammvippa med lossnande fjädrar från sitsen under sig – det var i alla fall vad Harry trodde att det var, tills han såg att den andades.
 # text_en = He sat down in the only remaining chair but leapt up again almost immediately, pulling from underneath him a moulting, grey feather duster – at least, that was what Harry thought it was, until he saw that it was breathing.
 1	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	slog	slå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -17853,7 +17853,7 @@
 27	sitsen	sits	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obl	_	_
 28	under	under	ADP	_	_	29	case	_	_
 29	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	27	nmod	_	_
-30	--	–	PUNCT	Dash	_	32	punct	_	_
+30	–	–	PUNCT	Dash	_	32	punct	_	_
 31	det	den	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	32	nsubj	_	_
 32	var	vara	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	_
 33	i	i	ADV	_	Case=Nom	32	advmod	_	_
@@ -19837,7 +19837,7 @@
 18	hela	hel	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	20	amod	_	_
 19	våra	vi	PRON	P1PL-GEN-PL	Case=Gen|Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 20	liv	liv	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	38	dislocated	_	SpaceAfter=No
-21	:	:	PUNCT	_	_	22	punct	_	_
+21	:	:	PUNCT	Colon	_	22	punct	_	_
 22	bakgrund	bakgrund	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	appos	_	SpaceAfter=No
 23	,	,	PUNCT	Comma	_	24	punct	_	_
 24	komplexitet	komplexitet	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	conj	_	SpaceAfter=No
