@@ -160,7 +160,7 @@ Changelog
   
   From version 2.5 to version 2.6 only minor error corrections, in particular regarding the features PronType, Gender and Number.
   
-  For version 2.9 the negative adverb 'inte' has consistently been given the UPOS PART.
+  For version 2.9 the negative adverb 'inte' has consistently been given the UPOS PART. Also a few error corrections.
 
 --- Machine readable metadata ---
 
