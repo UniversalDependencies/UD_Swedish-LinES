@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Swedish-LinES:
-commit f9e5aa7e2b04998dae91e05a19ce3f163beaefb5
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 17:04:46 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Swedish-LinES:
+commit 086865549e9aa920890da449cd25e927eec5012c
+Merge: bf1eebe 209353c
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 90960 of 90960 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.02083969888456.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,12 +25,38 @@ Udapi: found 967 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 90960 words.
 Genres: found 3 out of 17 known.
 validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-dev.conllu
-*** PASSED ***
+[Line 1041 Sent sv_lines-ud-dev-doc1-3223 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [18, 19]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1048 Sent sv_lines-ud-dev-doc1-3223 Node 28]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [25, 26]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1370 Sent sv_lines-ud-dev-doc1-3235 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [9, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1764 Sent sv_lines-ud-dev-doc1-3254 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [10, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 20719 Sent sv_lines-ud-dev-doc8-4118 Node 32]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [28, 31]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 5
+*** FAILED *** with 5 errors
+Exit code: 1
 validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-test.conllu
-*** PASSED ***
+[Line 1354 Sent sv_lines-ud-test-doc1-4291 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4346 Sent sv_lines-ud-test-doc2-4441 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7640 Sent sv_lines-ud-test-doc3-4602 Node 32]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [30, 31]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 9542 Sent sv_lines-ud-test-doc4-4681 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [19, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 11873 Sent sv_lines-ud-test-doc5-4791 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 5
+*** FAILED *** with 5 errors
+Exit code: 1
 validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 13985 Sent sv_lines-ud-train-doc2-679 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 23913 Sent sv_lines-ud-train-doc3-1179 Node 2]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 38795 Sent sv_lines-ud-train-doc5-1868 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 44747 Sent sv_lines-ud-train-doc6-2112 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [12, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 46182 Sent sv_lines-ud-train-doc6-2172 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 55907 Sent sv_lines-ud-train-doc7-2584 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [16, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 61277 Sent sv_lines-ud-train-doc8-2846 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 12]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 62003 Sent sv_lines-ud-train-doc8-2878 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 63083 Sent sv_lines-ud-train-doc8-2933 Node 2]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+*** FAILED *** with 12 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +65,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
 (weight=0.307692307692308) * (score{udapi}=0.893689533861038) = 0.274981395034165
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.732417147633804) * (availability=1) * (validity=1) = 0.732417147633804
-STARS = 3.5
-UD_Swedish-LinES	0.732417147633804	3.5
+(TOTAL score=0.732417147633804) * (availability=1) * (validity=0.01) = 0.00732417147633804
+STARS = 0
+UD_Swedish-LinES	0.00732417147633804	0
