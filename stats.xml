@@ -16,21 +16,21 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">6247</tag><!-- annan, själv, stor, liten, hel, egen, ny, gammal, vit, samma -->
-    <tag name="ADP">9877</tag><!-- i, på, av, med, för, till, som, om, från, över -->
+    <tag name="ADP">9878</tag><!-- i, på, av, med, för, till, som, om, från, över -->
     <tag name="ADV">6773</tag><!-- så, ut, där, upp, in, bara, mycket, här, hur, också -->
-    <tag name="AUX">3978</tag><!-- vara, ha, kunna, skola, vilja, måste, få, komma, bli, böra -->
+    <tag name="AUX">3984</tag><!-- vara, ha, kunna, skola, vilja, måste, få, komma, bli, böra -->
     <tag name="CCONJ">3486</tag><!-- och, men, eller, utan, både, för, så, samt, vare, varken -->
     <tag name="DET">4748</tag><!-- en, den, någon, denna, all, ingen, varje, vilken, varenda, båda -->
     <tag name="INTJ">197</tag><!-- ja, nej, nåja, jaså, vad, å, jo, tack, tja, Huj -->
     <tag name="NOUN">15965</tag><!-- man, fält, fråga, sida, gång, år, sätt, hand, väg, öga -->
     <tag name="NUM">496</tag><!-- två, tre, ett, fem, sex, fyra, tio, 1, 2, 2000 -->
     <tag name="PART">2052</tag><!-- att, inte, så, ej, icke, to -->
-    <tag name="PRON">10843</tag><!-- han, den, jag, som, sig, de, du, sin, vi, hon -->
+    <tag name="PRON">10842</tag><!-- han, den, jag, som, sig, de, du, sin, vi, hon -->
     <tag name="PROPN">2860</tag><!-- Harry, Quinn, Stillman, Auster, Bray, Ron, Weasley, Access, Mweta, Dobby -->
     <tag name="PUNCT">10067</tag><!-- ., ,, ", ?, –, :, !, ..., ;, ( -->
     <tag name="SCONJ">1939</tag><!-- att, om, när, som, medan, eftersom, innan, då, så, än -->
     <tag name="SYM">9</tag><!-- %, &apos;, from, like, limit, select, where -->
-    <tag name="VERB">11396</tag><!-- säga, ha, vara, se, komma, gå, ta, göra, få, finnas -->
+    <tag name="VERB">11390</tag><!-- säga, ha, se, vara, komma, gå, ta, göra, få, finnas -->
     <tag name="X">27</tag><!-- W3C, foie, TSQL, maris, stella, Aliquem, EEG, MSDE, SAP, UDL -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -63,7 +63,7 @@
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">176</feat><!-- ingen, ingenting, inget, inga, ingenstans -->
     <feat name="PronType" value="Prs" upos="NOUN,PRON,VERB">8424</feat><!-- han, det, jag, sig, du, de, vi, hon, honom, mig -->
     <feat name="PronType" value="Rcp" upos="PRON">36</feat><!-- varandra, varann, varandras -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON,SCONJ">1253</feat><!-- som, något, vad, vilket, där, vars, vilka, vilken, hur, varpå -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON,SCONJ">1252</feat><!-- som, något, vad, vilket, där, vars, vilka, vilken, hur, varpå -->
     <feat name="PronType" value="Tot" upos="DET,PRON">328</feat><!-- alla, allt, varje, all, båda, var, varenda, bägge -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">6321</feat><!-- var, hade, skulle, sa, kunde, gick, kom, såg, fick, sade -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">4068</feat><!-- är, har, kan, måste, kommer, vill, finns, ska, vet, får -->
@@ -75,44 +75,46 @@
     <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">1154</feat><!-- visas, kändes, används, tvungen, hördes, tycktes, flyttas, talas, taget, skapats -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="42">
-    <dep name="acl">499</dep>
+  <deps unique="44">
+    <dep name="acl">501</dep>
     <dep name="acl:cleft">74</dep>
-    <dep name="acl:relcl">1220</dep>
-    <dep name="advcl">1431</dep>
-    <dep name="advmod">6454</dep>
+    <dep name="acl:relcl">1221</dep>
+    <dep name="advcl">1432</dep>
+    <dep name="advmod">6452</dep>
     <dep name="amod">4670</dep>
-    <dep name="appos">357</dep>
+    <dep name="appos">359</dep>
     <dep name="aux">2330</dep>
     <dep name="aux:pass">131</dep>
-    <dep name="case">8874</dep>
+    <dep name="case">8875</dep>
     <dep name="cc">3409</dep>
-    <dep name="ccomp">800</dep>
+    <dep name="ccomp">962</dep>
     <dep name="compound">46</dep>
-    <dep name="compound:prt">975</dep>
+    <dep name="compound:prt">976</dep>
     <dep name="conj">4124</dep>
-    <dep name="cop">1418</dep>
-    <dep name="csubj">200</dep>
+    <dep name="cop">1425</dep>
+    <dep name="csubj">199</dep>
+    <dep name="csubj:outer">1</dep>
     <dep name="csubj:pass">8</dep>
     <dep name="dep">5</dep>
     <dep name="det">4738</dep>
-    <dep name="discourse">230</dep>
-    <dep name="dislocated">244</dep>
+    <dep name="discourse">229</dep>
+    <dep name="dislocated">243</dep>
     <dep name="expl">587</dep>
     <dep name="fixed">814</dep>
     <dep name="flat">406</dep>
     <dep name="iobj">150</dep>
     <dep name="mark">3736</dep>
-    <dep name="nmod">3712</dep>
-    <dep name="nmod:poss">1908</dep>
-    <dep name="nsubj">8505</dep>
-    <dep name="nsubj:pass">685</dep>
+    <dep name="nmod">3711</dep>
+    <dep name="nmod:poss">1909</dep>
+    <dep name="nsubj">8487</dep>
+    <dep name="nsubj:outer">7</dep>
+    <dep name="nsubj:pass">683</dep>
     <dep name="nummod">325</dep>
-    <dep name="obj">4855</dep>
-    <dep name="obl">5672</dep>
+    <dep name="obj">4857</dep>
+    <dep name="obl">5673</dep>
     <dep name="obl:agent">71</dep>
     <dep name="orphan">9</dep>
-    <dep name="parataxis">601</dep>
+    <dep name="parataxis">438</dep>
     <dep name="punct">10067</dep>
     <dep name="reparandum">4</dep>
     <dep name="root">5243</dep>
