@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Swedish-LinES:
-commit ff9d7f4ca73350493e3b0c20f57e135dc93cc3ab
-Merge: c55a004 acc6e8f
+commit 3e4b235fc77ea0820035240777341bcd9b6ae56b
+Merge: b6e5f74 bd45472
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 90960 of 90960 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.02083969888456.
@@ -20,11 +20,15 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        958
-Udapi: found 958 bugs.
+               TOTAL        951
+Udapi: found 951 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 90960 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-dev.conllu
+[Line 2618 Sent sv_lines-ud-dev-doc2-3300 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'för * sedan'
+[Line 14018 Sent sv_lines-ud-dev-doc6-3835 Node 43]: [L3 Warning fixed-gap] Gaps in fixed expression [43, 47] 'för * * * sedan'
+[Line 15877 Sent sv_lines-ud-dev-doc6-3910 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sen'
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-test.conllu
 *** PASSED ***
@@ -37,8 +41,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.652950150559893) = 0.167423115528178
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.894678979771328) = 0.275285839929639
+(weight=0.307692307692308) * (score{udapi}=0.895448548812665) = 0.275522630403897
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.732721592529278) * (availability=1) * (validity=1) = 0.732721592529278
+(TOTAL score=0.732958383003535) * (availability=1) * (validity=1) = 0.732958383003535
 STARS = 3.5
-UD_Swedish-LinES	0.732721592529278	3.5
+UD_Swedish-LinES	0.732958383003535	3.5
