@@ -7745,7 +7745,7 @@
 5	kafé	kafé	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
 6	i	i	ADP	_	_	7	case	_	_
 7	New	New	PROPN	SG-NOM	Case=Nom|Number=Sing	5	nmod	_	_
-8	York	York	PROPN	SG-NOM	Case=Nom|Number=Sing	7	fixed	_	_
+8	York	York	PROPN	SG-NOM	Case=Nom|Number=Sing	7	flat	_	_
 9	syftar	syfta	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	i	i	ADP	_	_	12	case	_	_
 11	själva	själv	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_

@@ -100,8 +100,8 @@
     <dep name="discourse">229</dep>
     <dep name="dislocated">243</dep>
     <dep name="expl">587</dep>
-    <dep name="fixed">814</dep>
-    <dep name="flat">406</dep>
+    <dep name="fixed">812</dep>
+    <dep name="flat">408</dep>
     <dep name="iobj">150</dep>
     <dep name="mark">3736</dep>
     <dep name="nmod">3711</dep>
