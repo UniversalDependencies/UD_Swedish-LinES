@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Swedish-LinES:
-commit 3e4b235fc77ea0820035240777341bcd9b6ae56b
-Merge: b6e5f74 bd45472
+commit 5ef47c86d9faeb34eaa62fb126cae7256902ba2e
+Merge: 57fada4 7e0d3dc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 90960 of 90960 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.02083969888456.
+Size: counted 90961 of 90961 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.02086168645059.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 57031 out of 90960 total words have one or more features.
+Features: 57151 out of 90961 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        951
-Udapi: found 951 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 90960 words.
+               TOTAL        801
+Udapi: found 801 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 90961 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-dev.conllu
 [Line 2618 Sent sv_lines-ud-dev-doc2-3300 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'för * sedan'
@@ -38,11 +38,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.652950150559893) = 0.167423115528178
+(weight=0.256410256410256) * (score{size}=0.652951742072992) = 0.16742352360846
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.895448548812665) = 0.275522630403897
+(weight=0.307692307692308) * (score{udapi}=0.911940282098922) = 0.280597009876591
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.732958383003535) * (availability=1) * (validity=1) = 0.732958383003535
+(TOTAL score=0.738033170556511) * (availability=1) * (validity=1) = 0.738033170556511
 STARS = 3.5
-UD_Swedish-LinES	0.732958383003535	3.5
+UD_Swedish-LinES	0.738033170556511	3.5
