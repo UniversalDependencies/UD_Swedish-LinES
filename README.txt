@@ -162,6 +162,8 @@ Changelog
   
   For version 2.9 the negative adverb 'inte' has consistently been given the UPOS PART. Also a few error corrections.
 
+  For version 2.14 major revision of lemmas and features for adjectives and determiners to make them consistent with other Swedish treebanks.
+
 --- Machine readable metadata ---
 
 Data available since: UD v1.3
