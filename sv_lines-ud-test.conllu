@@ -855,7 +855,7 @@
 4	,	,	PUNCT	Comma	_	6	punct	_	_
 5	som	som	PRON	REL	PronType=Rel	6	nsubj	_	_
 6	innehåller	innehålla	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
-7	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	_
+7	en	en	NUM	CARD-SG-IND	Definite=Ind|Gender=Com|Number=Sing	10	nummod	_	_
 8	eller	eller	CCONJ	_	_	9	cc	_	_
 9	flera	fler	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	conj	_	_
 10	datakällor	datakälla	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obj	_	_
@@ -1052,10 +1052,10 @@
 6	starten	start	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obj	_	_
 7	till	till	ADP	_	_	8	case	_	_
 8	1999.07.01	1999.07.01	NUM	ID	_	5	obl	_	_
-9	samtidigt	samtidigt	ADV	ADV	Degree=Pos	5	advmod	_	_
+9	samtidigt	samtidigt	ADV	ADV	Degree=Pos	12	advmod	_	_
 10	som	som	SCONJ	_	_	12	mark	_	_
 11	du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	_
-12	grupperar	gruppera	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+12	grupperar	gruppera	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
 13	fältet	fält	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	_
 14	Leveransdatum	Leveransdatum	PROPN	SG-NOM	Case=Nom|Number=Sing	12	obj	_	_
 15	veckovis	veckovis	ADV	_	_	12	advmod	_	SpaceAfter=No
@@ -3175,10 +3175,10 @@
 15	de	de	DET	PL-DEF	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 16	numrerade	numrerad	ADJ	AD-PL-IND	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	17	amod	_	_
 17	perrongerna	perrong	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	nmod	_	_
-18	samtidigt	samtidigt	ADV	ADV	Degree=Pos	11	advmod	_	_
+18	samtidigt	samtidigt	ADV	ADV	Degree=Pos	21	advmod	_	_
 19	som	som	SCONJ	_	_	21	mark	_	_
 20	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	_
-21	höll	hålla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+21	höll	hålla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
 22	speciell	speciell	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	_
 23	utkik	utkik	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obj	_	_
 24	efter	efter	ADP	_	_	26	case	_	_
