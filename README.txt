@@ -164,6 +164,8 @@ Changelog
 
   For version 2.14 major revision of lemmas and features for adjectives and determiners to make them consistent with other Swedish treebanks.
 
+  For version 2.15 a major revision of the use of 'fixed' has been undertaken and coordinated with UD_Swedish-Talbanken
+
 --- Machine readable metadata ---
 
 Data available since: UD v1.3
