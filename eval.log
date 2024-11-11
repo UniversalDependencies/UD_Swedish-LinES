@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Swedish-LinES:
-commit 5ef47c86d9faeb34eaa62fb126cae7256902ba2e
-Merge: 57fada4 7e0d3dc
+commit 2706c3a15e8b74c644cdb840a30a2ba724aabdb4
+Merge: bd5a0b0 893558f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 90961 of 90961 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.02086168645059.
@@ -15,24 +15,43 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 57151 out of 90961 total words have one or more features.
+Features: 58035 out of 90961 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        801
-Udapi: found 801 bugs.
+               TOTAL        794
+Udapi: found 794 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 90961 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-dev.conllu
 [Line 2618 Sent sv_lines-ud-dev-doc2-3300 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'för * sedan'
+[Line 11534 Sent sv_lines-ud-dev-doc5-3722 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 7] 'till * * med'
+[Line 13777 Sent sv_lines-ud-dev-doc6-3829 Node 20]: [L3 Warning fixed-gap] Gaps in fixed expression [20, 22] 'för * sedan'
 [Line 14018 Sent sv_lines-ud-dev-doc6-3835 Node 43]: [L3 Warning fixed-gap] Gaps in fixed expression [43, 47] 'för * * * sedan'
 [Line 15877 Sent sv_lines-ud-dev-doc6-3910 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sen'
-Warnings: 3
+Warnings: 5
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-test.conllu
+[Line 6509 Sent sv_lines-ud-test-doc3-4559 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 14] 'för * * sedan'
+[Line 7540 Sent sv_lines-ud-test-doc3-4599 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 28] 'för * * * * sedan'
+[Line 9799 Sent sv_lines-ud-test-doc4-4692 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'för * sedan'
+[Line 19302 Sent sv_lines-ud-test-doc8-5151 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'för * * sedan'
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-train.conllu
+[Line 13578 Sent sv_lines-ud-train-doc2-658 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 9] 'för * * sen'
+[Line 22483 Sent sv_lines-ud-train-doc3-1106 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 11] 'för * * * sedan'
+[Line 29191 Sent sv_lines-ud-train-doc4-1377 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'För * sen'
+[Line 34833 Sent sv_lines-ud-train-doc5-1655 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 12] 'för * * sedan'
+[Line 35057 Sent sv_lines-ud-train-doc5-1667 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 36228 Sent sv_lines-ud-train-doc5-1732 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 39942 Sent sv_lines-ud-train-doc6-1928 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
+[Line 40316 Sent sv_lines-ud-train-doc6-1940 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'för * * sedan'
+[Line 42036 Sent sv_lines-ud-train-doc6-2007 Node 24]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
+[Line 42931 Sent sv_lines-ud-train-doc6-2040 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 13] 'för * * * sedan'
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
@@ -41,8 +60,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.652951742072992) = 0.16742352360846
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.911940282098922) = 0.280597009876591
+(weight=0.307692307692308) * (score{udapi}=0.91270984267983) = 0.28083379774764
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.738033170556511) * (availability=1) * (validity=1) = 0.738033170556511
+(TOTAL score=0.73826995842756) * (availability=1) * (validity=1) = 0.73826995842756
 STARS = 3.5
-UD_Swedish-LinES	0.738033170556511	3.5
+UD_Swedish-LinES	0.73826995842756	3.5
