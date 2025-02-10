@@ -65,8 +65,8 @@ The partition applies in the same way to the English trees so that the order of 
 BASIC STATISTICS
 
 Tree count:  5696
-Word count:  ?
-Token count: ?
+Word count:  91,600
+Token count: 102,538
 Dep. relations: 40 of which 7 are language-specific
 POS tags: 17
 Category=value feature pairs: ?
