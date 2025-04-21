@@ -4107,7 +4107,7 @@
 1	Hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	huvud	huvud	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	genljöd	genljuda	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	med	med	ADP	_	_	3	advmod	_	_
+4	med	med	ADP	_	ExtPos=ADV	3	advmod	_	_
 5	ens	ens	ADV	_	_	4	fixed	_	_
 6	av	av	ADP	_	_	9	case	_	_
 7	Peter	Peter	PROPN	SG-NOM	Case=Nom	9	nmod:poss	_	_
@@ -4348,7 +4348,7 @@
 11	hela	hel	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos	13	amod	_	_
 12	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	person	person	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nsubj	_	_
-14	med	med	ADP	_	_	16	advmod	_	_
+14	med	med	ADP	_	ExtPos=ADV	16	advmod	_	_
 15	ens	ens	ADV	_	_	14	fixed	_	_
 16	koncentrerad	koncentrerad	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 17	till	till	ADP	_	_	18	case	_	_
@@ -5092,7 +5092,7 @@
 11	.	.	PUNCT	Period	_	9	punct	_	_
 12	Jag	jag	PRON	PERS-P1SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	_
 13	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
-14	till	till	ADP	_	_	13	advmod	_	_
+14	till	till	ADP	_	ExtPos=ADV	13	advmod	_	_
 15	och	och	CCONJ	_	_	14	fixed	_	_
 16	med	med	ADP	_	_	14	fixed	_	_
 17	bevis	bevis	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No
@@ -8727,7 +8727,7 @@
 1	Då	då	ADV	_	_	2	advmod	_	_
 2	blev	bli	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
-4	med	med	ADP	_	_	2	advmod	_	_
+4	med	med	ADP	_	ExtPos=ADV	2	advmod	_	_
 5	ens	ens	ADV	_	_	4	fixed	_	_
 6	kylig	kylig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp	_	_
 7	och	och	CCONJ	_	_	8	cc	_	_
@@ -9339,10 +9339,10 @@
 # sent_id = sv_lines-ud-dev-doc4-3625
 # text = Du calme, du calme.
 # text_en = 'Du calme, du calme.
-1	Du	du	DET	FGN	Foreign=Yes	2	det	_	Lang=fr
+1	Du	du	DET	FGN	_	2	det	_	Lang=fr
 2	calme	calme	NOUN	FGN	Foreign=Yes	0	root	_	Lang=fr|SpaceAfter=No
 3	,	,	PUNCT	Comma	_	5	punct	_	_
-4	du	du	DET	FGN	Foreign=Yes	5	det	_	Lang=fr
+4	du	du	DET	FGN	_	5	det	_	Lang=fr
 5	calme	calme	NOUN	FGN	Foreign=Yes	2	conj	_	Lang=fr|SpaceAfter=No
 6	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -23738,7 +23738,7 @@
 47	halsen	hals	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	44	obl	_	SpaceAfter=No
 48	,	,	PUNCT	Comma	_	31	punct	_	_
 49	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	51	nmod:poss	_	_
-50	benade	benad	ADJ	AD-DEF	Case=Nom|Degree=Pos|Definite=Def||Tense=Past|VerbForm=Part	51	amod	_	_
+50	benade	benad	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	51	amod	_	_
 51	hår	hår	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	31	conj	_	_
 52	och	och	CCONJ	_	_	55	cc	_	_
 53	tjocka	tjock	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	55	amod	_	_
@@ -23746,7 +23746,7 @@
 55	ögonbryn	ögonbryn	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	51	conj	_	_
 56	och	och	CCONJ	_	_	59	cc	_	_
 57	stora	stor	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	59	amod	_	_
-58	tvinnade	tvinnad	ADJ	PAST-PASS	Case=Pos|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	59	amod	_	_
+58	tvinnade	tvinnad	ADJ	PAST-PASS	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	59	amod	_	_
 59	mustasch	mustasch	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	51	conj	_	SpaceAfter=No
 60	,	,	PUNCT	Comma	_	51	punct	_	_
 61	allt	all	PRON	IND-SG-NOM	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	64	nsubj	_	_
