@@ -22699,7 +22699,7 @@
 5	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	_
 6	reste	resa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 7	den	den	DET	DEM-SG	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	9	det	_	_
-8	här	här	ADV	_	_	7	fixed	_	_
+8	här	här	ADV	_	_	9	advmod	_	_
 9	sträckan	sträcka	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obj	_	_
 10	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	par	par	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	_
@@ -23517,8 +23517,8 @@
 # sent_id = sv_lines-ud-all-doc9-5317
 # text = Till exempel fick föräldrarna ett femte barn, en pojke även han, vars hjärna hade skadats vid födseln, och när familjen gav sig av lämnades han helt sonika kvar på ön, omhändertagen av en lång rad sköterskor vars referenser-- på den tiden och på det avståndet-- tyvärr ingen brydde sig om att undersöka närmare.
 # text_en = For example, my parents had a fifth child, also a boy, whose brain had been damaged at birth, and when the household moved they simply left him there on the island, in the care of a succession of nurses whose credentials– in those days and from that distance– I'm afraid no one cared to investigate too closely.
-1	Till	till	ADV	_	_	3	advmod	_	_
-2	exempel	exempel	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	fixed	_	_
+1	Till	till	ADP	_	_	2	case	_	_
+2	exempel	exempel	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	_
 3	fick	få	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	föräldrarna	förälder	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj	_	_
 5	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
@@ -23881,7 +23881,7 @@
 # text_en = All this time, the air hostess had been advancing slowly along the aisle, pushing a metal trolley from which she was dispensing plastic trays of food and drink.
 1	Under	under	ADP	_	_	4	case	_	_
 2	den	den	DET	DEM-SG	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	4	det	_	_
-3	här	här	ADV	_	_	2	fixed	_	_
+3	här	här	ADV	_	_	4	advmod	_	_
 4	stunden	stund	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	_	_
 5	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 6	flygvärdinnan	flygvärdinna	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
@@ -24551,7 +24551,7 @@
 6	ut	ut	ADV	_	_	3	compound:prt	_	_
 7	på	på	ADP	_	_	12	case	_	_
 8	det	den	DET	DEM-SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
-9	där	där	ADV	_	_	8	fixed	_	_
+9	där	där	ADV	_	_	12	advmod	_	_
 10	konventionellt	konventionell	ADV	POS	Degree=Pos	11	advmod	_	_
 11	blekbruna	blekbrun	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
 12	sättet	sätt	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No

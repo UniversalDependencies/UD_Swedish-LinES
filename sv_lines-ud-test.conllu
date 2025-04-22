@@ -21321,7 +21321,7 @@
 3	hade	ha	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
 4	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	_
 5	aldrig	aldrig	ADV	NEG	Polarity=Neg	9	advmod	_	_
-6	kunnat	kunna	AUX	SUP	AUX	VerbForm=Sup|Voice=Act	9	aux	_	_
+6	kunnat	kunna	AUX	SUP	VerbForm=Sup|Voice=Act	9	aux	_	_
 7	bli	bli	VERB	INF-ACT	VerbForm=Inf|Voice=Act	9	aux	_	_
 8	så	så	ADV	_	_	9	advmod	_	_
 9	uppslukad	uppslukad	VERB	AD-SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -22003,7 +22003,7 @@
 44	det	den	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	43	obj	_	_
 45	kunde	kunna	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	46	aux	_	_
 46	upplevas	uppleva	VERB	INF-PASS	VerbForm=Inf|Voice=Pass	38	ccomp	_	_
-47	på	på	ADP	_	_	46	advmod	_	_
+47	på	på	ADP	_	ExtPos=ADV	46	advmod	_	_
 48	nytt	ny	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	47	fixed	_	SpaceAfter=No
 49	.	.	PUNCT	Period	_	4	punct	_	_
 
@@ -22376,13 +22376,13 @@
 7	god	god	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
 8	stilistik	stilistik	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
-10	en	en	PRON	IND-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	_
+10	en	en	PRON	IND-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	_	_
 11	av	av	ADP	_	_	13	case	_	_
 12	hans	han	PRON	P3SG-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	favoritförfattare	favoritförfattare	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	_
 14	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
-15	till	till	ADV	_	_	17	advmod	_	_
-16	exempel	exempel	NOUN	_	_	15	fixed	_	_
+15	till	till	ADP	_	_	16	case	_	_
+16	exempel	exempel	NOUN	_	_	17	obl	_	_
 17	John	John	PROPN	SG-NOM	Case=Nom	4	parataxis	_	_
 18	Julius	Julius	PROPN	SG-NOM	Case=Nom	17	flat	_	_
 19	Norwich	Norwich	PROPN	SG-NOM	Case=Nom	17	flat	_	SpaceAfter=No
@@ -22491,7 +22491,7 @@
 4	kunnat	kunna	AUX	SUP-AUX	VerbForm=Sup|Voice=Act	5	aux	_	_
 5	återskapa	återskapa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 6	den	den	DET	DEM-SG	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	8	det	_	_
-7	där	där	ADV	_	_	6	fixed	_	_
+7	där	där	ADV	_	_	8	advmod	_	_
 8	spänningen	spänning	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obj	_	_
 9	inombords	inombords	ADV	_	_	5	advmod	_	SpaceAfter=No
 10	:	:	PUNCT	Colon	_	5	punct	_	_
