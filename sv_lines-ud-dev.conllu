@@ -3330,9 +3330,9 @@
 # text_en = He had even imagined the conversation that would follow: he, suavely diffident as the stranger praised the book, and then, with great reluctance and modesty, agreeing to autograph the title page, since you insist.
 1	Han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	_
 2	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
-3	till	till	ADV	_	_	6	advmod	_	_
+3	till	till	ADP	_	ExtPos=ADV	6	advmod	_	_
 4	och	och	CCONJ	_	_	3	fixed	_	_
-5	med	med	ADV	_	Case=Nom	3	fixed	_	_
+5	med	med	ADP	_	_	3	fixed	_	_
 6	tänkt	tänka	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
 7	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	6	obj	_	_
 8	in	in	ADV	_	_	6	compound:prt	_	_
@@ -3396,9 +3396,9 @@
 14	,	,	PUNCT	Comma	_	15	punct	_	_
 15	ja	ja	INTJ	_	_	20	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	15	punct	_	_
-17	till	till	ADV	_	_	20	advmod	_	_
+17	till	till	ADP	_	ExtPos=ADV	20	advmod	_	_
 18	och	och	CCONJ	_	_	17	fixed	_	_
-19	med	med	ADV	_	Case=Nom	17	fixed	_	_
+19	med	med	ADP	_	_	17	fixed	_	_
 20	arg	arg	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	conj	_	SpaceAfter=No
 21	.	.	PUNCT	Period	_	10	punct	_	_
 
@@ -5143,9 +5143,9 @@
 # text_en = It's even made out to you.
 1	Den	den	PRON	PERS-P3SG	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	_
 2	är	vara	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
-3	till	till	ADV	_	_	6	advmod	_	_
+3	till	till	ADP	_	ExtPos=ADV	6	advmod	_	_
 4	och	och	CCONJ	_	_	3	fixed	_	_
-5	med	med	ADV	_	Case=Nom	3	fixed	_	_
+5	med	med	ADP	_	_	3	fixed	_	_
 6	utställd	ställa+ut	VERB	AD-SG-IND	Mood=Ind|VerbForm=Inf|Voice=Pass	0	root	_	_
 7	på	på	ADP	_	_	8	case	_	_
 8	er	ni	PRON	PERS-P2PL-ACC	Case=Gen|Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	obl	_	SpaceAfter=No
@@ -8171,7 +8171,7 @@
 13	svarar	svara	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 14	:	:	PUNCT	Colon	_	21	punct	_	_
 15	"	"	PUNCT	Quote	_	21	punct	_	SpaceAfter=No
-16	Därför	därför	ADV	_	_	21	mark	_	_
+16	Därför	därför	ADV	_	ExtPos=SCONJ	21	mark	_	_
 17	att	att	SCONJ	_	_	16	fixed	_	_
 18	ni	ni	PRON	PERS-P2PL-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	_
 19	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
@@ -8687,7 +8687,7 @@
 18	Det	den	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	nsubj	_	_
 19	gjorde	göra	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 20	honom	han	PRON	PERS-P3SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	obj	_	_
-21	så	så	ADV	_	_	19	advmod	_	_
+21	så	så	ADV	_	ExtPos=ADV	19	advmod	_	_
 22	småningom	småningom	ADV	_	_	21	fixed	_	_
 23	helt	helt	ADV	_	Degree=Pos	24	advmod	_	_
 24	fryntlig	fryntlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	xcomp	_	SpaceAfter=No
@@ -10741,7 +10741,7 @@
 11	elegant	elegant	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
 12	(	(	PUNCT	LeftParenthesis	_	18	punct	_	SpaceAfter=No
 13	och	och	CCONJ	_	_	18	cc	_	_
-14	till	till	ADV	_	_	18	advmod	_	_
+14	till	till	ADP	_	ExtPos=ADV	18	advmod	_	_
 15	och	och	CCONJ	_	_	14	fixed	_	_
 16	med	med	ADP	_	_	14	fixed	_	_
 17	svagt	svagt	ADV	_	_	18	advmod	_	_
@@ -19635,7 +19635,7 @@
 32	,	,	PUNCT	Comma	_	33	punct	_	_
 33	väggarna	vägg	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	31	conj	_	SpaceAfter=No
 34	,	,	PUNCT	Comma	_	38	punct	_	_
-35	till	till	ADV	_	_	38	advmod	_	_
+35	till	till	ADP	_	ExtPos=ADV	38	advmod	_	_
 36	och	och	CCONJ	_	_	35	fixed	_	_
 37	med	med	ADP	_	_	35	fixed	_	_
 38	taket	tak	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	31	conj	_	SpaceAfter=No
@@ -22763,7 +22763,7 @@
 12	naturlig	naturlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	Comma	_	21	punct	_	_
 14	som	som	SCONJ	_	_	21	mark	_	_
-15	om	om	SCONJ	_	_	14	fixed	_	_
+15	om	om	SCONJ	_	_	21	mark	_	_
 16	den	den	PRON	PERS-P3SG	Definite=Def|Number=Plur|PronType=Prs	21	nsubj:pass	_	_
 17	vid	vid	ADP	_	_	19	case	_	_
 18	något	någon	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	det	_	_
@@ -22894,7 +22894,7 @@
 41	börjat	börja	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	4	conj	_	_
 42	uppträda	uppträda	VERB	INF	VerbForm=Inf|Voice=Act	41	xcomp	_	_
 43	som	som	SCONJ	_	_	46	mark	_	_
-44	om	om	SCONJ	_	_	43	fixed	_	_
+44	om	om	SCONJ	_	_	46	mark	_	_
 45	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	46	nsubj	_	_
 46	tillhörde	tillhöra	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	41	advcl	_	_
 47	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	49	det	_	_
@@ -23996,7 +23996,7 @@
 6	mig	jag	PRON	PERS-P1SG-ACC	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	11	punct	_	_
 8	som	som	SCONJ	_	_	11	mark	_	_
-9	om	om	SCONJ	_	_	8	fixed	_	_
+9	om	om	SCONJ	_	_	11	mark	_	_
 10	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	_
 11	lärt	lära	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	2	advcl	_	_
 12	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	11	obj	_	_
@@ -24570,7 +24570,7 @@
 25	störde	störa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	20	acl:relcl	_	SpaceAfter=No
 26	,	,	PUNCT	Comma	_	31	punct	_	_
 27	som	som	SCONJ	_	_	31	mark	_	_
-28	om	om	SCONJ	_	_	27	fixed	_	_
+28	om	om	SCONJ	_	_	31	mark	_	_
 29	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	nsubj:pass	_	_
 30	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	31	aux	_	_
 31	sammanfogats	sammanfoga	VERB	SUP-PASS	VerbForm=Sup|Voice=Pass	18	advcl	_	_
@@ -24692,13 +24692,13 @@
 4	röda	röd	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	10	punct	_	_
 6	som	som	SCONJ	_	_	10	mark	_	_
-7	om	om	SCONJ	_	_	6	fixed	_	_
+7	om	om	SCONJ	_	_	10	mark	_	_
 8	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	10	nsubj	_	_
 9	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
 10	inflammerade	inflammerad	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
 11	eller	eller	CCONJ	_	_	15	cc	_	_
 12	som	som	SCONJ	CMP	_	15	mark	_	_
-13	om	om	SCONJ	_	_	12	fixed	_	_
+13	om	om	SCONJ	_	_	15	mark	_	_
 14	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	15	nsubj	_	_
 15	sved	svida	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
 16	av	av	ADP	_	_	17	case	_	_

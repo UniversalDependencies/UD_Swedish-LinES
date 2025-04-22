@@ -17389,7 +17389,7 @@
 9	slarviga	slarvig	ADJ	POS-PL-IND	Case=Nom|Definite=Def|Degree=Pos	10	amod	_	_
 10	kråkfötter	kråkfot	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj	_	_
 11	och	och	CCONJ	_	_	17	cc	_	_
-12	till	till	ADV	_	_	17	advmod	_	_
+12	till	till	ADP	_	ExtPos=ADV	17	advmod	_	_
 13	och	och	CCONJ	_	_	12	fixed	_	_
 14	med	med	ADP	_	_	12	fixed	_	_
 15	några	någon	DET	PL-IND	Definite=Ind|Number=Plur|PronType=Ind	17	det	_	_
