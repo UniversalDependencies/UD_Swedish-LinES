@@ -6774,7 +6774,7 @@
 # sent_id = sv_lines-ud-test-doc3-4574
 # text = Icke desto mindre ser jag i en bok som heter "Things to Come" att två amerikaner som anser sig vara allt annat än hjälplösa och underutvecklade, Herman Kahn och B Bruce-Briggs, är föga imponerade av ryssarnas prestationer.
 # text_en = Nevertheless, I see that in a book called Things to Come two Americans who think themselves anything but undeveloped and helpless, Herman Kahn and B Bruce-Briggs, are not impressed by Russian achievements.
-1	Icke	icke	PART	NEG	Polarity=Neg	4	advmod	_	_
+1	Icke	icke	PART	NEG	ExtPos=ADV|Polarity=Neg	4	advmod	_	_
 2	desto	desto	ADV	_	_	1	fixed	_	_
 3	mindre	lite	ADV	CMP	Case=Nom|Degree=Cmp	1	fixed	_	_
 4	ser	se	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -21322,7 +21322,7 @@
 4	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	_
 5	aldrig	aldrig	ADV	NEG	Polarity=Neg	9	advmod	_	_
 6	kunnat	kunna	AUX	SUP	VerbForm=Sup|Voice=Act	9	aux	_	_
-7	bli	bli	VERB	INF-ACT	VerbForm=Inf|Voice=Act	9	aux	_	_
+7	bli	bli	AUX	INF-ACT	VerbForm=Inf|Voice=Act	9	aux	_	_
 8	så	så	ADV	_	_	9	advmod	_	_
 9	uppslukad	uppslukad	VERB	AD-SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	13	punct	_	_
@@ -21468,7 +21468,7 @@
 9	upp	upp	ADV	_	_	8	compound:prt	_	_
 10	händerna	hand	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	obj	_	_
 11	som	som	SCONJ	_	_	15	mark	_	_
-12	om	om	SCONJ	_	_	11	fixed	_	_
+12	om	om	SCONJ	_	_	15	mark	_	_
 13	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj	_	_
 14	skulle	skola	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	ta	ta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	8	advcl	_	_
@@ -21572,7 +21572,7 @@
 1	Det	den	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	_
 2	kändes	känna	VERB	PAST-PASS	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	som	som	SCONJ	_	_	6	mark	_	_
-4	om	om	SCONJ	_	_	3	fixed	_	_
+4	om	om	SCONJ	_	_	6	mark	_	_
 5	planet	plan	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 6	stod	stå	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 7	stilla	stilla	ADV	_	Case=Nom	6	advmod	_	SpaceAfter=No
@@ -21753,7 +21753,7 @@
 15	saken	sak	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	21	punct	_	_
 17	som	som	SCONJ	_	_	21	mark	_	_
-18	om	om	SCONJ	_	_	17	fixed	_	_
+18	om	om	SCONJ	_	_	21	mark	_	_
 19	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	_
 20	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	aux	_	_
 21	övat	öva	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	9	advcl	_	_
@@ -22321,8 +22321,8 @@
 34	av	av	ADP	_	_	35	case	_	_
 35	läsning	läsning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	Comma	_	41	punct	_	_
-37	även	även	ADV	_	_	41	mark	_	_
-38	om	om	SCONJ	_	_	37	fixed	_	_
+37	även	även	ADV	_	_	41	advmod	_	_
+38	om	om	SCONJ	_	_	41	mark	_	_
 39	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	41	nsubj	_	_
 40	förvisso	förvisso	ADV	_	_	41	advmod	_	_
 41	saknade	sakna	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl	_	_
@@ -22516,7 +22516,7 @@
 15	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	20	punct	_	_
 17	som	som	SCONJ	_	_	20	mark	_	_
-18	om	om	SCONJ	_	_	17	fixed	_	_
+18	om	om	SCONJ	_	_	20	mark	_	_
 19	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	20	nsubj	_	_
 20	bråkar	bråka	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 21	med	med	ADP	_	_	24	case	_	_
@@ -22525,7 +22525,7 @@
 24	öde	öde	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
 25	,	,	PUNCT	Comma	_	31	punct	_	_
 26	som	som	SCONJ	_	_	31	mark	_	_
-27	om	om	SCONJ	_	_	26	fixed	_	_
+27	om	om	SCONJ	_	_	31	mark	_	_
 28	den	den	PRON	PERS-P3SG	Definite=Def|Number=Plur|PronType=Prs	31	nsubj	_	_
 29	man	man	PRON	PERS-P3-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	28	nsubj	_	_
 30	är	vara	AUX	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	_	_
@@ -23283,7 +23283,7 @@
 41	såg	se	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	35	acl	_	_
 42	ut	ut	ADV	_	_	41	compound:prt	_	_
 43	som	som	ADP	_	_	46	mark	_	_
-44	om	om	SCONJ	_	_	43	fixed	_	_
+44	om	om	SCONJ	_	_	46	mark	_	_
 45	vinden	vind	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	46	nsubj	_	_
 46	fyllde	fylla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	41	ccomp	_	_
 47	dem	de	PRON	PERS-P3PL-ACC	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	46	obj	_	SpaceAfter=No
