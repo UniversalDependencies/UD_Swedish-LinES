@@ -2858,7 +2858,7 @@
 7	vit	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
 8	pappersflagga	pappersflagga	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
 9	på	på	ADP	_	_	12	case	_	_
-10	vars	vars	PRON	WH-REL-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Rel	11	nmod:poss	_	_
+10	vars	vars	PRON	WH-REL-GEN	Case=Gen|Definite=Def|Poss=Yes|PronType=Rel	12	nmod:poss	_	_
 11	ena	ena	DET	POS-SG-IND	Definite=Def|Number=Sing	12	det	_	_
 12	sida	sida	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
 13	det	den	PRON	EX-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	14	expl	_	_
@@ -13774,7 +13774,7 @@
 17	lukt	lukt	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	advcl	_	_
 18	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	aux	_	_
 19	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	23	nsubj	_	_
-20	för	för	ADP	ExtPos=ADP	_	21	case	_	_
+20	för	för	ADP	_	ExtPos=ADP	21	case	_	_
 21	länge	länge	ADV	_	Degree=Pos	23	advmod	_	_
 22	sedan	sedan	ADP	_	_	20	fixed	_	_
 23	stannat	stanna	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	8	parataxis	_	_
@@ -23509,7 +23509,7 @@
 24	angenäm	angenäm	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	advcl	_	_
 25	och	och	CCONJ	_	_	29	cc	_	_
 26	ur	ur	ADP	_	_	27	case	_	_
-27	andra	annan	PRON	CMP-PL-IND	Definite=Ind|Degree=Pos|Number=Plur|PronType=Ind	29	obl	_	_
+27	andra	annan	PRON	CMP-PL-IND	Number=Plur|PronType=Ind	29	obl	_	_
 28	så	så	ADV	_	_	29	advmod	_	_
 29	hjärtlös	hjärtlös	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	24	conj	_	SpaceAfter=No
 30	.	.	PUNCT	Period	_	3	punct	_	_
@@ -24026,7 +24026,7 @@
 36	en	en	PRON	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	34	appos	_	_
 37	som	som	PRON	REL	PronType=Rel	41	obj	_	_
 38	många	många	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	39	amod	_	_
-39	andra	annan	PRON	CMP-PL-IND	Definite=Ind|Degree=Pos|Number=Plur|PronType=Ind	41	nsubj	_	_
+39	andra	annan	PRON	CMP-PL-IND	Number=Plur|PronType=Ind	41	nsubj	_	_
 40	aldrig	aldrig	ADV	NEG	Polarity=Neg	41	advmod	_	_
 41	lär	lär	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	34	acl:relcl	_	_
 42	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	41	iobj	_	SpaceAfter=No
