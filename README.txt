@@ -169,7 +169,8 @@ Changelog
 
   For version 2.15 a major revision of the use of 'fixed' has been undertaken and coordinated with UD_Swedish-Talbanken
 
-  For version 2.16 a new set of 450 segments have been added. 
+  For version 2.16 a new set of 450 segments have been added from the Swedish translation of Rachel Cusk's Contours. 
+  In addition, many changes have been made to unify annotation with the other Swedish UD treebanks.
 
 --- Machine readable metadata ---
 
