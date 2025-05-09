@@ -45,6 +45,9 @@ Fries-Gedin.
 Jennette Winterson: Vintergatan går genom magen [Gut Symmetries], 
 Bakhåll, 2017. Translation by Ulla Roseen.
 
+Rachel Cusk: Konturer, [Outline]. Albert Bonniers Förlag, 2018.
+Translation by Rebecca Alsberg.
+
 In addition the corpus includes segments from Microsoft Access 2002
 Online Help and the Swedish part of the Europarl corpus (v.7).
 
@@ -61,12 +64,12 @@ The partition applies in the same way to the English trees so that the order of 
 
 BASIC STATISTICS
 
-Tree count:  4564
-Word count:  79812
-Token count: 79812
+Tree count:  5696
+Word count:  91,600
+Token count: 102,538
 Dep. relations: 40 of which 7 are language-specific
 POS tags: 17
-Category=value feature pairs: 0
+Category=value feature pairs: ?
 
 
 TOKENIZATION
@@ -165,6 +168,9 @@ Changelog
   For version 2.14 major revision of lemmas and features for adjectives and determiners to make them consistent with other Swedish treebanks.
 
   For version 2.15 a major revision of the use of 'fixed' has been undertaken and coordinated with UD_Swedish-Talbanken
+
+  For version 2.16 a new set of 450 segments have been added from the Swedish translation of Rachel Cusk's Contours. 
+  In addition, many changes have been made to unify annotation with the other Swedish UD treebanks.
 
 --- Machine readable metadata ---
 
