@@ -5,118 +5,122 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>5243</sentences><tokens>90961</tokens><words>90961</words><fused>0</fused></total>
-    <train><sentences>3176</sentences><tokens>55452</tokens><words>55452</words><fused>0</fused></train>
-    <dev><sentences>1032</sentences><tokens>18515</tokens><words>18515</words><fused>0</fused></dev>
-    <test><sentences>1035</sentences><tokens>16994</tokens><words>16994</words><fused>0</fused></test>
+    <total><sentences>5696</sentences><tokens>102538</tokens><words>102538</words><fused>0</fused></total>
+    <train><sentences>3457</sentences><tokens>62511</tokens><words>62511</words><fused>0</fused></train>
+    <dev><sentences>1118</sentences><tokens>20839</tokens><words>20839</words><fused>0</fused></dev>
+    <test><sentences>1121</sentences><tokens>19188</tokens><words>19188</words><fused>0</fused></test>
   </size>
-  <lemmas unique="10115" /><!-- ., ,, och, en, den, att, i, han, vara, som, jag, på, ha, med, av -->
-  <forms unique="14305" /><!-- ., ,, och, att, i, en, det, som, han, på, med, av, för, jag, den -->
+  <lemmas unique="10864" /><!-- ., ,, och, den, en, att, han, vara, i, som, jag, på, ha, med, av -->
+  <forms unique="15390" /><!-- ., ,, och, att, i, en, det, som, han, på, jag, med, av, för, var -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">6305</tag><!-- annan, själv, stor, hel, liten, egen, ny, gammal, vit, sådan -->
-    <tag name="ADP">9911</tag><!-- i, på, av, med, för, till, som, om, från, över -->
-    <tag name="ADV">6765</tag><!-- så, ut, där, upp, in, bara, mycket, här, hur, också -->
-    <tag name="AUX">3982</tag><!-- vara, ha, kunna, skola, vilja, måste, få, komma, böra, bli -->
-    <tag name="CCONJ">3485</tag><!-- och, men, eller, utan, både, för, så, samt, varken, fast -->
-    <tag name="DET">4739</tag><!-- en, den, de, någon, denna, all, ingen, varje, vilken, varenda -->
-    <tag name="INTJ">196</tag><!-- ja, nej, nåja, jaså, vad, å, jo, tack, tja, Huj -->
-    <tag name="NOUN">15973</tag><!-- man, fält, fråga, sida, gång, år, sätt, hand, väg, öga -->
-    <tag name="NUM">505</tag><!-- två, tre, ett, fem, sex, fyra, tio, 1, 2, 2000 -->
-    <tag name="PART">2052</tag><!-- att, inte, så, ej, icke, to -->
-    <tag name="PRON">10802</tag><!-- han, den, jag, som, sig, de, du, sin, vi, hon -->
-    <tag name="PROPN">2860</tag><!-- Harry, Quinn, Stillman, Auster, Bray, Ron, Weasley, Access, Mweta, Dobby -->
-    <tag name="PUNCT">10067</tag><!-- ., ,, ", ?, –, :, !, ..., ;, ( -->
-    <tag name="SCONJ">1927</tag><!-- att, om, när, som, medan, eftersom, innan, då, än, sedan -->
+    <tag name="ADJ">7155</tag><!-- annan, själv, stor, liten, hel, egen, ny, gammal, vit, sådan -->
+    <tag name="ADP">11171</tag><!-- i, på, av, med, för, till, som, om, från, över -->
+    <tag name="ADV">7731</tag><!-- så, där, ut, upp, in, mycket, bara, hur, här, också -->
+    <tag name="AUX">4888</tag><!-- vara, ha, kunna, skola, vilja, måste, få, komma, böra, bli -->
+    <tag name="CCONJ">3949</tag><!-- och, men, eller, utan, både, för, så, fast, samt, ty -->
+    <tag name="DET">5322</tag><!-- en, den, de, någon, denna, all, ingen, varje, vilken, ena -->
+    <tag name="INTJ">200</tag><!-- ja, nej, nåja, å, jaså, vad, jo, tack, tja, Huj -->
+    <tag name="NOUN">17839</tag><!-- man, fält, gång, fråga, sida, år, sätt, hand, dag, väg -->
+    <tag name="NUM">534</tag><!-- två, tre, ett, fem, sex, fyra, tio, 1, 2, 2000 -->
+    <tag name="PART">2307</tag><!-- att, inte, så, ej, icke, 's, to -->
+    <tag name="PRON">12539</tag><!-- han, den, jag, som, sig, de, sin, hon, vi, du -->
+    <tag name="PROPN">2972</tag><!-- Harry, Quinn, Stillman, Auster, Bray, Ron, Weasley, Access, Mweta, Dobby -->
+    <tag name="PUNCT">11185</tag><!-- ., ,, ", ?, –, :, ;, !, ..., ( -->
+    <tag name="SCONJ">2297</tag><!-- att, om, när, som, medan, eftersom, innan, än, då, sedan -->
     <tag name="SYM">9</tag><!-- %, &apos;, from, like, limit, select, where -->
-    <tag name="VERB">11355</tag><!-- säga, ha, se, vara, komma, gå, göra, ta, få, finnas -->
-    <tag name="X">28</tag><!-- W3C, foie, TSQL, maris, stella, Aliquem, EEG, MSDE, SAP, UDL -->
+    <tag name="VERB">12414</tag><!-- säga, ha, se, komma, gå, göra, ta, få, bli, finnas -->
+    <tag name="X">26</tag><!-- W3C, TSQL, foie, maris, stella, Aliquem, EEG, MSDE, SAP, UDL -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="38">
+  <feats unique="42">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV">18</feat><!-- dvs, osv, t.ex., bl.a., dvs., etc, s.k. -->
-    <feat name="Case" value="Acc" upos="PRON">1657</feat><!-- sig, honom, mig, dem, oss, henne, dig, varandra, varann, er -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN,VERB">2033</feat><!-- sin, hans, min, sina, sitt, er, hennes, deras, mina, mitt -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,AUX,NOUN,NUM,PRON,PROPN,VERB,X">28637</feat><!-- han, jag, du, de, vi, hon, man, Harry, ni, andra -->
-    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">17105</feat><!-- det, han, jag, den, de, sig, du, vi, hon, honom -->
-    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">18093</feat><!-- en, ett, man, vad, någon, något, själv, andra, ingen, sätt -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV">323</feat><!-- mer, senare, bättre, tidigare, vidare, mindre, ytterligare, längre, större, äldre -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN,PROPN,VERB">6629</feat><!-- andra, mycket, själv, hela, samma, första, annat, flera, många, stor -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV">242</feat><!-- helst, mest, sista, bästa, närmaste, största, minst, sist, ytterst, flesta -->
-    <feat name="Foreign" value="Yes" upos="ADJ,ADP,NOUN,PRON,PROPN,VERB">67</feat><!-- Extensible, Language, Stylesheet, Consortium, Station, Transformation, Web, Wide, World, Central -->
-    <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">21015</feat><!-- en, han, jag, den, du, vi, hon, honom, mig, man -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">8894</feat><!-- det, ett, vad, detta, något, sitt, allt, sätt, år, annat -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">160</feat><!-- låt, var, se, tänk, lägg, Exportera, klicka, kom, Ändra, Filtrera -->
-    <feat name="Mood" value="Ind" upos="ADJ,AUX,VERB">10776</feat><!-- var, är, hade, har, kan, skulle, sa, kunde, måste, gick -->
+    <feat name="Case" value="Acc" upos="PRON">1876</feat><!-- sig, mig, honom, dem, oss, henne, dig, varandra, er, varann -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN,VERB">2320</feat><!-- hans, sin, min, sina, sitt, hennes, er, deras, mina, mitt -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">32154</feat><!-- han, jag, de, du, man, vi, hon, Harry, ni, andra -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">19445</feat><!-- det, han, jag, den, de, sig, du, vi, hon, mig -->
+    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">20465</feat><!-- en, ett, man, vad, någon, något, själv, ingen, andra, sätt -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">380</feat><!-- mer, senare, bättre, tidigare, vidare, längre, mindre, större, ytterligare, äldre -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN,PROPN,VERB">7535</feat><!-- andra, mycket, själv, hela, samma, annat, många, första, helt, enda -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">281</feat><!-- helst, mest, sista, bästa, största, närmaste, minst, minsta, ytterst, flesta -->
+    <feat name="ExtPos" value="ADP" upos="ADP,NOUN">29</feat><!-- för, tack, i -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,CCONJ,PART,PRON">97</feat><!-- som, till, med, så, i, rent, eller, Icke, på, Det -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ,VERB">8</feat><!-- vare -->
+    <feat name="ExtPos" value="SCONJ" upos="ADV">17</feat><!-- därför, så -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,NOUN,PRON,PROPN,VERB">80</feat><!-- Extensible, Language, Stylesheet, Web, Consortium, Station, Transformation, Wide, World, Central -->
+    <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">23670</feat><!-- en, han, jag, den, du, man, vi, hon, mig, honom -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">10180</feat><!-- det, ett, vad, detta, något, sitt, allt, sätt, år, annat -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">165</feat><!-- låt, var, se, tänk, lägg, Exportera, klicka, kom, Ändra, Filtrera -->
+    <feat name="Mood" value="Ind" upos="ADJ,AUX,VERB">12150</feat><!-- var, hade, är, har, skulle, kan, sa, kunde, måste, kom -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">32</feat><!-- vore, förbanne, måtte, LEVE, finge, ginge, vare, vete -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">7314</feat><!-- de, vi, alla, dem, sina, andra, oss, några, år, dessa -->
-    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">26095</feat><!-- en, det, han, jag, den, ett, du, hon, honom, mig -->
-    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- Ett, fyrtioett -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">8358</feat><!-- de, vi, dem, alla, sina, andra, oss, några, år, många -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB,X">29674</feat><!-- en, det, han, jag, den, ett, du, man, hon, mig -->
+    <feat name="NumType" value="Card" upos="NUM">3</feat><!-- Beckett, Ett, fyrtioett -->
     <feat name="NumType" value="Ord" upos="ADJ">165</feat><!-- första, andra, tredje, andre, fjärde, tjugonde, förste, 1, 12, 22 -->
-    <feat name="Polarity" value="Neg" upos="ADV,PART">869</feat><!-- inte, aldrig, ej, knappast, icke, ingalunda -->
-    <feat name="Poss" value="Yes" upos="NOUN,PRON,VERB">1283</feat><!-- sin, hans, min, sina, sitt, er, hennes, deras, mina, mitt -->
-    <feat name="PronType" value="Art" upos="DET,PRON">3902</feat><!-- en, ett, den, de, det, dom, the, Le, du, La -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">339</feat><!-- detta, denna, dessa, denne, dennes -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">606</feat><!-- man, någon, något, några, en, mycket, andra, nåt, ens, många -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">463</feat><!-- vad, hur, varför, vem, vilka, vilket, vilken, var, vart, varifrån -->
-    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">178</feat><!-- ingen, ingenting, inget, inga, intet, ingenstans -->
-    <feat name="PronType" value="Prs" upos="NOUN,PRON,VERB">8478</feat><!-- han, det, jag, sig, du, de, vi, hon, honom, mig -->
-    <feat name="PronType" value="Rcp" upos="PRON">36</feat><!-- varandra, varann, varandras -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON,SCONJ">1242</feat><!-- som, något, vad, vilket, där, vars, vilka, vilken, hur, varpå -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">367</feat><!-- alla, allt, varje, båda, all, varenda, var, bägge, vartenda -->
-    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">6663</feat><!-- var, hade, skulle, sa, kunde, gick, kom, såg, fick, sade -->
-    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">4291</feat><!-- är, har, kan, måste, kommer, vill, finns, ska, vet, får -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">10431</feat><!-- var, är, hade, har, kan, skulle, sa, kunde, måste, gick -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">3504</feat><!-- vara, ha, göra, ta, få, se, gå, bli, komma, använda -->
-    <feat name="VerbForm" value="Part" upos="ADJ,VERB">889</feat><!-- tvungen, taget, följande, flyttade, leende, dolda, lysande, motsvarande, strålande, beredd -->
-    <feat name="VerbForm" value="Sup" upos="AUX,NOUN,VERB">1109</feat><!-- varit, kommit, fått, gjort, blivit, sett, gått, sagt, hört, tagit -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">14007</feat><!-- var, är, hade, har, kan, skulle, sa, kunde, måste, vara -->
-    <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">1136</feat><!-- visas, kändes, används, tvungen, hördes, tycktes, flyttas, talas, skapats, döljs -->
+    <feat name="Polarity" value="Neg" upos="ADV,PART">889</feat><!-- inte, aldrig, knappast, ej, icke, ingalunda -->
+    <feat name="Poss" value="Yes" upos="NOUN,PRON,VERB">1501</feat><!-- hans, sin, min, sina, sitt, hennes, er, deras, mina, mitt -->
+    <feat name="PronType" value="Art" upos="DET,PRON">4366</feat><!-- en, ett, den, det, de, dom, the, Le, La -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">368</feat><!-- detta, denna, dessa, den, denne, dennes, det, detsamma, de, densamma -->
+    <feat name="PronType" value="Ind" upos="ADJ,DET,PRON">820</feat><!-- man, någon, något, några, en, andra, annat, mycket, nåt, nån -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">483</feat><!-- vad, hur, varför, vem, vilka, vilket, vilken, var, vart, varifrån -->
+    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">205</feat><!-- ingen, ingenting, inget, inga, intet, ingenstans -->
+    <feat name="PronType" value="Prs" upos="NOUN,PRON,VERB">9820</feat><!-- han, det, jag, sig, de, du, vi, hon, mig, honom -->
+    <feat name="PronType" value="Rcp" upos="PRON">39</feat><!-- varandra, varann, tenn, varandras -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON,SCONJ">1394</feat><!-- som, vilket, vad, vars, där, vilka, vilken, hur, varpå, varefter -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">488</feat><!-- alla, allt, varje, båda, ena, all, varenda, allting, var, bägge -->
+    <feat name="Tense" value="Past" upos="ADJ,ADV,AUX,VERB">8134</feat><!-- var, hade, skulle, sa, kunde, kom, såg, gick, fick, tog -->
+    <feat name="Tense" value="Pres" upos="ADJ,ADV,AUX,VERB">4642</feat><!-- är, har, kan, måste, kommer, vill, finns, vet, ska, får -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">11912</feat><!-- var, hade, är, har, skulle, kan, sa, kunde, måste, kom -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">3901</feat><!-- vara, ha, ta, få, göra, se, bli, gå, komma, kunna -->
+    <feat name="VerbForm" value="Part" upos="ADJ,ADV,VERB">1147</feat><!-- tvungen, taget, följande, flyttade, intresserad, leende, dolda, lysande, motsvarande, strålande -->
+    <feat name="VerbForm" value="Sup" upos="AUX,VERB">1309</feat><!-- varit, kommit, fått, gjort, blivit, gått, sett, sagt, tagit, hört -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">15868</feat><!-- var, hade, är, har, skulle, kan, sa, kunde, vara, måste -->
+    <feat name="Voice" value="Pass" upos="ADJ,VERB">1233</feat><!-- visas, kändes, används, tvungen, talas, hördes, tycktes, flyttas, skapats, döljs -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
-    <dep name="acl">511</dep>
-    <dep name="acl:cleft">74</dep>
-    <dep name="acl:relcl">1231</dep>
-    <dep name="advcl">1446</dep>
-    <dep name="advmod">6555</dep>
-    <dep name="amod">4655</dep>
-    <dep name="appos">350</dep>
-    <dep name="aux">2329</dep>
-    <dep name="aux:pass">135</dep>
-    <dep name="case">9046</dep>
-    <dep name="cc">3433</dep>
-    <dep name="ccomp">959</dep>
-    <dep name="compound">50</dep>
-    <dep name="compound:prt">974</dep>
-    <dep name="conj">4151</dep>
-    <dep name="cop">1424</dep>
-    <dep name="csubj">196</dep>
-    <dep name="csubj:pass">8</dep>
-    <dep name="dep">5</dep>
-    <dep name="det">4741</dep>
-    <dep name="discourse">228</dep>
-    <dep name="dislocated">243</dep>
-    <dep name="expl">587</dep>
-    <dep name="fixed">173</dep>
-    <dep name="flat">411</dep>
-    <dep name="iobj">151</dep>
-    <dep name="mark">3810</dep>
-    <dep name="nmod">3790</dep>
-    <dep name="nmod:poss">1909</dep>
-    <dep name="nsubj">8470</dep>
-    <dep name="nsubj:pass">706</dep>
-    <dep name="nummod">333</dep>
-    <dep name="obj">4866</dep>
-    <dep name="obl">5805</dep>
-    <dep name="obl:agent">72</dep>
-    <dep name="orphan">9</dep>
-    <dep name="parataxis">440</dep>
-    <dep name="punct">10067</dep>
-    <dep name="reparandum">4</dep>
-    <dep name="root">5243</dep>
+    <dep name="acl">620</dep>
+    <dep name="acl:cleft">99</dep>
+    <dep name="acl:relcl">1477</dep>
+    <dep name="advcl">1691</dep>
+    <dep name="advmod">7448</dep>
+    <dep name="amod">5102</dep>
+    <dep name="appos">336</dep>
+    <dep name="aux">2663</dep>
+    <dep name="aux:pass">146</dep>
+    <dep name="case">10089</dep>
+    <dep name="cc">3907</dep>
+    <dep name="ccomp">1127</dep>
+    <dep name="compound">57</dep>
+    <dep name="compound:prt">1101</dep>
+    <dep name="conj">4667</dep>
+    <dep name="cop">1965</dep>
+    <dep name="csubj">239</dep>
+    <dep name="csubj:pass">9</dep>
+    <dep name="dep">4</dep>
+    <dep name="det">5319</dep>
+    <dep name="discourse">229</dep>
+    <dep name="dislocated">216</dep>
+    <dep name="expl">698</dep>
+    <dep name="fixed">184</dep>
+    <dep name="flat">418</dep>
+    <dep name="iobj">172</dep>
+    <dep name="mark">4436</dep>
+    <dep name="nmod">4142</dep>
+    <dep name="nmod:poss">2177</dep>
+    <dep name="nsubj">9706</dep>
+    <dep name="nsubj:pass">760</dep>
+    <dep name="nummod">354</dep>
+    <dep name="obj">5381</dep>
+    <dep name="obl">6431</dep>
+    <dep name="obl:agent">74</dep>
+    <dep name="orphan">10</dep>
+    <dep name="parataxis">661</dep>
+    <dep name="punct">11185</dep>
+    <dep name="reparandum">3</dep>
+    <dep name="root">5696</dep>
     <dep name="vocative">90</dep>
-    <dep name="xcomp">1281</dep>
+    <dep name="xcomp">1449</dep>
   </deps>
 </treebank>
