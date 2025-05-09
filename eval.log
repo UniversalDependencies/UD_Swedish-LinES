@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Swedish-LinES:
-commit 2706c3a15e8b74c644cdb840a30a2ba724aabdb4
-Merge: bd5a0b0 893558f
+commit 0ab1b9786eb3a41966261fff0b4bd4542c0e2c96
+Merge: b3e666b dc3ba6d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 90961 of 90961 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.02086168645059.
+Size: counted 102538 of 102538 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.26046692316352.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,22 +15,21 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 58035 out of 90961 total words have one or more features.
+Features: 65643 out of 102538 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        794
-Udapi: found 794 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 90961 words.
-Genres: found 3 out of 17 known.
+               TOTAL        691
+Udapi: found 691 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 102538 words.
+Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-dev.conllu
 [Line 2618 Sent sv_lines-ud-dev-doc2-3300 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'för * sedan'
-[Line 11534 Sent sv_lines-ud-dev-doc5-3722 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 7] 'till * * med'
 [Line 13777 Sent sv_lines-ud-dev-doc6-3829 Node 20]: [L3 Warning fixed-gap] Gaps in fixed expression [20, 22] 'för * sedan'
 [Line 14018 Sent sv_lines-ud-dev-doc6-3835 Node 43]: [L3 Warning fixed-gap] Gaps in fixed expression [43, 47] 'för * * * sedan'
 [Line 15877 Sent sv_lines-ud-dev-doc6-3910 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sen'
-Warnings: 5
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-test.conllu
 [Line 6509 Sent sv_lines-ud-test-doc3-4559 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 14] 'för * * sedan'
@@ -40,28 +39,28 @@ Warnings: 5
 Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-LinES/sv_lines-ud-train.conllu
-[Line 13578 Sent sv_lines-ud-train-doc2-658 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 9] 'för * * sen'
-[Line 22483 Sent sv_lines-ud-train-doc3-1106 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 11] 'för * * * sedan'
-[Line 29191 Sent sv_lines-ud-train-doc4-1377 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'För * sen'
-[Line 34833 Sent sv_lines-ud-train-doc5-1655 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 12] 'för * * sedan'
-[Line 35057 Sent sv_lines-ud-train-doc5-1667 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
-[Line 36228 Sent sv_lines-ud-train-doc5-1732 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
-[Line 39942 Sent sv_lines-ud-train-doc6-1928 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
-[Line 40316 Sent sv_lines-ud-train-doc6-1940 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'för * * sedan'
-[Line 42036 Sent sv_lines-ud-train-doc6-2007 Node 24]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
-[Line 42931 Sent sv_lines-ud-train-doc6-2040 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 13] 'för * * * sedan'
+[Line 13579 Sent sv_lines-ud-train-doc2-658 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 9] 'för * * sen'
+[Line 22484 Sent sv_lines-ud-train-doc3-1106 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 11] 'för * * * sedan'
+[Line 29192 Sent sv_lines-ud-train-doc4-1377 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'För * sen'
+[Line 34834 Sent sv_lines-ud-train-doc5-1655 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 12] 'för * * sedan'
+[Line 35058 Sent sv_lines-ud-train-doc5-1667 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 36229 Sent sv_lines-ud-train-doc5-1732 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 39943 Sent sv_lines-ud-train-doc6-1928 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
+[Line 40317 Sent sv_lines-ud-train-doc6-1940 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 10] 'för * * sedan'
+[Line 42037 Sent sv_lines-ud-train-doc6-2007 Node 24]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
+[Line 42932 Sent sv_lines-ud-train-doc6-2040 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 13] 'för * * * sedan'
 ...suppressing further errors regarding Warning
 Warnings: 11
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
+(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.652951742072992) = 0.16742352360846
+(weight=0.256410256410256) * (score{size}=0.670294947429584) = 0.171870499340919
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.91270984267983) = 0.28083379774764
+(weight=0.307692307692308) * (score{udapi}=0.932610349333906) = 0.286957030564279
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.73826995842756) * (availability=1) * (validity=1) = 0.73826995842756
+(TOTAL score=0.748086019163687) * (availability=1) * (validity=1) = 0.748086019163687
 STARS = 3.5
-UD_Swedish-LinES	0.73826995842756	3.5
+UD_Swedish-LinES	0.748086019163687	3.5
