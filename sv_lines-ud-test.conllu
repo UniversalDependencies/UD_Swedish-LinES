@@ -2543,7 +2543,7 @@
 12	fall	fall	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	_
 13	mycket	mycket	ADV	_	Degree=Pos	14	advmod	_	_
 14	bättre	bra	ADJ	CMP	Case=Nom|Degree=Cmp	5	parataxis	_	_
-15	än	än	ADP	CMP	_	17	case	_	_
+15	än	än	SCONJ	CMP	_	17	case	_	_
 16	förra	förra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	_	_
 17	året	år	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
 18	.	.	PUNCT	Period	_	14	punct	_	_
@@ -4693,7 +4693,7 @@
 7	Quijote	Quijote	PROPN	SG-NOM	Case=Nom|Number=Sing	6	flat	_	_
 8	inget	ingen	DET	NEG-SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	9	det	_	_
 9	annat	annan	ADJ	SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
-10	än	än	ADP	CMP	_	12	case	_	_
+10	än	än	SCONJ	CMP	_	12	case	_	_
 11	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	_	_
 12	stand-in	stand-in	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
 13	för	för	ADP	_	_	14	case	_	_
@@ -6798,7 +6798,7 @@
 22	vara	vara	AUX	INF-ACT	VerbForm=Inf|Voice=Act	24	cop	_	_
 23	allt	all	DET	IND-SG-NOM	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	24	det	_	_
 24	annat	annan	PRON	IND-SG-NOM	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	xcomp	_	_
-25	än	än	ADP	CMP	_	26	case	_	_
+25	än	än	SCONJ	CMP	_	26	case	_	_
 26	hjälplösa	hjälplös	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	24	nmod	_	_
 27	och	och	CCONJ	_	_	28	cc	_	_
 28	underutvecklade	underutvecklad	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	26	conj	_	SpaceAfter=No
@@ -7182,7 +7182,7 @@
 22	om	om	ADP	_	_	24	case	_	_
 23	något	någon	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	det	_	_
 24	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	obl	_	_
-25	än	än	ADP	CMP	_	30	case	_	_
+25	än	än	SCONJ	CMP	_	30	case	_	_
 26	dessa	denna	DET	DEM-PL	Definite=Def|Number=Plur|PronType=Dem	30	det	_	_
 27	(	(	PUNCT	LeftParenthesis	_	28	punct	_	SpaceAfter=No
 28	politiska	politisk	ADJ	POS-PL-IND	Case=Nom|Definite=Def|Degree=Pos	30	amod	_	SpaceAfter=No
@@ -11269,7 +11269,7 @@
 2	inte	inte	PART	NEG	Polarity=Neg	4	advmod	_	_
 3	det	den	PRON	PERS-P3SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	_	_
 4	bättre	bra	ADJ	CMP	Case=Nom|Degree=Cmp	0	root	_	_
-5	än	än	ADP	CMP	_	6	case	_	_
+5	än	än	SCONJ	CMP	_	6	case	_	_
 6	totalharmonisering	totalharmonisering	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
 7	som	som	ADP	_	_	16	nsubj	_	_
 8	ju	ju	ADV	_	_	16	advmod	_	_
@@ -13343,9 +13343,9 @@
 24	av	av	ADP	_	_	26	case	_	_
 25	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	26	det	_	_
 26	häckklippningsexpert	häckklippningsexpert	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obl	_	_
-27	än	än	ADP	CMP	_	29	case	_	_
+27	än	än	SCONJ	CMP	_	29	case	_	_
 28	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	29	det	_	_
-29	frisör	frisör	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	nmod	_	SpaceAfter=No
+29	frisör	frisör	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obl	_	SpaceAfter=No
 30	,	,	PUNCT	Comma	_	17	punct	_	_
 31	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	32	aux	_	_
 32	banat	bana	VERB	SUP-ACT	VerbForm=Sup|Voice=Act	0	root	_	_
@@ -16349,8 +16349,8 @@
 12	varje	varje	DET	TOT-SG-IND	Definite=Ind|Number=Sing|PronType=Tot	13	det	_	_
 13	fall	fall	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
 14	bättre	bra	ADV	CMP	Degree=Cmp	9	advmod	_	_
-15	än	än	ADP	CMP	_	16	case	_	_
-16	jag	jag	PRON	PERS-SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nmod	_	SpaceAfter=No
+15	än	än	SCONJ	CMP	_	16	case	_	_
+16	jag	jag	PRON	PERS-SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	Period	_	2	punct	_	_
 
 # newdoc id = 7
@@ -18666,8 +18666,8 @@
 7	och	och	CCONJ	_	_	8	cc	_	_
 8	flammade	flamma	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 9	högre	hög	ADV	CMP	Case=Nom	8	advmod	_	_
-10	än	än	ADP	CMP	_	11	case	_	_
-11	Fred	Fred	PROPN	SG-NOM	Case=Nom|Number=Sing	9	nmod	_	SpaceAfter=No
+10	än	än	SCONJ	CMP	_	11	case	_	_
+11	Fred	Fred	PROPN	SG-NOM	Case=Nom|Number=Sing	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	14	punct	_	_
 13	som	som	PRON	REL	PronType=Rel	14	nsubj	_	_
 14	klev	kliva	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
@@ -22883,9 +22883,9 @@
 2	var	vara	AUX	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	lite	lite	ADV	_	Degree=Pos	4	advmod	_	_
 4	större	stor	ADJ	CMP	Case=Nom|Degree=Cmp	0	root	_	_
-5	än	än	ADP	CMP	_	7	case	_	_
+5	än	än	SCONJ	CMP	_	7	case	_	_
 6	naturlig	naturlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
-7	storlek	storlek	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	SpaceAfter=No
+7	storlek	storlek	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	10	punct	_	_
 9	och	och	CCONJ	_	_	10	cc	_	_
 10	såg	se	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -22995,10 +22995,10 @@
 8	svalare	sval	ADJ	CMP-NOM	Case=Nom|Definite=Ind|Degree=Cmp	6	conj	_	_
 9	i	i	ADP	_	_	10	case	_	_
 10	trapphuset	trapphus	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
-11	än	än	ADP	CMP	_	14	case	_	_
+11	än	än	SCONJ	CMP	_	14	case	_	_
 12	ute	ute	ADV	_	_	14	advmod	_	_
 13	på	på	ADP	_	_	14	case	_	_
-14	gatan	gata	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nmod	_	SpaceAfter=No
+14	gatan	gata	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	23	punct	_	_
 16	men	men	CCONJ	_	_	23	cc	_	_
 17	fönstren	fönster	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	23	nsubj	_	_
@@ -23336,7 +23336,7 @@
 2	behövdes	behöva	VERB	PAST-DPO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	inte	inte	PART	NEG	_	2	advmod	_	_
 4	mer	mycket	PRON	CMP	PronType=Ind	2	nsubj	_	_
-5	än	än	ADP	CMP	_	8	case	_	_
+5	än	än	SCONJ	CMP	_	8	case	_	_
 6	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	par	par	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	_
 8	steg	steg	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	_
