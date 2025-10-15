@@ -24065,7 +24065,7 @@
 4	rituella	rituell	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos	5	amod	_	_
 5	överräckande	överräckande	NOUN	NDE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	_
 6	av	av	ADP	_	_	7	case	_	_
-7	serveringsfat	serveringsfat	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	_
+7	serveringsfat	serveringsfat	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	_
 8	och	och	CCONJ	_	_	9	cc	_	_
 9	fyllande	fyllande	NOUN	NDE	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	conj	_	_
 10	av	av	ADP	_	_	11	case	_	_
@@ -36408,7 +36408,7 @@
 9	användande	användande	NOUN	NDE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 10	utan	utan	ADP	_	_	12	case	_	_
 11	rättvis	rättvis	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	_
-12	ersättning	ersättning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	SpaceAfter=No
+12	ersättning	ersättning	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	Period	_	3	punct	_	_
 
 # sent_id = sv_lines-ud-train-doc5-1742
@@ -36453,7 +36453,7 @@
 9	,	,	PUNCT	Comma	_	18	punct	_	_
 10	varigenom	varigenom	ADV	REL	_	18	mark	_	_
 11	till	till	ADV	_	_	12	case	_	_
-12	exempel	exempel	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	_
+12	exempel	exempel	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	_
 13	kopiering	kopiering	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nsubj	_	_
 14	för	för	ADP	_	_	16	case	_	_
 15	privat	privat	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	_
@@ -61147,7 +61147,7 @@
 5	förströdd	förströdd	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	xcomp	_	_
 6	ut	ut	ADV	_	_	3	compound:prt	_	_
 7	än	än	SCONJ	CMP	_	8	case	_	_
-8	vanligt	vanlig	ADV	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	_
+8	vanligt	vanligt	ADV	POS-SG-IND	Degree=Pos	5	advmod	_	_
 9	och	och	CCONJ	_	_	10	cc	_	_
 10	hade	ha	AUX	PAST-AUX	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 11	ljuset	ljus	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	_
@@ -61747,7 +61747,7 @@
 4	grund	grund	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
 5	för	för	ADP	_	_	6	case	_	_
 6	detta	denna	PRON	DEM-SG-IND	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	_
-7	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+7	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	acl	_	_
 8	än	än	SCONJ	CMP	_	11	case	_	_
 9	farmors	farmor	NOUN	IND-NOM	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	11	nmod:poss	_	_
 10	hårdnackade	hårdnackad	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos	11	amod	_	_
@@ -74277,19 +74277,19 @@
 12	,	,	PUNCT	Comma	_	15	punct	_	_
 13	kinderna	kind	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	15	nsubj	_	_
 14	mycket	mycket	ADV	_	Degree=Pos	15	advmod	_	_
-15	infallna	infallen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	11	appos	_	SpaceAfter=No
+15	infallna	infallen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	15	punct	_	_
 17	pannan	panna	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nsubj	_	_
 18	mycket	mycket	ADV	_	Degree=Pos	19	advmod	_	_
-19	hög	hög	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	parataxis	_	SpaceAfter=No
+19	hög	hög	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	conj	_	SpaceAfter=No
 20	,	,	PUNCT	Comma	_	22	punct	_	_
 21	ögonbrynen	ögonbryn	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	nsubj	_	_
-22	uppåtvinklade	uppåtvinklad	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+22	uppåtvinklade	uppåtvinklad	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	4	conj	_	_
 23	som	som	ADP	_	_	24	case	_	_
 24	utropstecken	utropstecken	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No
 25	,	,	PUNCT	Comma	_	27	punct	_	_
 26	håret	hår	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	27	nsubj	_	_
-27	spretade	spreta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+27	spretade	spreta	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 28	åt	åt	ADP	_	_	30	case	_	_
 29	alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	30	det	_	_
 30	håll	håll	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
@@ -74309,7 +74309,7 @@
 44	som	som	PRON	REL	PronType=Rel	45	nsubj	_	_
 45	föreställde	föreställa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	43	acl:relcl	_	_
 46	Paniotis	Paniotis	PROPN	SG-NOM	Case=Nom	45	obj	_	_
-47	snarare	snarare	ADV	_	Degree=Cmp	50	advmod	_	_
+47	snarare	snarare	ADV	_	Degree=Cmp	40	advmod	_	_
 48	än	än	SCONJ	_	_	50	case	_	_
 49	på	på	ADP	_	_	50	case	_	_
 50	Paniotis	Paniotis	PROPN	SG-NOM	Case=Nom|Gender=Com|Number=Sing	47	obl	_	_

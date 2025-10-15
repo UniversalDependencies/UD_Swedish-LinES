@@ -8025,7 +8025,7 @@
 28	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
 29	stort	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
 30	inflytande	inflytande	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	obj	_	_
-31	på	på	ADP	_	_	30	obl	_	SpaceAfter=No
+31	på	på	ADP	_	_	28	obl	_	SpaceAfter=No
 32	,	,	PUNCT	Comma	_	33	punct	_	_
 33	etc	etc	ADV	_	Abbr=Yes	23	conj	_	SpaceAfter=No
 34	.	.	PUNCT	Period	_	12	punct	_	_
@@ -11059,7 +11059,7 @@
 4	strikta	strikt	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	_
 5	regler	regel	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	_
 6	i	i	ADP	_	_	7	case	_	_
-7	slakthusen	slakthus	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	obl	_	_
+7	slakthusen	slakthus	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	obl	_	_
 8	så	så	ADV	_	_	14	advmod	_	_
 9	att	att	SCONJ	_	_	14	mark	_	_
 10	högsta	hög	ADJ	SPL-DEF	Case=Nom|Definite=Def|Degree=Sup	11	amod	_	_
@@ -16585,7 +16585,7 @@
 6	i	i	ADP	_	_	7	case	_	_
 7	ugnsluckan	ugnslucka	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	_	_
 8	för	för	ADP	_	_	9	case	_	_
-9	det	den	PRON	DEM-SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	obl	_	_
+9	det	den	PRON	DEM-SG	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	obl	_	_
 10	här	här	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	3	punct	_	_
 
@@ -19381,7 +19381,7 @@
 17	fars	far	NOUN	SG-IND-GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	18	nmod:poss	_	_
 18	värld	värld	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	_
 19	av	av	ADP	_	_	20	case	_	_
-20	svårighet	svårighet	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	_
+20	svårighet	svårighet	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	_
 21	och	och	CCONJ	_	_	22	cc	_	_
 22	dröm	dröm	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	conj	_	SpaceAfter=No
 23	.	.	PUNCT	Period	_	3	punct	_	_

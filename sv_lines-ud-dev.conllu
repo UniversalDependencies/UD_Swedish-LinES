@@ -9339,10 +9339,10 @@
 # sent_id = sv_lines-ud-dev-doc4-3625
 # text = Du calme, du calme.
 # text_en = 'Du calme, du calme.
-1	Du	du	ADP	FGN	Foreign=Yes	2	det	_	Lang=fr
+1	Du	du	DET	FGN	Foreign=Yes	2	det	_	Lang=fr
 2	calme	calme	NOUN	FGN	Foreign=Yes	0	root	_	Lang=fr|SpaceAfter=No
 3	,	,	PUNCT	Comma	_	5	punct	_	_
-4	du	du	ADP	FGN	Foreign=Yes	5	det	_	Lang=fr
+4	du	du	DET	FGN	Foreign=Yes	5	det	_	Lang=fr
 5	calme	calme	NOUN	FGN	Foreign=Yes	2	conj	_	Lang=fr|SpaceAfter=No
 6	.	.	PUNCT	Period	_	2	punct	_	_
 
@@ -23562,14 +23562,14 @@
 43	--	–	PUNCT	Dash	_	46	punct	_	_
 44	på	på	ADP	_	_	46	case	_	_
 45	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	46	det	_	_
-46	tiden	tid	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	40	obl	_	_
+46	tiden	tid	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	54	obl	_	_
 47	och	och	CCONJ	_	_	50	cc	_	_
 48	på	på	ADP	_	_	50	case	_	_
 49	det	den	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	50	det	_	_
 50	avståndet	avstånd	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	46	conj	_	SpaceAfter=No
 51	--	–	PUNCT	Dash	_	46	punct	_	_
 52	tyvärr	tyvärr	ADV	_	_	54	advmod	_	_
-53	ingen	ingen	PRON	NEG-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	52	nsubj	_	_
+53	ingen	ingen	PRON	NEG-SG	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	54	nsubj	_	_
 54	brydde	bry	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	40	acl:relcl	_	_
 55	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	54	obj	_	_
 56	om	om	ADP	_	_	58	mark	_	_
