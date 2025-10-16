@@ -5143,7 +5143,7 @@
 2	ger	ge	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	de	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj	_	_
 4	sig	sig	PRON	RFL-ACC	Case=Acc|Definite=Def|PronType=Prs	2	obj	_	_
-5	allihop	allihop	PRON	TOT-PL-NOM	Number=Plur[PronType=Tot	2	obl	_	_
+5	allihop	allihop	PRON	TOT-PL-NOM	Number=Plur|PronType=Tot	2	obl	_	_
 6	så	så	ADV	_	ExtPos=ADV	2	advmod	_	_
 7	småningom	småningom	ADV	_	_	6	fixed	_	_
 8	ut	ut	ADV	_	_	2	compound:prt	_	_
