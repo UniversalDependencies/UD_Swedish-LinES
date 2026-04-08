@@ -43,7 +43,7 @@
 1	Flytta	flytta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 2	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	_
 3	till	till	ADP	_	_	6	case	_	_
-4	kategori-	kategori	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	_
+4	kategori-	kategoriområde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	_
 5	och	och	CCONJ	_	_	6	cc	_	_
 6	serieområden	serieområde	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	conj	_	_
 
@@ -223,7 +223,7 @@
 14	diagrammet	diagram	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	obj	_	_
 15	att	att	PART	_	_	16	mark	_	_
 16	visa	visa	VERB	INF-ACT	VerbForm=Inf|Voice=Act	13	xcomp	_	_
-17	kategori-	kategori	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj	_	_
+17	kategori-	kategorivärde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj	_	_
 18	och	och	CCONJ	_	_	19	cc	_	_
 19	serievärden	serievärde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	conj	_	_
 20	för	för	ADP	_	_	22	case	_	_
@@ -305,7 +305,7 @@
 # text = Flytta kategori- och seriefält till inre eller yttre nivåer
 # text_en = Moving the category or series fields to inner or outer levels
 1	Flytta	flytta	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
-2	kategori-	kategori	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	_
+2	kategori-	kategorifält	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	_
 3	och	och	CCONJ	_	_	4	cc	_	_
 4	seriefält	seriefält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	conj	_	_
 5	till	till	ADP	_	_	9	case	_	_
@@ -1034,7 +1034,7 @@
 1	Du	du	PRON	PERS-P2SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	_
 2	kan	kunna	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ange	ange	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
-4	start-	start	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
+4	start-	startvärde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
 5	och	och	CCONJ	_	_	6	cc	_	_
 6	slutvärden	slutvärde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	_	_
 7	för	för	ADP	_	_	8	case	_	_
@@ -1154,7 +1154,7 @@
 5	slumpmässigt	slumpmässigt	ADV	_	_	3	advmod	_	_
 6	från	från	ADP	_	_	10	case	_	_
 7	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
-8	rad-	rad	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
+8	rad-	radfält	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
 9	eller	eller	CCONJ	_	_	10	cc	_	_
 10	kolumnfält	kolumnfält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	_
 11	och	och	CCONJ	_	_	12	cc	_	_
@@ -1557,7 +1557,7 @@
 8	egna	egen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_
 9	grupper	grupp	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj	_	_
 10	mellan	mellan	ADP	_	_	13	case	_	_
-11	rad-	rad	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
+11	rad-	radområde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
 12	och	och	CCONJ	_	_	13	cc	_	_
 13	kolumnområdena	kolumnområde	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	Comma	_	3	punct	_	_
@@ -6828,7 +6828,7 @@
 6	att	att	SCONJ	_	_	13	mark	_	_
 7	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	_
 8	ryska	rysk	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos	9	amod	_	_
-9	utrikes-	utrikes	ADV	PFX	_	13	nsubj	_	_
+9	utrikes-	utrikespolitik	NOUN	PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nsubj	_	_
 10	och	och	CCONJ	_	_	11	cc	_	_
 11	inrikespolitiken	inrikespolitik	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	conj	_	_
 12	har	ha	AUX	PRES-AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
@@ -12845,7 +12845,7 @@
 6	och	och	CCONJ	_	_	7	cc	_	_
 7	standardmetoder	standardmetod	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj	_	_
 8	inom	inom	ADP	_	_	9	case	_	_
-9	hälso-	hälsa	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
+9	hälso-	hälsovård	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
 10	och	och	CCONJ	_	_	11	cc	_	_
 11	sjukvård	sjukvård	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj	_	SpaceAfter=No
 12	.	.	PUNCT	Period	_	3	punct	_	_
@@ -13620,7 +13620,7 @@
 3	inte	inte	PART	NEG	Polarity=Neg	2	advmod	_	_
 4	vid	vid	ADP	_	_	9	case	_	_
 5	den	den	DET	SG-DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	_
-6	flagg-	flagga	NOUN	PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	amod	_	_
+6	flagg-	flaggdekorerad	ADJ	PFX	Case=Nom|Definite=Def|Degree=Pos	9	amod	_	_
 7	och	och	CCONJ	_	_	8	cc	_	_
 8	girlanddekorerade	girlanddekorerad	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	6	conj	_	_
 9	utgången	utgång	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
