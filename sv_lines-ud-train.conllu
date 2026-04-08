@@ -402,7 +402,7 @@
 8	nya	ny	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_
 9	Access-databaser	Access-databas	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj	_	_
 10	i	i	ADP	_	_	13	case	_	_
-11	2002-	2002	NUM	ID	_	7	obl	_	_
+11	2002-	2002-filformat	NOUN	ID	Case=Nom|Definite=Ind	7	obl	_	_
 12	och	och	CCONJ	_	_	13	cc	_	_
 13	2000-filformat	2000-filformat	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	conj	_	_
 
@@ -416,7 +416,7 @@
 5	nya	ny	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	_
 6	Access-databaser	Access-databas	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nmod	_	_
 7	i	i	ADP	_	_	10	case	_	_
-8	2002-	2002	NUM	ID	_	6	nmod	_	_
+8	2002-	2002-filformat	NOUN	ID	Case=Nom|Definite=Ind	6	nmod	_	_
 9	och	och	CCONJ	_	_	10	cc	_	_
 10	2000-filformat	2000-filformat	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	3	punct	_	_
@@ -1339,9 +1339,9 @@
 5	som	som	PRON	REL	PronType=Rel	6	nsubj:pass	_	_
 6	visas	visa	VERB	PRES-PASS	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
 7	i	i	ADP	_	_	12	case	_	_
-8	rad-	rad	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
+8	rad-	radområde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	10	punct	_	_
-10	kolumn-	kolumn	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	conj	_	_
+10	kolumn-	kolumnområde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	conj	_	_
 11	och	och	CCONJ	_	_	12	cc	_	_
 12	dataområdet	dataområde	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	conj	_	_
 13	i	i	ADP	_	_	14	case	_	_
@@ -1653,7 +1653,7 @@
 1	Flytta	flytta	VERB	IMP-ACT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
 2	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	_
 3	till	till	ADP	_	_	6	case	_	_
-4	rad-	rad	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	_
+4	rad-	radområde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	_
 5	eller	eller	CCONJ	_	_	6	cc	_	_
 6	kolumnområden	kolumnområde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	_	_
 
@@ -1785,7 +1785,7 @@
 # text = Flytta rad- och kolumnfält till en högre eller lägre nivå
 # text_en = Moving row or column fields to a higher or lower level
 1	Flytta	flytta	VERB	IMP-ACT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
-2	rad-	rad	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	_
+2	rad-	radfält	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	_
 3	och	och	CCONJ	_	_	4	cc	_	_
 4	kolumnfält	kolumnfält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	conj	_	_
 5	till	till	ADP	_	_	10	case	_	_
@@ -2759,7 +2759,7 @@
 23	fil	fil	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
 24	som	som	PRON	REL	PronType=Rel	25	nsubj	_	_
 25	beskriver	beskriva	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
-26	presentations-	presentation	NOUN	SG-IND-PFX	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	25	obj	_	_
+26	presentations-	presentationsinformation	NOUN	SG-IND-PFX	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	25	obj	_	_
 27	och	och	CCONJ	_	_	28	cc	_	_
 28	anslutningsinformationen	anslutningsinformation	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	conj	_	SpaceAfter=No
 29	.	.	PUNCT	Period	_	4	punct	_	_
@@ -3057,7 +3057,7 @@
 # text = Alla start- och slutmärken stämmer överens.
 # text_en = All start and end tags match.
 1	Alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	5	det	_	_
-2	start-	start	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+2	start-	startmärke	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	och	och	CCONJ	_	_	4	cc	_	_
 4	slutmärken	slutmärke	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	conj	_	_
 5	stämmer	stämma	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -3137,7 +3137,7 @@
 # sent_id = sv_lines-ud-train-doc1-171
 # text = Start- och slutmärkena måste alltså vara inkapslade i andra element på rätt sätt.
 # text_en = In other words, start and end tag must be properly nested within other elements.
-1	Start-	start	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nsubj:pass	_	_
+1	Start-	startmärke	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
 2	och	och	CCONJ	_	_	3	cc	_	_
 3	slutmärkena	slutmärke	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	1	conj	_	_
 4	måste	måste	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
@@ -3308,7 +3308,7 @@
 10	av	av	ADP	_	_	13	case	_	_
 11	både	både	CCONJ	_	_	13	cc	_	_
 12	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
-13	start-	start	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
+13	start-	startmärke	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
 14	och	och	CCONJ	_	_	16	cc	_	_
 15	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	slutmärke	slutmärke	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	conj	_	_
@@ -3821,9 +3821,9 @@
 3	filtrera	filtrera	VERB	INF-ACT	VerbForm=Inf|Voice=Act	0	root	_	_
 4	fält	fält	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	_
 5	i	i	ADP	_	_	10	case	_	_
-6	rad-	rad	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	SpaceAfter=No
+6	rad-	radområde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	8	punct	_	_
-8	kolumn-	kolumn	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+8	kolumn-	kolumnområde	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	_
 9	och	och	CCONJ	_	_	10	cc	_	_
 10	detaljområden	detaljområde	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
 11	.	.	PUNCT	Period	_	3	punct	_	_
@@ -5246,7 +5246,7 @@
 14	företaget	företag	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	_
 15	har	ha	VERB	PRES-ACT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
 16	ett	en	DET	SG-IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
-17	företags-	företag	NOUN	IND-PFX	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	_
+17	företags-	företagsavtal	NOUN	IND-PFX	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	_
 18	eller	eller	CCONJ	_	_	19	cc	_	_
 19	nätverkslicensavtal	nätverkslicensavtal	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
 20	)	)	PUNCT	RightParenthesis	_	8	punct	_	_
@@ -5674,7 +5674,7 @@
 10	från	från	ADP	_	_	11	case	_	_
 11	2002-filformat	2002-filformat	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	_
 12	till	till	ADP	_	_	15	case	_	_
-13	2000-	2000	NUM	ID	_	1	obl	_	_
+13	2000-	2000-filformat	NOUN	ID	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	_
 14	eller	eller	CCONJ	_	_	15	cc	_	_
 15	97-filformat	97-filformat	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No
 16	.	.	PUNCT	Period	_	1	punct	_	_
@@ -6805,7 +6805,7 @@
 3	av	av	ADP	_	_	4	case	_	_
 4	data	data	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	nmod	_	_
 5	i	i	ADP	_	_	8	case	_	_
-6	pivottabell-	pivottabell	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
+6	pivottabell-	pivottabellvy	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
 7	och	och	CCONJ	_	_	8	cc	_	_
 8	pivotdiagramvy	pivotdiagramvy	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
 
@@ -7902,7 +7902,7 @@
 18	i	i	ADV	_	Case=Nom	19	case	_	_
 19	stället	ställe	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	_
 20	en	en	DET	SG-IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	24	det	_	_
-21	grå-	grå	ADJ	POS-PFX	Case=Nom|Degree=Pos	24	amod	_	_
+21	grå-	grårutig	ADJ	POS-PFX	Case=Nom|Degree=Pos	24	amod	_	_
 22	och	och	CCONJ	_	_	23	cc	_	_
 23	rödrutig	rödrutig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	conj	_	_
 24	historia	historia	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obj	_	_
@@ -20093,7 +20093,7 @@
 18	av	av	ADP	_	_	23	case	_	_
 19	världens	värld	NOUN	SG-DEF-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	23	nmod:poss	_	_
 20	största	stor	ADJ	SPL-DEF	Case=Nom|Definite=Def|Degree=Sup	23	amod	_	_
-21	reklam-	reklam	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
+21	reklam-	reklamfirma	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
 22	och	och	CCONJ	_	_	23	cc	_	_
 23	PR-firmor	pr-firma	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	Comma	_	17	punct	_	_
@@ -34989,7 +34989,7 @@
 10	offentliga	offentlig	ADJ	PL-DEF	Case=Nom|Definite=Def|Degree=Pos	13	amod	_	_
 11	och	och	CCONJ	_	_	12	cc	_	_
 12	privata	privat	ADJ	PL-DEF	Case=Nom|Definite=Def|Degree=Pos	10	conj	_	_
-13	radio-	radio	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
+13	radio-	radiobolag	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
 14	och	och	CCONJ	_	_	15	cc	_	_
 15	TV-bolagen	tv-bolag	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	13	conj	_	_
 16	att	att	PART	_	_	17	mark	_	_
@@ -36898,8 +36898,8 @@
 12	nuvarande	nuvarande	ADJ	NDE	Case=Nom|Degree=Pos	17	amod	_	_
 13	s.k.	såkallad	ADJ	AD-DEF	Abbr=Yes|Case=Nom|Degree=Pos	17	amod	_	_
 14	"	"	PUNCT	Quote	_	17	punct	_	SpaceAfter=No
-15	artikel	artikel	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	_
-16	43-	43	NUM	ID	_	17	nummod	_	_
+15	artikel	artikel	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	_
+16	43-	43	NUM	ID	_	15	nummod	_	_
 17	förfarandet	förfarande	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
 18	"	"	PUNCT	Quote	_	17	punct	_	SpaceAfter=No
 19	.	.	PUNCT	Period	_	8	punct	_	_
@@ -39911,7 +39911,7 @@
 9	,	,	PUNCT	Comma	_	10	punct	_	_
 10	möblerna	möbel	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	conj	_	_
 11	i	i	ADP	_	_	12	case	_	_
-12	körsbärs-	körsbär	NOUN	IND-PFX	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	_
+12	körsbärs-	körsbärsträ	NOUN	IND-PFX	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	_
 13	och	och	CCONJ	_	_	14	cc	_	_
 14	sidenträ	sidenträ	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
 15	...	...	PUNCT	Dots	_	19	punct	_	_
@@ -43183,7 +43183,7 @@
 2	han	han	PRON	PERS-P3SG-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	_
 3	fyllde	fylla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	_
 4	i	i	ADP	_	_	3	compound:prt	_	_
-5	tull-	tull	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
+5	tull-	tullblankett	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
 6	och	och	CCONJ	_	_	7	cc	_	_
 7	immigrationsblanketterna	immigrationsblankett	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	conj	_	_
 8	–	–	PUNCT	Dash	_	9	punct	_	_
@@ -45815,7 +45815,7 @@
 39	oskiljaktig	oskiljaktig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	33	acl:relcl	_	_
 40	vid	vid	ADP	_	_	44	case	_	_
 41	alla	all	DET	TOT-PL	Number=Plur|PronType=Tot	42	det	_	_
-42	handels-	handel	NOUN	PFX	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	39	nmod	_	_
+42	handels-	handelsmässa	NOUN	PFX	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	39	nmod	_	_
 43	och	och	CCONJ	_	_	44	cc	_	_
 44	industrimässor	industrimässa	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	42	conj	_	_
 45	och	och	CCONJ	_	_	46	cc	_	_
@@ -46019,7 +46019,7 @@
 43	med	med	ADP	_	_	44	case	_	_
 44	pressfotografer	pressfotograf	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	42	obl	_	_
 45	och	och	CCONJ	_	_	46	cc	_	_
-46	radio-	radio	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	44	conj	_	_
+46	radio-	radiotekniker	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	44	conj	_	_
 47	och	och	CCONJ	_	_	48	cc	_	_
 48	TV-tekniker	TV-tekniker	NOUN	IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	44	conj	_	SpaceAfter=No
 49	,	,	PUNCT	Comma	_	55	punct	_	_
@@ -47703,7 +47703,7 @@
 1	De	de	PRON	PERS-P3PL-NOM	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj	_	_
 2	konverserade	konversera	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	om	om	ADP	_	_	4	case	_	_
-4	radio-	radio	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
+4	radio-	radiobevakning	NOUN	SG-IND-PFX	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
 5	och	och	CCONJ	_	_	6	cc	_	_
 6	TV-bevakningen	TV-bevakning	NOUN	SG-DEF-NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	conj	_	_
 7	av	av	ADP	_	_	8	case	_	_
@@ -58903,9 +58903,9 @@
 # sent_id = sv_lines-ud-train-doc7-2724
 # text = Guld-, silver- och bronsmynten skramlade muntert i påsen i Harrys ficka och ropade på att användas, så han köpte tre stora jordgubbs- och jordnötssmörglassar som de belåtet slickade i sig medan de vandrade genom gränden och studerade de många spännande butiksfönstren.
 # text_en = The bag of gold, silver and bronze jangling cheerfully in Harry's pocket was clamouring to be spent, so he bought three large strawberry and peanut-butter ice-creams which they slurped happily as they wandered up the alley, examining the fascinating shop windows.
-1	Guld-	guld	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+1	Guld-	guldmynt	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	3	punct	_	_
-3	silver-	silver	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	_
+3	silver-	silvermynt	NOUN	SG-IND-NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	_
 4	och	och	CCONJ	_	_	5	cc	_	_
 5	bronsmynten	bronsmynt	NOUN	PL-DEF-NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	1	conj	_	_
 6	skramlade	skramla	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -58926,7 +58926,7 @@
 21	köpte	köpa	VERB	PAST-ACT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
 22	tre	tre	NUM	CARD-PL	_	24	nummod	_	_
 23	stora	stor	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	24	amod	_	_
-24	jordgubbs-	jordgubbe	NOUN	SG-IND-PFX	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	21	obj	_	_
+24	jordgubbs-	jordgubbsglass	NOUN	SG-IND-PFX	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	21	obj	_	_
 25	och	och	CCONJ	_	_	26	cc	_	_
 26	jordnötssmörglassar	jordnötssmörglass	NOUN	PL-IND-NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	conj	_	_
 27	som	som	PRON	REL	PronType=Rel	30	obj	_	_
