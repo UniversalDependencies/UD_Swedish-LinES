@@ -42,7 +42,7 @@ J. K. Rowling: Harry Potter och Hemligheternas kammare [Harry Potter
 and the Chamber of Secrets], Tiden, 2001. Translation by Lena
 Fries-Gedin.
 
-Jennette Winterson: Vintergatan går genom magen [Gut Symmetries], 
+Jennette Winterson: Vintergatan går genom magen [Gut Symmetries],
 Bakhåll, 2017. Translation by Ulla Roseen.
 
 Rachel Cusk: Konturer, [Outline]. Albert Bonniers Förlag, 2018.
@@ -152,32 +152,31 @@ Changelog
   - adpositions that introduce a clause have had their dependency changed from 'case' to 'mark'
   - cleft sentences of the form 'EXPL är/var XP som ...' have been reanalyzed so that the head word of XP is annotaded as 'root' while the clause introduced by 'som' is annotated as 'acl:cleft'
   In addition many inconsistencies and errors have been rectified.
-  
+
   From version 2.2 to version 2.3
   English names, esp. of software products, such as Microsoft Office 2002, have been reanalysed so as to agree with the analysis
   in the English_Lines treebank. Found errors in the first parts of all three files have been corrected.
 
   From version 2.3 to version 2.4 all changes concern the correction of errors so as to meet the stricter conditions on      validation.
-  
+
   From version 2.4 to version 2.5. Extension of 679 sentences from Winterson's 'Vintergatan går genom magen'. They have been distributed with 120 sentences for development and test, respectively, and the rest to the training part. The lemmatisation has been further harmonised with Swedish_Talbanken.
-  
+
   From version 2.5 to version 2.6 only minor error corrections, in particular regarding the features PronType, Gender and Number.
-  
+
   For version 2.9 the negative adverb 'inte' has consistently been given the UPOS PART. Also a few error corrections.
 
   For version 2.14 major revision of lemmas and features for adjectives and determiners to make them consistent with other Swedish treebanks.
 
   For version 2.15 a major revision of the use of 'fixed' has been undertaken and coordinated with UD_Swedish-Talbanken
 
-  For version 2.16 a new set of 450 segments have been added from the Swedish translation of Rachel Cusk's Contours. 
+  For version 2.16 a new set of 450 segments have been added from the Swedish translation of Rachel Cusk's Contours.
   In addition, many changes have been made to unify annotation with the other Swedish UD treebanks.
 
---- Machine readable metadata ---
-
+=== Machine-readable metadata =================================================
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Parallel: no
+Parallel: lines
 Genre: fiction nonfiction spoken
 Lemmas: converted from manual
 UPOS: converted with corrections
@@ -187,3 +186,4 @@ Relations: converted with corrections
 Contributors: Ahrenberg, Lars
 Contributing: elsewhere
 Contact: lars.ahrenberg@liu.se
+===============================================================================
